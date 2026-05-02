@@ -324,14 +324,6 @@
           "rank": 3
         },
         {
-          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
-          "player": "Jack L.",
-          "points": 10,
-          "voted": true,
-          "pts_forfeited": 0,
-          "rank": 4
-        },
-        {
           "player_id": "19e6c48a177c458398bb138a991a2e4c",
           "player": "Elyse E.",
           "points": 10,
@@ -340,16 +332,24 @@
           "rank": 4
         },
         {
-          "player_id": "4853a05f049d4d4682257bed4b277eed",
-          "player": "Tess D.",
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
+          "points": 10,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 4
+        },
+        {
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
           "points": 7,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 6
         },
         {
-          "player_id": "5838e19081f440598e554c420f257ab7",
-          "player": "Mills T.",
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
           "points": 7,
           "voted": true,
           "pts_forfeited": 0,
@@ -364,16 +364,16 @@
           "rank": 8
         },
         {
-          "player_id": "41a0d64fae1f40489679232baec98925",
-          "player": "Mary D.",
+          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "player": "Mike D.",
           "points": 4,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 9
         },
         {
-          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
-          "player": "Mike D.",
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
           "points": 4,
           "voted": true,
           "pts_forfeited": 0,
@@ -1068,36 +1068,44 @@
         "title": "Week 1 Recap",
         "sections": [
           {
-            "heading": "The winner: Olivia D. takes the inaugural crown",
-            "text": "Olivia took Round 1 with 19 points across two submissions, and she did it the responsible way: one critically beloved jam-band staple, one Mamma Mia! moment. \"Ants Marching\" pulled 13 points and 6 voters — runner-up song of the week and the highest-acknowledged track on the playlist. \"Gimme! Gimme! Gimme!\" picked up another 6 points. Strong opening statement. Welcome to the leaderboard."
+            "heading": "The lay of the land",
+            "text": "Eleven family members, one round in, all of us currently in couples and all of those couples in this league. (Steve E. is on the Ghost Report this week; his other half — Dray's mom — joins next week, so the all-couples count holds at twelve from Round 2 onward.) Round 1 set a baseline for what this league cares about: a deeply contested middle, a couple of warm and obvious crowd-pleasers up top, and a pair of cool-but-divisive picks that turned into the round's most interesting tells. Below: what the data says about Round 1, and what the season's first signal-readings suggest about the weeks ahead."
           },
           {
-            "heading": "Song of the week: Tim McGraw, somehow",
-            "text": "\"Something Like That\" by Tim McGraw won the round at 14 points from 5 voters. Submitted by Dray E. (album: A Place In The Sun, theme connection: airtight). The barbecue stain on the white t-shirt has officially been canonized in the Fam Music League. The blind report had this pegged at \"mid-to-upper, 14–20 points\" — landed exactly in that range and went all the way."
+            "heading": "How Olivia D. won (and how it almost went a different way)",
+            "text": "Olivia took Round 1 with 19 points across two submissions — \"Ants Marching\" (13 pts, 6 voters) and \"Gimme! Gimme! Gimme!\" from Mamma Mia! (6 pts, 5 voters). What's notable is the shape of the win: she had the round's second-highest single-song score AND a strong second submission. That's a balanced playbook. Compare to Dray E., who finished 3rd with 16 points but pulled it off with one big swing — Tim McGraw's \"Something Like That\" took Song of the Week at 14 points, but his second submission (Buffett's \"Hurricane Season\") only mustered 2. One blockbuster + one whiff = third place. One strong + one solid = first."
           },
           {
-            "heading": "Claire E. ran the most efficient round",
-            "text": "Claire submitted two songs and got both into the top 4. \"Soak Up The Sun\" (10 pts) and \"Chicken Fried\" (8 pts) — that's a 9.0 average per submission, the round's best. Wrote a heartfelt submitter comment about a sunroof, picked the most family-safe possible interpretations of the prompt, walked away with 18 points. This is what playing the meta looks like."
+            "heading": "The most efficient round of the season (so far)",
+            "text": "Claire E. submitted two songs and landed both in the top four. \"Soak Up The Sun\" finished 3rd at 10 points, \"Chicken Fried\" finished 4th at 8 points. That's 18 total points and a 9.0 average per submission — the round's best. The Submission Efficiency metric on the Season tab tracks this number across the full season; right now Claire is the league benchmark to beat. Olivia is technically slightly higher at 9.5 average, but Claire's both songs cracked top 4, and both were universally well-received (5 and 6 voters respectively). Sustainable taste."
           },
           {
-            "heading": "Self-snitch of the week",
-            "text": "Dray E. gave 0 points to \"Soak Up The Sun\" (a top-3 finisher) AND \"Ants Marching\" (a top-2 finisher) and felt the need to explain himself in the vote comments both times. He also wrote that he turned downvotes off, and immediately regretted that decision in the same breath. Self-aware. Still in third place. Most points his vote comments earned anyone: zero."
+            "heading": "Reading the Fun Metrics tab — what the numbers mean",
+            "text": "Quick guided tour of what's living on the Season tab, because most of these are easy to skim past:\n\n• Kingmaker — the voter who poured the most points into the eventual weekly winner. Useful for spotting people with a feel for what the room will reward. This week: Olivia D. (4 points to \"Something Like That\"). Olivia chose her round-winning submissions AND voted for the song-of-the-week winner. Keep an eye on her predictions.\n\n• Hipster — share of votes cast for songs nobody else voted for. Tracks taste isolation. This week: Dray E. at 20% solo (2 of his 10 votes went to songs only he liked). One of those was for \"Sonate Pacifique,\" which received 3 total points across 3 voters and was on no one's radar. Dray's a decent indicator of which deep cuts are landing for nobody.\n\n• Sheep — share of points given to consensus picks (songs with 3+ voters). High Sheep score = you're voting with the crowd. This balances Hipster.\n\n• Submission Efficiency — average points earned per song submitted. The league's most useful single number for who's actually picking well. Currently led by Olivia (9.5), Claire (9.0), Dray (8.0).\n\n• Snub Detector — songs that got lots of voters but very few points each. The signature pattern: 5 voters all gave it 1 point. Universally acknowledged, universally not loved. This round caught two: \"Mamma Mia!\" (5 voters, 6 pts, 1.2 avg) and \"Texas Sun\" (5 voters, 6 pts, 1.2 avg). Both songs nobody dared give a zero, but nobody felt strongly about either."
           },
           {
-            "heading": "Tess D. would like to try a beer",
-            "text": "Tess gave 2 points to \"Six-Pack Summer\" by Phil Vassar with the following comment: \"This song actually makes me wanna drink a beer!! Which is a new feeling for me!!! 🤠\" The cowboy emoji is doing significant work in that sentence. We will be checking in with Tess at Round 5 to see if the feeling has resolved."
+            "heading": "The most divisive submission of the round",
+            "text": "\"Walking On Sunshine\" by Katrina & The Waves was the single hardest song to predict and it confounded everyone. The blind report had it pegged as the round winner. It finished 14th with 3 points from 2 voters. That's an enormous miss. The likely explanation: when a song is *too* obviously the right answer to a music league prompt, voters punish it as low-effort even when the actual song is good. \"Soak Up The Sun\" cleared this hurdle — same energy, better outcome — possibly because Claire's submitter comment about windows down and sun roof open framed it as personal rather than obligatory. Lesson for Round 2 submitters: if your song is the literal answer to the prompt, you need to bring something that earns it."
           },
           {
-            "heading": "The shutout: Steve E. is a ghost",
-            "text": "10 of 11 family members submitted. 10 of 11 voted. Steve E. did neither. Round 1 is a goose egg. The Ghost Report has its inaugural inductee. Show up, dad."
+            "heading": "The Ghost Report",
+            "text": "10 of 11 family members submitted. 10 of 11 voted. Steve E. did neither. The Ghost Report on the Season tab tracks players who have never voted; right now there's exactly one entry, and the standings show Steve at 0 points with 11 rounds to go. The good news is the comeback story is still wide open. The bad news is the league is keeping receipts."
           },
           {
-            "heading": "The blind scouting report's box score",
-            "text": "Going back to the blind reactions written before votes were revealed: 4 of 5 top-5 predictions hit the actual top 8, but the order was way off. Walking On Sunshine was predicted to win the round and finished 14th. Steal My Sunshine made top 5 as predicted (5th, 7 pts). Soak Up The Sun made top 5 as predicted (3rd, 10 pts). Hurricane Season was predicted top 5 — it landed 16th with 2 points (Buffett-positive family was a bad read). The biggest miss was \"Ants Marching\" — not on the predicted top 5 at all, finished 2nd. The model needs work."
+            "heading": "Storyline to track: the couples are voting, but not equally",
+            "text": "Every player in the league right now is half of a couple, and every couple is in the league together. That sets up an interesting wrinkle: do partners vote for each other? Round 1 says yes — but only in one direction.\n\nLook at the affinities:\n• Tess D. → Jack L.: 5 pts. Jack L. → Tess D.: 0 pts.\n• Mills T. → Olivia D.: 5 pts. Olivia D. → Mills T.: 1 pt.\n• Claire E. → Dray E.: 4 pts. Dray E. → Claire E.: 1 pt.\n• Gabriel M. → Elyse E.: 2 pts. Elyse E. → Gabriel M.: 0 pts.\n• Mary D. → Mike D.: 1 pt. Mike D. → Mary D.: 1 pt. (the only balanced couple)\n\nFour of five couples were lopsided, and the lopsided direction was consistent: the partners-by-marriage and the in-laws gave more than they got back. Is this collusion? Familiarity (you already know your partner's taste, so you know which submission to back)? Or just noise from a single round? Hard to say with one data point. But we'll be tracking the couples-voting symmetry index every week, and if Tess keeps backing Jack while Jack keeps freezing her out, this becomes a season-long storyline."
           },
           {
-            "heading": "Standings",
-            "text": "Olivia D. takes the season lead at 19 points. Claire E. is 1 point behind at 18. Dray E. third at 16. The bottom four (Tess D. 7, Mills T. 7, Mary D. 4, Mike D. 4, Gabriel M. 5) are bunched up tight. Steve E. is at 0 with 11 to go — the comeback story is right there for the taking."
+            "heading": "The Dillon bloc is real",
+            "text": "Family voting cuts even cleaner than couples voting. The Dillons (Claire, Olivia, Tess, Mary, and Mike) gave 25 points to other Dillons across 19 votes. The Ensors (Dray, Elyse) gave 5 points to other Ensors across 3 votes. Partners (Mills, Jack, Gabriel) gave 15 points to Dillons but only 5 points to each other.\n\nSome of this is just population — there are five Dillons and only two active Ensors. But not all of it. Claire received 18 points total, tied with Olivia for the round's most-loved submitter. Of those 18, twelve came from Dillons + Mike + a partner who married in. Dray received 16, with the same pattern: family and family-adjacent voters carrying the load. Round 1 confirms the obvious: it pays to have more siblings in the league. We'll see if the Ensor side closes the gap when Dray's mom joins next week."
+          },
+          {
+            "heading": "Where the standings actually stand",
+            "text": "Olivia (19), Claire (18), and Dray (16) are bunched at the top with only 3 points separating them. Eight of 11 players are within 8 points of first place. With 11 rounds still to go, this is wide open — one strong week vaults anyone into contention. Round 1 was a calibration round. Round 2 is where the signal starts."
+          },
+          {
+            "heading": "Blind report scorecard",
+            "text": "Predicted top 5: Walking On Sunshine, Summer Nights, Steal My Sunshine, Soak Up The Sun, Hurricane Season. Actual top 5: Something Like That, Ants Marching, Soak Up The Sun, Chicken Fried, Steal My Sunshine. Two correct, three misses (one catastrophic — Hurricane Season finished 16th). Predicted bottom 3 was a complete miss (Sonate Pacifique 12th instead of last, Hot In Herre 9th instead of bottom). The model needs more rounds of data — submitter taste profiles will be much sharper by Week 3 once we can correlate picks across rounds."
           }
         ]
       }

@@ -88,29 +88,51 @@ button { font-family: inherit; cursor: pointer; }
 /* ---------- Nav ---------- */
 .nav {
   background: var(--main);
-  padding: 0 24px;
   border-bottom: 1px solid var(--line);
   display: flex;
-  gap: 0;
+  justify-content: center;
+  gap: 4px;
+  padding: 0 12px;
   overflow-x: auto;
   scrollbar-width: none;
+  position: relative;
 }
 .nav::-webkit-scrollbar { display: none; }
 .nav-item {
-  padding: 12px 16px;
+  position: relative;
+  padding: 13px 14px;
   font-size: 13px;
+  letter-spacing: 0.01em;
   color: var(--mute);
   background: transparent;
   border: none;
-  border-bottom: 2px solid transparent;
   white-space: nowrap;
-  transition: color 0.15s, background 0.15s, border-color 0.15s;
+  transition: color 0.18s ease;
 }
-.nav-item:hover { color: var(--text); }
+.nav-item::after {
+  content: '';
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 0;
+  height: 2px;
+  border-radius: 1px;
+  background: var(--band-gradient, linear-gradient(90deg, #4FA0C4 0%, #F4B97A 45%, #F08A47 75%, #C25A28 100%));
+  opacity: 0;
+  transform: scaleX(0.4);
+  transform-origin: center;
+  transition: opacity 0.22s ease, transform 0.22s ease;
+}
+.nav-item:hover { color: color-mix(in srgb, var(--a) 60%, var(--text) 40%); }
+.nav-item:hover::after { opacity: 0.35; transform: scaleX(0.7); }
 .nav-item.active {
   color: var(--text);
-  border-bottom-color: var(--text);
-  background: var(--card);
+}
+.nav-item.active::after { opacity: 1; transform: scaleX(1); }
+@media (min-width: 720px) {
+  .nav { gap: 8px; padding: 0 24px; }
+  .nav-item { padding: 14px 18px; font-size: 14px; }
+  .nav-item::after { left: 18px; right: 18px; }
 }
 
 /* ---------- Page container ---------- */
@@ -347,14 +369,19 @@ button { font-family: inherit; cursor: pointer; }
 .lb-name:hover { color: var(--p); text-decoration: underline; }
 .lb-pts {
   color: var(--text);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
+  min-width: 36px;
+  text-align: right;
+  margin-left: 14px;
+  flex-shrink: 0;
 }
 .lb-forfeit {
   color: var(--dim);
   font-size: 11px;
-  margin-left: 10px;
   font-style: italic;
+  flex-shrink: 0;
+  text-align: right;
 }
 
 /* ---------- Song cards (expandable) ---------- */
@@ -589,6 +616,7 @@ button { font-family: inherit; cursor: pointer; }
   border-radius: 10px;
   padding: 14px 16px;
 }
+.fm-card.full { grid-column: 1 / -1; }
 .fm-title {
   color: var(--a);
   font-size: 13px;
@@ -1186,7 +1214,7 @@ function SeasonPage({ data, onPlayerClick }) {
           <div className={`lb-row${e.rank === 1 ? ' first' : ''}`} key={e.player_id}>
             <div className="lb-rank">{e.rank}</div>
             <div className="lb-name" onClick={() => onPlayerClick(e.player_id)}>{e.player}</div>
-            <div className="lb-forfeit">{e.rounds_played} rd · {e.avg_per_round} avg{e.wins ? ` · ${e.wins} win${e.wins !== 1 ? 's' : ''}` : ''}</div>
+            <div className="lb-forfeit">{e.rounds_played} rd · {Number(e.avg_per_round).toFixed(1)} avg{e.wins ? ` · ${e.wins} win${e.wins !== 1 ? 's' : ''}` : ''}</div>
             <div className="lb-pts">{e.points}</div>
           </div>
         ))}
@@ -1333,7 +1361,7 @@ function PlayersPage({ data, onPlayerClick }) {
         {sorted.map(p => (
           <div className="player-cell" key={p.player_id} onClick={() => onPlayerClick(p.player_id)}>
             <div className="player-cell-name">{p.player}</div>
-            <div className="player-cell-stat">{p.points} pts · {p.rounds_played} rd · {p.avg_per_round} avg</div>
+            <div className="player-cell-stat">{p.points} pts · {p.rounds_played} rd · {Number(p.avg_per_round).toFixed(1)} avg</div>
           </div>
         ))}
       </div>
@@ -1434,7 +1462,7 @@ function ProfilePage({ data, profileId, onPlayerClick, onBack }) {
         </div>
         <div className="stat-box">
           <div className="stat-label">Avg per round</div>
-          <div className="stat-num">{seasonEntry?.avg_per_round || 0}</div>
+          <div className="stat-num">{Number(seasonEntry?.avg_per_round || 0).toFixed(1)}</div>
         </div>
         <div className="stat-box cool">
           <div className="stat-label">Wins</div>
@@ -1621,10 +1649,16 @@ function FunMetrics({ metrics }) {
   }
   if (m.ghost_report?.ghosts?.length > 0) {
     cards.push({ k: 'ghost', t: m.ghost_report.title, d: m.ghost_report.description,
-      lead: m.ghost_report.ghosts.join(', '), det: 'Show up, friends.' });
+      lead: m.ghost_report.ghosts.join(', '), det: 'Show up, friends.', full: true });
   }
 
   if (cards.length === 0) return null;
+
+  // If we have an odd number of cards and the last one isn't already full-width,
+  // promote it so it doesn't dangle alone in a 2-col row
+  if (cards.length % 2 === 1 && !cards[cards.length - 1].full) {
+    cards[cards.length - 1] = { ...cards[cards.length - 1], full: true };
+  }
 
   return (
     <>
@@ -1633,7 +1667,7 @@ function FunMetrics({ metrics }) {
       </div>
       <div className="fm-grid">
         {cards.map(c => (
-          <div className="fm-card" key={c.k}>
+          <div className={`fm-card${c.full ? ' full' : ''}`} key={c.k}>
             <div className="fm-title">{c.t}</div>
             <div className="fm-desc">{c.d}</div>
             {c.lead ? <div className="fm-leader">{c.lead}</div> : null}
@@ -1668,7 +1702,7 @@ function App() {
 
   // Load data — bump ?v=N each weekly deploy
   useEffect(() => {
-    fetch('data.json?v=1')
+    fetch('data.json?v=2')
       .then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json();
