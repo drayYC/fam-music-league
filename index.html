@@ -11,8 +11,8 @@
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-<!-- GoatCounter analytics: paste your tracker once you've created the new site -->
-<!-- <script data-goatcounter="https://YOUR-FML-CODE.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script> -->
+<!-- GoatCounter analytics -->
+<script data-goatcounter="https://fml.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <style>
 :root {
   /* These are overwritten per-round by inline style on <body> */
@@ -1702,7 +1702,7 @@ function App() {
 
   // Load data — bump ?v=N each weekly deploy
   useEffect(() => {
-    fetch('data.json?v=2')
+    fetch('data.json?v=3')
       .then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json();
