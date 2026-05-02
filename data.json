@@ -1,0 +1,2667 @@
+{
+  "league": {
+    "name": "Fam Music League",
+    "subtitle": "Season One",
+    "total_rounds": 1
+  },
+  "players": {
+    "0a831b84b60a4aaca7c6f3150bbccb88": "Dray E.",
+    "19e6c48a177c458398bb138a991a2e4c": "Elyse E.",
+    "2334709be13e48759338c82689b95d11": "Gabriel M.",
+    "3b87dbe243724d3bbcafea4934075fec": "Steve E.",
+    "41a0d64fae1f40489679232baec98925": "Mary D.",
+    "4853a05f049d4d4682257bed4b277eed": "Tess D.",
+    "5838e19081f440598e554c420f257ab7": "Mills T.",
+    "994734a26c814552ad88e0ce9ea4cfce": "Jack L.",
+    "9ce50e4f032c45afaa3eca936e99c9db": "Olivia D.",
+    "dea876f23cf9428185f8757955c2eecd": "Claire E.",
+    "e0e0d50ee23443cf80cea1d777fac793": "Mike D."
+  },
+  "rounds": [
+    {
+      "id": "63ad85e6269e449cbf79ec81e6bb82f2",
+      "number": 1,
+      "name": "Song that makes you think of summer",
+      "description": "Windows down, sunscreen on. What’s playing?",
+      "playlist_url": "https://open.spotify.com/playlist/4c7iCFSiPbswpA0s4fEjIK",
+      "theme": {
+        "name": "summer",
+        "tile_class": "theme-sun-bg",
+        "palette": {
+          "primary": "#F08A47",
+          "accent": "#F4B97A",
+          "cool": "#4FA0C4",
+          "highlight": "#C25A28",
+          "tile": "#1f1814"
+        },
+        "band_gradient": "linear-gradient(90deg, #4FA0C4 0%, #F4B97A 45%, #F08A47 75%, #C25A28 100%)"
+      },
+      "songs": [
+        {
+          "title": "Something Like That",
+          "artist": "Tim McGraw",
+          "album": "A Place In The Sun",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "total_pts": 14,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:6leiB1fEsTnVCuPiielde5",
+          "track_id": "6leiB1fEsTnVCuPiielde5",
+          "spotify_url": "https://open.spotify.com/track/6leiB1fEsTnVCuPiielde5",
+          "comment": ""
+        },
+        {
+          "title": "Ants Marching",
+          "artist": "Dave Matthews Band",
+          "album": "Under the Table and Dreaming (Expanded Edition)",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "total_pts": 13,
+          "unique_voters": 6,
+          "spotify_uri": "spotify:track:2FfZg072w8RoxlMOR7M4CT",
+          "track_id": "2FfZg072w8RoxlMOR7M4CT",
+          "spotify_url": "https://open.spotify.com/track/2FfZg072w8RoxlMOR7M4CT",
+          "comment": ""
+        },
+        {
+          "title": "Soak Up The Sun",
+          "artist": "Sheryl Crow",
+          "album": "C'Mon, C'Mon",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "total_pts": 10,
+          "unique_voters": 6,
+          "spotify_uri": "spotify:track:215JYyyUnrJ98NK3KEwu6d",
+          "track_id": "215JYyyUnrJ98NK3KEwu6d",
+          "spotify_url": "https://open.spotify.com/track/215JYyyUnrJ98NK3KEwu6d",
+          "comment": "It’s a classic.. and my windows were down the moment it started. Sun roof wide open "
+        },
+        {
+          "title": "Chicken Fried",
+          "artist": "Zac Brown Band",
+          "album": "The Foundation",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "total_pts": 8,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:0LQtEJt7x0s6knb6RKdRYc",
+          "track_id": "0LQtEJt7x0s6knb6RKdRYc",
+          "spotify_url": "https://open.spotify.com/track/0LQtEJt7x0s6knb6RKdRYc",
+          "comment": ""
+        },
+        {
+          "title": "Steal My Sunshine",
+          "artist": "LEN",
+          "album": "You Can't Stop The Bum Rush",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "total_pts": 7,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:4agp6oHofabdUedr0B1krj",
+          "track_id": "4agp6oHofabdUedr0B1krj",
+          "spotify_url": "https://open.spotify.com/track/4agp6oHofabdUedr0B1krj",
+          "comment": ""
+        },
+        {
+          "title": "Gimme! Gimme! Gimme! (A Man After Midnight) - From 'Mamma Mia!' Original Motion Picture Soundtrack",
+          "artist": "Amanda Seyfried, Ashley Lilley, Rachel McDowall",
+          "album": "Mamma Mia! The Movie Soundtrack",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:7lkeI7MsLOZ5gyh9ejaf3W",
+          "track_id": "7lkeI7MsLOZ5gyh9ejaf3W",
+          "spotify_url": "https://open.spotify.com/track/7lkeI7MsLOZ5gyh9ejaf3W",
+          "comment": ""
+        },
+        {
+          "title": "Texas Sun",
+          "artist": "Khruangbin, Leon Bridges",
+          "album": "Texas Sun",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:24ntSW3QVJzR79lHAAOTaY",
+          "track_id": "24ntSW3QVJzR79lHAAOTaY",
+          "spotify_url": "https://open.spotify.com/track/24ntSW3QVJzR79lHAAOTaY",
+          "comment": ""
+        },
+        {
+          "title": "Wild Night",
+          "artist": "Van Morrison",
+          "album": "The Essential Van Morrison",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:10znDvpdCNThhMapRt5NOw",
+          "track_id": "10znDvpdCNThhMapRt5NOw",
+          "spotify_url": "https://open.spotify.com/track/10znDvpdCNThhMapRt5NOw",
+          "comment": ""
+        },
+        {
+          "title": "Hot In Herre",
+          "artist": "Nelly",
+          "album": "Nellyville",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:04KTF78FFg8sOHC1BADqbY",
+          "track_id": "04KTF78FFg8sOHC1BADqbY",
+          "spotify_url": "https://open.spotify.com/track/04KTF78FFg8sOHC1BADqbY",
+          "comment": ""
+        },
+        {
+          "title": "Peaches",
+          "artist": "In The Valley Below",
+          "album": "The Belt",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:0JsRZWdSquAQtgyJO8mhLA",
+          "track_id": "0JsRZWdSquAQtgyJO8mhLA",
+          "spotify_url": "https://open.spotify.com/track/0JsRZWdSquAQtgyJO8mhLA",
+          "comment": ""
+        },
+        {
+          "title": "Six-Pack Summer",
+          "artist": "Phil Vassar",
+          "album": "Phil Vassar",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:23qDMWnwf8p0pr5slljB6i",
+          "track_id": "23qDMWnwf8p0pr5slljB6i",
+          "spotify_url": "https://open.spotify.com/track/23qDMWnwf8p0pr5slljB6i",
+          "comment": ""
+        },
+        {
+          "title": "Afternoon Delight",
+          "artist": "Starland Vocal Band",
+          "album": "Starland Vocal Band",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:4lO4RpFOp7nDnqJvTXeVTN",
+          "track_id": "4lO4RpFOp7nDnqJvTXeVTN",
+          "spotify_url": "https://open.spotify.com/track/4lO4RpFOp7nDnqJvTXeVTN",
+          "comment": ""
+        },
+        {
+          "title": "Sonate Pacifique",
+          "artist": "L'Impératrice, Isaac Delusion",
+          "album": "Sonate Pacifique",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:49PyCCLOdJi0jHkGyyY2vv",
+          "track_id": "49PyCCLOdJi0jHkGyyY2vv",
+          "spotify_url": "https://open.spotify.com/track/49PyCCLOdJi0jHkGyyY2vv",
+          "comment": ""
+        },
+        {
+          "title": "Ride",
+          "artist": "G. Love & Special Sauce",
+          "album": "Lemonade",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "total_pts": 3,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:6xVoqYNxRXXhBGNbX2wf51",
+          "track_id": "6xVoqYNxRXXhBGNbX2wf51",
+          "spotify_url": "https://open.spotify.com/track/6xVoqYNxRXXhBGNbX2wf51",
+          "comment": ""
+        },
+        {
+          "title": "Walking On Sunshine",
+          "artist": "Katrina & The Waves",
+          "album": "Katrina & The Waves",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "total_pts": 3,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:05wIrZSwuaVWhcv5FfqeH0",
+          "track_id": "05wIrZSwuaVWhcv5FfqeH0",
+          "spotify_url": "https://open.spotify.com/track/05wIrZSwuaVWhcv5FfqeH0",
+          "comment": "The summer I graduated from college bd many fun trips to Nags Head, The Eastern Shore, Savannah and to Nonnie and Poppy’s house on St Simons. "
+        },
+        {
+          "title": "Trying To Reason With Hurricane Season",
+          "artist": "Jimmy Buffett",
+          "album": "A-1-A",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:2aT4FycQXXc4SkD2Sdm9YJ",
+          "track_id": "2aT4FycQXXc4SkD2Sdm9YJ",
+          "spotify_url": "https://open.spotify.com/track/2aT4FycQXXc4SkD2Sdm9YJ",
+          "comment": ""
+        },
+        {
+          "title": "Little Lies",
+          "artist": "Fleetwood Mac",
+          "album": "Greatest Hits",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "spotify_uri": "spotify:track:08o75xMKmGrKny6GsXrNJW",
+          "track_id": "08o75xMKmGrKny6GsXrNJW",
+          "spotify_url": "https://open.spotify.com/track/08o75xMKmGrKny6GsXrNJW",
+          "comment": ""
+        },
+        {
+          "title": "Summer Nights - From “Grease”",
+          "artist": "John Travolta, Olivia Newton-John",
+          "album": "Grease (The Original Motion Picture Soundtrack)",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "spotify_uri": "spotify:track:2AVkArcfALVk2X8sfPRzya",
+          "track_id": "2AVkArcfALVk2X8sfPRzya",
+          "spotify_url": "https://open.spotify.com/track/2AVkArcfALVk2X8sfPRzya",
+          "comment": ""
+        },
+        {
+          "title": "Summer in the City - Remastered",
+          "artist": "The Lovin' Spoonful",
+          "album": "Hums Of The Lovin' Spoonful",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "spotify_uri": "spotify:track:7AzFID6u1b3zIWbd9pb8Dk",
+          "track_id": "7AzFID6u1b3zIWbd9pb8Dk",
+          "spotify_url": "https://open.spotify.com/track/7AzFID6u1b3zIWbd9pb8Dk",
+          "comment": ""
+        },
+        {
+          "title": "Up On The Roof",
+          "artist": "James Taylor",
+          "album": "Greatest Hits Volume 2",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "spotify_uri": "spotify:track:6ampTyysdg6izZJAGRxR0q",
+          "track_id": "6ampTyysdg6izZJAGRxR0q",
+          "spotify_url": "https://open.spotify.com/track/6ampTyysdg6izZJAGRxR0q",
+          "comment": "Just a lot of summer fun memories with this artist. Many Chastain concerts. "
+        }
+      ],
+      "leaderboard": [
+        {
+          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "player": "Olivia D.",
+          "points": 19,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 1
+        },
+        {
+          "player_id": "dea876f23cf9428185f8757955c2eecd",
+          "player": "Claire E.",
+          "points": 18,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 2
+        },
+        {
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
+          "points": 16,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 3
+        },
+        {
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
+          "points": 10,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 4
+        },
+        {
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
+          "points": 10,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 4
+        },
+        {
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
+          "points": 7,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 6
+        },
+        {
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
+          "points": 7,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 6
+        },
+        {
+          "player_id": "2334709be13e48759338c82689b95d11",
+          "player": "Gabriel M.",
+          "points": 5,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 8
+        },
+        {
+          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "player": "Mike D.",
+          "points": 4,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 9
+        },
+        {
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
+          "points": 4,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 9
+        }
+      ],
+      "missed_points": [],
+      "generosity": [
+        {
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
+          "avg_per_vote": 2.5,
+          "total_songs_voted": 4,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
+          "avg_per_vote": 2.0,
+          "total_songs_voted": 5,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
+          "avg_per_vote": 2.0,
+          "total_songs_voted": 5,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
+          "avg_per_vote": 2.0,
+          "total_songs_voted": 5,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "player": "Olivia D.",
+          "avg_per_vote": 1.67,
+          "total_songs_voted": 6,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "dea876f23cf9428185f8757955c2eecd",
+          "player": "Claire E.",
+          "avg_per_vote": 1.43,
+          "total_songs_voted": 7,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "player": "Mike D.",
+          "avg_per_vote": 1.43,
+          "total_songs_voted": 7,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "2334709be13e48759338c82689b95d11",
+          "player": "Gabriel M.",
+          "avg_per_vote": 1.25,
+          "total_songs_voted": 8,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
+          "avg_per_vote": 1.0,
+          "total_songs_voted": 14,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
+          "avg_per_vote": 1.0,
+          "total_songs_voted": 10,
+          "total_pts_given": 10
+        }
+      ],
+      "vote_details": [
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Something Like That",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Gimme! Gimme! Gimme! (A Man After Midnight) - From 'Mamma Mia!' Original Motion Picture Soundtrack",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Hot In Herre",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Walking On Sunshine",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Ants Marching",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Afternoon Delight",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Peaches",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Wild Night",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Something Like That",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Trying To Reason With Hurricane Season",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Ants Marching",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Steal My Sunshine",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Wild Night",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Chicken Fried",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Six-Pack Summer",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Texas Sun",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Sonate Pacifique",
+          "points": 1,
+          "comment": "This song would be way better without the vocals. "
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Steal My Sunshine",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Gimme! Gimme! Gimme! (A Man After Midnight) - From 'Mamma Mia!' Original Motion Picture Soundtrack",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Summer in the City - Remastered",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Afternoon Delight",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Little Lies",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Peaches",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Chicken Fried",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Wild Night",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Soak Up The Sun",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Texas Sun",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Something Like That",
+          "points": 4,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Up On The Roof",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Hot In Herre",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Chicken Fried",
+          "points": 4,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Soak Up The Sun",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Texas Sun",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Trying To Reason With Hurricane Season",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Sonate Pacifique",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Soak Up The Sun",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Summer Nights - From “Grease”",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Sonate Pacifique",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Ants Marching",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Afternoon Delight",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Ride",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Gimme! Gimme! Gimme! (A Man After Midnight) - From 'Mamma Mia!' Original Motion Picture Soundtrack",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Peaches",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Chicken Fried",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Wild Night",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Six-Pack Summer",
+          "points": 2,
+          "comment": "This song actually makes me wanna drink a beer!! Which is a new feeling for me!!! 🤠"
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Steal My Sunshine",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Ride",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Gimme! Gimme! Gimme! (A Man After Midnight) - From 'Mamma Mia!' Original Motion Picture Soundtrack",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Ants Marching",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Hot In Herre",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Soak Up The Sun",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Texas Sun",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Ants Marching",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Wild Night",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Soak Up The Sun",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Something Like That",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Steal My Sunshine",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Ants Marching",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Walking On Sunshine",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Chicken Fried",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Soak Up The Sun",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Six-Pack Summer",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Texas Sun",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Steal My Sunshine",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Something Like That",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Gimme! Gimme! Gimme! (A Man After Midnight) - From 'Mamma Mia!' Original Motion Picture Soundtrack",
+          "points": 1,
+          "comment": ""
+        }
+      ],
+      "stats": {
+        "total_submissions": 20,
+        "total_votes": 67,
+        "unique_voters": 10,
+        "unique_submitters": 10
+      },
+      "commentary": {
+        "title": "Week 1 Recap",
+        "sections": [
+          {
+            "heading": "The winner: Olivia D. takes the inaugural crown",
+            "text": "Olivia took Round 1 with 19 points across two submissions, and she did it the responsible way: one critically beloved jam-band staple, one Mamma Mia! moment. \"Ants Marching\" pulled 13 points and 6 voters — runner-up song of the week and the highest-acknowledged track on the playlist. \"Gimme! Gimme! Gimme!\" picked up another 6 points. Strong opening statement. Welcome to the leaderboard."
+          },
+          {
+            "heading": "Song of the week: Tim McGraw, somehow",
+            "text": "\"Something Like That\" by Tim McGraw won the round at 14 points from 5 voters. Submitted by Dray E. (album: A Place In The Sun, theme connection: airtight). The barbecue stain on the white t-shirt has officially been canonized in the Fam Music League. The blind report had this pegged at \"mid-to-upper, 14–20 points\" — landed exactly in that range and went all the way."
+          },
+          {
+            "heading": "Claire E. ran the most efficient round",
+            "text": "Claire submitted two songs and got both into the top 4. \"Soak Up The Sun\" (10 pts) and \"Chicken Fried\" (8 pts) — that's a 9.0 average per submission, the round's best. Wrote a heartfelt submitter comment about a sunroof, picked the most family-safe possible interpretations of the prompt, walked away with 18 points. This is what playing the meta looks like."
+          },
+          {
+            "heading": "Self-snitch of the week",
+            "text": "Dray E. wrote \"Ew\" on his own mom's submission. (For context: Mary D. submitted \"Walking On Sunshine\" with a long, sweet comment about graduating from college and trips to Nonnie and Poppy's house on St. Simons. Dray gave it a 0 and typed \"Ew.\") This is going on the permanent record. Dray also gave 0 points to \"Soak Up The Sun\" (a top-3 finisher) AND \"Ants Marching\" (a top-2 finisher) and felt the need to explain himself in the notes both times. He turned downvotes off, then immediately regretted it. Self-aware. Still wrong."
+          },
+          {
+            "heading": "Tess D. would like to try a beer",
+            "text": "Tess gave 2 points to \"Six-Pack Summer\" by Phil Vassar with the following comment: \"This song actually makes me wanna drink a beer!! Which is a new feeling for me!!! 🤠\" The cowboy emoji is doing significant work in that sentence. We will be checking in with Tess at Round 5 to see if the feeling has resolved."
+          },
+          {
+            "heading": "The shutout: Steve E. is a ghost",
+            "text": "10 of 11 family members submitted. 10 of 11 voted. Steve E. did neither. Round 1 is a goose egg. The Ghost Report has its inaugural inductee. Show up, dad."
+          },
+          {
+            "heading": "The blind scouting report's box score",
+            "text": "Going back to the blind reactions written before votes were revealed: 4 of 5 top-5 predictions hit the actual top 8, but the order was way off. Walking On Sunshine was predicted to win the round and finished 14th. Steal My Sunshine made top 5 as predicted (5th, 7 pts). Soak Up The Sun made top 5 as predicted (3rd, 10 pts). Hurricane Season was predicted top 5 — it landed 16th with 2 points (Buffett-positive family was a bad read). The biggest miss was \"Ants Marching\" — not on the predicted top 5 at all, finished 2nd. The model needs work."
+          },
+          {
+            "heading": "Standings",
+            "text": "Olivia D. takes the season lead at 19 points. Claire E. is 1 point behind at 18. Dray E. third at 16. The bottom four (Tess D. 7, Mills T. 7, Mary D. 4, Mike D. 4, Gabriel M. 5) are bunched up tight. Steve E. is at 0 with 11 to go — the comeback story is right there for the taking."
+          }
+        ]
+      }
+    }
+  ],
+  "season_leaderboard": [
+    {
+      "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+      "player": "Olivia D.",
+      "points": 19,
+      "rounds_played": 1,
+      "wins": 1,
+      "avg_per_round": 19.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 19,
+          "rank": 1
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "player_id": "dea876f23cf9428185f8757955c2eecd",
+      "player": "Claire E.",
+      "points": 18,
+      "rounds_played": 1,
+      "wins": 0,
+      "avg_per_round": 18.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 18,
+          "rank": 2
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+      "player": "Dray E.",
+      "points": 16,
+      "rounds_played": 1,
+      "wins": 0,
+      "avg_per_round": 16.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 16,
+          "rank": 3
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "player_id": "19e6c48a177c458398bb138a991a2e4c",
+      "player": "Elyse E.",
+      "points": 10,
+      "rounds_played": 1,
+      "wins": 0,
+      "avg_per_round": 10.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 10,
+          "rank": 4
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+      "player": "Jack L.",
+      "points": 10,
+      "rounds_played": 1,
+      "wins": 0,
+      "avg_per_round": 10.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 10,
+          "rank": 4
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "player_id": "5838e19081f440598e554c420f257ab7",
+      "player": "Mills T.",
+      "points": 7,
+      "rounds_played": 1,
+      "wins": 0,
+      "avg_per_round": 7.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 7,
+          "rank": 6
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "player_id": "4853a05f049d4d4682257bed4b277eed",
+      "player": "Tess D.",
+      "points": 7,
+      "rounds_played": 1,
+      "wins": 0,
+      "avg_per_round": 7.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 7,
+          "rank": 6
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "player_id": "2334709be13e48759338c82689b95d11",
+      "player": "Gabriel M.",
+      "points": 5,
+      "rounds_played": 1,
+      "wins": 0,
+      "avg_per_round": 5.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 5,
+          "rank": 8
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "player_id": "41a0d64fae1f40489679232baec98925",
+      "player": "Mary D.",
+      "points": 4,
+      "rounds_played": 1,
+      "wins": 0,
+      "avg_per_round": 4.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 4,
+          "rank": 9
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+      "player": "Mike D.",
+      "points": 4,
+      "rounds_played": 1,
+      "wins": 0,
+      "avg_per_round": 4.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 4,
+          "rank": 9
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "player_id": "3b87dbe243724d3bbcafea4934075fec",
+      "player": "Steve E.",
+      "points": 0,
+      "rounds_played": 1,
+      "wins": 0,
+      "avg_per_round": 0.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 0,
+          "rank": null
+        }
+      ],
+      "rank": 11
+    }
+  ],
+  "voting_affinities": [
+    {
+      "voter": "Mills T.",
+      "submitter": "Olivia D.",
+      "total_pts": 5,
+      "times": 2
+    },
+    {
+      "voter": "Mike D.",
+      "submitter": "Claire E.",
+      "total_pts": 5,
+      "times": 2
+    },
+    {
+      "voter": "Tess D.",
+      "submitter": "Jack L.",
+      "total_pts": 5,
+      "times": 2
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Dray E.",
+      "total_pts": 4,
+      "times": 2
+    },
+    {
+      "voter": "Olivia D.",
+      "submitter": "Dray E.",
+      "total_pts": 4,
+      "times": 1
+    },
+    {
+      "voter": "Tess D.",
+      "submitter": "Olivia D.",
+      "total_pts": 3,
+      "times": 2
+    },
+    {
+      "voter": "Jack L.",
+      "submitter": "Claire E.",
+      "total_pts": 3,
+      "times": 1
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Claire E.",
+      "total_pts": 3,
+      "times": 1
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Dray E.",
+      "total_pts": 3,
+      "times": 1
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Olivia D.",
+      "total_pts": 3,
+      "times": 1
+    },
+    {
+      "voter": "Mills T.",
+      "submitter": "Dray E.",
+      "total_pts": 2,
+      "times": 1
+    },
+    {
+      "voter": "Mills T.",
+      "submitter": "Gabriel M.",
+      "total_pts": 2,
+      "times": 1
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Olivia D.",
+      "total_pts": 2,
+      "times": 1
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Mills T.",
+      "total_pts": 2,
+      "times": 2
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Elyse E.",
+      "total_pts": 2,
+      "times": 2
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Mike D.",
+      "total_pts": 2,
+      "times": 2
+    },
+    {
+      "voter": "Olivia D.",
+      "submitter": "Tess D.",
+      "total_pts": 2,
+      "times": 1
+    },
+    {
+      "voter": "Olivia D.",
+      "submitter": "Claire E.",
+      "total_pts": 2,
+      "times": 2
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Claire E.",
+      "total_pts": 2,
+      "times": 2
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Tess D.",
+      "total_pts": 2,
+      "times": 2
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Olivia D.",
+      "total_pts": 2,
+      "times": 2
+    },
+    {
+      "voter": "Tess D.",
+      "submitter": "Elyse E.",
+      "total_pts": 2,
+      "times": 1
+    },
+    {
+      "voter": "Jack L.",
+      "submitter": "Elyse E.",
+      "total_pts": 2,
+      "times": 1
+    },
+    {
+      "voter": "Jack L.",
+      "submitter": "Olivia D.",
+      "total_pts": 2,
+      "times": 1
+    },
+    {
+      "voter": "Jack L.",
+      "submitter": "Mills T.",
+      "total_pts": 2,
+      "times": 1
+    },
+    {
+      "voter": "Gabriel M.",
+      "submitter": "Mary D.",
+      "total_pts": 2,
+      "times": 1
+    },
+    {
+      "voter": "Gabriel M.",
+      "submitter": "Claire E.",
+      "total_pts": 2,
+      "times": 2
+    },
+    {
+      "voter": "Gabriel M.",
+      "submitter": "Elyse E.",
+      "total_pts": 2,
+      "times": 2
+    },
+    {
+      "voter": "Gabriel M.",
+      "submitter": "Dray E.",
+      "total_pts": 2,
+      "times": 1
+    },
+    {
+      "voter": "Mills T.",
+      "submitter": "Mary D.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Mike D.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Tess D.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Mills T.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Jack L.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Claire E.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Tess D.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Jack L.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Olivia D.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Olivia D.",
+      "submitter": "Mills T.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Olivia D.",
+      "submitter": "Elyse E.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Mike D.",
+      "submitter": "Mary D.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Mike D.",
+      "submitter": "Gabriel M.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Mike D.",
+      "submitter": "Elyse E.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Mike D.",
+      "submitter": "Dray E.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Mike D.",
+      "submitter": "Tess D.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Gabriel M.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Mike D.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Jack L.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Mills T.",
+      "total_pts": 1,
+      "times": 1
+    },
+    {
+      "voter": "Jack L.",
+      "submitter": "Gabriel M.",
+      "total_pts": 1,
+      "times": 1
+    }
+  ],
+  "hall_of_fame": [
+    {
+      "round": 1,
+      "title": "Something Like That",
+      "artist": "Tim McGraw",
+      "submitter": "Dray E.",
+      "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+      "total_pts": 14,
+      "unique_voters": 5,
+      "track_id": "6leiB1fEsTnVCuPiielde5",
+      "spotify_url": "https://open.spotify.com/track/6leiB1fEsTnVCuPiielde5"
+    },
+    {
+      "round": 1,
+      "title": "Ants Marching",
+      "artist": "Dave Matthews Band",
+      "submitter": "Olivia D.",
+      "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+      "total_pts": 13,
+      "unique_voters": 6,
+      "track_id": "2FfZg072w8RoxlMOR7M4CT",
+      "spotify_url": "https://open.spotify.com/track/2FfZg072w8RoxlMOR7M4CT"
+    },
+    {
+      "round": 1,
+      "title": "Soak Up The Sun",
+      "artist": "Sheryl Crow",
+      "submitter": "Claire E.",
+      "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+      "total_pts": 10,
+      "unique_voters": 6,
+      "track_id": "215JYyyUnrJ98NK3KEwu6d",
+      "spotify_url": "https://open.spotify.com/track/215JYyyUnrJ98NK3KEwu6d"
+    },
+    {
+      "round": 1,
+      "title": "Chicken Fried",
+      "artist": "Zac Brown Band",
+      "submitter": "Claire E.",
+      "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+      "total_pts": 8,
+      "unique_voters": 5,
+      "track_id": "0LQtEJt7x0s6knb6RKdRYc",
+      "spotify_url": "https://open.spotify.com/track/0LQtEJt7x0s6knb6RKdRYc"
+    },
+    {
+      "round": 1,
+      "title": "Steal My Sunshine",
+      "artist": "LEN",
+      "submitter": "Jack L.",
+      "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+      "total_pts": 7,
+      "unique_voters": 5,
+      "track_id": "4agp6oHofabdUedr0B1krj",
+      "spotify_url": "https://open.spotify.com/track/4agp6oHofabdUedr0B1krj"
+    },
+    {
+      "round": 1,
+      "title": "Gimme! Gimme! Gimme! (A Man After Midnight) - From 'Mamma Mia!' Original Motion Picture Soundtrack",
+      "artist": "Amanda Seyfried, Ashley Lilley, Rachel McDowall",
+      "submitter": "Olivia D.",
+      "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+      "total_pts": 6,
+      "unique_voters": 5,
+      "track_id": "7lkeI7MsLOZ5gyh9ejaf3W",
+      "spotify_url": "https://open.spotify.com/track/7lkeI7MsLOZ5gyh9ejaf3W"
+    },
+    {
+      "round": 1,
+      "title": "Texas Sun",
+      "artist": "Khruangbin, Leon Bridges",
+      "submitter": "Elyse E.",
+      "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+      "total_pts": 6,
+      "unique_voters": 5,
+      "track_id": "24ntSW3QVJzR79lHAAOTaY",
+      "spotify_url": "https://open.spotify.com/track/24ntSW3QVJzR79lHAAOTaY"
+    },
+    {
+      "round": 1,
+      "title": "Wild Night",
+      "artist": "Van Morrison",
+      "submitter": "Mills T.",
+      "submitter_id": "5838e19081f440598e554c420f257ab7",
+      "total_pts": 6,
+      "unique_voters": 5,
+      "track_id": "10znDvpdCNThhMapRt5NOw",
+      "spotify_url": "https://open.spotify.com/track/10znDvpdCNThhMapRt5NOw"
+    },
+    {
+      "round": 1,
+      "title": "Hot In Herre",
+      "artist": "Nelly",
+      "submitter": "Gabriel M.",
+      "submitter_id": "2334709be13e48759338c82689b95d11",
+      "total_pts": 4,
+      "unique_voters": 3,
+      "track_id": "04KTF78FFg8sOHC1BADqbY",
+      "spotify_url": "https://open.spotify.com/track/04KTF78FFg8sOHC1BADqbY"
+    },
+    {
+      "round": 1,
+      "title": "Peaches",
+      "artist": "In The Valley Below",
+      "submitter": "Tess D.",
+      "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+      "total_pts": 4,
+      "unique_voters": 3,
+      "track_id": "0JsRZWdSquAQtgyJO8mhLA",
+      "spotify_url": "https://open.spotify.com/track/0JsRZWdSquAQtgyJO8mhLA"
+    },
+    {
+      "round": 1,
+      "title": "Six-Pack Summer",
+      "artist": "Phil Vassar",
+      "submitter": "Elyse E.",
+      "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+      "total_pts": 4,
+      "unique_voters": 3,
+      "track_id": "23qDMWnwf8p0pr5slljB6i",
+      "spotify_url": "https://open.spotify.com/track/23qDMWnwf8p0pr5slljB6i"
+    },
+    {
+      "round": 1,
+      "title": "Afternoon Delight",
+      "artist": "Starland Vocal Band",
+      "submitter": "Mike D.",
+      "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+      "total_pts": 3,
+      "unique_voters": 3,
+      "track_id": "4lO4RpFOp7nDnqJvTXeVTN",
+      "spotify_url": "https://open.spotify.com/track/4lO4RpFOp7nDnqJvTXeVTN"
+    },
+    {
+      "round": 1,
+      "title": "Sonate Pacifique",
+      "artist": "L'Impératrice, Isaac Delusion",
+      "submitter": "Tess D.",
+      "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+      "total_pts": 3,
+      "unique_voters": 3,
+      "track_id": "49PyCCLOdJi0jHkGyyY2vv",
+      "spotify_url": "https://open.spotify.com/track/49PyCCLOdJi0jHkGyyY2vv"
+    },
+    {
+      "round": 1,
+      "title": "Ride",
+      "artist": "G. Love & Special Sauce",
+      "submitter": "Jack L.",
+      "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+      "total_pts": 3,
+      "unique_voters": 2,
+      "track_id": "6xVoqYNxRXXhBGNbX2wf51",
+      "spotify_url": "https://open.spotify.com/track/6xVoqYNxRXXhBGNbX2wf51"
+    },
+    {
+      "round": 1,
+      "title": "Walking On Sunshine",
+      "artist": "Katrina & The Waves",
+      "submitter": "Mary D.",
+      "submitter_id": "41a0d64fae1f40489679232baec98925",
+      "total_pts": 3,
+      "unique_voters": 2,
+      "track_id": "05wIrZSwuaVWhcv5FfqeH0",
+      "spotify_url": "https://open.spotify.com/track/05wIrZSwuaVWhcv5FfqeH0"
+    },
+    {
+      "round": 1,
+      "title": "Trying To Reason With Hurricane Season",
+      "artist": "Jimmy Buffett",
+      "submitter": "Dray E.",
+      "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+      "total_pts": 2,
+      "unique_voters": 2,
+      "track_id": "2aT4FycQXXc4SkD2Sdm9YJ",
+      "spotify_url": "https://open.spotify.com/track/2aT4FycQXXc4SkD2Sdm9YJ"
+    },
+    {
+      "round": 1,
+      "title": "Little Lies",
+      "artist": "Fleetwood Mac",
+      "submitter": "Mills T.",
+      "submitter_id": "5838e19081f440598e554c420f257ab7",
+      "total_pts": 1,
+      "unique_voters": 1,
+      "track_id": "08o75xMKmGrKny6GsXrNJW",
+      "spotify_url": "https://open.spotify.com/track/08o75xMKmGrKny6GsXrNJW"
+    },
+    {
+      "round": 1,
+      "title": "Summer Nights - From “Grease”",
+      "artist": "John Travolta, Olivia Newton-John",
+      "submitter": "Gabriel M.",
+      "submitter_id": "2334709be13e48759338c82689b95d11",
+      "total_pts": 1,
+      "unique_voters": 1,
+      "track_id": "2AVkArcfALVk2X8sfPRzya",
+      "spotify_url": "https://open.spotify.com/track/2AVkArcfALVk2X8sfPRzya"
+    },
+    {
+      "round": 1,
+      "title": "Summer in the City - Remastered",
+      "artist": "The Lovin' Spoonful",
+      "submitter": "Mike D.",
+      "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+      "total_pts": 1,
+      "unique_voters": 1,
+      "track_id": "7AzFID6u1b3zIWbd9pb8Dk",
+      "spotify_url": "https://open.spotify.com/track/7AzFID6u1b3zIWbd9pb8Dk"
+    },
+    {
+      "round": 1,
+      "title": "Up On The Roof",
+      "artist": "James Taylor",
+      "submitter": "Mary D.",
+      "submitter_id": "41a0d64fae1f40489679232baec98925",
+      "total_pts": 1,
+      "unique_voters": 1,
+      "track_id": "6ampTyysdg6izZJAGRxR0q",
+      "spotify_url": "https://open.spotify.com/track/6ampTyysdg6izZJAGRxR0q"
+    }
+  ],
+  "player_profiles": {
+    "0a831b84b60a4aaca7c6f3150bbccb88": {
+      "name": "Dray E.",
+      "submissions": [
+        {
+          "round": 1,
+          "title": "Something Like That",
+          "artist": "Tim McGraw",
+          "album": "A Place In The Sun",
+          "total_pts": 14,
+          "unique_voters": 5,
+          "track_id": "6leiB1fEsTnVCuPiielde5",
+          "spotify_url": "https://open.spotify.com/track/6leiB1fEsTnVCuPiielde5"
+        },
+        {
+          "round": 1,
+          "title": "Trying To Reason With Hurricane Season",
+          "artist": "Jimmy Buffett",
+          "album": "A-1-A",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "track_id": "2aT4FycQXXc4SkD2Sdm9YJ",
+          "spotify_url": "https://open.spotify.com/track/2aT4FycQXXc4SkD2Sdm9YJ"
+        }
+      ],
+      "voting_history": [
+        {
+          "round": 1,
+          "song": "Wild Night",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Chicken Fried",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Six-Pack Summer",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Texas Sun",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Sonate Pacifique",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Steal My Sunshine",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Gimme! Gimme! Gimme! (A Man After Midnight) - From 'Mamma Mia!' Original Motion Picture Soundtrack",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Summer in the City - Remastered",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Afternoon Delight",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Little Lies",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        }
+      ],
+      "season_points": 16,
+      "rounds_played": 1
+    },
+    "19e6c48a177c458398bb138a991a2e4c": {
+      "name": "Elyse E.",
+      "submissions": [
+        {
+          "round": 1,
+          "title": "Texas Sun",
+          "artist": "Khruangbin, Leon Bridges",
+          "album": "Texas Sun",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "track_id": "24ntSW3QVJzR79lHAAOTaY",
+          "spotify_url": "https://open.spotify.com/track/24ntSW3QVJzR79lHAAOTaY"
+        },
+        {
+          "round": 1,
+          "title": "Six-Pack Summer",
+          "artist": "Phil Vassar",
+          "album": "Phil Vassar",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "track_id": "23qDMWnwf8p0pr5slljB6i",
+          "spotify_url": "https://open.spotify.com/track/23qDMWnwf8p0pr5slljB6i"
+        }
+      ],
+      "voting_history": [
+        {
+          "round": 1,
+          "song": "Soak Up The Sun",
+          "voted_for": "Claire E.",
+          "points_given": 3
+        },
+        {
+          "round": 1,
+          "song": "Something Like That",
+          "voted_for": "Dray E.",
+          "points_given": 3
+        },
+        {
+          "round": 1,
+          "song": "Steal My Sunshine",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Ants Marching",
+          "voted_for": "Olivia D.",
+          "points_given": 3
+        }
+      ],
+      "season_points": 10,
+      "rounds_played": 1
+    },
+    "2334709be13e48759338c82689b95d11": {
+      "name": "Gabriel M.",
+      "submissions": [
+        {
+          "round": 1,
+          "title": "Hot In Herre",
+          "artist": "Nelly",
+          "album": "Nellyville",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "track_id": "04KTF78FFg8sOHC1BADqbY",
+          "spotify_url": "https://open.spotify.com/track/04KTF78FFg8sOHC1BADqbY"
+        },
+        {
+          "round": 1,
+          "title": "Summer Nights - From “Grease”",
+          "artist": "John Travolta, Olivia Newton-John",
+          "album": "Grease (The Original Motion Picture Soundtrack)",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "track_id": "2AVkArcfALVk2X8sfPRzya",
+          "spotify_url": "https://open.spotify.com/track/2AVkArcfALVk2X8sfPRzya"
+        }
+      ],
+      "voting_history": [
+        {
+          "round": 1,
+          "song": "Walking On Sunshine",
+          "voted_for": "Mary D.",
+          "points_given": 2
+        },
+        {
+          "round": 1,
+          "song": "Chicken Fried",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Soak Up The Sun",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Six-Pack Summer",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Texas Sun",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Steal My Sunshine",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Something Like That",
+          "voted_for": "Dray E.",
+          "points_given": 2
+        },
+        {
+          "round": 1,
+          "song": "Gimme! Gimme! Gimme! (A Man After Midnight) - From 'Mamma Mia!' Original Motion Picture Soundtrack",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        }
+      ],
+      "season_points": 5,
+      "rounds_played": 1
+    },
+    "3b87dbe243724d3bbcafea4934075fec": {
+      "name": "Steve E.",
+      "submissions": [],
+      "voting_history": [],
+      "season_points": 0,
+      "rounds_played": 1
+    },
+    "41a0d64fae1f40489679232baec98925": {
+      "name": "Mary D.",
+      "submissions": [
+        {
+          "round": 1,
+          "title": "Walking On Sunshine",
+          "artist": "Katrina & The Waves",
+          "album": "Katrina & The Waves",
+          "total_pts": 3,
+          "unique_voters": 2,
+          "track_id": "05wIrZSwuaVWhcv5FfqeH0",
+          "spotify_url": "https://open.spotify.com/track/05wIrZSwuaVWhcv5FfqeH0"
+        },
+        {
+          "round": 1,
+          "title": "Up On The Roof",
+          "artist": "James Taylor",
+          "album": "Greatest Hits Volume 2",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "track_id": "6ampTyysdg6izZJAGRxR0q",
+          "spotify_url": "https://open.spotify.com/track/6ampTyysdg6izZJAGRxR0q"
+        }
+      ],
+      "voting_history": [
+        {
+          "round": 1,
+          "song": "Soak Up The Sun",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Summer Nights - From “Grease”",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Sonate Pacifique",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Ants Marching",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Afternoon Delight",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Ride",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Gimme! Gimme! Gimme! (A Man After Midnight) - From 'Mamma Mia!' Original Motion Picture Soundtrack",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Peaches",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Chicken Fried",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Wild Night",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        }
+      ],
+      "season_points": 4,
+      "rounds_played": 1
+    },
+    "4853a05f049d4d4682257bed4b277eed": {
+      "name": "Tess D.",
+      "submissions": [
+        {
+          "round": 1,
+          "title": "Peaches",
+          "artist": "In The Valley Below",
+          "album": "The Belt",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "track_id": "0JsRZWdSquAQtgyJO8mhLA",
+          "spotify_url": "https://open.spotify.com/track/0JsRZWdSquAQtgyJO8mhLA"
+        },
+        {
+          "round": 1,
+          "title": "Sonate Pacifique",
+          "artist": "L'Impératrice, Isaac Delusion",
+          "album": "Sonate Pacifique",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "track_id": "49PyCCLOdJi0jHkGyyY2vv",
+          "spotify_url": "https://open.spotify.com/track/49PyCCLOdJi0jHkGyyY2vv"
+        }
+      ],
+      "voting_history": [
+        {
+          "round": 1,
+          "song": "Six-Pack Summer",
+          "voted_for": "Elyse E.",
+          "points_given": 2
+        },
+        {
+          "round": 1,
+          "song": "Steal My Sunshine",
+          "voted_for": "Jack L.",
+          "points_given": 3
+        },
+        {
+          "round": 1,
+          "song": "Ride",
+          "voted_for": "Jack L.",
+          "points_given": 2
+        },
+        {
+          "round": 1,
+          "song": "Gimme! Gimme! Gimme! (A Man After Midnight) - From 'Mamma Mia!' Original Motion Picture Soundtrack",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Ants Marching",
+          "voted_for": "Olivia D.",
+          "points_given": 2
+        }
+      ],
+      "season_points": 7,
+      "rounds_played": 1
+    },
+    "5838e19081f440598e554c420f257ab7": {
+      "name": "Mills T.",
+      "submissions": [
+        {
+          "round": 1,
+          "title": "Wild Night",
+          "artist": "Van Morrison",
+          "album": "The Essential Van Morrison",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "track_id": "10znDvpdCNThhMapRt5NOw",
+          "spotify_url": "https://open.spotify.com/track/10znDvpdCNThhMapRt5NOw"
+        },
+        {
+          "round": 1,
+          "title": "Little Lies",
+          "artist": "Fleetwood Mac",
+          "album": "Greatest Hits",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "track_id": "08o75xMKmGrKny6GsXrNJW",
+          "spotify_url": "https://open.spotify.com/track/08o75xMKmGrKny6GsXrNJW"
+        }
+      ],
+      "voting_history": [
+        {
+          "round": 1,
+          "song": "Something Like That",
+          "voted_for": "Dray E.",
+          "points_given": 2
+        },
+        {
+          "round": 1,
+          "song": "Gimme! Gimme! Gimme! (A Man After Midnight) - From 'Mamma Mia!' Original Motion Picture Soundtrack",
+          "voted_for": "Olivia D.",
+          "points_given": 2
+        },
+        {
+          "round": 1,
+          "song": "Hot In Herre",
+          "voted_for": "Gabriel M.",
+          "points_given": 2
+        },
+        {
+          "round": 1,
+          "song": "Walking On Sunshine",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Ants Marching",
+          "voted_for": "Olivia D.",
+          "points_given": 3
+        }
+      ],
+      "season_points": 7,
+      "rounds_played": 1
+    },
+    "994734a26c814552ad88e0ce9ea4cfce": {
+      "name": "Jack L.",
+      "submissions": [
+        {
+          "round": 1,
+          "title": "Steal My Sunshine",
+          "artist": "LEN",
+          "album": "You Can't Stop The Bum Rush",
+          "total_pts": 7,
+          "unique_voters": 5,
+          "track_id": "4agp6oHofabdUedr0B1krj",
+          "spotify_url": "https://open.spotify.com/track/4agp6oHofabdUedr0B1krj"
+        },
+        {
+          "round": 1,
+          "title": "Ride",
+          "artist": "G. Love & Special Sauce",
+          "album": "Lemonade",
+          "total_pts": 3,
+          "unique_voters": 2,
+          "track_id": "6xVoqYNxRXXhBGNbX2wf51",
+          "spotify_url": "https://open.spotify.com/track/6xVoqYNxRXXhBGNbX2wf51"
+        }
+      ],
+      "voting_history": [
+        {
+          "round": 1,
+          "song": "Hot In Herre",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Soak Up The Sun",
+          "voted_for": "Claire E.",
+          "points_given": 3
+        },
+        {
+          "round": 1,
+          "song": "Texas Sun",
+          "voted_for": "Elyse E.",
+          "points_given": 2
+        },
+        {
+          "round": 1,
+          "song": "Ants Marching",
+          "voted_for": "Olivia D.",
+          "points_given": 2
+        },
+        {
+          "round": 1,
+          "song": "Wild Night",
+          "voted_for": "Mills T.",
+          "points_given": 2
+        }
+      ],
+      "season_points": 10,
+      "rounds_played": 1
+    },
+    "9ce50e4f032c45afaa3eca936e99c9db": {
+      "name": "Olivia D.",
+      "submissions": [
+        {
+          "round": 1,
+          "title": "Ants Marching",
+          "artist": "Dave Matthews Band",
+          "album": "Under the Table and Dreaming (Expanded Edition)",
+          "total_pts": 13,
+          "unique_voters": 6,
+          "track_id": "2FfZg072w8RoxlMOR7M4CT",
+          "spotify_url": "https://open.spotify.com/track/2FfZg072w8RoxlMOR7M4CT"
+        },
+        {
+          "round": 1,
+          "title": "Gimme! Gimme! Gimme! (A Man After Midnight) - From 'Mamma Mia!' Original Motion Picture Soundtrack",
+          "artist": "Amanda Seyfried, Ashley Lilley, Rachel McDowall",
+          "album": "Mamma Mia! The Movie Soundtrack",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "track_id": "7lkeI7MsLOZ5gyh9ejaf3W",
+          "spotify_url": "https://open.spotify.com/track/7lkeI7MsLOZ5gyh9ejaf3W"
+        }
+      ],
+      "voting_history": [
+        {
+          "round": 1,
+          "song": "Peaches",
+          "voted_for": "Tess D.",
+          "points_given": 2
+        },
+        {
+          "round": 1,
+          "song": "Chicken Fried",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Wild Night",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Soak Up The Sun",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Texas Sun",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Something Like That",
+          "voted_for": "Dray E.",
+          "points_given": 4
+        }
+      ],
+      "season_points": 19,
+      "rounds_played": 1
+    },
+    "dea876f23cf9428185f8757955c2eecd": {
+      "name": "Claire E.",
+      "submissions": [
+        {
+          "round": 1,
+          "title": "Soak Up The Sun",
+          "artist": "Sheryl Crow",
+          "album": "C'Mon, C'Mon",
+          "total_pts": 10,
+          "unique_voters": 6,
+          "track_id": "215JYyyUnrJ98NK3KEwu6d",
+          "spotify_url": "https://open.spotify.com/track/215JYyyUnrJ98NK3KEwu6d"
+        },
+        {
+          "round": 1,
+          "title": "Chicken Fried",
+          "artist": "Zac Brown Band",
+          "album": "The Foundation",
+          "total_pts": 8,
+          "unique_voters": 5,
+          "track_id": "0LQtEJt7x0s6knb6RKdRYc",
+          "spotify_url": "https://open.spotify.com/track/0LQtEJt7x0s6knb6RKdRYc"
+        }
+      ],
+      "voting_history": [
+        {
+          "round": 1,
+          "song": "Afternoon Delight",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Peaches",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Wild Night",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Something Like That",
+          "voted_for": "Dray E.",
+          "points_given": 3
+        },
+        {
+          "round": 1,
+          "song": "Trying To Reason With Hurricane Season",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Ants Marching",
+          "voted_for": "Olivia D.",
+          "points_given": 2
+        },
+        {
+          "round": 1,
+          "song": "Steal My Sunshine",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        }
+      ],
+      "season_points": 18,
+      "rounds_played": 1
+    },
+    "e0e0d50ee23443cf80cea1d777fac793": {
+      "name": "Mike D.",
+      "submissions": [
+        {
+          "round": 1,
+          "title": "Afternoon Delight",
+          "artist": "Starland Vocal Band",
+          "album": "Starland Vocal Band",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "track_id": "4lO4RpFOp7nDnqJvTXeVTN",
+          "spotify_url": "https://open.spotify.com/track/4lO4RpFOp7nDnqJvTXeVTN"
+        },
+        {
+          "round": 1,
+          "title": "Summer in the City - Remastered",
+          "artist": "The Lovin' Spoonful",
+          "album": "Hums Of The Lovin' Spoonful",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "track_id": "7AzFID6u1b3zIWbd9pb8Dk",
+          "spotify_url": "https://open.spotify.com/track/7AzFID6u1b3zIWbd9pb8Dk"
+        }
+      ],
+      "voting_history": [
+        {
+          "round": 1,
+          "song": "Up On The Roof",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Hot In Herre",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Chicken Fried",
+          "voted_for": "Claire E.",
+          "points_given": 4
+        },
+        {
+          "round": 1,
+          "song": "Soak Up The Sun",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Texas Sun",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Trying To Reason With Hurricane Season",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 1,
+          "song": "Sonate Pacifique",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        }
+      ],
+      "season_points": 4,
+      "rounds_played": 1
+    }
+  },
+  "fun_metrics": {
+    "kingmaker": {
+      "title": "Kingmaker",
+      "description": "Most points given to eventual weekly winners",
+      "leader": {
+        "player": "Olivia D.",
+        "value": "4 pts",
+        "detail": "R1: 4 pts to Something Like That"
+      }
+    },
+    "hipster": {
+      "title": "Hipster",
+      "description": "Highest percentage of solo votes (songs nobody else voted for)",
+      "leader": {
+        "player": "Dray E.",
+        "value": "20% solo",
+        "detail": "2 solo votes out of 10"
+      }
+    },
+    "sheep": {
+      "title": "Sheep",
+      "description": "Highest percentage of points given to consensus picks",
+      "leader": {
+        "player": "Olivia D.",
+        "value": "100% consensus",
+        "detail": "10 of 10 pts to songs with 3+ voters"
+      }
+    },
+    "cold_shoulder": {
+      "title": "Cold Shoulder",
+      "description": "Most songs submitted that received zero votes",
+      "players": []
+    },
+    "snub": {
+      "title": "Snub Detector",
+      "description": "Most acknowledged songs that collectively got the fewest points — max 2 per round",
+      "songs": [
+        {
+          "round": 1,
+          "song": "Gimme! Gimme! Gimme! (A Man After Midnight) - From 'Mamma Mia!' Original Motion Picture Soundtrack",
+          "artist": "Amanda Seyfried, Ashley Lilley, Rachel McDowall",
+          "submitter": "Olivia D.",
+          "voters": 5,
+          "pts": 6,
+          "avg": 1.2
+        },
+        {
+          "round": 1,
+          "song": "Texas Sun",
+          "artist": "Khruangbin, Leon Bridges",
+          "submitter": "Elyse E.",
+          "voters": 5,
+          "pts": 6,
+          "avg": 1.2
+        }
+      ]
+    },
+    "taste_twins": {
+      "title": "Taste Twins",
+      "description": "Highest voting overlap between two players",
+      "pairs": [
+        {
+          "player1": "Gabriel M.",
+          "player2": "Olivia D.",
+          "overlap": "40%",
+          "detail": "4 shared of 10 total"
+        },
+        {
+          "player1": "Dray E.",
+          "player2": "Gabriel M.",
+          "overlap": "38%",
+          "detail": "5 shared of 13 total"
+        },
+        {
+          "player1": "Elyse E.",
+          "player2": "Claire E.",
+          "overlap": "38%",
+          "detail": "3 shared of 8 total"
+        },
+        {
+          "player1": "Jack L.",
+          "player2": "Olivia D.",
+          "overlap": "38%",
+          "detail": "3 shared of 8 total"
+        },
+        {
+          "player1": "Dray E.",
+          "player2": "Mary D.",
+          "overlap": "33%",
+          "detail": "5 shared of 15 total"
+        }
+      ]
+    },
+    "efficiency": {
+      "title": "Submission Efficiency",
+      "description": "Average points per song submitted (min 2 songs)",
+      "leaders": [
+        {
+          "player": "Olivia D.",
+          "value": "9.5 avg",
+          "detail": "2 songs"
+        },
+        {
+          "player": "Claire E.",
+          "value": "9.0 avg",
+          "detail": "2 songs"
+        },
+        {
+          "player": "Dray E.",
+          "value": "8.0 avg",
+          "detail": "2 songs"
+        },
+        {
+          "player": "Jack L.",
+          "value": "5.0 avg",
+          "detail": "2 songs"
+        },
+        {
+          "player": "Elyse E.",
+          "value": "5.0 avg",
+          "detail": "2 songs"
+        },
+        {
+          "player": "Mills T.",
+          "value": "3.5 avg",
+          "detail": "2 songs"
+        },
+        {
+          "player": "Tess D.",
+          "value": "3.5 avg",
+          "detail": "2 songs"
+        },
+        {
+          "player": "Gabriel M.",
+          "value": "2.5 avg",
+          "detail": "2 songs"
+        }
+      ]
+    },
+    "ghost_report": {
+      "title": "Ghost Report",
+      "description": "Players who have never voted",
+      "ghosts": [
+        "Steve E."
+      ]
+    }
+  }
+}

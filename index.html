@@ -1,0 +1,1743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Fam Music League</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<!-- GoatCounter analytics: paste your tracker once you've created the new site -->
+<!-- <script data-goatcounter="https://YOUR-FML-CODE.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script> -->
+<style>
+:root {
+  /* These are overwritten per-round by inline style on <body> */
+  --p:    #F08A47;  /* primary    */
+  --a:    #F4B97A;  /* accent     */
+  --c:    #4FA0C4;  /* cool       */
+  --h:    #C25A28;  /* highlight  */
+  --tile: #1f1814;  /* body tile color */
+  --bg:    #0A0A0A;
+  --main:  #111;
+  --card:  #1A1A1A;
+  --surf:  #222;
+  --line:  #2a2a2a;
+  --text:  #fafafa;
+  --mute:  #888;
+  --dim:   #666;
+  --faint: #444;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-image: var(--body-tile, none);
+  background-repeat: repeat;
+  background-position: top left;
+}
+
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration: underline; }
+button { font-family: inherit; cursor: pointer; }
+
+#root {
+  max-width: 880px;
+  margin: 0 auto;
+  background: var(--main);
+  min-height: 100vh;
+  position: relative;
+}
+
+/* ---------- Header ---------- */
+.header {
+  background: var(--bg);
+  padding: 18px 24px 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.brand-name {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+.brand-sub {
+  font-size: 12px;
+  color: var(--mute);
+  margin-top: 2px;
+}
+
+/* ---------- Theme band (replaces triband) ---------- */
+.themeband {
+  height: 14px;
+  background: var(--band-gradient, linear-gradient(90deg, #4FA0C4 0%, #F4B97A 45%, #F08A47 75%, #C25A28 100%));
+  transition: background 0.4s ease;
+}
+
+/* ---------- Nav ---------- */
+.nav {
+  background: var(--main);
+  padding: 0 24px;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  gap: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.nav::-webkit-scrollbar { display: none; }
+.nav-item {
+  padding: 12px 16px;
+  font-size: 13px;
+  color: var(--mute);
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+  transition: color 0.15s, background 0.15s, border-color 0.15s;
+}
+.nav-item:hover { color: var(--text); }
+.nav-item.active {
+  color: var(--text);
+  border-bottom-color: var(--text);
+  background: var(--card);
+}
+
+/* ---------- Page container ---------- */
+.page { padding: 22px 24px 80px 24px; }
+
+/* ---------- Round bar ---------- */
+.roundbar {
+  background: var(--main);
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.roundbar-arrow {
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--mute);
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.15s, color 0.15s, border-color 0.15s;
+}
+.roundbar-arrow:hover:not(:disabled) {
+  color: var(--text);
+  border-color: var(--p);
+  transform: translateY(-1px) scale(1.05);
+}
+.roundbar-arrow:disabled { opacity: 0.3; cursor: not-allowed; }
+.roundbar-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+.roundbar-tile {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+}
+.roundbar-text { min-width: 0; flex: 1; }
+.roundbar-label {
+  color: var(--dim);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.roundbar-name {
+  color: var(--text);
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.roundbar-desc {
+  color: var(--mute);
+  font-size: 12px;
+  margin-top: 3px;
+  font-style: italic;
+}
+
+/* ---------- Section heading ---------- */
+.section-h {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 24px 0 12px 0;
+}
+.section-h:first-child { margin-top: 0; }
+.section-h-title {
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+}
+.section-h-meta { color: var(--dim); font-size: 11px; }
+
+/* ---------- Cards ---------- */
+.card {
+  background: var(--card);
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+.card-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* ---------- Winner card ---------- */
+.winner-card {
+  background: var(--card);
+  border-radius: 10px;
+  border-left: 3px solid var(--p);
+  padding: 16px 18px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.winner-art {
+  width: 64px;
+  height: 64px;
+  border-radius: 6px;
+  background: var(--surf);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.winner-art img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.winner-info { flex: 1; min-width: 0; }
+.winner-rank {
+  color: var(--mute);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.winner-title {
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.winner-meta {
+  color: var(--mute);
+  font-size: 12px;
+  margin-top: 2px;
+}
+.winner-meta .dot { color: var(--dim); margin: 0 6px; }
+.winner-pts {
+  text-align: right;
+  flex-shrink: 0;
+}
+.winner-pts-num {
+  color: var(--p);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1;
+}
+.winner-pts-label {
+  color: var(--dim);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 4px;
+}
+
+/* Confetti animation for winner card on first paint */
+@keyframes confetti-fall {
+  0%   { transform: translateY(-12px) rotate(0deg); opacity: 0; }
+  20%  { opacity: 1; }
+  100% { transform: translateY(140px) rotate(720deg); opacity: 0; }
+}
+.confetti-piece {
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  border-radius: 1px;
+  animation: confetti-fall 1.6s ease-out forwards;
+}
+
+/* ---------- Stat cards ---------- */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 22px;
+}
+@media (max-width: 600px) {
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+}
+.stat-box {
+  background: var(--card);
+  border-radius: 8px;
+  padding: 12px 14px;
+}
+.stat-box.cool { border-top: 2px solid var(--c); }
+.stat-label {
+  color: var(--dim);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.stat-num {
+  color: var(--text);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-top: 4px;
+}
+.stat-num.cool { color: var(--c); }
+
+/* ---------- Leaderboard rows ---------- */
+.lb { background: var(--card); border-radius: 10px; overflow: hidden; }
+.lb-row {
+  display: flex;
+  align-items: center;
+  padding: 11px 14px;
+  border-bottom: 1px solid var(--surf);
+  transition: background 0.15s;
+}
+.lb-row:last-child { border-bottom: none; }
+.lb-row.first {
+  background: linear-gradient(90deg, color-mix(in srgb, var(--p) 12%, transparent) 0%, transparent 60%);
+}
+.lb-row.first .lb-rank, .lb-row.first .lb-pts { color: var(--p); }
+.lb-row:hover { background: rgba(255,255,255,0.02); }
+.lb-row.first:hover {
+  background: linear-gradient(90deg, color-mix(in srgb, var(--p) 16%, transparent) 0%, rgba(255,255,255,0.02) 60%);
+}
+.lb-rank {
+  width: 28px;
+  color: var(--mute);
+  font-size: 13px;
+  font-weight: 500;
+}
+.lb-name {
+  flex: 1;
+  color: var(--text);
+  font-size: 13px;
+  cursor: pointer;
+}
+.lb-name:hover { color: var(--p); text-decoration: underline; }
+.lb-pts {
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 500;
+}
+.lb-forfeit {
+  color: var(--dim);
+  font-size: 11px;
+  margin-left: 10px;
+  font-style: italic;
+}
+
+/* ---------- Song cards (expandable) ---------- */
+.song-list { display: flex; flex-direction: column; gap: 8px; margin-top: 6px; }
+.song-card {
+  background: var(--card);
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid transparent;
+  transition: border-color 0.15s;
+}
+.song-card:hover { border-color: var(--surf); }
+.song-card.open { border-color: var(--p); }
+.song-card-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  cursor: pointer;
+  user-select: none;
+}
+.song-rank {
+  width: 24px;
+  color: var(--mute);
+  font-size: 12px;
+  font-weight: 500;
+  flex-shrink: 0;
+  text-align: center;
+}
+.song-art {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background: var(--surf);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.song-art img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.song-meta { flex: 1; min-width: 0; }
+.song-title {
+  color: var(--text);
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.song-sub {
+  color: var(--mute);
+  font-size: 12px;
+  margin-top: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.song-pts {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.song-pts-num {
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 500;
+}
+.song-pts-vot {
+  color: var(--dim);
+  font-size: 11px;
+}
+.song-chevron {
+  color: var(--dim);
+  font-size: 14px;
+  flex-shrink: 0;
+  transition: transform 0.2s;
+  width: 16px;
+  text-align: center;
+}
+.song-card.open .song-chevron { transform: rotate(90deg); color: var(--p); }
+.song-body {
+  padding: 0 14px 14px 14px;
+  border-top: 1px solid var(--surf);
+  margin-top: -1px;
+  background: rgba(0,0,0,0.15);
+}
+.song-comment {
+  font-style: italic;
+  color: var(--mute);
+  font-size: 12px;
+  padding: 12px 4px;
+  border-bottom: 1px solid var(--surf);
+  margin-bottom: 8px;
+}
+.song-comment-label {
+  color: var(--dim);
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  margin-right: 8px;
+}
+.vote-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 10px;
+}
+.vote-list-empty {
+  color: var(--dim);
+  font-size: 12px;
+  font-style: italic;
+  padding: 12px 4px;
+  text-align: center;
+}
+.vote-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 4px;
+  font-size: 12px;
+  border-bottom: 1px dashed var(--surf);
+}
+.vote-row:last-child { border-bottom: none; }
+.vote-pts {
+  background: var(--surf);
+  color: var(--text);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-weight: 500;
+  min-width: 24px;
+  text-align: center;
+  font-size: 11px;
+}
+.vote-pts.high { background: var(--p); color: #fff; }
+.vote-pts.mid  { background: var(--a); color: #1a0f08; }
+.vote-name {
+  color: var(--text);
+  cursor: pointer;
+  flex-shrink: 0;
+  font-weight: 500;
+}
+.vote-name:hover { color: var(--p); text-decoration: underline; }
+.vote-comment {
+  color: var(--mute);
+  font-style: italic;
+  flex: 1;
+  font-size: 11px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.expand-toggle {
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--mute);
+  font-size: 11px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  transition: color 0.15s, border-color 0.15s;
+}
+.expand-toggle:hover { color: var(--text); border-color: var(--p); }
+
+/* ---------- Generosity / missed lists ---------- */
+.flat-list { background: var(--card); border-radius: 10px; padding: 4px 0; }
+.flat-list-row {
+  display: flex;
+  align-items: center;
+  padding: 9px 14px;
+  border-bottom: 1px solid var(--surf);
+  font-size: 13px;
+}
+.flat-list-row:last-child { border-bottom: none; }
+.flat-list-name { flex: 1; color: var(--text); }
+.flat-list-val { color: var(--mute); font-size: 12px; }
+.flat-list-pts { color: var(--text); font-weight: 500; min-width: 36px; text-align: right; font-size: 13px; }
+
+/* ---------- Player profile + grids ---------- */
+.player-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 8px;
+}
+.player-cell {
+  background: var(--card);
+  border-radius: 8px;
+  padding: 12px 14px;
+  cursor: pointer;
+  transition: border-color 0.15s, transform 0.15s;
+  border: 1px solid transparent;
+}
+.player-cell:hover { border-color: var(--p); transform: translateY(-1px); }
+.player-cell-name { color: var(--text); font-size: 14px; font-weight: 500; }
+.player-cell-stat { color: var(--mute); font-size: 11px; margin-top: 2px; }
+
+.profile-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+.profile-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--p);
+  color: #1a0f08;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.profile-name { font-size: 22px; font-weight: 500; letter-spacing: -0.01em; }
+.profile-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+/* ---------- Fun metrics ---------- */
+.fm-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+@media (max-width: 600px) { .fm-grid { grid-template-columns: 1fr; } }
+.fm-card {
+  background: var(--card);
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+.fm-title {
+  color: var(--a);
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.fm-desc { color: var(--dim); font-size: 11px; margin-top: 2px; }
+.fm-leader { color: var(--text); font-size: 15px; margin-top: 8px; font-weight: 500; }
+.fm-detail { color: var(--mute); font-size: 12px; margin-top: 2px; }
+.fm-empty { color: var(--dim); font-size: 12px; margin-top: 8px; font-style: italic; }
+.fm-list { margin-top: 8px; display: flex; flex-direction: column; gap: 4px; }
+.fm-list-row { display: flex; justify-content: space-between; font-size: 12px; }
+.fm-list-name { color: var(--text); }
+.fm-list-val  { color: var(--mute); }
+
+/* ---------- Recap (commentary on its own page) ---------- */
+.recap {
+  max-width: 660px;
+  margin: 0 auto;
+}
+.recap-section { margin-bottom: 28px; }
+.recap-h {
+  color: var(--a);
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
+}
+.recap-p {
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* ---------- Empty states ---------- */
+.empty {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--mute);
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* ---------- Chart container ---------- */
+.chart-wrap {
+  background: var(--card);
+  border-radius: 10px;
+  padding: 16px;
+  height: 260px;
+  position: relative;
+}
+
+/* ---------- Loading note bouncer ---------- */
+@keyframes note-bounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-3px); }
+}
+.note-loader {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--p);
+  animation: note-bounce 0.8s ease-in-out infinite;
+}
+
+/* ---------- Round-themed body backgrounds ---------- */
+body.theme-sun-bg {
+  --body-tile: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='90' height='90' viewBox='0 0 90 90'><g fill='none' stroke='%231f1814' stroke-width='1.5' stroke-linecap='round'><circle cx='45' cy='45' r='8'/><line x1='45' y1='28' x2='45' y2='34'/><line x1='45' y1='56' x2='45' y2='62'/><line x1='28' y1='45' x2='34' y2='45'/><line x1='56' y1='45' x2='62' y2='45'/><line x1='32' y1='32' x2='36' y2='36'/><line x1='54' y1='54' x2='58' y2='58'/><line x1='32' y1='58' x2='36' y2='54'/><line x1='54' y1='36' x2='58' y2='32'/></g></svg>");
+}
+
+/* ---------- Spotify oEmbed link wrap ---------- */
+.spotify-link { display: block; width: 100%; height: 100%; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel" data-presets="env,react">
+const { useState, useEffect, useRef, useMemo, useCallback } = React;
+
+// ---------------------------------------------------------------------------
+// Utility helpers
+// ---------------------------------------------------------------------------
+
+const trimTitle = (t) => {
+  if (!t) return '';
+  const idx = t.indexOf(' - ');
+  return idx >= 0 ? t.substring(0, idx) : t;
+};
+
+const initials = (name) => {
+  if (!name) return '?';
+  const parts = name.split(/\s+/);
+  if (parts.length === 1) return parts[0][0]?.toUpperCase() || '?';
+  return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
+};
+
+const applyTheme = (theme) => {
+  const body = document.body;
+  // Reset all theme classes
+  body.classList.forEach(c => { if (c.startsWith('theme-')) body.classList.remove(c); });
+  if (!theme || !theme.palette) return;
+  const p = theme.palette;
+  body.style.setProperty('--p', p.primary || '#F08A47');
+  body.style.setProperty('--a', p.accent || '#F4B97A');
+  body.style.setProperty('--c', p.cool || '#4FA0C4');
+  body.style.setProperty('--h', p.highlight || '#C25A28');
+  body.style.setProperty('--tile', p.tile || '#1f1814');
+  if (theme.band_gradient) {
+    body.style.setProperty('--band-gradient', theme.band_gradient);
+  }
+  if (theme.tile_class) {
+    body.classList.add(theme.tile_class);
+  }
+};
+
+// ---------------------------------------------------------------------------
+// Spotify album art via oEmbed (no API key needed)
+// ---------------------------------------------------------------------------
+
+const oembedCache = new Map();
+function SpotifyArt({ trackId, spotifyUrl, alt = '', linked = true }) {
+  const [thumb, setThumb] = useState(null);
+
+  useEffect(() => {
+    if (!trackId) return;
+    if (oembedCache.has(trackId)) {
+      setThumb(oembedCache.get(trackId));
+      return;
+    }
+    const url = `https://open.spotify.com/oembed?url=spotify:track:${trackId}`;
+    fetch(url)
+      .then(r => r.json())
+      .then(d => {
+        const t = d.thumbnail_url || null;
+        oembedCache.set(trackId, t);
+        setThumb(t);
+      })
+      .catch(() => {});
+  }, [trackId]);
+
+  const inner = thumb
+    ? <img src={thumb} alt={alt} loading="lazy" />
+    : <div className="note-loader">♪</div>;
+
+  if (linked && spotifyUrl) {
+    return (
+      <a href={spotifyUrl} target="_blank" rel="noopener noreferrer" className="spotify-link" aria-label={`Open ${alt} on Spotify`}>
+        {inner}
+      </a>
+    );
+  }
+  return inner;
+}
+
+// ---------------------------------------------------------------------------
+// Confetti for winner card
+// ---------------------------------------------------------------------------
+
+function Confetti({ palette }) {
+  const colors = [palette.primary, palette.accent, palette.cool, palette.highlight];
+  const pieces = useMemo(() => Array.from({ length: 16 }, (_, i) => ({
+    id: i,
+    left: Math.random() * 100,
+    delay: Math.random() * 0.4,
+    color: colors[i % colors.length],
+    duration: 1.4 + Math.random() * 0.6,
+  })), [palette.primary]);
+
+  return (
+    <>
+      {pieces.map(p => (
+        <span
+          key={p.id}
+          className="confetti-piece"
+          style={{
+            left: `${p.left}%`,
+            top: '0px',
+            background: p.color,
+            animationDelay: `${p.delay}s`,
+            animationDuration: `${p.duration}s`,
+          }}
+        />
+      ))}
+    </>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Chart wrapper with cleanup
+// ---------------------------------------------------------------------------
+
+function ChartCanvas({ config, height = 240 }) {
+  const canvasRef = useRef(null);
+  const chartRef = useRef(null);
+
+  useEffect(() => {
+    if (!canvasRef.current || !window.Chart) return;
+    if (chartRef.current) {
+      chartRef.current.destroy();
+      chartRef.current = null;
+    }
+    chartRef.current = new window.Chart(canvasRef.current, config);
+    return () => {
+      if (chartRef.current) {
+        chartRef.current.destroy();
+        chartRef.current = null;
+      }
+    };
+  }, [config]);
+
+  return (
+    <div className="chart-wrap" style={{ height: `${height}px` }}>
+      <canvas ref={canvasRef} />
+    </div>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Header + ThemeBand + Nav
+// ---------------------------------------------------------------------------
+
+function Header({ league }) {
+  return (
+    <div className="header">
+      <div>
+        <div className="brand-name">fam music league</div>
+        <div className="brand-sub">{league.subtitle}</div>
+      </div>
+    </div>
+  );
+}
+
+function ThemeBand() {
+  return <div className="themeband" />;
+}
+
+function Nav({ page, setPage }) {
+  const items = [
+    { id: 'weekly',  label: 'Weekly' },
+    { id: 'season',  label: 'Season' },
+    { id: 'songs',   label: 'Songs' },
+    { id: 'players', label: 'Players' },
+    { id: 'recap',   label: 'Recap' },
+  ];
+  return (
+    <div className="nav">
+      {items.map(it => (
+        <button
+          key={it.id}
+          className={`nav-item${page === it.id ? ' active' : ''}`}
+          onClick={() => setPage(it.id)}
+        >
+          {it.label}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Round bar with sun SVG and ‹ › nav
+// ---------------------------------------------------------------------------
+
+function SunMark({ palette }) {
+  const stroke = palette?.primary || '#F08A47';
+  return (
+    <svg viewBox="0 0 64 64" width="48" height="48">
+      <circle cx="32" cy="32" r="11" fill="none" stroke={stroke} strokeWidth="2" />
+      <circle cx="32" cy="32" r="6" fill={stroke} opacity="0.55" />
+      <g stroke={stroke} strokeWidth="2" strokeLinecap="round">
+        <line x1="32" y1="6"  x2="32" y2="14"/>
+        <line x1="32" y1="50" x2="32" y2="58"/>
+        <line x1="6"  y1="32" x2="14" y2="32"/>
+        <line x1="50" y1="32" x2="58" y2="32"/>
+        <line x1="13.6" y1="13.6" x2="19.3" y2="19.3"/>
+        <line x1="44.7" y1="44.7" x2="50.4" y2="50.4"/>
+        <line x1="13.6" y1="50.4" x2="19.3" y2="44.7"/>
+        <line x1="44.7" y1="19.3" x2="50.4" y2="13.6"/>
+      </g>
+    </svg>
+  );
+}
+
+const themeMarks = {
+  summer: SunMark,
+};
+
+function RoundBar({ round, totalRounds, onPrev, onNext, idx }) {
+  const markName = round.theme?.name;
+  const Mark = themeMarks[markName];
+  return (
+    <div className="roundbar">
+      <button className="roundbar-arrow" onClick={onPrev} disabled={idx === 0} aria-label="Previous round">‹</button>
+      <div className="roundbar-content">
+        <div className="roundbar-tile">{Mark ? <Mark palette={round.theme.palette} /> : null}</div>
+        <div className="roundbar-text">
+          <div className="roundbar-label">Round {round.number} · {idx + 1} of {totalRounds}</div>
+          <div className="roundbar-name">{round.name}</div>
+          {round.description ? <div className="roundbar-desc">{round.description.toLowerCase()}</div> : null}
+        </div>
+      </div>
+      <button className="roundbar-arrow" onClick={onNext} disabled={idx >= totalRounds - 1} aria-label="Next round">›</button>
+    </div>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Expandable song card with vote breakdown
+// ---------------------------------------------------------------------------
+
+function SongCard({ song, rank, voteDetails, isOpen, onToggle, onPlayerClick }) {
+  // votes for this song
+  const songVotes = (voteDetails || [])
+    .filter(v => v.song === song.title && v.submitter === song.submitter)
+    .sort((a, b) => b.points - a.points);
+
+  return (
+    <div className={`song-card${isOpen ? ' open' : ''}`}>
+      <div className="song-card-head" onClick={onToggle}>
+        <div className="song-rank">{rank}</div>
+        <div className="song-art">
+          <SpotifyArt trackId={song.track_id} spotifyUrl={song.spotify_url} alt={song.title} linked={false} />
+        </div>
+        <div className="song-meta">
+          <div className="song-title">{trimTitle(song.title)}</div>
+          <div className="song-sub">
+            {song.artist} <span style={{ color: 'var(--dim)' }}>·</span>{' '}
+            <span onClick={(e) => { e.stopPropagation(); onPlayerClick(song.submitter_id); }} style={{ cursor: 'pointer' }}>
+              <span style={{ color: 'var(--mute)' }}>by </span>
+              <span style={{ color: 'var(--text)' }}>{song.submitter}</span>
+            </span>
+          </div>
+        </div>
+        <div className="song-pts">
+          <div className="song-pts-num">{song.total_pts}</div>
+          <div className="song-pts-vot">{song.unique_voters}v</div>
+        </div>
+        <div className="song-chevron">›</div>
+      </div>
+      {isOpen ? (
+        <div className="song-body">
+          {song.comment ? (
+            <div className="song-comment">
+              <span className="song-comment-label">submitter note</span>
+              {song.comment.trim()}
+            </div>
+          ) : null}
+          {songVotes.length === 0 ? (
+            <div className="vote-list-empty">Nobody voted for this one. Brave submission.</div>
+          ) : (
+            <div className="vote-list">
+              {songVotes.map((v, i) => {
+                const ptsClass = v.points >= 4 ? 'high' : v.points >= 2 ? 'mid' : '';
+                return (
+                  <div className="vote-row" key={i}>
+                    <span className={`vote-pts ${ptsClass}`}>{v.points}</span>
+                    <span className="vote-name" onClick={() => onPlayerClick(v.voter_id)}>{v.voter}</span>
+                    {v.comment ? <span className="vote-comment">"{v.comment.trim()}"</span> : null}
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </div>
+      ) : null}
+    </div>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Weekly page — full round detail
+// ---------------------------------------------------------------------------
+
+function WeeklyPage({ data, roundIdx, setRoundIdx, onPlayerClick }) {
+  const rounds = data.rounds || [];
+  const round = rounds[roundIdx];
+  const [expandedSongs, setExpandedSongs] = useState(new Set());
+  const [confettiKey, setConfettiKey] = useState(0);
+
+  // Re-trigger confetti when round changes
+  useEffect(() => { setConfettiKey(k => k + 1); }, [roundIdx]);
+
+  if (!round) {
+    return <div className="page"><div className="empty">No rounds played yet — somebody's gotta press play.</div></div>;
+  }
+
+  const winner = round.songs[0];
+  const others = round.songs.slice(1);
+
+  const toggleSong = (uri) => {
+    setExpandedSongs(prev => {
+      const next = new Set(prev);
+      if (next.has(uri)) next.delete(uri);
+      else next.add(uri);
+      return next;
+    });
+  };
+  const expandAll  = () => setExpandedSongs(new Set(round.songs.map(s => s.spotify_uri)));
+  const collapseAll = () => setExpandedSongs(new Set());
+
+  return (
+    <>
+      <RoundBar
+        round={round}
+        totalRounds={rounds.length}
+        idx={roundIdx}
+        onPrev={() => setRoundIdx(Math.max(0, roundIdx - 1))}
+        onNext={() => setRoundIdx(Math.min(rounds.length - 1, roundIdx + 1))}
+      />
+      <div className="page">
+        <div className="section-h">
+          <div className="section-h-title">Song of the week</div>
+          <div className="section-h-meta">{round.stats.total_submissions} submissions · {round.stats.total_votes} votes</div>
+        </div>
+
+        {winner ? (
+          <div className="winner-card">
+            <Confetti key={confettiKey} palette={round.theme?.palette || {}} />
+            <div className="winner-art">
+              <SpotifyArt trackId={winner.track_id} spotifyUrl={winner.spotify_url} alt={winner.title} />
+            </div>
+            <div className="winner-info">
+              <div className="winner-rank">#1</div>
+              <div className="winner-title">{trimTitle(winner.title)}</div>
+              <div className="winner-meta">
+                {winner.artist}<span className="dot">·</span>
+                <span style={{ cursor: 'pointer' }} onClick={() => onPlayerClick(winner.submitter_id)}>
+                  by <span style={{ color: 'var(--text)' }}>{winner.submitter}</span>
+                </span>
+              </div>
+            </div>
+            <div className="winner-pts">
+              <div className="winner-pts-num">{winner.total_pts}</div>
+              <div className="winner-pts-label">points</div>
+            </div>
+          </div>
+        ) : null}
+
+        <div className="stats-grid" style={{ marginTop: '20px' }}>
+          <div className="stat-box">
+            <div className="stat-label">Submissions</div>
+            <div className="stat-num">{round.stats.total_submissions}</div>
+          </div>
+          <div className="stat-box">
+            <div className="stat-label">Voters</div>
+            <div className="stat-num">{round.stats.unique_voters}</div>
+          </div>
+          <div className="stat-box">
+            <div className="stat-label">Total points</div>
+            <div className="stat-num">{round.songs.reduce((a, s) => a + s.total_pts, 0)}</div>
+          </div>
+          <div className="stat-box cool">
+            <div className="stat-label">Avg per song</div>
+            <div className="stat-num cool">
+              {(round.songs.reduce((a, s) => a + s.total_pts, 0) / Math.max(1, round.songs.length)).toFixed(1)}
+            </div>
+          </div>
+        </div>
+
+        <div className="section-h">
+          <div className="section-h-title">Player leaderboard</div>
+        </div>
+        <div className="lb">
+          {round.leaderboard.map((e, i) => (
+            <div className={`lb-row${e.rank === 1 ? ' first' : ''}`} key={e.player_id}>
+              <div className="lb-rank">{e.rank}</div>
+              <div className="lb-name" onClick={() => onPlayerClick(e.player_id)}>{e.player}</div>
+              {!e.voted && e.pts_forfeited > 0 ? (
+                <div className="lb-forfeit">forfeited {e.pts_forfeited}</div>
+              ) : null}
+              <div className="lb-pts">{e.points}</div>
+            </div>
+          ))}
+        </div>
+
+        <div className="section-h">
+          <div className="section-h-title">All songs · who voted for what</div>
+          <div className="section-h-meta">
+            <button className="expand-toggle" onClick={expandedSongs.size === round.songs.length ? collapseAll : expandAll}>
+              {expandedSongs.size === round.songs.length ? 'Collapse all' : 'Expand all'}
+            </button>
+          </div>
+        </div>
+        <div className="song-list">
+          {round.songs.map((s, i) => (
+            <SongCard
+              key={s.spotify_uri}
+              song={s}
+              rank={i + 1}
+              voteDetails={round.vote_details}
+              isOpen={expandedSongs.has(s.spotify_uri)}
+              onToggle={() => toggleSong(s.spotify_uri)}
+              onPlayerClick={onPlayerClick}
+            />
+          ))}
+        </div>
+
+        {round.missed_points && round.missed_points.length > 0 ? (
+          <>
+            <div className="section-h">
+              <div className="section-h-title">Forfeited points (didn't vote)</div>
+            </div>
+            <div className="flat-list">
+              {round.missed_points.map((m, i) => (
+                <div className="flat-list-row" key={i}>
+                  <div className="flat-list-name">{m.player}</div>
+                  <div className="flat-list-val">{m.songs} song{m.songs !== 1 ? 's' : ''}</div>
+                  <div className="flat-list-pts" style={{ color: 'var(--h)' }}>−{m.total_missed} pts</div>
+                </div>
+              ))}
+            </div>
+          </>
+        ) : null}
+
+        <div className="section-h">
+          <div className="section-h-title">Generosity</div>
+          <div className="section-h-meta">avg points per non-zero vote</div>
+        </div>
+        <div className="flat-list">
+          {round.generosity.map((g, i) => (
+            <div className="flat-list-row" key={i}>
+              <div className="flat-list-name">{g.player}</div>
+              <div className="flat-list-val">{g.total_pts_given} pts across {g.total_songs_voted} songs</div>
+              <div className="flat-list-pts">{g.avg_per_vote}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Season page
+// ---------------------------------------------------------------------------
+
+function SeasonPage({ data, onPlayerClick }) {
+  const standings = data.season_leaderboard || [];
+  const rounds = data.rounds || [];
+
+  // Cumulative trend chart for top 8
+  const trendConfig = useMemo(() => {
+    if (rounds.length === 0) return null;
+    const top8 = standings.slice(0, 8);
+    const labels = rounds.map(r => `R${r.number}`);
+    const colors = ['#F08A47', '#4FA0C4', '#F4B97A', '#C25A28', '#8FB339', '#9C72E2', '#E07B91', '#7FB3A8'];
+    const datasets = top8.map((p, i) => {
+      let cum = 0;
+      const data = rounds.map(r => {
+        const w = (p.weekly || []).find(x => x.round === r.number);
+        cum += (w?.points || 0);
+        return cum;
+      });
+      return {
+        label: p.player,
+        data,
+        borderColor: colors[i % colors.length],
+        backgroundColor: colors[i % colors.length] + '20',
+        tension: 0.3,
+        borderWidth: 2,
+        pointRadius: 3,
+      };
+    });
+    return {
+      type: 'line',
+      data: { labels, datasets },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { labels: { color: '#fafafa', font: { size: 11 } } },
+        },
+        scales: {
+          x: { ticks: { color: '#888' }, grid: { color: '#222' } },
+          y: { ticks: { color: '#888' }, grid: { color: '#222' }, beginAtZero: true },
+        },
+      },
+    };
+  }, [rounds, standings]);
+
+  return (
+    <div className="page">
+      <div className="section-h">
+        <div className="section-h-title">Season standings</div>
+        <div className="section-h-meta">{rounds.length} round{rounds.length !== 1 ? 's' : ''} played</div>
+      </div>
+
+      <div className="lb" style={{ marginBottom: '24px' }}>
+        {standings.map((e) => (
+          <div className={`lb-row${e.rank === 1 ? ' first' : ''}`} key={e.player_id}>
+            <div className="lb-rank">{e.rank}</div>
+            <div className="lb-name" onClick={() => onPlayerClick(e.player_id)}>{e.player}</div>
+            <div className="lb-forfeit">{e.rounds_played} rd · {e.avg_per_round} avg{e.wins ? ` · ${e.wins} win${e.wins !== 1 ? 's' : ''}` : ''}</div>
+            <div className="lb-pts">{e.points}</div>
+          </div>
+        ))}
+      </div>
+
+      {rounds.length >= 2 && trendConfig ? (
+        <>
+          <div className="section-h">
+            <div className="section-h-title">Cumulative trend (top 8)</div>
+          </div>
+          <ChartCanvas config={trendConfig} />
+        </>
+      ) : (
+        <div className="empty" style={{ padding: '20px 0' }}>
+          More rounds = more chart. Check back next week.
+        </div>
+      )}
+
+      {data.voting_affinities && data.voting_affinities.length > 0 ? (
+        <>
+          <div className="section-h" style={{ marginTop: '28px' }}>
+            <div className="section-h-title">Voting affinities</div>
+            <div className="section-h-meta">who gives points to whom</div>
+          </div>
+          <div className="flat-list">
+            {data.voting_affinities.slice(0, 10).map((a, i) => (
+              <div className="flat-list-row" key={i}>
+                <div className="flat-list-name">{a.voter} → {a.submitter}</div>
+                <div className="flat-list-val">{a.times} time{a.times !== 1 ? 's' : ''}</div>
+                <div className="flat-list-pts">{a.total_pts}p</div>
+              </div>
+            ))}
+          </div>
+        </>
+      ) : null}
+
+      <FunMetrics metrics={data.fun_metrics || {}} />
+    </div>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Songs page
+// ---------------------------------------------------------------------------
+
+function SongsPage({ data, onPlayerClick }) {
+  const hof = data.hall_of_fame || [];
+  const rounds = data.rounds || [];
+
+  const allSongs = useMemo(() => {
+    const all = [];
+    rounds.forEach(rd => {
+      rd.songs.forEach((s, i) => all.push({ ...s, round: rd.number, rank_in_round: i + 1 }));
+    });
+    all.sort((a, b) => b.total_pts - a.total_pts || b.unique_voters - a.unique_voters);
+    return all;
+  }, [rounds]);
+
+  const hofChartConfig = useMemo(() => {
+    if (hof.length === 0) return null;
+    const top = hof.slice(0, 10);
+    return {
+      type: 'bar',
+      data: {
+        labels: top.map(s => trimTitle(s.title).substring(0, 22)),
+        datasets: [{
+          data: top.map(s => s.total_pts),
+          backgroundColor: '#F08A47',
+          borderRadius: 4,
+        }],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        indexAxis: 'y',
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#888' }, grid: { color: '#222' } },
+          y: { ticks: { color: '#fafafa', font: { size: 11 } }, grid: { color: '#222' } },
+        },
+      },
+    };
+  }, [hof]);
+
+  return (
+    <div className="page">
+      <div className="section-h">
+        <div className="section-h-title">Hall of fame</div>
+        <div className="section-h-meta">top songs of the season</div>
+      </div>
+      {hofChartConfig ? <ChartCanvas config={hofChartConfig} height={300} /> : (
+        <div className="empty">No songs yet.</div>
+      )}
+
+      <div className="section-h" style={{ marginTop: '24px' }}>
+        <div className="section-h-title">All songs</div>
+        <div className="section-h-meta">{allSongs.length} total</div>
+      </div>
+      <div className="song-list">
+        {allSongs.map((s, i) => (
+          <div className="song-card" key={`${s.round}-${s.spotify_uri}`}>
+            <div className="song-card-head" style={{ cursor: 'default' }}>
+              <div className="song-rank">{i + 1}</div>
+              <div className="song-art">
+                <SpotifyArt trackId={s.track_id} spotifyUrl={s.spotify_url} alt={s.title} linked={false} />
+              </div>
+              <div className="song-meta">
+                <div className="song-title">{trimTitle(s.title)}</div>
+                <div className="song-sub">
+                  {s.artist} <span style={{ color: 'var(--dim)' }}>·</span>{' '}
+                  <span onClick={() => onPlayerClick(s.submitter_id)} style={{ cursor: 'pointer' }}>
+                    <span style={{ color: 'var(--mute)' }}>by </span>
+                    <span style={{ color: 'var(--text)' }}>{s.submitter}</span>
+                  </span>{' '}
+                  <span style={{ color: 'var(--dim)' }}>· R{s.round}</span>
+                </div>
+              </div>
+              <div className="song-pts">
+                <div className="song-pts-num">{s.total_pts}</div>
+                <div className="song-pts-vot">{s.unique_voters}v</div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Players page
+// ---------------------------------------------------------------------------
+
+function PlayersPage({ data, onPlayerClick }) {
+  const standings = data.season_leaderboard || [];
+  const sorted = [...standings].sort((a, b) => a.player.localeCompare(b.player));
+  return (
+    <div className="page">
+      <div className="section-h">
+        <div className="section-h-title">Players</div>
+        <div className="section-h-meta">{sorted.length} active</div>
+      </div>
+      <div className="player-grid">
+        {sorted.map(p => (
+          <div className="player-cell" key={p.player_id} onClick={() => onPlayerClick(p.player_id)}>
+            <div className="player-cell-name">{p.player}</div>
+            <div className="player-cell-stat">{p.points} pts · {p.rounds_played} rd · {p.avg_per_round} avg</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Profile page
+// ---------------------------------------------------------------------------
+
+function ProfilePage({ data, profileId, onPlayerClick, onBack }) {
+  const profile = (data.player_profiles || {})[profileId];
+  const seasonEntry = (data.season_leaderboard || []).find(e => e.player_id === profileId);
+
+  // Trend chart for this player
+  const trendConfig = useMemo(() => {
+    if (!profile || !seasonEntry || !seasonEntry.weekly || seasonEntry.weekly.length < 2) return null;
+    const labels = seasonEntry.weekly.map(w => `R${w.round}`);
+    let cum = 0;
+    const cumData = seasonEntry.weekly.map(w => { cum += w.points; return cum; });
+    return {
+      type: 'line',
+      data: {
+        labels,
+        datasets: [{
+          label: profile.name,
+          data: cumData,
+          borderColor: '#F08A47',
+          backgroundColor: '#F08A4720',
+          tension: 0.3,
+          borderWidth: 2.5,
+          fill: true,
+          pointRadius: 4,
+        }],
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { ticks: { color: '#888' }, grid: { color: '#222' } },
+          y: { ticks: { color: '#888' }, grid: { color: '#222' }, beginAtZero: true },
+        },
+      },
+    };
+  }, [profile, seasonEntry]);
+
+  if (!profile) {
+    return (
+      <div className="page">
+        <button className="expand-toggle" onClick={onBack}>← Back</button>
+        <div className="empty">Player not found.</div>
+      </div>
+    );
+  }
+
+  // Best song
+  const bestSong = (profile.submissions || []).reduce(
+    (best, s) => (!best || s.total_pts > best.total_pts ? s : best),
+    null
+  );
+
+  // Voting patterns: gives most points to / biggest fans
+  const givesTo = {};
+  (profile.voting_history || []).forEach(v => {
+    givesTo[v.voted_for] = (givesTo[v.voted_for] || 0) + v.points_given;
+  });
+  const givesToTop = Object.entries(givesTo).sort((a, b) => b[1] - a[1]).slice(0, 5);
+
+  // Biggest fans (who gives points to this player)
+  const fans = {};
+  (data.rounds || []).forEach(rd => {
+    rd.vote_details.forEach(v => {
+      if (v.submitter_id === profileId) {
+        fans[v.voter] = (fans[v.voter] || 0) + v.points;
+      }
+    });
+  });
+  const fansTop = Object.entries(fans).sort((a, b) => b[1] - a[1]).slice(0, 5);
+
+  return (
+    <div className="page">
+      <button className="expand-toggle" onClick={onBack}>← Back</button>
+      <div className="profile-head" style={{ marginTop: '14px' }}>
+        <div className="profile-avatar">{initials(profile.name)}</div>
+        <div>
+          <div className="profile-name">{profile.name}</div>
+          <div style={{ color: 'var(--mute)', fontSize: '13px', marginTop: '2px' }}>
+            {seasonEntry ? `Rank #${seasonEntry.rank} · ${seasonEntry.points} pts · ${seasonEntry.rounds_played} round${seasonEntry.rounds_played !== 1 ? 's' : ''}` : 'No data yet'}
+          </div>
+        </div>
+      </div>
+
+      <div className="profile-stats">
+        <div className="stat-box">
+          <div className="stat-label">Season points</div>
+          <div className="stat-num">{profile.season_points}</div>
+        </div>
+        <div className="stat-box">
+          <div className="stat-label">Avg per round</div>
+          <div className="stat-num">{seasonEntry?.avg_per_round || 0}</div>
+        </div>
+        <div className="stat-box cool">
+          <div className="stat-label">Wins</div>
+          <div className="stat-num cool">{seasonEntry?.wins || 0}</div>
+        </div>
+      </div>
+
+      {trendConfig ? (
+        <>
+          <div className="section-h">
+            <div className="section-h-title">Cumulative trend</div>
+          </div>
+          <ChartCanvas config={trendConfig} />
+        </>
+      ) : null}
+
+      {bestSong ? (
+        <>
+          <div className="section-h" style={{ marginTop: '20px' }}>
+            <div className="section-h-title">Best submission</div>
+          </div>
+          <div className="winner-card">
+            <div className="winner-art">
+              <SpotifyArt trackId={bestSong.track_id} spotifyUrl={bestSong.spotify_url} alt={bestSong.title} />
+            </div>
+            <div className="winner-info">
+              <div className="winner-rank">R{bestSong.round}</div>
+              <div className="winner-title">{trimTitle(bestSong.title)}</div>
+              <div className="winner-meta">{bestSong.artist}</div>
+            </div>
+            <div className="winner-pts">
+              <div className="winner-pts-num">{bestSong.total_pts}</div>
+              <div className="winner-pts-label">points</div>
+            </div>
+          </div>
+        </>
+      ) : null}
+
+      <div className="section-h" style={{ marginTop: '20px' }}>
+        <div className="section-h-title">All submissions</div>
+      </div>
+      <div className="song-list">
+        {profile.submissions.map((s, i) => (
+          <div className="song-card" key={i}>
+            <div className="song-card-head" style={{ cursor: 'default' }}>
+              <div className="song-rank">R{s.round}</div>
+              <div className="song-art">
+                <SpotifyArt trackId={s.track_id} spotifyUrl={s.spotify_url} alt={s.title} linked={false} />
+              </div>
+              <div className="song-meta">
+                <div className="song-title">{trimTitle(s.title)}</div>
+                <div className="song-sub">{s.artist}</div>
+              </div>
+              <div className="song-pts">
+                <div className="song-pts-num">{s.total_pts}</div>
+                <div className="song-pts-vot">{s.unique_voters}v</div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {givesToTop.length > 0 ? (
+        <>
+          <div className="section-h" style={{ marginTop: '20px' }}>
+            <div className="section-h-title">Gives most points to</div>
+          </div>
+          <div className="flat-list">
+            {givesToTop.map(([name, pts], i) => (
+              <div className="flat-list-row" key={i}>
+                <div className="flat-list-name">{name}</div>
+                <div className="flat-list-pts">{pts}p</div>
+              </div>
+            ))}
+          </div>
+        </>
+      ) : null}
+
+      {fansTop.length > 0 ? (
+        <>
+          <div className="section-h" style={{ marginTop: '20px' }}>
+            <div className="section-h-title">Biggest fans</div>
+          </div>
+          <div className="flat-list">
+            {fansTop.map(([name, pts], i) => (
+              <div className="flat-list-row" key={i}>
+                <div className="flat-list-name">{name}</div>
+                <div className="flat-list-pts">{pts}p</div>
+              </div>
+            ))}
+          </div>
+        </>
+      ) : null}
+    </div>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Recap page (commentary on its own page with round nav)
+// ---------------------------------------------------------------------------
+
+function RecapPage({ data, roundIdx, setRoundIdx }) {
+  const rounds = data.rounds || [];
+  const round = rounds[roundIdx];
+  const commentary = round?.commentary;
+
+  if (!round) {
+    return <div className="page"><div className="empty">No recaps yet — gotta play some rounds first.</div></div>;
+  }
+
+  return (
+    <>
+      <RoundBar
+        round={round}
+        totalRounds={rounds.length}
+        idx={roundIdx}
+        onPrev={() => setRoundIdx(Math.max(0, roundIdx - 1))}
+        onNext={() => setRoundIdx(Math.min(rounds.length - 1, roundIdx + 1))}
+      />
+      <div className="page">
+        <div className="recap">
+          {commentary ? (
+            <>
+              <h2 style={{ fontSize: '22px', fontWeight: 500, marginTop: 0, marginBottom: '20px', letterSpacing: '-0.01em' }}>
+                {commentary.title}
+              </h2>
+              {(commentary.sections || []).map((s, i) => (
+                <div className="recap-section" key={i}>
+                  <div className="recap-h">{s.heading}</div>
+                  <p className="recap-p">{s.text}</p>
+                </div>
+              ))}
+            </>
+          ) : (
+            <div className="empty">Recap coming soon.</div>
+          )}
+        </div>
+      </div>
+    </>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Fun metrics block
+// ---------------------------------------------------------------------------
+
+function FunMetrics({ metrics }) {
+  const cards = [];
+  const m = metrics || {};
+
+  if (m.kingmaker?.leader?.player) {
+    cards.push({ k: 'kingmaker', t: m.kingmaker.title, d: m.kingmaker.description,
+      lead: `${m.kingmaker.leader.player} · ${m.kingmaker.leader.value}`, det: m.kingmaker.leader.detail });
+  }
+  if (m.hipster?.leader?.player) {
+    cards.push({ k: 'hipster', t: m.hipster.title, d: m.hipster.description,
+      lead: `${m.hipster.leader.player} · ${m.hipster.leader.value}`, det: m.hipster.leader.detail });
+  }
+  if (m.sheep?.leader?.player) {
+    cards.push({ k: 'sheep', t: m.sheep.title, d: m.sheep.description,
+      lead: `${m.sheep.leader.player} · ${m.sheep.leader.value}`, det: m.sheep.leader.detail });
+  }
+  if (m.cold_shoulder?.players?.length > 0) {
+    cards.push({ k: 'cold', t: m.cold_shoulder.title, d: m.cold_shoulder.description,
+      list: m.cold_shoulder.players });
+  }
+  if (m.snub?.songs?.length > 0) {
+    cards.push({ k: 'snub', t: m.snub.title, d: m.snub.description,
+      list: m.snub.songs.map(s => ({
+        player: `${trimTitle(s.song)}`,
+        value: `R${s.round} · ${s.voters}v · ${s.pts}p (avg ${s.avg})`,
+      })) });
+  }
+  if (m.taste_twins?.pairs?.length > 0) {
+    cards.push({ k: 'twins', t: m.taste_twins.title, d: m.taste_twins.description,
+      list: m.taste_twins.pairs.map(p => ({
+        player: `${p.player1} & ${p.player2}`,
+        value: p.overlap,
+      })) });
+  }
+  if (m.efficiency?.leaders?.length > 0) {
+    cards.push({ k: 'eff', t: m.efficiency.title, d: m.efficiency.description,
+      list: m.efficiency.leaders });
+  }
+  if (m.ghost_report?.ghosts?.length > 0) {
+    cards.push({ k: 'ghost', t: m.ghost_report.title, d: m.ghost_report.description,
+      lead: m.ghost_report.ghosts.join(', '), det: 'Show up, friends.' });
+  }
+
+  if (cards.length === 0) return null;
+
+  return (
+    <>
+      <div className="section-h" style={{ marginTop: '28px' }}>
+        <div className="section-h-title">Fun metrics</div>
+      </div>
+      <div className="fm-grid">
+        {cards.map(c => (
+          <div className="fm-card" key={c.k}>
+            <div className="fm-title">{c.t}</div>
+            <div className="fm-desc">{c.d}</div>
+            {c.lead ? <div className="fm-leader">{c.lead}</div> : null}
+            {c.det ? <div className="fm-detail">{c.det}</div> : null}
+            {c.list ? (
+              <div className="fm-list">
+                {c.list.slice(0, 5).map((it, i) => (
+                  <div className="fm-list-row" key={i}>
+                    <span className="fm-list-name">{it.player}</span>
+                    <span className="fm-list-val">{it.value}</span>
+                  </div>
+                ))}
+              </div>
+            ) : null}
+          </div>
+        ))}
+      </div>
+    </>
+  );
+}
+
+// ---------------------------------------------------------------------------
+// App
+// ---------------------------------------------------------------------------
+
+function App() {
+  const [data, setData] = useState(null);
+  const [error, setError] = useState(null);
+  const [page, setPage] = useState('weekly');
+  const [roundIdx, setRoundIdx] = useState(0);
+  const [profileId, setProfileId] = useState(null);
+
+  // Load data — bump ?v=N each weekly deploy
+  useEffect(() => {
+    fetch('data.json?v=1')
+      .then(r => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      })
+      .then(setData)
+      .catch(e => setError(e.message));
+  }, []);
+
+  // Default round to most recent on load
+  useEffect(() => {
+    if (data?.rounds?.length) {
+      setRoundIdx(data.rounds.length - 1);
+    }
+  }, [data]);
+
+  // Apply theme based on current round when on weekly/recap pages
+  useEffect(() => {
+    if (!data?.rounds) return;
+    const round = data.rounds[roundIdx];
+    if (round?.theme && (page === 'weekly' || page === 'recap')) {
+      applyTheme(round.theme);
+    } else if (data.rounds[0]?.theme) {
+      // Default to round 1 theme on non-round pages
+      applyTheme(data.rounds[0].theme);
+    }
+  }, [data, roundIdx, page]);
+
+  if (error) {
+    return (
+      <div style={{ padding: '40px', textAlign: 'center' }}>
+        <div style={{ color: '#F08A47', fontSize: '18px', marginBottom: '8px' }}>Couldn't load data.json</div>
+        <div style={{ color: '#888', fontSize: '13px' }}>{error}</div>
+      </div>
+    );
+  }
+  if (!data) {
+    return (
+      <div style={{ padding: '40px', textAlign: 'center' }}>
+        <div className="note-loader" style={{ width: 'auto', fontSize: '24px' }}>♪ ♫ ♪</div>
+      </div>
+    );
+  }
+
+  const handlePlayerClick = (pid) => {
+    setProfileId(pid);
+    setPage('profile');
+  };
+  const handleProfileBack = () => {
+    setProfileId(null);
+    setPage('players');
+  };
+
+  return (
+    <>
+      <Header league={data.league} />
+      <ThemeBand />
+      <Nav page={page} setPage={setPage} />
+      {page === 'weekly'  ? <WeeklyPage  data={data} roundIdx={roundIdx} setRoundIdx={setRoundIdx} onPlayerClick={handlePlayerClick} /> : null}
+      {page === 'season'  ? <SeasonPage  data={data} onPlayerClick={handlePlayerClick} /> : null}
+      {page === 'songs'   ? <SongsPage   data={data} onPlayerClick={handlePlayerClick} /> : null}
+      {page === 'players' ? <PlayersPage data={data} onPlayerClick={handlePlayerClick} /> : null}
+      {page === 'recap'   ? <RecapPage   data={data} roundIdx={roundIdx} setRoundIdx={setRoundIdx} /> : null}
+      {page === 'profile' ? <ProfilePage data={data} profileId={profileId} onPlayerClick={handlePlayerClick} onBack={handleProfileBack} /> : null}
+    </>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+</script>
+</body>
+</html>
