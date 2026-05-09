@@ -829,11 +829,80 @@ function CassetteBand({ palette }) {
   const accent    = palette?.accent    || '#D9B68C';
   const cool      = palette?.cool      || '#5B7B8C';
   const highlight = palette?.highlight || '#8B4513';
-  // The band IS a cassette, fully committed.
-  // Layered approach because viewport widths vary:
-  //   Layer 1 (stretched): body shell rectangles - safely use preserveAspectRatio="none".
-  //   Layer 2 (preserved): reels/mechanism - fixed-size SVGs absolutely positioned,
-  //                        so circles stay round at any viewport width.
+
+  // Reel animation refs — driven imperatively via requestAnimationFrame
+  // so we don't trigger a React re-render at 60fps.
+  const leftReelRef  = useRef(null);
+  const rightReelRef = useRef(null);
+  const tapeStrandRef = useRef(null);
+  const rafRef = useRef(null);
+  const playStateRef = useRef({
+    playing: false,
+    leftAngle: 0,
+    rightAngle: 0,
+    tapeOffset: 0,
+    lastTs: 0,
+  });
+
+  useEffect(() => {
+    // Listen for play/pause events from PlayMark
+    const onToggle = (e) => {
+      const playing = !!(e.detail && e.detail.playing);
+      const s = playStateRef.current;
+      s.playing = playing;
+      if (playing) {
+        s.lastTs = performance.now();
+        startLoop();
+      }
+      // When paused, the loop will detect !playing and stop itself
+    };
+
+    const startLoop = () => {
+      if (rafRef.current) return;
+      const tick = (ts) => {
+        const s = playStateRef.current;
+        const dt = Math.min(50, ts - s.lastTs);  // clamp dt to avoid jumps if tab was hidden
+        s.lastTs = ts;
+
+        if (s.playing) {
+          // Real cassette: smaller reel spins faster (constant tape speed).
+          // Left = bigger (more wound), right = smaller. Right spins faster.
+          // Rotation in deg/sec — picked for "obviously moving but not frantic" feel.
+          const leftDegPerSec  = 180;   // 0.5 rotations/sec
+          const rightDegPerSec = 215;   // 1.18x faster, matches reel-radius ratio
+          s.leftAngle  = (s.leftAngle  + leftDegPerSec  * dt / 1000) % 360;
+          s.rightAngle = (s.rightAngle + rightDegPerSec * dt / 1000) % 360;
+          s.tapeOffset = (s.tapeOffset + 60 * dt / 1000) % 12; // pixel scroll for tape strand
+
+          if (leftReelRef.current) {
+            leftReelRef.current.setAttribute('transform', `rotate(${s.leftAngle} 23 23)`);
+          }
+          if (rightReelRef.current) {
+            rightReelRef.current.setAttribute('transform', `rotate(${s.rightAngle} 21 21)`);
+          }
+          if (tapeStrandRef.current) {
+            tapeStrandRef.current.setAttribute('stroke-dashoffset', String(-s.tapeOffset));
+          }
+          rafRef.current = requestAnimationFrame(tick);
+        } else {
+          // Stopped — clear the loop, leave reels at their last angle (visually parked)
+          rafRef.current = null;
+        }
+      };
+      rafRef.current = requestAnimationFrame(tick);
+    };
+
+    window.addEventListener('cassette-play-toggle', onToggle);
+    return () => {
+      window.removeEventListener('cassette-play-toggle', onToggle);
+      if (rafRef.current) {
+        cancelAnimationFrame(rafRef.current);
+        rafRef.current = null;
+      }
+      playStateRef.current.playing = false;
+    };
+  }, []);
+
   return (
     <div className="band-cassette-full">
       {/* === LAYER 1: Stretched body (rectangles only) === */}
@@ -853,8 +922,13 @@ function CassetteBand({ palette }) {
         <line x1="0" y1="17" x2="600" y2="17" stroke={highlight} strokeWidth="0.5" opacity="0.4" />
         {/* Central window cutout - dark interior */}
         <rect x="0" y="18" width="600" height="26" fill="#0d0a08" />
-        {/* Tape strand running across the bottom of the window */}
-        <line x1="0" y1="40" x2="600" y2="40" stroke={cool} strokeWidth="1.2" opacity="0.85" />
+        {/* Tape strand running across the bottom of the window — gets dash-offset animated when playing */}
+        <line
+          ref={tapeStrandRef}
+          x1="0" y1="40" x2="600" y2="40"
+          stroke={cool} strokeWidth="1.2" opacity="0.85"
+          strokeDasharray="6 6"
+        />
         {/* Lower bezel */}
         <rect x="0" y="44" width="600" height="8" fill={highlight} />
         <line x1="0" y1="45" x2="600" y2="45" stroke={primary} strokeWidth="0.4" opacity="0.4" />
@@ -870,11 +944,8 @@ function CassetteBand({ palette }) {
           left: '60px',
           top: '8px',
           right: '60px',
-          height: '7px',
+          height: '0.7px',
           backgroundImage: `repeating-linear-gradient(90deg, ${highlight} 0px, ${highlight} 28px, transparent 28px, transparent 38px, ${highlight} 38px, ${highlight} 70px, transparent 70px, transparent 90px, ${highlight} 90px, ${highlight} 130px, transparent 130px, transparent 145px)`,
-          backgroundSize: '145px 0.7px',
-          backgroundRepeat: 'repeat-x',
-          backgroundPosition: '0 50%',
           opacity: 0.4,
         }} />
 
@@ -892,72 +963,76 @@ function CassetteBand({ palette }) {
           letterSpacing: '0.1em',
         }}>SIDE A</div>
 
-        {/* Left reel - fully wound */}
+        {/* Left reel - fully wound; rotates as one unit when playing */}
         <svg
           width="46" height="46"
           viewBox="0 0 46 46"
           style={{ position: 'absolute', top: '50%', left: '33%', transform: 'translate(-50%, -50%)', display: 'block' }}
           aria-hidden="true"
         >
-          {/* Outer wound-tape disc */}
-          <circle cx="23" cy="23" r="20" fill={cool} opacity="0.5" />
-          {/* Tape winding rings */}
-          <circle cx="23" cy="23" r="18" fill="none" stroke={cool} strokeWidth="0.5" opacity="0.6" />
-          <circle cx="23" cy="23" r="15.5" fill="none" stroke={cool} strokeWidth="0.5" opacity="0.5" />
-          <circle cx="23" cy="23" r="13" fill="none" stroke={cool} strokeWidth="0.5" opacity="0.4" />
-          {/* Reel disc */}
-          <circle cx="23" cy="23" r="11" fill={primary} stroke={accent} strokeWidth="0.6" />
-          {/* Hub */}
-          <circle cx="23" cy="23" r="5" fill={highlight} />
-          {/* Six prong holes around the hub */}
-          <g fill={accent}>
-            <circle cx="23"   cy="19.4" r="1.0" />
-            <circle cx="26.1" cy="21.2" r="1.0" />
-            <circle cx="26.1" cy="24.8" r="1.0" />
-            <circle cx="23"   cy="26.6" r="1.0" />
-            <circle cx="19.9" cy="24.8" r="1.0" />
-            <circle cx="19.9" cy="21.2" r="1.0" />
-          </g>
-          {/* Center pin */}
-          <circle cx="23" cy="23" r="1.4" fill={highlight} />
-          {/* Spoke marks */}
-          <g stroke={accent} strokeWidth="0.6" strokeLinecap="round" opacity="0.7">
-            <line x1="23" y1="14.5" x2="23" y2="16.5" />
-            <line x1="23" y1="29.5" x2="23" y2="31.5" />
-            <line x1="14.5" y1="23" x2="16.5" y2="23" />
-            <line x1="29.5" y1="23" x2="31.5" y2="23" />
+          <g ref={leftReelRef}>
+            {/* Outer wound-tape disc */}
+            <circle cx="23" cy="23" r="20" fill={cool} opacity="0.5" />
+            {/* Tape winding rings */}
+            <circle cx="23" cy="23" r="18" fill="none" stroke={cool} strokeWidth="0.5" opacity="0.6" />
+            <circle cx="23" cy="23" r="15.5" fill="none" stroke={cool} strokeWidth="0.5" opacity="0.5" />
+            <circle cx="23" cy="23" r="13" fill="none" stroke={cool} strokeWidth="0.5" opacity="0.4" />
+            {/* Reel disc */}
+            <circle cx="23" cy="23" r="11" fill={primary} stroke={accent} strokeWidth="0.6" />
+            {/* Hub */}
+            <circle cx="23" cy="23" r="5" fill={highlight} />
+            {/* Six prong holes around the hub */}
+            <g fill={accent}>
+              <circle cx="23"   cy="19.4" r="1.0" />
+              <circle cx="26.1" cy="21.2" r="1.0" />
+              <circle cx="26.1" cy="24.8" r="1.0" />
+              <circle cx="23"   cy="26.6" r="1.0" />
+              <circle cx="19.9" cy="24.8" r="1.0" />
+              <circle cx="19.9" cy="21.2" r="1.0" />
+            </g>
+            {/* Center pin */}
+            <circle cx="23" cy="23" r="1.4" fill={highlight} />
+            {/* Spoke marks - help the rotation read at a glance */}
+            <g stroke={accent} strokeWidth="0.6" strokeLinecap="round" opacity="0.7">
+              <line x1="23" y1="14.5" x2="23" y2="16.5" />
+              <line x1="23" y1="29.5" x2="23" y2="31.5" />
+              <line x1="14.5" y1="23" x2="16.5" y2="23" />
+              <line x1="29.5" y1="23" x2="31.5" y2="23" />
+            </g>
           </g>
         </svg>
 
-        {/* Right reel - less wound (asymmetric, like mid-play) */}
+        {/* Right reel - less wound (asymmetric, like mid-play); spins ~1.18x faster */}
         <svg
           width="42" height="42"
           viewBox="0 0 42 42"
           style={{ position: 'absolute', top: '50%', right: '33%', transform: 'translate(50%, -50%)', display: 'block' }}
           aria-hidden="true"
         >
-          {/* Outer wound-tape disc - smaller */}
-          <circle cx="21" cy="21" r="17" fill={cool} opacity="0.5" />
-          <circle cx="21" cy="21" r="15" fill="none" stroke={cool} strokeWidth="0.5" opacity="0.6" />
-          <circle cx="21" cy="21" r="12.5" fill="none" stroke={cool} strokeWidth="0.5" opacity="0.4" />
-          {/* Reel disc - slightly smaller because less wound */}
-          <circle cx="21" cy="21" r="10" fill={primary} stroke={accent} strokeWidth="0.6" />
-          {/* Hub */}
-          <circle cx="21" cy="21" r="5" fill={highlight} />
-          <g fill={accent}>
-            <circle cx="21"   cy="17.4" r="1.0" />
-            <circle cx="24.1" cy="19.2" r="1.0" />
-            <circle cx="24.1" cy="22.8" r="1.0" />
-            <circle cx="21"   cy="24.6" r="1.0" />
-            <circle cx="17.9" cy="22.8" r="1.0" />
-            <circle cx="17.9" cy="19.2" r="1.0" />
-          </g>
-          <circle cx="21" cy="21" r="1.4" fill={highlight} />
-          <g stroke={accent} strokeWidth="0.6" strokeLinecap="round" opacity="0.7">
-            <line x1="21" y1="13" x2="21" y2="15" />
-            <line x1="21" y1="27" x2="21" y2="29" />
-            <line x1="13" y1="21" x2="15" y2="21" />
-            <line x1="27" y1="21" x2="29" y2="21" />
+          <g ref={rightReelRef}>
+            {/* Outer wound-tape disc - smaller */}
+            <circle cx="21" cy="21" r="17" fill={cool} opacity="0.5" />
+            <circle cx="21" cy="21" r="15" fill="none" stroke={cool} strokeWidth="0.5" opacity="0.6" />
+            <circle cx="21" cy="21" r="12.5" fill="none" stroke={cool} strokeWidth="0.5" opacity="0.4" />
+            {/* Reel disc - slightly smaller because less wound */}
+            <circle cx="21" cy="21" r="10" fill={primary} stroke={accent} strokeWidth="0.6" />
+            {/* Hub */}
+            <circle cx="21" cy="21" r="5" fill={highlight} />
+            <g fill={accent}>
+              <circle cx="21"   cy="17.4" r="1.0" />
+              <circle cx="24.1" cy="19.2" r="1.0" />
+              <circle cx="24.1" cy="22.8" r="1.0" />
+              <circle cx="21"   cy="24.6" r="1.0" />
+              <circle cx="17.9" cy="22.8" r="1.0" />
+              <circle cx="17.9" cy="19.2" r="1.0" />
+            </g>
+            <circle cx="21" cy="21" r="1.4" fill={highlight} />
+            <g stroke={accent} strokeWidth="0.6" strokeLinecap="round" opacity="0.7">
+              <line x1="21" y1="13" x2="21" y2="15" />
+              <line x1="21" y1="27" x2="21" y2="29" />
+              <line x1="13" y1="21" x2="15" y2="21" />
+              <line x1="27" y1="21" x2="29" y2="21" />
+            </g>
           </g>
         </svg>
 
@@ -1221,19 +1296,133 @@ function CassetteMark({ palette }) {
   );
 }
 
+// Easter egg: shared audio context for the play button. Created lazily on first click
+// (browsers block autoplay until user interaction). null if Web Audio is unavailable.
+let _cassetteAudioCtx = null;
+function getCassetteAudioCtx() {
+  if (_cassetteAudioCtx) return _cassetteAudioCtx;
+  try {
+    const Ctx = window.AudioContext || window.webkitAudioContext;
+    if (!Ctx) return null;
+    _cassetteAudioCtx = new Ctx();
+    return _cassetteAudioCtx;
+  } catch (_) { return null; }
+}
+
+// Plays a short ascending-then-descending sequence that says "this cassette is playing"
+// without becoming a full song. Returns total duration in ms so the caller can stop visuals.
+function playCassetteMelody() {
+  const ctx = getCassetteAudioCtx();
+  if (!ctx) return 3000;  // No audio? Still let visuals run for 3s
+  // Resume in case browser auto-suspended it
+  if (ctx.state === 'suspended') ctx.resume().catch(() => {});
+
+  // C-major-pentatonic-ish phrase: C4, E4, G4, A4, G4, E4, C4
+  const notes = [261.63, 329.63, 392.00, 440.00, 392.00, 329.63, 261.63];
+  const noteDur = 0.32;       // seconds per note
+  const fadeIn  = 0.02;
+  const fadeOut = 0.08;
+  const startAt = ctx.currentTime + 0.02;
+  const masterGain = ctx.createGain();
+  masterGain.gain.value = 0.13;  // very quiet
+  masterGain.connect(ctx.destination);
+
+  notes.forEach((freq, i) => {
+    const t0 = startAt + i * noteDur;
+    const osc = ctx.createOscillator();
+    osc.type = 'sine';
+    osc.frequency.value = freq;
+    const g = ctx.createGain();
+    g.gain.setValueAtTime(0, t0);
+    g.gain.linearRampToValueAtTime(1, t0 + fadeIn);
+    g.gain.setValueAtTime(1, t0 + noteDur - fadeOut);
+    g.gain.linearRampToValueAtTime(0, t0 + noteDur);
+    osc.connect(g);
+    g.connect(masterGain);
+    osc.start(t0);
+    osc.stop(t0 + noteDur + 0.05);
+  });
+
+  return Math.round(notes.length * noteDur * 1000) + 200;
+}
+
 function PlayMark({ palette }) {
   const primary = palette?.primary   || '#C9824B';
   const accent  = palette?.accent    || '#D9B68C';
   const high    = palette?.highlight || '#8B4513';
+  const [playing, setPlaying] = useState(false);
+  const [pressed, setPressed] = useState(false);
+  const stopTimerRef = useRef(null);
+
+  // Cleanup the auto-stop timer on unmount
+  useEffect(() => {
+    return () => {
+      if (stopTimerRef.current) clearTimeout(stopTimerRef.current);
+    };
+  }, []);
+
+  const handleClick = (e) => {
+    e.stopPropagation();
+    if (playing) {
+      // Pausing
+      setPlaying(false);
+      if (stopTimerRef.current) {
+        clearTimeout(stopTimerRef.current);
+        stopTimerRef.current = null;
+      }
+      window.dispatchEvent(new CustomEvent('cassette-play-toggle', { detail: { playing: false } }));
+      return;
+    }
+    // Starting playback
+    setPlaying(true);
+    setPressed(true);
+    setTimeout(() => setPressed(false), 150);
+    if (navigator.vibrate) {
+      try { navigator.vibrate(30); } catch (_) {}
+    }
+    const duration = playCassetteMelody();
+    window.dispatchEvent(new CustomEvent('cassette-play-toggle', { detail: { playing: true } }));
+    stopTimerRef.current = setTimeout(() => {
+      setPlaying(false);
+      stopTimerRef.current = null;
+      window.dispatchEvent(new CustomEvent('cassette-play-toggle', { detail: { playing: false } }));
+    }, duration);
+  };
+
+  const transform = pressed ? 'scale(0.92)' : 'scale(1)';
+
   return (
-    <svg viewBox="0 0 64 64" width="48" height="48">
-      {/* Outer ring — round button silhouette */}
-      <circle cx="32" cy="32" r="22" fill={high} stroke={primary} strokeWidth="2" />
-      {/* Inner highlight ring (suggests pressable button) */}
-      <circle cx="32" cy="32" r="19" fill="none" stroke={accent} strokeWidth="0.8" opacity="0.6" />
-      {/* Play triangle */}
-      <path d="M 27 22 L 27 42 L 44 32 Z" fill={primary} stroke={accent} strokeWidth="0.6" strokeLinejoin="round" />
-    </svg>
+    <button
+      onClick={handleClick}
+      aria-label={playing ? 'Pause cassette' : 'Play cassette'}
+      style={{
+        background: 'transparent',
+        border: 'none',
+        padding: 0,
+        cursor: 'pointer',
+        transform,
+        transition: 'transform 0.12s ease',
+        display: 'block',
+        lineHeight: 0,
+      }}
+    >
+      <svg viewBox="0 0 64 64" width="48" height="48">
+        {/* Outer ring — round button silhouette */}
+        <circle cx="32" cy="32" r="22" fill={high} stroke={primary} strokeWidth="2" />
+        {/* Inner highlight ring (suggests pressable button) */}
+        <circle cx="32" cy="32" r="19" fill="none" stroke={accent} strokeWidth="0.8" opacity="0.6" />
+        {playing ? (
+          /* Pause bars */
+          <g fill={primary} stroke={accent} strokeWidth="0.6" strokeLinejoin="round">
+            <rect x="25" y="22" width="5" height="20" rx="0.6" />
+            <rect x="34" y="22" width="5" height="20" rx="0.6" />
+          </g>
+        ) : (
+          /* Play triangle */
+          <path d="M 27 22 L 27 42 L 44 32 Z" fill={primary} stroke={accent} strokeWidth="0.6" strokeLinejoin="round" />
+        )}
+      </svg>
+    </button>
   );
 }
 
@@ -2079,7 +2268,7 @@ function App() {
 
   // Load data — bump ?v=N each weekly deploy
   useEffect(() => {
-    fetch('data.json?v=7')
+    fetch('data.json?v=9')
       .then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json();
@@ -2095,16 +2284,14 @@ function App() {
     }
   }, [data]);
 
-  // Apply theme based on current round when on weekly/recap pages
+  // Apply theme based on the round currently in focus.
+  // Round-anchored tabs (weekly/recap) follow roundIdx directly.
+  // Non-round tabs (season/songs/players/profile) inherit the same roundIdx
+  // so the visual identity stays consistent as you navigate around.
   useEffect(() => {
-    if (!data?.rounds) return;
-    const round = data.rounds[roundIdx];
-    if (round?.theme && (page === 'weekly' || page === 'recap')) {
-      applyTheme(round.theme);
-    } else if (data.rounds[0]?.theme) {
-      // Default to round 1 theme on non-round pages
-      applyTheme(data.rounds[0].theme);
-    }
+    if (!data?.rounds?.length) return;
+    const round = data.rounds[roundIdx] || data.rounds[data.rounds.length - 1];
+    if (round?.theme) applyTheme(round.theme);
   }, [data, roundIdx, page]);
 
   if (error) {
@@ -2132,12 +2319,11 @@ function App() {
     setPage('players');
   };
 
-  // Resolve current theme: round theme on weekly/recap pages, else round 1's theme as fallback
+  // Resolve current theme: follow roundIdx on every tab so design identity persists across nav
   const currentTheme = (() => {
     if (!data?.rounds?.length) return null;
-    const rd = data.rounds[roundIdx];
-    if (rd?.theme && (page === 'weekly' || page === 'recap')) return rd.theme;
-    return data.rounds[0]?.theme || null;
+    const rd = data.rounds[roundIdx] || data.rounds[data.rounds.length - 1];
+    return rd?.theme || null;
   })();
 
   return (
