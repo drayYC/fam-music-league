@@ -2,7 +2,7 @@
   "league": {
     "name": "Fam Music League",
     "subtitle": "Season One",
-    "total_rounds": 1
+    "total_rounds": 2
   },
   "players": {
     "0a831b84b60a4aaca7c6f3150bbccb88": "Dray E.",
@@ -324,14 +324,6 @@
           "rank": 3
         },
         {
-          "player_id": "19e6c48a177c458398bb138a991a2e4c",
-          "player": "Elyse E.",
-          "points": 10,
-          "voted": true,
-          "pts_forfeited": 0,
-          "rank": 4
-        },
-        {
           "player_id": "994734a26c814552ad88e0ce9ea4cfce",
           "player": "Jack L.",
           "points": 10,
@@ -340,16 +332,24 @@
           "rank": 4
         },
         {
-          "player_id": "5838e19081f440598e554c420f257ab7",
-          "player": "Mills T.",
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
+          "points": 10,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 4
+        },
+        {
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
           "points": 7,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 6
         },
         {
-          "player_id": "4853a05f049d4d4682257bed4b277eed",
-          "player": "Tess D.",
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
           "points": 7,
           "voted": true,
           "pts_forfeited": 0,
@@ -1109,141 +1109,1382 @@
           }
         ]
       }
+    },
+    {
+      "id": "6f994c3c334c4472936003d118b4fe22",
+      "number": 2,
+      "name": "Song from the year you were born",
+      "description": "Show us what was on the radio when you showed up.",
+      "playlist_url": "https://open.spotify.com/playlist/5tr6WsEBdOW08X2pTC4A26",
+      "theme": {
+        "name": "cassette",
+        "tile_class": "theme-cassette-bg",
+        "palette": {
+          "primary": "#C9824B",
+          "accent": "#D9B68C",
+          "cool": "#5B7B8C",
+          "highlight": "#8B4513",
+          "tile": "#1c1814"
+        },
+        "band_gradient": "linear-gradient(90deg, #5B7B8C 0%, #D9B68C 40%, #C9824B 75%, #8B4513 100%)"
+      },
+      "songs": [
+        {
+          "title": "All Star",
+          "artist": "Smash Mouth",
+          "album": "Astro Lounge",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "total_pts": 12,
+          "unique_voters": 6,
+          "spotify_uri": "spotify:track:3cfOd4CMv2snFaKAnMdnvK",
+          "track_id": "3cfOd4CMv2snFaKAnMdnvK",
+          "spotify_url": "https://open.spotify.com/track/3cfOd4CMv2snFaKAnMdnvK",
+          "comment": ""
+        },
+        {
+          "title": "Run-Around",
+          "artist": "Blues Traveler",
+          "album": "Four",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "total_pts": 10,
+          "unique_voters": 7,
+          "spotify_uri": "spotify:track:500Tkm3vJmVtdUwdCVxCTb",
+          "track_id": "500Tkm3vJmVtdUwdCVxCTb",
+          "spotify_url": "https://open.spotify.com/track/500Tkm3vJmVtdUwdCVxCTb",
+          "comment": ""
+        },
+        {
+          "title": "Smells Like Teen Spirit",
+          "artist": "Nirvana",
+          "album": "Nevermind (Remastered)",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "total_pts": 9,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:5ghIJDpPoe3CfHMGu71E6T",
+          "track_id": "5ghIJDpPoe3CfHMGu71E6T",
+          "spotify_url": "https://open.spotify.com/track/5ghIJDpPoe3CfHMGu71E6T",
+          "comment": "Hello hello hello how low"
+        },
+        {
+          "title": "Scar Tissue",
+          "artist": "Red Hot Chili Peppers",
+          "album": "Californication (Deluxe Edition)",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "total_pts": 8,
+          "unique_voters": 6,
+          "spotify_uri": "spotify:track:1G391cbiT3v3Cywg8T7DM1",
+          "track_id": "1G391cbiT3v3Cywg8T7DM1",
+          "spotify_url": "https://open.spotify.com/track/1G391cbiT3v3Cywg8T7DM1",
+          "comment": ""
+        },
+        {
+          "title": "Moon River (From \"Breakfast at Tiffany's\")",
+          "artist": "Andy Williams",
+          "album": "Moon River And Other Great Movie Themes",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "total_pts": 8,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:24AIahNHzBxm9S12peXbnG",
+          "track_id": "24AIahNHzBxm9S12peXbnG",
+          "spotify_url": "https://open.spotify.com/track/24AIahNHzBxm9S12peXbnG",
+          "comment": "Soothing and heartfelt, oozing Savannah low country feels. \n\nSoftly sung nightly to Dillon girls and Ella. And soon to be the wedding song of Olivia and Mills. \n\n"
+        },
+        {
+          "title": "Two Princes",
+          "artist": "Spin Doctors",
+          "album": "Pocket Full Of Kryptonite",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "total_pts": 8,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:4ePP9So5xRzspjLFVVbj90",
+          "track_id": "4ePP9So5xRzspjLFVVbj90",
+          "spotify_url": "https://open.spotify.com/track/4ePP9So5xRzspjLFVVbj90",
+          "comment": ""
+        },
+        {
+          "title": "Elderly Woman Behind the Counter in a Small Town - Remastered",
+          "artist": "Pearl Jam",
+          "album": "Vs.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "total_pts": 7,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:5lHgBqh9VwAAzQma55gHRY",
+          "track_id": "5lHgBqh9VwAAzQma55gHRY",
+          "spotify_url": "https://open.spotify.com/track/5lHgBqh9VwAAzQma55gHRY",
+          "comment": ""
+        },
+        {
+          "title": "Twist And Shout - Remastered 2009",
+          "artist": "The Beatles",
+          "album": "Please Please Me (Remastered)",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:5ZBeML7Lf3FMEVviTyvi8l",
+          "track_id": "5ZBeML7Lf3FMEVviTyvi8l",
+          "spotify_url": "https://open.spotify.com/track/5ZBeML7Lf3FMEVviTyvi8l",
+          "comment": ""
+        },
+        {
+          "title": "Wonderwall",
+          "artist": "Oasis",
+          "album": "(What's The Story) Morning Glory?",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "total_pts": 6,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:1qPbGZqppFwLwcBC1JQ6Vr",
+          "track_id": "1qPbGZqppFwLwcBC1JQ6Vr",
+          "spotify_url": "https://open.spotify.com/track/1qPbGZqppFwLwcBC1JQ6Vr",
+          "comment": ""
+        },
+        {
+          "title": "Everybody (Backstreet's Back) - Radio Edit",
+          "artist": "Backstreet Boys",
+          "album": "Backstreet's Back",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:1di1BEgJYzPvXUuinsYJGP",
+          "track_id": "1di1BEgJYzPvXUuinsYJGP",
+          "spotify_url": "https://open.spotify.com/track/1di1BEgJYzPvXUuinsYJGP",
+          "comment": "I know you sang along when u heard it"
+        },
+        {
+          "title": "Good Riddance (Time of Your Life)",
+          "artist": "Green Day",
+          "album": "Nimrod",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:6ORqU0bHbVCRjXm9AjyHyZ",
+          "track_id": "6ORqU0bHbVCRjXm9AjyHyZ",
+          "spotify_url": "https://open.spotify.com/track/6ORqU0bHbVCRjXm9AjyHyZ",
+          "comment": ""
+        },
+        {
+          "title": "Ring of Fire",
+          "artist": "Johnny Cash",
+          "album": "The Essential Johnny Cash",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:5rDkA2TFOImbiVenmnE9r4",
+          "track_id": "5rDkA2TFOImbiVenmnE9r4",
+          "spotify_url": "https://open.spotify.com/track/5rDkA2TFOImbiVenmnE9r4",
+          "comment": ""
+        },
+        {
+          "title": "Can't Help Falling in Love",
+          "artist": "Elvis Presley",
+          "album": "Blue Hawaii",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "total_pts": 5,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:44AyOl4qVkzS48vBsbNXaC",
+          "track_id": "44AyOl4qVkzS48vBsbNXaC",
+          "spotify_url": "https://open.spotify.com/track/44AyOl4qVkzS48vBsbNXaC",
+          "comment": "Wedding song of Claire and Dray\n\nWhenever I hear this I see of the 12 of us at the wedding, the reception in the living room, and the happy couple dancing to this first song by the fire place\n\n"
+        },
+        {
+          "title": "Believe",
+          "artist": "Cher",
+          "album": "Believe",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:2goLsvvODILDzeeiT4dAoR",
+          "track_id": "2goLsvvODILDzeeiT4dAoR",
+          "spotify_url": "https://open.spotify.com/track/2goLsvvODILDzeeiT4dAoR",
+          "comment": ""
+        },
+        {
+          "title": "Iris",
+          "artist": "The Goo Goo Dolls",
+          "album": "Dizzy up the Girl",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:6Qyc6fS4DsZjB2mRW9DsQs",
+          "track_id": "6Qyc6fS4DsZjB2mRW9DsQs",
+          "spotify_url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs",
+          "comment": ""
+        },
+        {
+          "title": "Good",
+          "artist": "Better Than Ezra",
+          "album": "Deluxe",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "total_pts": 3,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:0ttHpMs250dpFkCYAnuhnE",
+          "track_id": "0ttHpMs250dpFkCYAnuhnE",
+          "spotify_url": "https://open.spotify.com/track/0ttHpMs250dpFkCYAnuhnE",
+          "comment": ""
+        },
+        {
+          "title": "Waterfalls",
+          "artist": "TLC",
+          "album": "Crazysexycool",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:6qspW4YKycviDFjHBOaqUY",
+          "track_id": "6qspW4YKycviDFjHBOaqUY",
+          "spotify_url": "https://open.spotify.com/track/6qspW4YKycviDFjHBOaqUY",
+          "comment": ""
+        },
+        {
+          "title": "Baby Got Back",
+          "artist": "Sir Mix-A-Lot",
+          "album": "Mack Daddy",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "spotify_uri": "spotify:track:1SAkL1mYNJlaqnBQxVZrRl",
+          "track_id": "1SAkL1mYNJlaqnBQxVZrRl",
+          "spotify_url": "https://open.spotify.com/track/1SAkL1mYNJlaqnBQxVZrRl",
+          "comment": "Not ashamed, but do I have “back”? Jury’s out!"
+        },
+        {
+          "title": "Itsy Bitsy Teenie Weenie Yellow Polka-Dot Bikini",
+          "artist": "Brian Hyland",
+          "album": "Greatest Hits",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "spotify_uri": "spotify:track:3Aug2RunJbjGiz2CTtWu5l",
+          "track_id": "3Aug2RunJbjGiz2CTtWu5l",
+          "spotify_url": "https://open.spotify.com/track/3Aug2RunJbjGiz2CTtWu5l",
+          "comment": "This is the song that cause Brian Hyland to be asked to join the newly forming band The Four Seasons.  He went on to write all of The Four Seasons biggest hits with Franki Valli as lead singer."
+        },
+        {
+          "title": "Save the Last Dance for Me",
+          "artist": "The Drifters",
+          "album": "Save the Last Dance for Me",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "spotify_uri": "spotify:track:391TUcoPonqYykPkSZ5Z9U",
+          "track_id": "391TUcoPonqYykPkSZ5Z9U",
+          "spotify_url": "https://open.spotify.com/track/391TUcoPonqYykPkSZ5Z9U",
+          "comment": ""
+        },
+        {
+          "title": "Whoomp! There It Is - Radio Edit",
+          "artist": "Tag Team",
+          "album": "Whoomp! There It Is (Radio Edit)",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "spotify_uri": "spotify:track:3oWXoSkjdbTlQlteizN7Hb",
+          "track_id": "3oWXoSkjdbTlQlteizN7Hb",
+          "spotify_url": "https://open.spotify.com/track/3oWXoSkjdbTlQlteizN7Hb",
+          "comment": ""
+        },
+        {
+          "title": "Sober",
+          "artist": "TOOL",
+          "album": "Undertow",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "total_pts": 0,
+          "unique_voters": 0,
+          "spotify_uri": "spotify:track:6DyywdbmTzlmXBzG9ym7Rt",
+          "track_id": "6DyywdbmTzlmXBzG9ym7Rt",
+          "spotify_url": "https://open.spotify.com/track/6DyywdbmTzlmXBzG9ym7Rt",
+          "comment": ""
+        }
+      ],
+      "leaderboard": [
+        {
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
+          "points": 20,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 1
+        },
+        {
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
+          "points": 16,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 2
+        },
+        {
+          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "player": "Mike D.",
+          "points": 13,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 3
+        },
+        {
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
+          "points": 11,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 4
+        },
+        {
+          "player_id": "2334709be13e48759338c82689b95d11",
+          "player": "Gabriel M.",
+          "points": 10,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 5
+        },
+        {
+          "player_id": "dea876f23cf9428185f8757955c2eecd",
+          "player": "Claire E.",
+          "points": 10,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 5
+        },
+        {
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
+          "points": 9,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 7
+        },
+        {
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
+          "points": 7,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 8
+        },
+        {
+          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "player": "Olivia D.",
+          "points": 7,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 8
+        },
+        {
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
+          "points": 5,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 10
+        },
+        {
+          "player_id": "3b87dbe243724d3bbcafea4934075fec",
+          "player": "Steve E.",
+          "points": 2,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 11
+        }
+      ],
+      "missed_points": [],
+      "generosity": [
+        {
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
+          "avg_per_vote": 2.0,
+          "total_songs_voted": 5,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "player": "Mike D.",
+          "avg_per_vote": 2.0,
+          "total_songs_voted": 5,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
+          "avg_per_vote": 2.0,
+          "total_songs_voted": 5,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "2334709be13e48759338c82689b95d11",
+          "player": "Gabriel M.",
+          "avg_per_vote": 1.67,
+          "total_songs_voted": 6,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "player": "Olivia D.",
+          "avg_per_vote": 1.67,
+          "total_songs_voted": 6,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
+          "avg_per_vote": 1.43,
+          "total_songs_voted": 7,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
+          "avg_per_vote": 1.43,
+          "total_songs_voted": 7,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "dea876f23cf9428185f8757955c2eecd",
+          "player": "Claire E.",
+          "avg_per_vote": 1.25,
+          "total_songs_voted": 8,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
+          "avg_per_vote": 1.25,
+          "total_songs_voted": 8,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "3b87dbe243724d3bbcafea4934075fec",
+          "player": "Steve E.",
+          "avg_per_vote": 1.25,
+          "total_songs_voted": 8,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
+          "avg_per_vote": 1.0,
+          "total_songs_voted": 10,
+          "total_pts_given": 10
+        }
+      ],
+      "vote_details": [
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Scar Tissue",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Elderly Woman Behind the Counter in a Small Town - Remastered",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Smells Like Teen Spirit",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Two Princes",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Moon River (From \"Breakfast at Tiffany's\")",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Scar Tissue",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Ring of Fire",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Smells Like Teen Spirit",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Run-Around",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Can't Help Falling in Love",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Good",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Save the Last Dance for Me",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Iris",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Good Riddance (Time of Your Life)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Twist And Shout - Remastered 2009",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Wonderwall",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Smells Like Teen Spirit",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Twist And Shout - Remastered 2009",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Moon River (From \"Breakfast at Tiffany's\")",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "All Star",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Run-Around",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Wonderwall",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Moon River (From \"Breakfast at Tiffany's\")",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Can't Help Falling in Love",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Two Princes",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Run-Around",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Elderly Woman Behind the Counter in a Small Town - Remastered",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Iris",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "All Star",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Elderly Woman Behind the Counter in a Small Town - Remastered",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Everybody (Backstreet's Back) - Radio Edit",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Good",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Run-Around",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Good Riddance (Time of Your Life)",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Iris",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Wonderwall",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Moon River (From \"Breakfast at Tiffany's\")",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Two Princes",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Run-Around",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Waterfalls",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Scar Tissue",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Good Riddance (Time of Your Life)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Ring of Fire",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Smells Like Teen Spirit",
+          "points": 4,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Run-Around",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Scar Tissue",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Ring of Fire",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Everybody (Backstreet's Back) - Radio Edit",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Scar Tissue",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Baby Got Back",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "All Star",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Two Princes",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Twist And Shout - Remastered 2009",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Ring of Fire",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Moon River (From \"Breakfast at Tiffany's\")",
+          "points": 1,
+          "comment": "Touching as someone who sings this at least once daily "
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Believe",
+          "points": 1,
+          "comment": "A classic hype song "
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Itsy Bitsy Teenie Weenie Yellow Polka-Dot Bikini",
+          "points": 1,
+          "comment": "Beach jam"
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "All Star",
+          "points": 2,
+          "comment": "Shrek made this one pop, hey now."
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Can't Help Falling in Love",
+          "points": 2,
+          "comment": "And someone pulling in my heartstrings again…!"
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Elderly Woman Behind the Counter in a Small Town - Remastered",
+          "points": 1,
+          "comment": "Grunge lovers unite"
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Everybody (Backstreet's Back) - Radio Edit",
+          "points": 1,
+          "comment": "Had to toss it a like"
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Waterfalls",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Twist And Shout - Remastered 2009",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "All Star",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Believe",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Wonderwall",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Scar Tissue",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "All Star",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Everybody (Backstreet's Back) - Radio Edit",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Good Riddance (Time of Your Life)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Twist And Shout - Remastered 2009",
+          "points": 1,
+          "comment": "Ok"
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Run-Around",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Two Princes",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Whoomp! There It Is - Radio Edit",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Believe",
+          "points": 1,
+          "comment": ""
+        }
+      ],
+      "stats": {
+        "total_submissions": 22,
+        "total_votes": 75,
+        "unique_voters": 11,
+        "unique_submitters": 11
+      },
+      "commentary": {
+        "title": "Week 2 Recap",
+        "sections": [
+          {
+            "heading": "Mills T. wins from the middle of the pack",
+            "text": "If Round 1 was won on emotional storytelling (Olivia's Ants Marching + Mamma Mia combo), Round 2 was won on pure radio-friendly recognition. Mills T. submitted \"All Star\" by Smash Mouth and \"Scar Tissue\" by Red Hot Chili Peppers — neither one a deep cut, both pulling 6+ voters apiece. Final tally: 20 points across two songs, the highest individual round score so far. Mills jumps from a tie for 6th last week (7 pts) to a tie for 2nd in the season (27 pts). The man understands his audience: 11 family members across two generations, all of whom have heard \"All Star\" approximately 800 times in their lives, and most of whom are still willing to give it 2 points anyway."
+          },
+          {
+            "heading": "The blind report's whole framework was wrong",
+            "text": "Going into Round 2, the prediction was that the parents' wedding-narrative submissions would dominate (the Moon River and Can't Help Falling in Love comments were both intimate family callouts). Reality: those songs landed 5th and 13th respectively. The wedding-song-of-Claire-and-Dray finished BELOW Wonderwall.\n\nThe lesson: in this league, identification with a song matters more than emotional context. The 30-something millennials make up the voting majority, and they're going to reward songs they personally love over songs the parents tell heartfelt stories about. Mike D. submitted both wedding songs (Moon River for Olivia & Mills, Can't Help Falling in Love for Claire & Dray) and walked away with a respectable 13 points across them — but the round was won by Smash Mouth. Calibrate accordingly for Round 3 predictions."
+          },
+          {
+            "heading": "Mike D. is the family's emotional backbone",
+            "text": "A subplot worth tracking: Mike D. didn't just submit one wedding song, he submitted both wedding songs of the league. Moon River for the Olivia & Mills wedding (still upcoming) and Can't Help Falling in Love for the Claire & Dray wedding (already happened). That's a *pattern.* Mike isn't playing to win the league — he's playing to commemorate the family. Whether that's a sustainable strategy for points (it isn't, based on this round) or whether he's playing a different game entirely (he is) is a question that will unfold over the season. For now: keep an eye on Mike's submissions for personal-narrative tells about Dillon family history."
+          },
+          {
+            "heading": "Sober (TOOL) is the league's first true zero",
+            "text": "Dray E. submitted \"Sober\" by TOOL. It received 0 points and 0 voters. Not a single member of the family rewarded it with even a 1-point pity vote. That's the first true zero-zero shutout in Fam Music League history, and it's already enshrined in the Cold Shoulder metric on the Season tab. Dray's other submission (\"Elderly Woman Behind the Counter in a Small Town\" by Pearl Jam) finished a respectable 7th at 7 points — so the strategy of \"one safe pick + one chaos pick\" earned him 7 points instead of the 14+ a more conventional millennial-radio playbook would have produced. The Hipster metric loves this. The leaderboard does not."
+          },
+          {
+            "heading": "Couples voting: the plot thickens (or thins, depending on how you read it)",
+            "text": "Round 1's headline storyline was that couples were voting for each other but only in one direction. Round 2 says: maybe not? Look at the per-round numbers:\n\n• Dray ↔ Claire: 1 ↔ 1 (balanced)\n• Olivia ↔ Mills: 1 ↔ 1 (balanced)\n• Tess → Jack: 3, Jack → Tess: 2 (asymmetry of just 1)\n• Elyse → Gabriel: 1, Gabriel → Elyse: 2 (asymmetry of just 1)\n• Mary ↔ Mike: 1 ↔ 2 (asymmetry of 1)\n\nEvery couple was within 1 point of balanced this week. The Round 1 asymmetries (Tess→Jack 5–0, Mills→Olivia 5–1) didn't repeat. Two possibilities: (a) Round 1 was small-sample noise that happened to look like a pattern, or (b) people read the Week 1 recap and adjusted. The cumulative pattern still shows asymmetry across both rounds (Tess has now given Jack 8 pts to his 2; Olivia owes Mills 4 net), but if Round 3 stays balanced we declare the couples-voting saga officially uncorrelated and move on."
+          },
+          {
+            "heading": "The era split was real, but it didn't predict votes",
+            "text": "The Round 2 playlist had a clean demographic split — 6 songs from 1960–63 (the parents' era) and 16 songs from 1991–99 (the kids' era), with a 28-year hole in the middle confirming this league has no Gen-Xer. So far so neat. But the predicted dynamic — that the era split would create cross-generational voting friction — didn't really materialize. The Boomer-era picks didn't all flop (Twist & Shout 8th, Moon River 5th, Ring of Fire 11th) and the millennial picks weren't uniformly strong (Believe 14th, Iris 15th, Whoomp 21st). The actual top 4 was a mix: All Star (1999), Run-Around (1994), Smells Like Teen Spirit (1991), Scar Tissue (1999). Pure peak-90s alt-radio. The era didn't matter — the voting majority's age bracket did."
+          },
+          {
+            "heading": "Standings shake-up: nobody's where they were last week",
+            "text": "Round 1's leader (Olivia, 19 pts) is now T-3rd in the season at 26 pts. Round 1's third-place (Dray, 16 pts) is now 5th at 23. The new leader is Claire E. at 28 pts — one point ahead of Mills (27), then Elyse and Olivia tied at 26. Five players are within 5 points of first. Tess D., who was T-6th last week, is now dead last among active members at 12 pts (Steve passed her this week with 2 pts, but he's still recovering from his Round 1 ghosting). Two rounds in, this league has absolutely zero pattern stability — anyone who finishes below the median in Round 3 was probably going to finish below the median anyway. Which means we're starting to learn things about real taste alignment, not just first-round noise."
+          },
+          {
+            "heading": "Steve E. emerges from the void",
+            "text": "Last week: 0 submissions, 0 votes, the inaugural Ghost Report inductee. This week: 2 submissions, 11 votes cast (he showed up for everyone), and 2 points earned. The points are modest (\"Save the Last Dance\" 19th with 1 pt, \"Itsy Bitsy Bikini\" 20th with 1 pt — both struggled to break through against the millennial radio onslaught), but the participation is what matters. The Ghost Report is now empty. Welcome back, Dad."
+          },
+          {
+            "heading": "Blind report scorecard",
+            "text": "The blind report predicted Can't Help Falling in Love to win the round. It finished 13th. Predicted Moon River top 2; finished 5th. Predicted Smells Like Teen Spirit top 5; finished 3rd. Predicted Sober bottom 3; finished dead last with 0 points (the prediction was correct, but underestimated the magnitude — \"bottom 3\" wasn't sharp enough; it should have said \"goose egg\"). Predicted submitter for Moon River as Mary D.; was actually Mike D. — the model assumed Mary was the family's emotional-narrative submitter when in fact Mike is. Two-week running record: predictions are improving but the framework keeps overestimating how much sentimental context drives votes. Round 3 hypothesis: ignore submitter narratives entirely and predict on song-recognition alone."
+          }
+        ]
+      }
     }
   ],
   "season_leaderboard": [
     {
-      "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
-      "player": "Olivia D.",
-      "points": 19,
-      "rounds_played": 1,
-      "wins": 1,
-      "avg_per_round": 19.0,
-      "joined_round": 1,
-      "weekly": [
-        {
-          "round": 1,
-          "points": 19,
-          "rank": 1
-        }
-      ],
-      "rank": 1
-    },
-    {
       "player_id": "dea876f23cf9428185f8757955c2eecd",
       "player": "Claire E.",
-      "points": 18,
-      "rounds_played": 1,
+      "points": 28,
+      "rounds_played": 2,
       "wins": 0,
-      "avg_per_round": 18.0,
+      "avg_per_round": 14.0,
       "joined_round": 1,
       "weekly": [
         {
           "round": 1,
           "points": 18,
           "rank": 2
+        },
+        {
+          "round": 2,
+          "points": 10,
+          "rank": 5
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "player_id": "5838e19081f440598e554c420f257ab7",
+      "player": "Mills T.",
+      "points": 27,
+      "rounds_played": 2,
+      "wins": 1,
+      "avg_per_round": 13.5,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 7,
+          "rank": 6
+        },
+        {
+          "round": 2,
+          "points": 20,
+          "rank": 1
         }
       ],
       "rank": 2
     },
     {
+      "player_id": "19e6c48a177c458398bb138a991a2e4c",
+      "player": "Elyse E.",
+      "points": 26,
+      "rounds_played": 2,
+      "wins": 0,
+      "avg_per_round": 13.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 10,
+          "rank": 4
+        },
+        {
+          "round": 2,
+          "points": 16,
+          "rank": 2
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+      "player": "Olivia D.",
+      "points": 26,
+      "rounds_played": 2,
+      "wins": 1,
+      "avg_per_round": 13.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 19,
+          "rank": 1
+        },
+        {
+          "round": 2,
+          "points": 7,
+          "rank": 8
+        }
+      ],
+      "rank": 3
+    },
+    {
       "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
       "player": "Dray E.",
-      "points": 16,
-      "rounds_played": 1,
+      "points": 23,
+      "rounds_played": 2,
       "wins": 0,
-      "avg_per_round": 16.0,
+      "avg_per_round": 11.5,
       "joined_round": 1,
       "weekly": [
         {
           "round": 1,
           "points": 16,
           "rank": 3
-        }
-      ],
-      "rank": 3
-    },
-    {
-      "player_id": "19e6c48a177c458398bb138a991a2e4c",
-      "player": "Elyse E.",
-      "points": 10,
-      "rounds_played": 1,
-      "wins": 0,
-      "avg_per_round": 10.0,
-      "joined_round": 1,
-      "weekly": [
+        },
         {
-          "round": 1,
-          "points": 10,
-          "rank": 4
+          "round": 2,
+          "points": 7,
+          "rank": 8
         }
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "player_id": "994734a26c814552ad88e0ce9ea4cfce",
       "player": "Jack L.",
-      "points": 10,
-      "rounds_played": 1,
+      "points": 19,
+      "rounds_played": 2,
       "wins": 0,
-      "avg_per_round": 10.0,
+      "avg_per_round": 9.5,
       "joined_round": 1,
       "weekly": [
         {
           "round": 1,
           "points": 10,
           "rank": 4
-        }
-      ],
-      "rank": 4
-    },
-    {
-      "player_id": "5838e19081f440598e554c420f257ab7",
-      "player": "Mills T.",
-      "points": 7,
-      "rounds_played": 1,
-      "wins": 0,
-      "avg_per_round": 7.0,
-      "joined_round": 1,
-      "weekly": [
+        },
         {
-          "round": 1,
-          "points": 7,
-          "rank": 6
+          "round": 2,
+          "points": 9,
+          "rank": 7
         }
       ],
       "rank": 6
     },
     {
-      "player_id": "4853a05f049d4d4682257bed4b277eed",
-      "player": "Tess D.",
-      "points": 7,
-      "rounds_played": 1,
+      "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+      "player": "Mike D.",
+      "points": 17,
+      "rounds_played": 2,
       "wins": 0,
-      "avg_per_round": 7.0,
+      "avg_per_round": 8.5,
       "joined_round": 1,
       "weekly": [
         {
           "round": 1,
-          "points": 7,
-          "rank": 6
+          "points": 4,
+          "rank": 9
+        },
+        {
+          "round": 2,
+          "points": 13,
+          "rank": 3
         }
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "player_id": "2334709be13e48759338c82689b95d11",
       "player": "Gabriel M.",
-      "points": 5,
-      "rounds_played": 1,
+      "points": 15,
+      "rounds_played": 2,
       "wins": 0,
-      "avg_per_round": 5.0,
+      "avg_per_round": 7.5,
       "joined_round": 1,
       "weekly": [
         {
           "round": 1,
           "points": 5,
           "rank": 8
+        },
+        {
+          "round": 2,
+          "points": 10,
+          "rank": 5
         }
       ],
       "rank": 8
@@ -1251,50 +2492,60 @@
     {
       "player_id": "41a0d64fae1f40489679232baec98925",
       "player": "Mary D.",
-      "points": 4,
-      "rounds_played": 1,
+      "points": 15,
+      "rounds_played": 2,
       "wins": 0,
-      "avg_per_round": 4.0,
+      "avg_per_round": 7.5,
       "joined_round": 1,
       "weekly": [
         {
           "round": 1,
           "points": 4,
           "rank": 9
+        },
+        {
+          "round": 2,
+          "points": 11,
+          "rank": 4
         }
       ],
-      "rank": 9
+      "rank": 8
     },
     {
-      "player_id": "e0e0d50ee23443cf80cea1d777fac793",
-      "player": "Mike D.",
-      "points": 4,
-      "rounds_played": 1,
+      "player_id": "4853a05f049d4d4682257bed4b277eed",
+      "player": "Tess D.",
+      "points": 12,
+      "rounds_played": 2,
       "wins": 0,
-      "avg_per_round": 4.0,
+      "avg_per_round": 6.0,
       "joined_round": 1,
       "weekly": [
         {
           "round": 1,
-          "points": 4,
-          "rank": 9
+          "points": 7,
+          "rank": 6
+        },
+        {
+          "round": 2,
+          "points": 5,
+          "rank": 10
         }
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "player_id": "3b87dbe243724d3bbcafea4934075fec",
       "player": "Steve E.",
-      "points": 0,
+      "points": 2,
       "rounds_played": 1,
       "wins": 0,
-      "avg_per_round": 0.0,
-      "joined_round": 1,
+      "avg_per_round": 2.0,
+      "joined_round": 2,
       "weekly": [
         {
-          "round": 1,
-          "points": 0,
-          "rank": null
+          "round": 2,
+          "points": 2,
+          "rank": 11
         }
       ],
       "rank": 11
@@ -1302,36 +2553,150 @@
   ],
   "voting_affinities": [
     {
-      "voter": "Mills T.",
-      "submitter": "Olivia D.",
-      "total_pts": 5,
-      "times": 2
-    },
-    {
       "voter": "Mike D.",
       "submitter": "Claire E.",
-      "total_pts": 5,
-      "times": 2
+      "total_pts": 9,
+      "times": 3
     },
     {
       "voter": "Tess D.",
       "submitter": "Jack L.",
+      "total_pts": 8,
+      "times": 3
+    },
+    {
+      "voter": "Mills T.",
+      "submitter": "Olivia D.",
+      "total_pts": 6,
+      "times": 3
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Dray E.",
+      "total_pts": 5,
+      "times": 3
+    },
+    {
+      "voter": "Olivia D.",
+      "submitter": "Elyse E.",
+      "total_pts": 5,
+      "times": 3
+    },
+    {
+      "voter": "Jack L.",
+      "submitter": "Mills T.",
       "total_pts": 5,
       "times": 2
     },
     {
-      "voter": "Claire E.",
+      "voter": "Mills T.",
       "submitter": "Dray E.",
       "total_pts": 4,
       "times": 2
     },
     {
+      "voter": "Claire E.",
+      "submitter": "Mike D.",
+      "total_pts": 4,
+      "times": 3
+    },
+    {
       "voter": "Olivia D.",
       "submitter": "Dray E.",
       "total_pts": 4,
       "times": 1
     },
     {
+      "voter": "Elyse E.",
+      "submitter": "Claire E.",
+      "total_pts": 4,
+      "times": 2
+    },
+    {
+      "voter": "Gabriel M.",
+      "submitter": "Mary D.",
+      "total_pts": 4,
+      "times": 2
+    },
+    {
+      "voter": "Gabriel M.",
+      "submitter": "Elyse E.",
+      "total_pts": 4,
+      "times": 3
+    },
+    {
+      "voter": "Mills T.",
+      "submitter": "Mike D.",
+      "total_pts": 4,
+      "times": 2
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Mills T.",
+      "total_pts": 4,
+      "times": 2
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Mills T.",
+      "total_pts": 3,
+      "times": 2
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Olivia D.",
+      "total_pts": 3,
+      "times": 2
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Mills T.",
+      "total_pts": 3,
+      "times": 3
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Elyse E.",
+      "total_pts": 3,
+      "times": 3
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Mike D.",
+      "total_pts": 3,
+      "times": 3
+    },
+    {
+      "voter": "Olivia D.",
+      "submitter": "Claire E.",
+      "total_pts": 3,
+      "times": 3
+    },
+    {
+      "voter": "Mike D.",
+      "submitter": "Mary D.",
+      "total_pts": 3,
+      "times": 2
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Gabriel M.",
+      "total_pts": 3,
+      "times": 2
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Tess D.",
+      "total_pts": 3,
+      "times": 3
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Olivia D.",
+      "total_pts": 3,
+      "times": 3
+    },
+    {
       "voter": "Tess D.",
       "submitter": "Olivia D.",
       "total_pts": 3,
@@ -1339,21 +2704,33 @@
     },
     {
       "voter": "Jack L.",
+      "submitter": "Gabriel M.",
+      "total_pts": 3,
+      "times": 2
+    },
+    {
+      "voter": "Jack L.",
       "submitter": "Claire E.",
       "total_pts": 3,
       "times": 1
     },
     {
-      "voter": "Elyse E.",
-      "submitter": "Claire E.",
+      "voter": "Jack L.",
+      "submitter": "Elyse E.",
       "total_pts": 3,
-      "times": 1
+      "times": 2
     },
     {
       "voter": "Elyse E.",
       "submitter": "Dray E.",
       "total_pts": 3,
       "times": 1
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Jack L.",
+      "total_pts": 3,
+      "times": 2
     },
     {
       "voter": "Elyse E.",
@@ -1362,10 +2739,34 @@
       "times": 1
     },
     {
-      "voter": "Mills T.",
-      "submitter": "Dray E.",
-      "total_pts": 2,
+      "voter": "Gabriel M.",
+      "submitter": "Olivia D.",
+      "total_pts": 3,
+      "times": 2
+    },
+    {
+      "voter": "Tess D.",
+      "submitter": "Claire E.",
+      "total_pts": 3,
       "times": 1
+    },
+    {
+      "voter": "Olivia D.",
+      "submitter": "Mike D.",
+      "total_pts": 3,
+      "times": 1
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Elyse E.",
+      "total_pts": 3,
+      "times": 2
+    },
+    {
+      "voter": "Gabriel M.",
+      "submitter": "Mills T.",
+      "total_pts": 3,
+      "times": 2
     },
     {
       "voter": "Mills T.",
@@ -1374,56 +2775,68 @@
       "times": 1
     },
     {
-      "voter": "Claire E.",
+      "voter": "Dray E.",
+      "submitter": "Claire E.",
+      "total_pts": 2,
+      "times": 2
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Tess D.",
+      "total_pts": 2,
+      "times": 2
+    },
+    {
+      "voter": "Dray E.",
       "submitter": "Olivia D.",
+      "total_pts": 2,
+      "times": 2
+    },
+    {
+      "voter": "Olivia D.",
+      "submitter": "Tess D.",
       "total_pts": 2,
       "times": 1
     },
     {
-      "voter": "Dray E.",
+      "voter": "Olivia D.",
       "submitter": "Mills T.",
       "total_pts": 2,
       "times": 2
     },
     {
-      "voter": "Dray E.",
+      "voter": "Mike D.",
+      "submitter": "Gabriel M.",
+      "total_pts": 2,
+      "times": 2
+    },
+    {
+      "voter": "Mike D.",
       "submitter": "Elyse E.",
       "total_pts": 2,
       "times": 2
     },
     {
-      "voter": "Dray E.",
+      "voter": "Mary D.",
+      "submitter": "Claire E.",
+      "total_pts": 2,
+      "times": 2
+    },
+    {
+      "voter": "Mary D.",
       "submitter": "Mike D.",
       "total_pts": 2,
       "times": 2
     },
     {
-      "voter": "Olivia D.",
-      "submitter": "Tess D.",
-      "total_pts": 2,
-      "times": 1
-    },
-    {
-      "voter": "Olivia D.",
-      "submitter": "Claire E.",
+      "voter": "Mary D.",
+      "submitter": "Jack L.",
       "total_pts": 2,
       "times": 2
     },
     {
       "voter": "Mary D.",
-      "submitter": "Claire E.",
-      "total_pts": 2,
-      "times": 2
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Tess D.",
-      "total_pts": 2,
-      "times": 2
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Olivia D.",
+      "submitter": "Mills T.",
       "total_pts": 2,
       "times": 2
     },
@@ -1435,170 +2848,8 @@
     },
     {
       "voter": "Jack L.",
-      "submitter": "Elyse E.",
-      "total_pts": 2,
-      "times": 1
-    },
-    {
-      "voter": "Jack L.",
       "submitter": "Olivia D.",
       "total_pts": 2,
-      "times": 1
-    },
-    {
-      "voter": "Jack L.",
-      "submitter": "Mills T.",
-      "total_pts": 2,
-      "times": 1
-    },
-    {
-      "voter": "Gabriel M.",
-      "submitter": "Mary D.",
-      "total_pts": 2,
-      "times": 1
-    },
-    {
-      "voter": "Gabriel M.",
-      "submitter": "Claire E.",
-      "total_pts": 2,
-      "times": 2
-    },
-    {
-      "voter": "Gabriel M.",
-      "submitter": "Elyse E.",
-      "total_pts": 2,
-      "times": 2
-    },
-    {
-      "voter": "Gabriel M.",
-      "submitter": "Dray E.",
-      "total_pts": 2,
-      "times": 1
-    },
-    {
-      "voter": "Mills T.",
-      "submitter": "Mary D.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Claire E.",
-      "submitter": "Mike D.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Claire E.",
-      "submitter": "Tess D.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Claire E.",
-      "submitter": "Mills T.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Claire E.",
-      "submitter": "Jack L.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Dray E.",
-      "submitter": "Claire E.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Dray E.",
-      "submitter": "Tess D.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Dray E.",
-      "submitter": "Jack L.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Dray E.",
-      "submitter": "Olivia D.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Olivia D.",
-      "submitter": "Mills T.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Olivia D.",
-      "submitter": "Elyse E.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Mike D.",
-      "submitter": "Mary D.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Mike D.",
-      "submitter": "Gabriel M.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Mike D.",
-      "submitter": "Elyse E.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Mike D.",
-      "submitter": "Dray E.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Mike D.",
-      "submitter": "Tess D.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Gabriel M.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Mike D.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Jack L.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Mills T.",
-      "total_pts": 1,
-      "times": 1
-    },
-    {
-      "voter": "Jack L.",
-      "submitter": "Gabriel M.",
-      "total_pts": 1,
       "times": 1
     }
   ],
@@ -1626,6 +2877,28 @@
       "spotify_url": "https://open.spotify.com/track/2FfZg072w8RoxlMOR7M4CT"
     },
     {
+      "round": 2,
+      "title": "All Star",
+      "artist": "Smash Mouth",
+      "submitter": "Mills T.",
+      "submitter_id": "5838e19081f440598e554c420f257ab7",
+      "total_pts": 12,
+      "unique_voters": 6,
+      "track_id": "3cfOd4CMv2snFaKAnMdnvK",
+      "spotify_url": "https://open.spotify.com/track/3cfOd4CMv2snFaKAnMdnvK"
+    },
+    {
+      "round": 2,
+      "title": "Run-Around",
+      "artist": "Blues Traveler",
+      "submitter": "Elyse E.",
+      "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+      "total_pts": 10,
+      "unique_voters": 7,
+      "track_id": "500Tkm3vJmVtdUwdCVxCTb",
+      "spotify_url": "https://open.spotify.com/track/500Tkm3vJmVtdUwdCVxCTb"
+    },
+    {
       "round": 1,
       "title": "Soak Up The Sun",
       "artist": "Sheryl Crow",
@@ -1635,6 +2908,28 @@
       "unique_voters": 6,
       "track_id": "215JYyyUnrJ98NK3KEwu6d",
       "spotify_url": "https://open.spotify.com/track/215JYyyUnrJ98NK3KEwu6d"
+    },
+    {
+      "round": 2,
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "submitter": "Claire E.",
+      "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+      "total_pts": 9,
+      "unique_voters": 4,
+      "track_id": "5ghIJDpPoe3CfHMGu71E6T",
+      "spotify_url": "https://open.spotify.com/track/5ghIJDpPoe3CfHMGu71E6T"
+    },
+    {
+      "round": 2,
+      "title": "Scar Tissue",
+      "artist": "Red Hot Chili Peppers",
+      "submitter": "Mills T.",
+      "submitter_id": "5838e19081f440598e554c420f257ab7",
+      "total_pts": 8,
+      "unique_voters": 6,
+      "track_id": "1G391cbiT3v3Cywg8T7DM1",
+      "spotify_url": "https://open.spotify.com/track/1G391cbiT3v3Cywg8T7DM1"
     },
     {
       "round": 1,
@@ -1648,6 +2943,28 @@
       "spotify_url": "https://open.spotify.com/track/0LQtEJt7x0s6knb6RKdRYc"
     },
     {
+      "round": 2,
+      "title": "Moon River (From \"Breakfast at Tiffany's\")",
+      "artist": "Andy Williams",
+      "submitter": "Mike D.",
+      "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+      "total_pts": 8,
+      "unique_voters": 5,
+      "track_id": "24AIahNHzBxm9S12peXbnG",
+      "spotify_url": "https://open.spotify.com/track/24AIahNHzBxm9S12peXbnG"
+    },
+    {
+      "round": 2,
+      "title": "Two Princes",
+      "artist": "Spin Doctors",
+      "submitter": "Jack L.",
+      "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+      "total_pts": 8,
+      "unique_voters": 5,
+      "track_id": "4ePP9So5xRzspjLFVVbj90",
+      "spotify_url": "https://open.spotify.com/track/4ePP9So5xRzspjLFVVbj90"
+    },
+    {
       "round": 1,
       "title": "Steal My Sunshine",
       "artist": "LEN",
@@ -1657,6 +2974,17 @@
       "unique_voters": 5,
       "track_id": "4agp6oHofabdUedr0B1krj",
       "spotify_url": "https://open.spotify.com/track/4agp6oHofabdUedr0B1krj"
+    },
+    {
+      "round": 2,
+      "title": "Elderly Woman Behind the Counter in a Small Town - Remastered",
+      "artist": "Pearl Jam",
+      "submitter": "Dray E.",
+      "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+      "total_pts": 7,
+      "unique_voters": 4,
+      "track_id": "5lHgBqh9VwAAzQma55gHRY",
+      "spotify_url": "https://open.spotify.com/track/5lHgBqh9VwAAzQma55gHRY"
     },
     {
       "round": 1,
@@ -1692,136 +3020,59 @@
       "spotify_url": "https://open.spotify.com/track/10znDvpdCNThhMapRt5NOw"
     },
     {
-      "round": 1,
-      "title": "Hot In Herre",
-      "artist": "Nelly",
-      "submitter": "Gabriel M.",
-      "submitter_id": "2334709be13e48759338c82689b95d11",
-      "total_pts": 4,
-      "unique_voters": 3,
-      "track_id": "04KTF78FFg8sOHC1BADqbY",
-      "spotify_url": "https://open.spotify.com/track/04KTF78FFg8sOHC1BADqbY"
+      "round": 2,
+      "title": "Twist And Shout - Remastered 2009",
+      "artist": "The Beatles",
+      "submitter": "Mary D.",
+      "submitter_id": "41a0d64fae1f40489679232baec98925",
+      "total_pts": 6,
+      "unique_voters": 5,
+      "track_id": "5ZBeML7Lf3FMEVviTyvi8l",
+      "spotify_url": "https://open.spotify.com/track/5ZBeML7Lf3FMEVviTyvi8l"
     },
     {
-      "round": 1,
-      "title": "Peaches",
-      "artist": "In The Valley Below",
-      "submitter": "Tess D.",
-      "submitter_id": "4853a05f049d4d4682257bed4b277eed",
-      "total_pts": 4,
-      "unique_voters": 3,
-      "track_id": "0JsRZWdSquAQtgyJO8mhLA",
-      "spotify_url": "https://open.spotify.com/track/0JsRZWdSquAQtgyJO8mhLA"
-    },
-    {
-      "round": 1,
-      "title": "Six-Pack Summer",
-      "artist": "Phil Vassar",
+      "round": 2,
+      "title": "Wonderwall",
+      "artist": "Oasis",
       "submitter": "Elyse E.",
       "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
-      "total_pts": 4,
-      "unique_voters": 3,
-      "track_id": "23qDMWnwf8p0pr5slljB6i",
-      "spotify_url": "https://open.spotify.com/track/23qDMWnwf8p0pr5slljB6i"
+      "total_pts": 6,
+      "unique_voters": 4,
+      "track_id": "1qPbGZqppFwLwcBC1JQ6Vr",
+      "spotify_url": "https://open.spotify.com/track/1qPbGZqppFwLwcBC1JQ6Vr"
     },
     {
-      "round": 1,
-      "title": "Afternoon Delight",
-      "artist": "Starland Vocal Band",
-      "submitter": "Mike D.",
-      "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
-      "total_pts": 3,
-      "unique_voters": 3,
-      "track_id": "4lO4RpFOp7nDnqJvTXeVTN",
-      "spotify_url": "https://open.spotify.com/track/4lO4RpFOp7nDnqJvTXeVTN"
-    },
-    {
-      "round": 1,
-      "title": "Sonate Pacifique",
-      "artist": "L'Impératrice, Isaac Delusion",
-      "submitter": "Tess D.",
-      "submitter_id": "4853a05f049d4d4682257bed4b277eed",
-      "total_pts": 3,
-      "unique_voters": 3,
-      "track_id": "49PyCCLOdJi0jHkGyyY2vv",
-      "spotify_url": "https://open.spotify.com/track/49PyCCLOdJi0jHkGyyY2vv"
-    },
-    {
-      "round": 1,
-      "title": "Ride",
-      "artist": "G. Love & Special Sauce",
-      "submitter": "Jack L.",
-      "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
-      "total_pts": 3,
-      "unique_voters": 2,
-      "track_id": "6xVoqYNxRXXhBGNbX2wf51",
-      "spotify_url": "https://open.spotify.com/track/6xVoqYNxRXXhBGNbX2wf51"
-    },
-    {
-      "round": 1,
-      "title": "Walking On Sunshine",
-      "artist": "Katrina & The Waves",
-      "submitter": "Mary D.",
-      "submitter_id": "41a0d64fae1f40489679232baec98925",
-      "total_pts": 3,
-      "unique_voters": 2,
-      "track_id": "05wIrZSwuaVWhcv5FfqeH0",
-      "spotify_url": "https://open.spotify.com/track/05wIrZSwuaVWhcv5FfqeH0"
-    },
-    {
-      "round": 1,
-      "title": "Trying To Reason With Hurricane Season",
-      "artist": "Jimmy Buffett",
-      "submitter": "Dray E.",
-      "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
-      "total_pts": 2,
-      "unique_voters": 2,
-      "track_id": "2aT4FycQXXc4SkD2Sdm9YJ",
-      "spotify_url": "https://open.spotify.com/track/2aT4FycQXXc4SkD2Sdm9YJ"
-    },
-    {
-      "round": 1,
-      "title": "Little Lies",
-      "artist": "Fleetwood Mac",
-      "submitter": "Mills T.",
-      "submitter_id": "5838e19081f440598e554c420f257ab7",
-      "total_pts": 1,
-      "unique_voters": 1,
-      "track_id": "08o75xMKmGrKny6GsXrNJW",
-      "spotify_url": "https://open.spotify.com/track/08o75xMKmGrKny6GsXrNJW"
-    },
-    {
-      "round": 1,
-      "title": "Summer Nights - From “Grease”",
-      "artist": "John Travolta, Olivia Newton-John",
+      "round": 2,
+      "title": "Everybody (Backstreet's Back) - Radio Edit",
+      "artist": "Backstreet Boys",
       "submitter": "Gabriel M.",
       "submitter_id": "2334709be13e48759338c82689b95d11",
-      "total_pts": 1,
-      "unique_voters": 1,
-      "track_id": "2AVkArcfALVk2X8sfPRzya",
-      "spotify_url": "https://open.spotify.com/track/2AVkArcfALVk2X8sfPRzya"
+      "total_pts": 5,
+      "unique_voters": 4,
+      "track_id": "1di1BEgJYzPvXUuinsYJGP",
+      "spotify_url": "https://open.spotify.com/track/1di1BEgJYzPvXUuinsYJGP"
     },
     {
-      "round": 1,
-      "title": "Summer in the City - Remastered",
-      "artist": "The Lovin' Spoonful",
-      "submitter": "Mike D.",
-      "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
-      "total_pts": 1,
-      "unique_voters": 1,
-      "track_id": "7AzFID6u1b3zIWbd9pb8Dk",
-      "spotify_url": "https://open.spotify.com/track/7AzFID6u1b3zIWbd9pb8Dk"
+      "round": 2,
+      "title": "Good Riddance (Time of Your Life)",
+      "artist": "Green Day",
+      "submitter": "Gabriel M.",
+      "submitter_id": "2334709be13e48759338c82689b95d11",
+      "total_pts": 5,
+      "unique_voters": 4,
+      "track_id": "6ORqU0bHbVCRjXm9AjyHyZ",
+      "spotify_url": "https://open.spotify.com/track/6ORqU0bHbVCRjXm9AjyHyZ"
     },
     {
-      "round": 1,
-      "title": "Up On The Roof",
-      "artist": "James Taylor",
+      "round": 2,
+      "title": "Ring of Fire",
+      "artist": "Johnny Cash",
       "submitter": "Mary D.",
       "submitter_id": "41a0d64fae1f40489679232baec98925",
-      "total_pts": 1,
-      "unique_voters": 1,
-      "track_id": "6ampTyysdg6izZJAGRxR0q",
-      "spotify_url": "https://open.spotify.com/track/6ampTyysdg6izZJAGRxR0q"
+      "total_pts": 5,
+      "unique_voters": 4,
+      "track_id": "5rDkA2TFOImbiVenmnE9r4",
+      "spotify_url": "https://open.spotify.com/track/5rDkA2TFOImbiVenmnE9r4"
     }
   ],
   "player_profiles": {
@@ -1847,6 +3098,26 @@
           "unique_voters": 2,
           "track_id": "2aT4FycQXXc4SkD2Sdm9YJ",
           "spotify_url": "https://open.spotify.com/track/2aT4FycQXXc4SkD2Sdm9YJ"
+        },
+        {
+          "round": 2,
+          "title": "Elderly Woman Behind the Counter in a Small Town - Remastered",
+          "artist": "Pearl Jam",
+          "album": "Vs.",
+          "total_pts": 7,
+          "unique_voters": 4,
+          "track_id": "5lHgBqh9VwAAzQma55gHRY",
+          "spotify_url": "https://open.spotify.com/track/5lHgBqh9VwAAzQma55gHRY"
+        },
+        {
+          "round": 2,
+          "title": "Sober",
+          "artist": "TOOL",
+          "album": "Undertow",
+          "total_pts": 0,
+          "unique_voters": 0,
+          "track_id": "6DyywdbmTzlmXBzG9ym7Rt",
+          "spotify_url": "https://open.spotify.com/track/6DyywdbmTzlmXBzG9ym7Rt"
         }
       ],
       "voting_history": [
@@ -1909,10 +3180,70 @@
           "song": "Little Lies",
           "voted_for": "Mills T.",
           "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Scar Tissue",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Ring of Fire",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Smells Like Teen Spirit",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Run-Around",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Can't Help Falling in Love",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Good",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Save the Last Dance for Me",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Iris",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Good Riddance (Time of Your Life)",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Twist And Shout - Remastered 2009",
+          "voted_for": "Mary D.",
+          "points_given": 1
         }
       ],
-      "season_points": 16,
-      "rounds_played": 1
+      "season_points": 23,
+      "rounds_played": 2
     },
     "19e6c48a177c458398bb138a991a2e4c": {
       "name": "Elyse E.",
@@ -1936,6 +3267,26 @@
           "unique_voters": 3,
           "track_id": "23qDMWnwf8p0pr5slljB6i",
           "spotify_url": "https://open.spotify.com/track/23qDMWnwf8p0pr5slljB6i"
+        },
+        {
+          "round": 2,
+          "title": "Run-Around",
+          "artist": "Blues Traveler",
+          "album": "Four",
+          "total_pts": 10,
+          "unique_voters": 7,
+          "track_id": "500Tkm3vJmVtdUwdCVxCTb",
+          "spotify_url": "https://open.spotify.com/track/500Tkm3vJmVtdUwdCVxCTb"
+        },
+        {
+          "round": 2,
+          "title": "Wonderwall",
+          "artist": "Oasis",
+          "album": "(What's The Story) Morning Glory?",
+          "total_pts": 6,
+          "unique_voters": 4,
+          "track_id": "1qPbGZqppFwLwcBC1JQ6Vr",
+          "spotify_url": "https://open.spotify.com/track/1qPbGZqppFwLwcBC1JQ6Vr"
         }
       ],
       "voting_history": [
@@ -1962,10 +3313,52 @@
           "song": "Ants Marching",
           "voted_for": "Olivia D.",
           "points_given": 3
+        },
+        {
+          "round": 2,
+          "song": "Ring of Fire",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Everybody (Backstreet's Back) - Radio Edit",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Scar Tissue",
+          "voted_for": "Mills T.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Baby Got Back",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "All Star",
+          "voted_for": "Mills T.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Two Princes",
+          "voted_for": "Jack L.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Twist And Shout - Remastered 2009",
+          "voted_for": "Mary D.",
+          "points_given": 1
         }
       ],
-      "season_points": 10,
-      "rounds_played": 1
+      "season_points": 26,
+      "rounds_played": 2
     },
     "2334709be13e48759338c82689b95d11": {
       "name": "Gabriel M.",
@@ -1989,6 +3382,26 @@
           "unique_voters": 1,
           "track_id": "2AVkArcfALVk2X8sfPRzya",
           "spotify_url": "https://open.spotify.com/track/2AVkArcfALVk2X8sfPRzya"
+        },
+        {
+          "round": 2,
+          "title": "Everybody (Backstreet's Back) - Radio Edit",
+          "artist": "Backstreet Boys",
+          "album": "Backstreet's Back",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "track_id": "1di1BEgJYzPvXUuinsYJGP",
+          "spotify_url": "https://open.spotify.com/track/1di1BEgJYzPvXUuinsYJGP"
+        },
+        {
+          "round": 2,
+          "title": "Good Riddance (Time of Your Life)",
+          "artist": "Green Day",
+          "album": "Nimrod",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "track_id": "6ORqU0bHbVCRjXm9AjyHyZ",
+          "spotify_url": "https://open.spotify.com/track/6ORqU0bHbVCRjXm9AjyHyZ"
         }
       ],
       "voting_history": [
@@ -2039,16 +3452,122 @@
           "song": "Gimme! Gimme! Gimme! (A Man After Midnight) - From 'Mamma Mia!' Original Motion Picture Soundtrack",
           "voted_for": "Olivia D.",
           "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Waterfalls",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Twist And Shout - Remastered 2009",
+          "voted_for": "Mary D.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "All Star",
+          "voted_for": "Mills T.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Believe",
+          "voted_for": "Olivia D.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Wonderwall",
+          "voted_for": "Elyse E.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Scar Tissue",
+          "voted_for": "Mills T.",
+          "points_given": 1
         }
       ],
-      "season_points": 5,
-      "rounds_played": 1
+      "season_points": 15,
+      "rounds_played": 2
     },
     "3b87dbe243724d3bbcafea4934075fec": {
       "name": "Steve E.",
-      "submissions": [],
-      "voting_history": [],
-      "season_points": 0,
+      "submissions": [
+        {
+          "round": 2,
+          "title": "Itsy Bitsy Teenie Weenie Yellow Polka-Dot Bikini",
+          "artist": "Brian Hyland",
+          "album": "Greatest Hits",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "track_id": "3Aug2RunJbjGiz2CTtWu5l",
+          "spotify_url": "https://open.spotify.com/track/3Aug2RunJbjGiz2CTtWu5l"
+        },
+        {
+          "round": 2,
+          "title": "Save the Last Dance for Me",
+          "artist": "The Drifters",
+          "album": "Save the Last Dance for Me",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "track_id": "391TUcoPonqYykPkSZ5Z9U",
+          "spotify_url": "https://open.spotify.com/track/391TUcoPonqYykPkSZ5Z9U"
+        }
+      ],
+      "voting_history": [
+        {
+          "round": 2,
+          "song": "All Star",
+          "voted_for": "Mills T.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Everybody (Backstreet's Back) - Radio Edit",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Good Riddance (Time of Your Life)",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Twist And Shout - Remastered 2009",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Run-Around",
+          "voted_for": "Elyse E.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Two Princes",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Whoomp! There It Is - Radio Edit",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Believe",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        }
+      ],
+      "season_points": 2,
       "rounds_played": 1
     },
     "41a0d64fae1f40489679232baec98925": {
@@ -2073,6 +3592,26 @@
           "unique_voters": 1,
           "track_id": "6ampTyysdg6izZJAGRxR0q",
           "spotify_url": "https://open.spotify.com/track/6ampTyysdg6izZJAGRxR0q"
+        },
+        {
+          "round": 2,
+          "title": "Twist And Shout - Remastered 2009",
+          "artist": "The Beatles",
+          "album": "Please Please Me (Remastered)",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "track_id": "5ZBeML7Lf3FMEVviTyvi8l",
+          "spotify_url": "https://open.spotify.com/track/5ZBeML7Lf3FMEVviTyvi8l"
+        },
+        {
+          "round": 2,
+          "title": "Ring of Fire",
+          "artist": "Johnny Cash",
+          "album": "The Essential Johnny Cash",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "track_id": "5rDkA2TFOImbiVenmnE9r4",
+          "spotify_url": "https://open.spotify.com/track/5rDkA2TFOImbiVenmnE9r4"
         }
       ],
       "voting_history": [
@@ -2135,10 +3674,58 @@
           "song": "Wild Night",
           "voted_for": "Mills T.",
           "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Good Riddance (Time of Your Life)",
+          "voted_for": "Gabriel M.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Iris",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Wonderwall",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Moon River (From \"Breakfast at Tiffany's\")",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Two Princes",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Run-Around",
+          "voted_for": "Elyse E.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Waterfalls",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Scar Tissue",
+          "voted_for": "Mills T.",
+          "points_given": 1
         }
       ],
-      "season_points": 4,
-      "rounds_played": 1
+      "season_points": 15,
+      "rounds_played": 2
     },
     "4853a05f049d4d4682257bed4b277eed": {
       "name": "Tess D.",
@@ -2162,6 +3749,26 @@
           "unique_voters": 3,
           "track_id": "49PyCCLOdJi0jHkGyyY2vv",
           "spotify_url": "https://open.spotify.com/track/49PyCCLOdJi0jHkGyyY2vv"
+        },
+        {
+          "round": 2,
+          "title": "Good",
+          "artist": "Better Than Ezra",
+          "album": "Deluxe",
+          "total_pts": 3,
+          "unique_voters": 2,
+          "track_id": "0ttHpMs250dpFkCYAnuhnE",
+          "spotify_url": "https://open.spotify.com/track/0ttHpMs250dpFkCYAnuhnE"
+        },
+        {
+          "round": 2,
+          "title": "Waterfalls",
+          "artist": "TLC",
+          "album": "Crazysexycool",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "track_id": "6qspW4YKycviDFjHBOaqUY",
+          "spotify_url": "https://open.spotify.com/track/6qspW4YKycviDFjHBOaqUY"
         }
       ],
       "voting_history": [
@@ -2194,10 +3801,40 @@
           "song": "Ants Marching",
           "voted_for": "Olivia D.",
           "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Scar Tissue",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Elderly Woman Behind the Counter in a Small Town - Remastered",
+          "voted_for": "Dray E.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Smells Like Teen Spirit",
+          "voted_for": "Claire E.",
+          "points_given": 3
+        },
+        {
+          "round": 2,
+          "song": "Two Princes",
+          "voted_for": "Jack L.",
+          "points_given": 3
+        },
+        {
+          "round": 2,
+          "song": "Moon River (From \"Breakfast at Tiffany's\")",
+          "voted_for": "Mike D.",
+          "points_given": 1
         }
       ],
-      "season_points": 7,
-      "rounds_played": 1
+      "season_points": 12,
+      "rounds_played": 2
     },
     "5838e19081f440598e554c420f257ab7": {
       "name": "Mills T.",
@@ -2221,6 +3858,26 @@
           "unique_voters": 1,
           "track_id": "08o75xMKmGrKny6GsXrNJW",
           "spotify_url": "https://open.spotify.com/track/08o75xMKmGrKny6GsXrNJW"
+        },
+        {
+          "round": 2,
+          "title": "All Star",
+          "artist": "Smash Mouth",
+          "album": "Astro Lounge",
+          "total_pts": 12,
+          "unique_voters": 6,
+          "track_id": "3cfOd4CMv2snFaKAnMdnvK",
+          "spotify_url": "https://open.spotify.com/track/3cfOd4CMv2snFaKAnMdnvK"
+        },
+        {
+          "round": 2,
+          "title": "Scar Tissue",
+          "artist": "Red Hot Chili Peppers",
+          "album": "Californication (Deluxe Edition)",
+          "total_pts": 8,
+          "unique_voters": 6,
+          "track_id": "1G391cbiT3v3Cywg8T7DM1",
+          "spotify_url": "https://open.spotify.com/track/1G391cbiT3v3Cywg8T7DM1"
         }
       ],
       "voting_history": [
@@ -2253,10 +3910,52 @@
           "song": "Ants Marching",
           "voted_for": "Olivia D.",
           "points_given": 3
+        },
+        {
+          "round": 2,
+          "song": "Wonderwall",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Moon River (From \"Breakfast at Tiffany's\")",
+          "voted_for": "Mike D.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Can't Help Falling in Love",
+          "voted_for": "Mike D.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Two Princes",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Run-Around",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Elderly Woman Behind the Counter in a Small Town - Remastered",
+          "voted_for": "Dray E.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Iris",
+          "voted_for": "Olivia D.",
+          "points_given": 1
         }
       ],
-      "season_points": 7,
-      "rounds_played": 1
+      "season_points": 27,
+      "rounds_played": 2
     },
     "994734a26c814552ad88e0ce9ea4cfce": {
       "name": "Jack L.",
@@ -2280,6 +3979,26 @@
           "unique_voters": 2,
           "track_id": "6xVoqYNxRXXhBGNbX2wf51",
           "spotify_url": "https://open.spotify.com/track/6xVoqYNxRXXhBGNbX2wf51"
+        },
+        {
+          "round": 2,
+          "title": "Two Princes",
+          "artist": "Spin Doctors",
+          "album": "Pocket Full Of Kryptonite",
+          "total_pts": 8,
+          "unique_voters": 5,
+          "track_id": "4ePP9So5xRzspjLFVVbj90",
+          "spotify_url": "https://open.spotify.com/track/4ePP9So5xRzspjLFVVbj90"
+        },
+        {
+          "round": 2,
+          "title": "Whoomp! There It Is - Radio Edit",
+          "artist": "Tag Team",
+          "album": "Whoomp! There It Is (Radio Edit)",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "track_id": "3oWXoSkjdbTlQlteizN7Hb",
+          "spotify_url": "https://open.spotify.com/track/3oWXoSkjdbTlQlteizN7Hb"
         }
       ],
       "voting_history": [
@@ -2312,10 +4031,40 @@
           "song": "Wild Night",
           "voted_for": "Mills T.",
           "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "All Star",
+          "voted_for": "Mills T.",
+          "points_given": 3
+        },
+        {
+          "round": 2,
+          "song": "Elderly Woman Behind the Counter in a Small Town - Remastered",
+          "voted_for": "Dray E.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Everybody (Backstreet's Back) - Radio Edit",
+          "voted_for": "Gabriel M.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Good",
+          "voted_for": "Tess D.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Run-Around",
+          "voted_for": "Elyse E.",
+          "points_given": 1
         }
       ],
-      "season_points": 10,
-      "rounds_played": 1
+      "season_points": 19,
+      "rounds_played": 2
     },
     "9ce50e4f032c45afaa3eca936e99c9db": {
       "name": "Olivia D.",
@@ -2339,6 +4088,26 @@
           "unique_voters": 5,
           "track_id": "7lkeI7MsLOZ5gyh9ejaf3W",
           "spotify_url": "https://open.spotify.com/track/7lkeI7MsLOZ5gyh9ejaf3W"
+        },
+        {
+          "round": 2,
+          "title": "Believe",
+          "artist": "Cher",
+          "album": "Believe",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "track_id": "2goLsvvODILDzeeiT4dAoR",
+          "spotify_url": "https://open.spotify.com/track/2goLsvvODILDzeeiT4dAoR"
+        },
+        {
+          "round": 2,
+          "title": "Iris",
+          "artist": "The Goo Goo Dolls",
+          "album": "Dizzy up the Girl",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "track_id": "6Qyc6fS4DsZjB2mRW9DsQs",
+          "spotify_url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"
         }
       ],
       "voting_history": [
@@ -2377,10 +4146,46 @@
           "song": "Something Like That",
           "voted_for": "Dray E.",
           "points_given": 4
+        },
+        {
+          "round": 2,
+          "song": "Wonderwall",
+          "voted_for": "Elyse E.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Smells Like Teen Spirit",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Twist And Shout - Remastered 2009",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Moon River (From \"Breakfast at Tiffany's\")",
+          "voted_for": "Mike D.",
+          "points_given": 3
+        },
+        {
+          "round": 2,
+          "song": "All Star",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Run-Around",
+          "voted_for": "Elyse E.",
+          "points_given": 2
         }
       ],
-      "season_points": 19,
-      "rounds_played": 1
+      "season_points": 26,
+      "rounds_played": 2
     },
     "dea876f23cf9428185f8757955c2eecd": {
       "name": "Claire E.",
@@ -2404,6 +4209,26 @@
           "unique_voters": 5,
           "track_id": "0LQtEJt7x0s6knb6RKdRYc",
           "spotify_url": "https://open.spotify.com/track/0LQtEJt7x0s6knb6RKdRYc"
+        },
+        {
+          "round": 2,
+          "title": "Smells Like Teen Spirit",
+          "artist": "Nirvana",
+          "album": "Nevermind (Remastered)",
+          "total_pts": 9,
+          "unique_voters": 4,
+          "track_id": "5ghIJDpPoe3CfHMGu71E6T",
+          "spotify_url": "https://open.spotify.com/track/5ghIJDpPoe3CfHMGu71E6T"
+        },
+        {
+          "round": 2,
+          "title": "Baby Got Back",
+          "artist": "Sir Mix-A-Lot",
+          "album": "Mack Daddy",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "track_id": "1SAkL1mYNJlaqnBQxVZrRl",
+          "spotify_url": "https://open.spotify.com/track/1SAkL1mYNJlaqnBQxVZrRl"
         }
       ],
       "voting_history": [
@@ -2448,10 +4273,58 @@
           "song": "Steal My Sunshine",
           "voted_for": "Jack L.",
           "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Ring of Fire",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Moon River (From \"Breakfast at Tiffany's\")",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Believe",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Itsy Bitsy Teenie Weenie Yellow Polka-Dot Bikini",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "All Star",
+          "voted_for": "Mills T.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Can't Help Falling in Love",
+          "voted_for": "Mike D.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Elderly Woman Behind the Counter in a Small Town - Remastered",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Everybody (Backstreet's Back) - Radio Edit",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
         }
       ],
-      "season_points": 18,
-      "rounds_played": 1
+      "season_points": 28,
+      "rounds_played": 2
     },
     "e0e0d50ee23443cf80cea1d777fac793": {
       "name": "Mike D.",
@@ -2475,6 +4348,26 @@
           "unique_voters": 1,
           "track_id": "7AzFID6u1b3zIWbd9pb8Dk",
           "spotify_url": "https://open.spotify.com/track/7AzFID6u1b3zIWbd9pb8Dk"
+        },
+        {
+          "round": 2,
+          "title": "Moon River (From \"Breakfast at Tiffany's\")",
+          "artist": "Andy Williams",
+          "album": "Moon River And Other Great Movie Themes",
+          "total_pts": 8,
+          "unique_voters": 5,
+          "track_id": "24AIahNHzBxm9S12peXbnG",
+          "spotify_url": "https://open.spotify.com/track/24AIahNHzBxm9S12peXbnG"
+        },
+        {
+          "round": 2,
+          "title": "Can't Help Falling in Love",
+          "artist": "Elvis Presley",
+          "album": "Blue Hawaii",
+          "total_pts": 5,
+          "unique_voters": 3,
+          "track_id": "44AyOl4qVkzS48vBsbNXaC",
+          "spotify_url": "https://open.spotify.com/track/44AyOl4qVkzS48vBsbNXaC"
         }
       ],
       "voting_history": [
@@ -2519,10 +4412,40 @@
           "song": "Sonate Pacifique",
           "voted_for": "Tess D.",
           "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Good Riddance (Time of Your Life)",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Ring of Fire",
+          "voted_for": "Mary D.",
+          "points_given": 2
+        },
+        {
+          "round": 2,
+          "song": "Smells Like Teen Spirit",
+          "voted_for": "Claire E.",
+          "points_given": 4
+        },
+        {
+          "round": 2,
+          "song": "Run-Around",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 2,
+          "song": "Scar Tissue",
+          "voted_for": "Mills T.",
+          "points_given": 2
         }
       ],
-      "season_points": 4,
-      "rounds_played": 1
+      "season_points": 17,
+      "rounds_played": 2
     }
   },
   "fun_metrics": {
@@ -2530,9 +4453,9 @@
       "title": "Kingmaker",
       "description": "Most points given to eventual weekly winners",
       "leader": {
-        "player": "Olivia D.",
-        "value": "4 pts",
-        "detail": "R1: 4 pts to Something Like That"
+        "player": "Claire E.",
+        "value": "5 pts",
+        "detail": "R1: 3 pts to Something Like That · R2: 2 pts to All Star"
       }
     },
     "hipster": {
@@ -2540,8 +4463,8 @@
       "description": "Highest percentage of solo votes (songs nobody else voted for)",
       "leader": {
         "player": "Dray E.",
-        "value": "20% solo",
-        "detail": "2 solo votes out of 10"
+        "value": "15% solo",
+        "detail": "3 solo votes out of 20"
       }
     },
     "sheep": {
@@ -2550,13 +4473,18 @@
       "leader": {
         "player": "Olivia D.",
         "value": "100% consensus",
-        "detail": "10 of 10 pts to songs with 3+ voters"
+        "detail": "20 of 20 pts to songs with 3+ voters"
       }
     },
     "cold_shoulder": {
       "title": "Cold Shoulder",
       "description": "Most songs submitted that received zero votes",
-      "players": []
+      "players": [
+        {
+          "player": "Dray E.",
+          "value": "1 zero-vote songs"
+        }
+      ]
     },
     "snub": {
       "title": "Snub Detector",
@@ -2579,6 +4507,24 @@
           "voters": 5,
           "pts": 6,
           "avg": 1.2
+        },
+        {
+          "round": 2,
+          "song": "Twist And Shout - Remastered 2009",
+          "artist": "The Beatles",
+          "submitter": "Mary D.",
+          "voters": 5,
+          "pts": 6,
+          "avg": 1.2
+        },
+        {
+          "round": 2,
+          "song": "Everybody (Backstreet's Back) - Radio Edit",
+          "artist": "Backstreet Boys",
+          "submitter": "Gabriel M.",
+          "voters": 4,
+          "pts": 5,
+          "avg": 1.25
         }
       ]
     },
@@ -2589,32 +4535,32 @@
         {
           "player1": "Gabriel M.",
           "player2": "Olivia D.",
-          "overlap": "40%",
-          "detail": "4 shared of 10 total"
+          "overlap": "37%",
+          "detail": "7 shared of 19 total"
         },
         {
           "player1": "Dray E.",
-          "player2": "Gabriel M.",
-          "overlap": "38%",
-          "detail": "5 shared of 13 total"
+          "player2": "Mike D.",
+          "overlap": "33%",
+          "detail": "8 shared of 24 total"
         },
         {
           "player1": "Elyse E.",
-          "player2": "Claire E.",
-          "overlap": "38%",
-          "detail": "3 shared of 8 total"
-        },
-        {
-          "player1": "Jack L.",
-          "player2": "Olivia D.",
-          "overlap": "38%",
-          "detail": "3 shared of 8 total"
+          "player2": "Gabriel M.",
+          "overlap": "32%",
+          "detail": "6 shared of 19 total"
         },
         {
           "player1": "Dray E.",
           "player2": "Mary D.",
-          "overlap": "33%",
-          "detail": "5 shared of 15 total"
+          "overlap": "31%",
+          "detail": "9 shared of 29 total"
+        },
+        {
+          "player1": "Mary D.",
+          "player2": "Mills T.",
+          "overlap": "30%",
+          "detail": "7 shared of 23 total"
         }
       ]
     },
@@ -2623,53 +4569,51 @@
       "description": "Average points per song submitted (min 2 songs)",
       "leaders": [
         {
-          "player": "Olivia D.",
-          "value": "9.5 avg",
-          "detail": "2 songs"
-        },
-        {
           "player": "Claire E.",
-          "value": "9.0 avg",
-          "detail": "2 songs"
-        },
-        {
-          "player": "Dray E.",
-          "value": "8.0 avg",
-          "detail": "2 songs"
-        },
-        {
-          "player": "Jack L.",
-          "value": "5.0 avg",
-          "detail": "2 songs"
-        },
-        {
-          "player": "Elyse E.",
-          "value": "5.0 avg",
-          "detail": "2 songs"
+          "value": "7.0 avg",
+          "detail": "4 songs"
         },
         {
           "player": "Mills T.",
-          "value": "3.5 avg",
-          "detail": "2 songs"
+          "value": "6.8 avg",
+          "detail": "4 songs"
         },
         {
-          "player": "Tess D.",
-          "value": "3.5 avg",
-          "detail": "2 songs"
+          "player": "Olivia D.",
+          "value": "6.5 avg",
+          "detail": "4 songs"
+        },
+        {
+          "player": "Elyse E.",
+          "value": "6.5 avg",
+          "detail": "4 songs"
+        },
+        {
+          "player": "Dray E.",
+          "value": "5.8 avg",
+          "detail": "4 songs"
+        },
+        {
+          "player": "Jack L.",
+          "value": "4.8 avg",
+          "detail": "4 songs"
+        },
+        {
+          "player": "Mike D.",
+          "value": "4.2 avg",
+          "detail": "4 songs"
         },
         {
           "player": "Gabriel M.",
-          "value": "2.5 avg",
-          "detail": "2 songs"
+          "value": "3.8 avg",
+          "detail": "4 songs"
         }
       ]
     },
     "ghost_report": {
       "title": "Ghost Report",
       "description": "Players who have never voted",
-      "ghosts": [
-        "Steve E."
-      ]
+      "ghosts": []
     }
   }
 }
