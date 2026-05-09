@@ -78,11 +78,40 @@ button { font-family: inherit; cursor: pointer; }
   margin-top: 2px;
 }
 
-/* ---------- Theme band (replaces triband) ---------- */
+/* ---------- Theme band (per-week component renders inside this container) ---------- */
 .themeband {
-  height: 14px;
-  background: var(--band-gradient, linear-gradient(90deg, #4FA0C4 0%, #F4B97A 45%, #F08A47 75%, #C25A28 100%));
-  transition: background 0.4s ease;
+  height: 22px;
+  position: relative;
+  background: var(--bg);
+  overflow: hidden;
+}
+.themeband.themeband-cassette {
+  height: 52px;
+}
+
+/* Horizon band (Week 1 / summer) */
+.band-horizon {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.band-sun {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 14%;
+  top: 2px;
+}
+
+/* Cassette band (Week 2) — the band IS the cassette, full width */
+.band-cassette-full {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
 }
 
 /* ---------- Nav ---------- */
@@ -117,7 +146,7 @@ button { font-family: inherit; cursor: pointer; }
   bottom: 0;
   height: 2px;
   border-radius: 1px;
-  background: var(--band-gradient, linear-gradient(90deg, #4FA0C4 0%, #F4B97A 45%, #F08A47 75%, #C25A28 100%));
+  background: var(--p);
   opacity: 0;
   transform: scaleX(0.4);
   transform-origin: center;
@@ -133,6 +162,29 @@ button { font-family: inherit; cursor: pointer; }
   .nav { gap: 8px; padding: 0 24px; }
   .nav-item { padding: 14px 18px; font-size: 14px; }
   .nav-item::after { left: 18px; right: 18px; }
+}
+
+/* Spool-pair tab underline (cassette theme) — overrides the default solid bar.
+   Two small dots flanking a connecting line, mimicking cassette reels with tape. */
+body.tab-spool .nav-item::after {
+  background: transparent;
+  height: 4px;
+  border-radius: 0;
+  bottom: 1px;
+  /* The center "tape" line */
+  background-image:
+    radial-gradient(circle at 6px 50%, var(--p) 1.6px, transparent 2px),
+    radial-gradient(circle at calc(100% - 6px) 50%, var(--p) 1.6px, transparent 2px),
+    linear-gradient(90deg, var(--p), var(--p));
+  background-size: 100% 100%, 100% 100%, calc(100% - 12px) 1px;
+  background-position: 0 0, 0 0, 6px 50%;
+  background-repeat: no-repeat;
+}
+body.tab-spool .nav-item:hover::after {
+  /* On hover, just the tape — no spools yet */
+  background-image: linear-gradient(90deg, var(--p), var(--p));
+  background-size: calc(100% - 12px) 1px;
+  background-position: 6px 50%;
 }
 
 /* ---------- Page container ---------- */
@@ -321,6 +373,10 @@ button { font-family: inherit; cursor: pointer; }
   padding: 12px 14px;
 }
 .stat-box.cool { border-top: 2px solid var(--c); }
+/* Dashed border variant for cassette theme (tape-segment texture) */
+body.accent-dashed .stat-box.cool {
+  border-top: 2px dashed var(--c);
+}
 .stat-label {
   color: var(--dim);
   font-size: 10px;
@@ -723,8 +779,12 @@ const initials = (name) => {
 
 const applyTheme = (theme) => {
   const body = document.body;
-  // Reset all theme classes
-  body.classList.forEach(c => { if (c.startsWith('theme-')) body.classList.remove(c); });
+  // Reset all theme/tab/accent classes
+  body.classList.forEach(c => {
+    if (c.startsWith('theme-') || c.startsWith('tab-') || c.startsWith('accent-')) {
+      body.classList.remove(c);
+    }
+  });
   if (!theme || !theme.palette) return;
   const p = theme.palette;
   body.style.setProperty('--p', p.primary || '#F08A47');
@@ -738,6 +798,211 @@ const applyTheme = (theme) => {
   if (theme.tile_class) {
     body.classList.add(theme.tile_class);
   }
+  // Apply design-pack body classes so CSS can swap underline / accent treatments per theme
+  const design = theme.design || {};
+  if (design.tab_underline) body.classList.add(`tab-${design.tab_underline}`);
+  if (design.stat_accent)   body.classList.add(`accent-${design.stat_accent}`);
+};
+
+// ---------------------------------------------------------------------------
+// Theme bands — one component per theme, rendered inside the .themeband container
+// ---------------------------------------------------------------------------
+
+function HorizonBand({ palette }) {
+  // Sun rising over a soft horizon — Week 1 / summer
+  const cool      = palette?.cool      || '#4FA0C4';
+  const accent    = palette?.accent    || '#F4B97A';
+  const primary   = palette?.primary   || '#F08A47';
+  const highlight = palette?.highlight || '#C25A28';
+  const grad = `linear-gradient(90deg, ${cool} 0%, ${accent} 45%, ${primary} 75%, ${highlight} 100%)`;
+  return (
+    <div className="band-horizon" style={{ background: grad }}>
+      <svg className="band-sun" viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="20" r="6" fill="#fff" opacity="0.85" />
+      </svg>
+    </div>
+  );
+}
+
+function CassetteBand({ palette }) {
+  const primary   = palette?.primary   || '#C9824B';
+  const accent    = palette?.accent    || '#D9B68C';
+  const cool      = palette?.cool      || '#5B7B8C';
+  const highlight = palette?.highlight || '#8B4513';
+  // The band IS a cassette, fully committed.
+  // Layered approach because viewport widths vary:
+  //   Layer 1 (stretched): body shell rectangles - safely use preserveAspectRatio="none".
+  //   Layer 2 (preserved): reels/mechanism - fixed-size SVGs absolutely positioned,
+  //                        so circles stay round at any viewport width.
+  return (
+    <div className="band-cassette-full">
+      {/* === LAYER 1: Stretched body (rectangles only) === */}
+      <svg
+        viewBox="0 0 600 52"
+        preserveAspectRatio="none"
+        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', display: 'block' }}
+        aria-hidden="true"
+      >
+        {/* Cassette body shell */}
+        <rect x="0" y="0" width="600" height="52" fill={highlight} />
+        {/* Top edge highlight */}
+        <rect x="0" y="0" width="600" height="1.5" fill={primary} opacity="0.5" />
+        {/* Label area */}
+        <rect x="0" y="3" width="600" height="14" fill={accent} />
+        {/* Label edge shadow */}
+        <line x1="0" y1="17" x2="600" y2="17" stroke={highlight} strokeWidth="0.5" opacity="0.4" />
+        {/* Central window cutout - dark interior */}
+        <rect x="0" y="18" width="600" height="26" fill="#0d0a08" />
+        {/* Tape strand running across the bottom of the window */}
+        <line x1="0" y1="40" x2="600" y2="40" stroke={cool} strokeWidth="1.2" opacity="0.85" />
+        {/* Lower bezel */}
+        <rect x="0" y="44" width="600" height="8" fill={highlight} />
+        <line x1="0" y1="45" x2="600" y2="45" stroke={primary} strokeWidth="0.4" opacity="0.4" />
+        <rect x="0" y="51" width="600" height="1" fill={primary} opacity="0.4" />
+      </svg>
+
+      {/* === LAYER 2: Mechanism - reels and details that don't stretch === */}
+      <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, pointerEvents: 'none' }}>
+
+        {/* Hand-written label texture - dashes suggesting writing */}
+        <div style={{
+          position: 'absolute',
+          left: '60px',
+          top: '8px',
+          right: '60px',
+          height: '7px',
+          backgroundImage: `repeating-linear-gradient(90deg, ${highlight} 0px, ${highlight} 28px, transparent 28px, transparent 38px, ${highlight} 38px, ${highlight} 70px, transparent 70px, transparent 90px, ${highlight} 90px, ${highlight} 130px, transparent 130px, transparent 145px)`,
+          backgroundSize: '145px 0.7px',
+          backgroundRepeat: 'repeat-x',
+          backgroundPosition: '0 50%',
+          opacity: 0.4,
+        }} />
+
+        {/* SIDE A indicator on label */}
+        <div style={{
+          position: 'absolute',
+          left: '14px',
+          top: '6px',
+          fontSize: '8px',
+          color: highlight,
+          opacity: 0.65,
+          fontFamily: 'Georgia, serif',
+          fontStyle: 'italic',
+          fontWeight: 500,
+          letterSpacing: '0.1em',
+        }}>SIDE A</div>
+
+        {/* Left reel - fully wound */}
+        <svg
+          width="46" height="46"
+          viewBox="0 0 46 46"
+          style={{ position: 'absolute', top: '50%', left: '33%', transform: 'translate(-50%, -50%)', display: 'block' }}
+          aria-hidden="true"
+        >
+          {/* Outer wound-tape disc */}
+          <circle cx="23" cy="23" r="20" fill={cool} opacity="0.5" />
+          {/* Tape winding rings */}
+          <circle cx="23" cy="23" r="18" fill="none" stroke={cool} strokeWidth="0.5" opacity="0.6" />
+          <circle cx="23" cy="23" r="15.5" fill="none" stroke={cool} strokeWidth="0.5" opacity="0.5" />
+          <circle cx="23" cy="23" r="13" fill="none" stroke={cool} strokeWidth="0.5" opacity="0.4" />
+          {/* Reel disc */}
+          <circle cx="23" cy="23" r="11" fill={primary} stroke={accent} strokeWidth="0.6" />
+          {/* Hub */}
+          <circle cx="23" cy="23" r="5" fill={highlight} />
+          {/* Six prong holes around the hub */}
+          <g fill={accent}>
+            <circle cx="23"   cy="19.4" r="1.0" />
+            <circle cx="26.1" cy="21.2" r="1.0" />
+            <circle cx="26.1" cy="24.8" r="1.0" />
+            <circle cx="23"   cy="26.6" r="1.0" />
+            <circle cx="19.9" cy="24.8" r="1.0" />
+            <circle cx="19.9" cy="21.2" r="1.0" />
+          </g>
+          {/* Center pin */}
+          <circle cx="23" cy="23" r="1.4" fill={highlight} />
+          {/* Spoke marks */}
+          <g stroke={accent} strokeWidth="0.6" strokeLinecap="round" opacity="0.7">
+            <line x1="23" y1="14.5" x2="23" y2="16.5" />
+            <line x1="23" y1="29.5" x2="23" y2="31.5" />
+            <line x1="14.5" y1="23" x2="16.5" y2="23" />
+            <line x1="29.5" y1="23" x2="31.5" y2="23" />
+          </g>
+        </svg>
+
+        {/* Right reel - less wound (asymmetric, like mid-play) */}
+        <svg
+          width="42" height="42"
+          viewBox="0 0 42 42"
+          style={{ position: 'absolute', top: '50%', right: '33%', transform: 'translate(50%, -50%)', display: 'block' }}
+          aria-hidden="true"
+        >
+          {/* Outer wound-tape disc - smaller */}
+          <circle cx="21" cy="21" r="17" fill={cool} opacity="0.5" />
+          <circle cx="21" cy="21" r="15" fill="none" stroke={cool} strokeWidth="0.5" opacity="0.6" />
+          <circle cx="21" cy="21" r="12.5" fill="none" stroke={cool} strokeWidth="0.5" opacity="0.4" />
+          {/* Reel disc - slightly smaller because less wound */}
+          <circle cx="21" cy="21" r="10" fill={primary} stroke={accent} strokeWidth="0.6" />
+          {/* Hub */}
+          <circle cx="21" cy="21" r="5" fill={highlight} />
+          <g fill={accent}>
+            <circle cx="21"   cy="17.4" r="1.0" />
+            <circle cx="24.1" cy="19.2" r="1.0" />
+            <circle cx="24.1" cy="22.8" r="1.0" />
+            <circle cx="21"   cy="24.6" r="1.0" />
+            <circle cx="17.9" cy="22.8" r="1.0" />
+            <circle cx="17.9" cy="19.2" r="1.0" />
+          </g>
+          <circle cx="21" cy="21" r="1.4" fill={highlight} />
+          <g stroke={accent} strokeWidth="0.6" strokeLinecap="round" opacity="0.7">
+            <line x1="21" y1="13" x2="21" y2="15" />
+            <line x1="21" y1="27" x2="21" y2="29" />
+            <line x1="13" y1="21" x2="15" y2="21" />
+            <line x1="27" y1="21" x2="29" y2="21" />
+          </g>
+        </svg>
+
+        {/* Tape head between reels (small fixed-position mechanism) */}
+        <svg
+          width="14" height="10"
+          viewBox="0 0 14 10"
+          style={{ position: 'absolute', top: '76%', left: '50%', transform: 'translate(-50%, -50%)', display: 'block' }}
+          aria-hidden="true"
+        >
+          <rect x="2" y="2" width="10" height="6" fill={highlight} stroke={primary} strokeWidth="0.4" rx="0.5" />
+          <line x1="0" y1="5" x2="14" y2="5" stroke={cool} strokeWidth="1.2" opacity="0.95" />
+        </svg>
+
+        {/* Screw holes at bottom corners */}
+        <div style={{
+          position: 'absolute',
+          left: '14px',
+          bottom: '3px',
+          width: '3px',
+          height: '3px',
+          borderRadius: '50%',
+          background: accent,
+          opacity: 0.45,
+          boxShadow: `inset 0 0 0 0.5px ${highlight}`,
+        }} />
+        <div style={{
+          position: 'absolute',
+          right: '14px',
+          bottom: '3px',
+          width: '3px',
+          height: '3px',
+          borderRadius: '50%',
+          background: accent,
+          opacity: 0.45,
+          boxShadow: `inset 0 0 0 0.5px ${highlight}`,
+        }} />
+      </div>
+    </div>
+  );
+}
+
+const themeBands = {
+  summer:   HorizonBand,
+  cassette: CassetteBand,
 };
 
 // ---------------------------------------------------------------------------
@@ -746,23 +1011,31 @@ const applyTheme = (theme) => {
 
 const oembedCache = new Map();
 function SpotifyArt({ trackId, spotifyUrl, alt = '', linked = true }) {
-  const [thumb, setThumb] = useState(null);
+  const [thumb, setThumb] = useState(() => oembedCache.get(trackId) || null);
 
   useEffect(() => {
-    if (!trackId) return;
+    if (!trackId) {
+      setThumb(null);
+      return;
+    }
+    // Synchronously seed from cache, or clear stale state from previous trackId
     if (oembedCache.has(trackId)) {
       setThumb(oembedCache.get(trackId));
       return;
     }
+    setThumb(null);  // Clear previous image while new one is fetching
+
+    let cancelled = false;
     const url = `https://open.spotify.com/oembed?url=spotify:track:${trackId}`;
     fetch(url)
       .then(r => r.json())
       .then(d => {
         const t = d.thumbnail_url || null;
         oembedCache.set(trackId, t);
-        setThumb(t);
+        if (!cancelled) setThumb(t);
       })
       .catch(() => {});
+    return () => { cancelled = true; };
   }, [trackId]);
 
   const inner = thumb
@@ -857,8 +1130,14 @@ function Header({ league }) {
   );
 }
 
-function ThemeBand() {
-  return <div className="themeband" />;
+function ThemeBand({ theme }) {
+  const themeName = theme?.name;
+  const Band = themeBands[themeName] || HorizonBand;
+  return (
+    <div className={`themeband${themeName ? ` themeband-${themeName}` : ''}`}>
+      <Band palette={theme?.palette} />
+    </div>
+  );
 }
 
 function Nav({ page, setPage }) {
@@ -942,14 +1221,33 @@ function CassetteMark({ palette }) {
   );
 }
 
+function PlayMark({ palette }) {
+  const primary = palette?.primary   || '#C9824B';
+  const accent  = palette?.accent    || '#D9B68C';
+  const high    = palette?.highlight || '#8B4513';
+  return (
+    <svg viewBox="0 0 64 64" width="48" height="48">
+      {/* Outer ring — round button silhouette */}
+      <circle cx="32" cy="32" r="22" fill={high} stroke={primary} strokeWidth="2" />
+      {/* Inner highlight ring (suggests pressable button) */}
+      <circle cx="32" cy="32" r="19" fill="none" stroke={accent} strokeWidth="0.8" opacity="0.6" />
+      {/* Play triangle */}
+      <path d="M 27 22 L 27 42 L 44 32 Z" fill={primary} stroke={accent} strokeWidth="0.6" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
 const themeMarks = {
-  summer: SunMark,
+  // Keyed by theme.design.mark, not theme.name — lets future weeks share marks
+  sun:      SunMark,
   cassette: CassetteMark,
+  play:     PlayMark,
 };
 
 function RoundBar({ round, totalRounds, onPrev, onNext, idx }) {
-  const markName = round.theme?.name;
-  const Mark = themeMarks[markName];
+  // Prefer the explicit design.mark; fall back to theme.name for older themes
+  const markKey = round.theme?.design?.mark || round.theme?.name;
+  const Mark = themeMarks[markKey];
   return (
     <div className="roundbar">
       <button className="roundbar-arrow" onClick={onPrev} disabled={idx === 0} aria-label="Previous round">‹</button>
@@ -1415,33 +1713,73 @@ function ProfilePage({ data, profileId, onPlayerClick, onBack }) {
   const profile = (data.player_profiles || {})[profileId];
   const seasonEntry = (data.season_leaderboard || []).find(e => e.player_id === profileId);
 
-  // Trend chart for this player
+  // Trend chart for this player — dual-axis: cumulative + weekly
   const trendConfig = useMemo(() => {
-    if (!profile || !seasonEntry || !seasonEntry.weekly || seasonEntry.weekly.length < 2) return null;
+    if (!profile || !seasonEntry || !seasonEntry.weekly || seasonEntry.weekly.length < 1) return null;
     const labels = seasonEntry.weekly.map(w => `R${w.round}`);
     let cum = 0;
     const cumData = seasonEntry.weekly.map(w => { cum += w.points; return cum; });
+    const weeklyData = seasonEntry.weekly.map(w => w.points);
+    const cumColor = '#F08A47';   // warm — for cumulative growth
+    const wkColor  = '#5B7B8C';   // denim slate — for per-week swings (cool counterweight)
     return {
       type: 'line',
       data: {
         labels,
-        datasets: [{
-          label: profile.name,
-          data: cumData,
-          borderColor: '#F08A47',
-          backgroundColor: '#F08A4720',
-          tension: 0.3,
-          borderWidth: 2.5,
-          fill: true,
-          pointRadius: 4,
-        }],
+        datasets: [
+          {
+            label: 'Cumulative',
+            data: cumData,
+            borderColor: cumColor,
+            backgroundColor: cumColor + '22',
+            tension: 0.3,
+            borderWidth: 2.5,
+            fill: true,
+            pointRadius: 4,
+            yAxisID: 'yCum',
+            order: 2,
+          },
+          {
+            label: 'This week',
+            data: weeklyData,
+            borderColor: wkColor,
+            backgroundColor: 'transparent',
+            tension: 0.25,
+            borderWidth: 2,
+            borderDash: [5, 4],
+            fill: false,
+            pointRadius: 3,
+            pointBackgroundColor: wkColor,
+            yAxisID: 'yWk',
+            order: 1,
+          },
+        ],
       },
       options: {
         responsive: true, maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
+        plugins: {
+          legend: {
+            display: true,
+            position: 'bottom',
+            labels: { color: '#888', font: { size: 11 }, boxWidth: 12, boxHeight: 8, padding: 12 },
+          },
+        },
         scales: {
           x: { ticks: { color: '#888' }, grid: { color: '#222' } },
-          y: { ticks: { color: '#888' }, grid: { color: '#222' }, beginAtZero: true },
+          yCum: {
+            type: 'linear', position: 'left',
+            ticks: { color: cumColor, font: { size: 10 } },
+            grid: { color: '#222' },
+            beginAtZero: true,
+            title: { display: true, text: 'Cumulative', color: cumColor, font: { size: 10 } },
+          },
+          yWk: {
+            type: 'linear', position: 'right',
+            ticks: { color: wkColor, font: { size: 10 } },
+            grid: { drawOnChartArea: false },
+            beginAtZero: true,
+            title: { display: true, text: 'This week', color: wkColor, font: { size: 10 } },
+          },
         },
       },
     };
@@ -1511,9 +1849,10 @@ function ProfilePage({ data, profileId, onPlayerClick, onBack }) {
       {trendConfig ? (
         <>
           <div className="section-h">
-            <div className="section-h-title">Cumulative trend</div>
+            <div className="section-h-title">Trend</div>
+            <div className="section-h-meta">cumulative + per week</div>
           </div>
-          <ChartCanvas config={trendConfig} />
+          <ChartCanvas config={trendConfig} height={280} />
         </>
       ) : null}
 
@@ -1740,7 +2079,7 @@ function App() {
 
   // Load data — bump ?v=N each weekly deploy
   useEffect(() => {
-    fetch('data.json?v=4')
+    fetch('data.json?v=7')
       .then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json();
@@ -1793,10 +2132,18 @@ function App() {
     setPage('players');
   };
 
+  // Resolve current theme: round theme on weekly/recap pages, else round 1's theme as fallback
+  const currentTheme = (() => {
+    if (!data?.rounds?.length) return null;
+    const rd = data.rounds[roundIdx];
+    if (rd?.theme && (page === 'weekly' || page === 'recap')) return rd.theme;
+    return data.rounds[0]?.theme || null;
+  })();
+
   return (
     <>
       <Header league={data.league} />
-      <ThemeBand />
+      <ThemeBand theme={currentTheme} />
       <Nav page={page} setPage={setPage} />
       {page === 'weekly'  ? <WeeklyPage  data={data} roundIdx={roundIdx} setRoundIdx={setRoundIdx} onPlayerClick={handlePlayerClick} /> : null}
       {page === 'season'  ? <SeasonPage  data={data} onPlayerClick={handlePlayerClick} /> : null}

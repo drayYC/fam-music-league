@@ -34,7 +34,13 @@
           "highlight": "#C25A28",
           "tile": "#1f1814"
         },
-        "band_gradient": "linear-gradient(90deg, #4FA0C4 0%, #F4B97A 45%, #F08A47 75%, #C25A28 100%)"
+        "band_gradient": "linear-gradient(90deg, #4FA0C4 0%, #F4B97A 45%, #F08A47 75%, #C25A28 100%)",
+        "design": {
+          "band": "gradient",
+          "tab_underline": "gradient",
+          "stat_accent": "solid",
+          "mark": "sun"
+        }
       },
       "songs": [
         {
@@ -324,14 +330,6 @@
           "rank": 3
         },
         {
-          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
-          "player": "Jack L.",
-          "points": 10,
-          "voted": true,
-          "pts_forfeited": 0,
-          "rank": 4
-        },
-        {
           "player_id": "19e6c48a177c458398bb138a991a2e4c",
           "player": "Elyse E.",
           "points": 10,
@@ -340,16 +338,24 @@
           "rank": 4
         },
         {
-          "player_id": "4853a05f049d4d4682257bed4b277eed",
-          "player": "Tess D.",
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
+          "points": 10,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 4
+        },
+        {
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
           "points": 7,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 6
         },
         {
-          "player_id": "5838e19081f440598e554c420f257ab7",
-          "player": "Mills T.",
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
           "points": 7,
           "voted": true,
           "pts_forfeited": 0,
@@ -364,16 +370,16 @@
           "rank": 8
         },
         {
-          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
-          "player": "Mike D.",
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
           "points": 4,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 9
         },
         {
-          "player_id": "41a0d64fae1f40489679232baec98925",
-          "player": "Mary D.",
+          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "player": "Mike D.",
           "points": 4,
           "voted": true,
           "pts_forfeited": 0,
@@ -1069,7 +1075,7 @@
         "sections": [
           {
             "heading": "The lay of the land",
-            "text": "Eleven family members, one round in, all of us currently in couples and all of those couples in this league. (Steve E. is on the Ghost Report this week; his other half — Dray's mom — joins next week, so the all-couples count holds at twelve from Round 2 onward.) Round 1 set a baseline for what this league cares about: a deeply contested middle, a couple of warm and obvious crowd-pleasers up top, and a pair of cool-but-divisive picks that turned into the round's most interesting tells. Below: what the data says about Round 1, and what the season's first signal-readings suggest about the weeks ahead."
+            "text": "Eleven family members, one round in, with one already on the Ghost Report and another sitting at the top of the standings. Round 1 set a baseline for what this league cares about: a deeply contested middle, a couple of warm and obvious crowd-pleasers up top, and a pair of cool-but-divisive picks that turned into the round's most interesting tells. Below: what the data says about Round 1, and what the season's first signal-readings suggest about the weeks ahead."
           },
           {
             "heading": "How Olivia D. won (and how it almost went a different way)",
@@ -1097,7 +1103,7 @@
           },
           {
             "heading": "The Dillon bloc is real",
-            "text": "Family voting cuts even cleaner than couples voting. The Dillons (Claire, Olivia, Tess, Mary, and Mike) gave 25 points to other Dillons across 19 votes. The Ensors (Dray, Elyse) gave 5 points to other Ensors across 3 votes. Partners (Mills, Jack, Gabriel) gave 15 points to Dillons but only 5 points to each other.\n\nSome of this is just population — there are five Dillons and only two active Ensors. But not all of it. Claire received 18 points total, tied with Olivia for the round's most-loved submitter. Of those 18, twelve came from Dillons + Mike + a partner who married in. Dray received 16, with the same pattern: family and family-adjacent voters carrying the load. Round 1 confirms the obvious: it pays to have more siblings in the league. We'll see if the Ensor side closes the gap when Dray's mom joins next week."
+            "text": "Family voting cuts even cleaner than couples voting. The Dillons (Claire, Olivia, Tess, Mary, and Mike) gave 25 points to other Dillons across 19 votes. The Ensors (Dray, Elyse) gave 5 points to other Ensors across 3 votes. Partners (Mills, Jack, Gabriel) gave 15 points to Dillons but only 5 points to each other.\n\nSome of this is just population — there are five Dillons and only two active Ensors. But not all of it. Claire received 18 points total, tied with Olivia for the round's most-loved submitter. Of those 18, twelve came from Dillons + Mike + a partner who married in. Dray received 16, with the same pattern: family and family-adjacent voters carrying the load. Round 1 confirms the obvious: it pays to have more siblings in the league."
           },
           {
             "heading": "Where the standings actually stand",
@@ -1126,7 +1132,13 @@
           "highlight": "#8B4513",
           "tile": "#1c1814"
         },
-        "band_gradient": "linear-gradient(90deg, #5B7B8C 0%, #D9B68C 40%, #C9824B 75%, #8B4513 100%)"
+        "band_gradient": "linear-gradient(90deg, #5B7B8C 0%, #D9B68C 40%, #C9824B 75%, #8B4513 100%)",
+        "design": {
+          "band": "cassette",
+          "tab_underline": "spool",
+          "stat_accent": "dashed",
+          "mark": "play"
+        }
       },
       "songs": [
         {
@@ -1450,16 +1462,16 @@
           "rank": 4
         },
         {
-          "player_id": "2334709be13e48759338c82689b95d11",
-          "player": "Gabriel M.",
+          "player_id": "dea876f23cf9428185f8757955c2eecd",
+          "player": "Claire E.",
           "points": 10,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 5
         },
         {
-          "player_id": "dea876f23cf9428185f8757955c2eecd",
-          "player": "Claire E.",
+          "player_id": "2334709be13e48759338c82689b95d11",
+          "player": "Gabriel M.",
           "points": 10,
           "voted": true,
           "pts_forfeited": 0,
@@ -1474,16 +1486,16 @@
           "rank": 7
         },
         {
-          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
-          "player": "Dray E.",
+          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "player": "Olivia D.",
           "points": 7,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 8
         },
         {
-          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
-          "player": "Olivia D.",
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
           "points": 7,
           "voted": true,
           "pts_forfeited": 0,
