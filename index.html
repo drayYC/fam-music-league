@@ -88,6 +88,9 @@ button { font-family: inherit; cursor: pointer; }
 .themeband.themeband-cassette {
   height: 52px;
 }
+.themeband.themeband-passport {
+  height: 44px;
+}
 
 /* Horizon band (Week 1 / summer) */
 .band-horizon {
@@ -111,6 +114,24 @@ button { font-family: inherit; cursor: pointer; }
   width: 100%;
   height: 100%;
   position: relative;
+  display: block;
+}
+
+/* Passport band (Week 3) — aged cream paper with hand-stamped impressions */
+.band-passport {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+  background: var(--a);
+  box-shadow: inset 0 1px 0 rgba(0,0,0,0.18), inset 0 -1px 0 rgba(0,0,0,0.18);
+  overflow: hidden;
+}
+.band-passport svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   display: block;
 }
 
@@ -185,6 +206,19 @@ body.tab-spool .nav-item:hover::after {
   background-image: linear-gradient(90deg, var(--p), var(--p));
   background-size: calc(100% - 12px) 1px;
   background-position: 6px 50%;
+}
+
+/* Stamp tab underline (passport theme) — a solid oxblood stripe with a faint
+   ink-bleed echo one pixel below, mimicking a pressed-and-lifted ink mark. */
+body.tab-stamp .nav-item::after {
+  background: var(--p);
+  height: 2px;
+  border-radius: 0;
+  bottom: 0;
+  box-shadow: 0 2px 0 0 color-mix(in srgb, var(--p) 40%, transparent);
+}
+body.tab-stamp .nav-item:hover::after {
+  box-shadow: 0 2px 0 0 color-mix(in srgb, var(--p) 22%, transparent);
 }
 
 /* ---------- Page container ---------- */
@@ -376,6 +410,10 @@ body.tab-spool .nav-item:hover::after {
 /* Dashed border variant for cassette theme (tape-segment texture) */
 body.accent-dashed .stat-box.cool {
   border-top: 2px dashed var(--c);
+}
+/* Dotted border variant for passport theme (postage perforation reference) */
+body.accent-dotted .stat-box.cool {
+  border-top: 2px dotted var(--c);
 }
 .stat-label {
   color: var(--dim);
@@ -750,6 +788,9 @@ body.theme-sun-bg {
 body.theme-cassette-bg {
   --body-tile: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='110' height='110' viewBox='0 0 110 110'><g fill='none' stroke='%231c1814' stroke-width='1.5' stroke-linejoin='round'><rect x='25' y='38' width='60' height='40' rx='3'/><circle cx='40' cy='58' r='6'/><circle cx='70' cy='58' r='6'/><circle cx='40' cy='58' r='1.5' fill='%231c1814'/><circle cx='70' cy='58' r='1.5' fill='%231c1814'/><line x1='40' y1='52' x2='40' y2='54'/><line x1='40' y1='62' x2='40' y2='64'/><line x1='34' y1='58' x2='36' y2='58'/><line x1='44' y1='58' x2='46' y2='58'/><line x1='70' y1='52' x2='70' y2='54'/><line x1='70' y1='62' x2='70' y2='64'/><line x1='64' y1='58' x2='66' y2='58'/><line x1='74' y1='58' x2='76' y2='58'/><line x1='30' y1='44' x2='80' y2='44'/></g></svg>");
 }
+body.theme-passport-bg {
+  --body-tile: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'><g fill='none' stroke='%23181410' stroke-width='2.4' stroke-linecap='square'><line x1='-10' y1='10' x2='10' y2='-10'/><line x1='-10' y1='30' x2='30' y2='-10'/><line x1='-10' y1='50' x2='50' y2='-10'/><line x1='-10' y1='70' x2='70' y2='-10'/><line x1='-10' y1='90' x2='90' y2='-10'/><line x1='10' y1='90' x2='90' y2='10'/><line x1='30' y1='90' x2='90' y2='30'/><line x1='50' y1='90' x2='90' y2='50'/><line x1='70' y1='90' x2='90' y2='70'/></g></svg>");
+}
 
 /* ---------- Spotify oEmbed link wrap ---------- */
 .spotify-link { display: block; width: 100%; height: 100%; }
@@ -1075,9 +1116,65 @@ function CassetteBand({ palette }) {
   );
 }
 
+function PassportBand({ palette }) {
+  // Aged-cream paper with hand-stamped impressions across it.
+  // Stamps use different ink colors from the palette, each rotated slightly off-axis.
+  const primary   = palette?.primary   || '#8E2D2D';  // oxblood
+  const cool      = palette?.cool      || '#2F4A6B';  // ink blue
+  const highlight = palette?.highlight || '#8B5A2B';  // sepia
+
+  return (
+    <div className="band-passport">
+      <svg viewBox="0 0 680 44" preserveAspectRatio="none" aria-hidden="true">
+        {/* Stamp 1 — circular "PASSED" (oxblood) */}
+        <g transform="translate(70 22) rotate(-4)" opacity="0.78">
+          <circle cx="0" cy="0" r="16" fill="none" stroke={primary} strokeWidth="1.3" />
+          <circle cx="0" cy="0" r="12" fill="none" stroke={primary} strokeWidth="0.6" strokeDasharray="1.2 1.8" />
+          <text x="0" y="-3.5" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="4" fontWeight="600" fill={primary} letterSpacing="0.5">PASSED</text>
+          <text x="0" y="2.5" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="3" fill={primary} letterSpacing="0.3">PASSPORT CONTROL</text>
+          <text x="0" y="7" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="2.6" fill={primary} opacity="0.7">2026</text>
+        </g>
+
+        {/* Stamp 2 — airmail rectangle (ink blue) */}
+        <g transform="translate(195 22) rotate(2)" opacity="0.72">
+          <rect x="-26" y="-10" width="52" height="20" fill="none" stroke={cool} strokeWidth="1" />
+          <line x1="-26" y1="-3.5" x2="26" y2="-3.5" stroke={cool} strokeWidth="0.5" />
+          <text x="0" y="-6" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="3.2" fontWeight="600" fill={cool} letterSpacing="0.4">VIA AIRMAIL</text>
+          <text x="0" y="1" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="3.8" fontWeight="600" fill={cool} letterSpacing="0.3">PAR AVION</text>
+          <text x="0" y="6" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="2.8" fill={cool} opacity="0.7">No. 1977</text>
+        </g>
+
+        {/* Stamp 3 — oval "WEEK 3" (sepia) */}
+        <g transform="translate(340 22) rotate(-2)" opacity="0.72">
+          <ellipse cx="0" cy="0" rx="24" ry="13" fill="none" stroke={highlight} strokeWidth="1.1" />
+          <ellipse cx="0" cy="0" rx="20" ry="10" fill="none" stroke={highlight} strokeWidth="0.5" strokeDasharray="1.2 1.6" />
+          <text x="0" y="-1" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="3.8" fontWeight="600" fill={highlight} letterSpacing="0.4">WEEK 3</text>
+          <text x="0" y="4.5" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="2.8" fill={highlight} letterSpacing="0.3">WORLD MUSIC</text>
+        </g>
+
+        {/* Stamp 4 — "ENTRY" rectangle (ink blue, faded variant) */}
+        <g transform="translate(475 22) rotate(3)" opacity="0.7">
+          <rect x="-18" y="-10" width="36" height="20" rx="1" fill="none" stroke={cool} strokeWidth="1" />
+          <text x="0" y="-2" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="3.8" fontWeight="600" fill={cool} letterSpacing="0.5">ENTRY</text>
+          <text x="0" y="4" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="2.8" fill={cool} letterSpacing="0.3">MAY · 2026</text>
+        </g>
+
+        {/* Stamp 5 — circular FML stamp (oxblood) */}
+        <g transform="translate(610 22) rotate(-1)" opacity="0.7">
+          <circle cx="0" cy="0" r="14" fill="none" stroke={primary} strokeWidth="1.2" />
+          <circle cx="0" cy="0" r="10.5" fill="none" stroke={primary} strokeWidth="0.5" />
+          <text x="0" y="-1" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="3.6" fontWeight="600" fill={primary} letterSpacing="0.4">FML</text>
+          <text x="0" y="3.5" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="2.8" fill={primary} letterSpacing="0.3">SEASON 1</text>
+        </g>
+      </svg>
+    </div>
+  );
+}
+
 const themeBands = {
   summer:   HorizonBand,
   cassette: CassetteBand,
+  passport: PassportBand,
 };
 
 // ---------------------------------------------------------------------------
@@ -1426,11 +1523,29 @@ function PlayMark({ palette }) {
   );
 }
 
+function PassportStampMark({ palette }) {
+  // Large circular stamp impression — the round-bar mark for Week 3.
+  // Slight rotation, dashed inner border, faint outer ring like a hand-stamped seal.
+  const primary = palette?.primary || '#8E2D2D';
+  return (
+    <svg viewBox="0 0 64 64" width="48" height="48" aria-hidden="true">
+      <g transform="translate(32 32) rotate(-6)">
+        <circle cx="0" cy="0" r="27" fill="none" stroke={primary} strokeWidth="1.6" opacity="0.88" />
+        <circle cx="0" cy="0" r="21" fill="none" stroke={primary} strokeWidth="0.7" strokeDasharray="2 2.5" opacity="0.65" />
+        <text x="0" y="-6" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="6.4" fontWeight="600" fill={primary} letterSpacing="1">PASSED</text>
+        <text x="0" y="2" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="4.2" fill={primary} letterSpacing="0.6">WORLD MUSIC</text>
+        <text x="0" y="9" textAnchor="middle" fontFamily="Inter, sans-serif" fontSize="4.2" fontWeight="600" fill={primary} letterSpacing="0.6">WK · 3</text>
+      </g>
+    </svg>
+  );
+}
+
 const themeMarks = {
   // Keyed by theme.design.mark, not theme.name — lets future weeks share marks
-  sun:      SunMark,
-  cassette: CassetteMark,
-  play:     PlayMark,
+  sun:                SunMark,
+  cassette:           CassetteMark,
+  play:               PlayMark,
+  'passport-stamp':   PassportStampMark,
 };
 
 function RoundBar({ round, totalRounds, onPrev, onNext, idx }) {
@@ -1902,7 +2017,7 @@ function ProfilePage({ data, profileId, onPlayerClick, onBack }) {
   const profile = (data.player_profiles || {})[profileId];
   const seasonEntry = (data.season_leaderboard || []).find(e => e.player_id === profileId);
 
-  // Trend chart for this player — dual-axis: cumulative + weekly
+  // Trend chart for this player — single y-axis: cumulative growth + per-week swings
   const trendConfig = useMemo(() => {
     if (!profile || !seasonEntry || !seasonEntry.weekly || seasonEntry.weekly.length < 1) return null;
     const labels = seasonEntry.weekly.map(w => `R${w.round}`);
@@ -1925,7 +2040,6 @@ function ProfilePage({ data, profileId, onPlayerClick, onBack }) {
             borderWidth: 2.5,
             fill: true,
             pointRadius: 4,
-            yAxisID: 'yCum',
             order: 2,
           },
           {
@@ -1939,7 +2053,6 @@ function ProfilePage({ data, profileId, onPlayerClick, onBack }) {
             fill: false,
             pointRadius: 3,
             pointBackgroundColor: wkColor,
-            yAxisID: 'yWk',
             order: 1,
           },
         ],
@@ -1955,19 +2068,11 @@ function ProfilePage({ data, profileId, onPlayerClick, onBack }) {
         },
         scales: {
           x: { ticks: { color: '#888' }, grid: { color: '#222' } },
-          yCum: {
+          y: {
             type: 'linear', position: 'left',
-            ticks: { color: cumColor, font: { size: 10 } },
+            ticks: { color: '#888', font: { size: 10 } },
             grid: { color: '#222' },
             beginAtZero: true,
-            title: { display: true, text: 'Cumulative', color: cumColor, font: { size: 10 } },
-          },
-          yWk: {
-            type: 'linear', position: 'right',
-            ticks: { color: wkColor, font: { size: 10 } },
-            grid: { drawOnChartArea: false },
-            beginAtZero: true,
-            title: { display: true, text: 'This week', color: wkColor, font: { size: 10 } },
           },
         },
       },
@@ -2268,7 +2373,7 @@ function App() {
 
   // Load data — bump ?v=N each weekly deploy
   useEffect(() => {
-    fetch('data.json?v=9')
+    fetch('data.json?v=3')
       .then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json();

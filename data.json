@@ -2,7 +2,7 @@
   "league": {
     "name": "Fam Music League",
     "subtitle": "Season One",
-    "total_rounds": 2
+    "total_rounds": 3
   },
   "players": {
     "0a831b84b60a4aaca7c6f3150bbccb88": "Dray E.",
@@ -370,16 +370,16 @@
           "rank": 8
         },
         {
-          "player_id": "41a0d64fae1f40489679232baec98925",
-          "player": "Mary D.",
+          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "player": "Mike D.",
           "points": 4,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 9
         },
         {
-          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
-          "player": "Mike D.",
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
           "points": 4,
           "voted": true,
           "pts_forfeited": 0,
@@ -1486,16 +1486,16 @@
           "rank": 7
         },
         {
-          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
-          "player": "Olivia D.",
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
           "points": 7,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 8
         },
         {
-          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
-          "player": "Dray E.",
+          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "player": "Olivia D.",
           "points": 7,
           "voted": true,
           "pts_forfeited": 0,
@@ -2322,16 +2322,1161 @@
           }
         ]
       }
+    },
+    {
+      "id": "1f5d6adc528145ba997ba0599835e249",
+      "number": 3,
+      "name": "World Music Week",
+      "description": "Give me your favorite songs from non-American bands! Some English is still allowed, but no American bands. Preferably no English whatsoever! You can search for the band/artist in Wikipedia and check the origin field to verify.",
+      "playlist_url": "https://open.spotify.com/playlist/5XomeMhD1lSNgVpvqPwcAC",
+      "theme": {
+        "name": "passport",
+        "tile_class": "theme-passport-bg",
+        "palette": {
+          "primary": "#8E2D2D",
+          "accent": "#E8DCC0",
+          "cool": "#2F4A6B",
+          "highlight": "#8B5A2B",
+          "tile": "#181410"
+        },
+        "band_gradient": "linear-gradient(90deg, #E8DCC0 0%, #E8DCC0 100%)",
+        "design": {
+          "band": "stamps",
+          "tab_underline": "stamp",
+          "stat_accent": "dotted",
+          "mark": "passport-stamp"
+        }
+      },
+      "songs": [
+        {
+          "title": "99 Luftballons",
+          "artist": "Nena",
+          "album": "Nena",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "total_pts": 13,
+          "unique_voters": 7,
+          "spotify_uri": "spotify:track:2IJftBfq7pJ43tfnOR0RB3",
+          "track_id": "2IJftBfq7pJ43tfnOR0RB3",
+          "spotify_url": "https://open.spotify.com/track/2IJftBfq7pJ43tfnOR0RB3",
+          "comment": "How can you not"
+        },
+        {
+          "title": "La Vie en rose",
+          "artist": "Édith Piaf",
+          "album": "Edith Piaf - The Best Of",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "total_pts": 7,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:3lAun9V0YdTlCSIEXPvfsY",
+          "track_id": "3lAun9V0YdTlCSIEXPvfsY",
+          "spotify_url": "https://open.spotify.com/track/3lAun9V0YdTlCSIEXPvfsY",
+          "comment": "Olivia played this song for us on repeat - Permanently linked to Paris and place de la contrascarpe"
+        },
+        {
+          "title": "My Sweet Lord - 2014 Remaster",
+          "artist": "George Harrison",
+          "album": "All Things Must Pass (2014 Remaster)",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "total_pts": 6,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:0KZodeWxqxd88F9wY1cqgs",
+          "track_id": "0KZodeWxqxd88F9wY1cqgs",
+          "spotify_url": "https://open.spotify.com/track/0KZodeWxqxd88F9wY1cqgs",
+          "comment": "He’s from Liverpool "
+        },
+        {
+          "title": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "artist": "K'NAAN",
+          "album": "Troubadour",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "total_pts": 6,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:02WDuAXXKumemrvsmrVBvH",
+          "track_id": "02WDuAXXKumemrvsmrVBvH",
+          "spotify_url": "https://open.spotify.com/track/02WDuAXXKumemrvsmrVBvH",
+          "comment": "A WORLD CUP CLASSIC!!!"
+        },
+        {
+          "title": "Coração Radiante",
+          "artist": "Grupo Revelação",
+          "album": "Ao Vivo No Olimpo",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "total_pts": 5,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:1PWpeF2KQQzBjqkJPMqvpJ",
+          "track_id": "1PWpeF2KQQzBjqkJPMqvpJ",
+          "spotify_url": "https://open.spotify.com/track/1PWpeF2KQQzBjqkJPMqvpJ",
+          "comment": ""
+        },
+        {
+          "title": "Mi Gente",
+          "artist": "J Balvin, Willy William",
+          "album": "Mi Gente",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:4ipnJyDU3Lq15qBAYNqlqK",
+          "track_id": "4ipnJyDU3Lq15qBAYNqlqK",
+          "spotify_url": "https://open.spotify.com/track/4ipnJyDU3Lq15qBAYNqlqK",
+          "comment": ""
+        },
+        {
+          "title": "Volare",
+          "artist": "Gipsy Kings",
+          "album": "!Volare! The Very Best of the Gipsy Kings",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:5oVs4alUctAl0B0QhWY0I2",
+          "track_id": "5oVs4alUctAl0B0QhWY0I2",
+          "spotify_url": "https://open.spotify.com/track/5oVs4alUctAl0B0QhWY0I2",
+          "comment": "Very Lizzy McGuire who is a world music star "
+        },
+        {
+          "title": "Fantastic Man",
+          "artist": "William Onyeabor",
+          "album": "Tomorrow",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "total_pts": 5,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:3anMkSns8d9sLKH0Tpya13",
+          "track_id": "3anMkSns8d9sLKH0Tpya13",
+          "spotify_url": "https://open.spotify.com/track/3anMkSns8d9sLKH0Tpya13",
+          "comment": "William Onyeabor was a Nigerian synth-funk mystery. He released nine albums between 1977 and 1985, then found God, refused to ever discuss his music again, and turned away every journalist and record label who came knocking for the rest of his life. Nobody knows where he got his synthesizers during a period when they were nearly impossible to find in Nigeria. Nobody knows where he learned to produce. He just appeared, made some of the most infectious funk music on the African continent, and disappeared."
+        },
+        {
+          "title": "1977",
+          "artist": "Ana Tijoux",
+          "album": "1977",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "total_pts": 4,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:7tOAN6w4a1LD0iqkRnIrhZ",
+          "track_id": "7tOAN6w4a1LD0iqkRnIrhZ",
+          "spotify_url": "https://open.spotify.com/track/7tOAN6w4a1LD0iqkRnIrhZ",
+          "comment": ""
+        },
+        {
+          "title": "Down Under",
+          "artist": "Men At Work",
+          "album": "Business As Usual",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:3ZZq9396zv8pcn5GYVhxUi",
+          "track_id": "3ZZq9396zv8pcn5GYVhxUi",
+          "spotify_url": "https://open.spotify.com/track/3ZZq9396zv8pcn5GYVhxUi",
+          "comment": ""
+        },
+        {
+          "title": "Vaitimbora",
+          "artist": "Mari Froes, Trinix",
+          "album": "Vaitimbora",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:0QAUgW2vTmlUWhbiNeSkWm",
+          "track_id": "0QAUgW2vTmlUWhbiNeSkWm",
+          "spotify_url": "https://open.spotify.com/track/0QAUgW2vTmlUWhbiNeSkWm",
+          "comment": ""
+        },
+        {
+          "title": "Conselho",
+          "artist": "Samba De Raiz",
+          "album": "Fundamental - Samba de Raiz",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:2JnVkJsUnBs7kyvVzD8E6L",
+          "track_id": "2JnVkJsUnBs7kyvVzD8E6L",
+          "spotify_url": "https://open.spotify.com/track/2JnVkJsUnBs7kyvVzD8E6L",
+          "comment": ""
+        },
+        {
+          "title": "Dancing Queen",
+          "artist": "ABBA",
+          "album": "Arrival",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:0GjEhVFGZW8afUYGChu3Rr",
+          "track_id": "0GjEhVFGZW8afUYGChu3Rr",
+          "spotify_url": "https://open.spotify.com/track/0GjEhVFGZW8afUYGChu3Rr",
+          "comment": "I don’t love this song but women do so I’m trolling for votes."
+        },
+        {
+          "title": "Paper Planes",
+          "artist": "M.I.A.",
+          "album": "Kala",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:1ixbwbeBi5ufN4noUKmW5a",
+          "track_id": "1ixbwbeBi5ufN4noUKmW5a",
+          "spotify_url": "https://open.spotify.com/track/1ixbwbeBi5ufN4noUKmW5a",
+          "comment": "Morning rides to school were always hype with this one. "
+        },
+        {
+          "title": "Into the Mystic - 2013 Remaster",
+          "artist": "Van Morrison",
+          "album": "Moondance",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "total_pts": 3,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:3lh3iiiJeiBXHSZw6u0kh6",
+          "track_id": "3lh3iiiJeiBXHSZw6u0kh6",
+          "spotify_url": "https://open.spotify.com/track/3lh3iiiJeiBXHSZw6u0kh6",
+          "comment": "He’s Irish"
+        },
+        {
+          "title": "Many Rivers To Cross",
+          "artist": "Jimmy Cliff",
+          "album": "Wonderful World, Beautiful People",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "total_pts": 3,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:1dZxI6OuzwJ283y3gOU1Kq",
+          "track_id": "1dZxI6OuzwJ283y3gOU1Kq",
+          "spotify_url": "https://open.spotify.com/track/1dZxI6OuzwJ283y3gOU1Kq",
+          "comment": "First reggae song I loved. "
+        },
+        {
+          "title": "Maria fumaça",
+          "artist": "Banda Black Rio",
+          "album": "Maria Fumaça (Remasterizado)",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "total_pts": 3,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:0C4zk034TFnI2z8eorbv4K",
+          "track_id": "0C4zk034TFnI2z8eorbv4K",
+          "spotify_url": "https://open.spotify.com/track/0C4zk034TFnI2z8eorbv4K",
+          "comment": "Banda Black Rio was the house band of Rio de Janeiro’s Black Soul movement in the late 70s. They were a group of musicians who fused American funk and R&B with samba and jazz in the suburban dance clubs of Rio. Maria Fumaça means “steam engine” and was the theme song of a Brazilian soap opera called Locomotivas. The band’s founder and saxophonist Oberdan Magalhães died in a car accident in 1984 at the height of their influence. They only made three albums but this track is the crown jewel, pure samba-funk joy that’s impossible to sit still through.​​​​​​​​​​​​​​​​ Also, this song sounds a lot like the sample from MF DOOM - Rapp Snitch Knishes if you’re into that kind of thing (you should be). "
+        },
+        {
+          "title": "Alors On Danse - Remix - Explicit",
+          "artist": "Stromae, Kanye West, Gilbere Forté",
+          "album": "Alors On Danse (Remix - Explicit)",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:2SRzCZMWi0vJM5ngaKjcjX",
+          "track_id": "2SRzCZMWi0vJM5ngaKjcjX",
+          "spotify_url": "https://open.spotify.com/track/2SRzCZMWi0vJM5ngaKjcjX",
+          "comment": "This hit hard during study abroad"
+        },
+        {
+          "title": "We Are The World Of Carnaval",
+          "artist": "Banda Eva",
+          "album": "Banda Eva 25 Anos ao Vivo/ Audio do DVD",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:3BBXm1zA7ct5KFZTEszfDc",
+          "track_id": "3BBXm1zA7ct5KFZTEszfDc",
+          "spotify_url": "https://open.spotify.com/track/3BBXm1zA7ct5KFZTEszfDc",
+          "comment": ""
+        },
+        {
+          "title": "Favourite",
+          "artist": "Fontaines D.C.",
+          "album": "Favourite",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "total_pts": 2,
+          "unique_voters": 1,
+          "spotify_uri": "spotify:track:7oG9qhZ0UaQEoUGJJVXh1U",
+          "track_id": "7oG9qhZ0UaQEoUGJJVXh1U",
+          "spotify_url": "https://open.spotify.com/track/7oG9qhZ0UaQEoUGJJVXh1U",
+          "comment": ""
+        },
+        {
+          "title": "Gasolina",
+          "artist": "Daddy Yankee",
+          "album": "Barrio Fino (Bonus Track Version)",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "spotify_uri": "spotify:track:5YoITs1m0q8UOQ4AW7N5ga",
+          "track_id": "5YoITs1m0q8UOQ4AW7N5ga",
+          "spotify_url": "https://open.spotify.com/track/5YoITs1m0q8UOQ4AW7N5ga",
+          "comment": ""
+        },
+        {
+          "title": "Highway to Hell",
+          "artist": "AC/DC",
+          "album": "Highway to Hell",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "spotify_uri": "spotify:track:2zYzyRzz6pRmhPzyfMEC8s",
+          "track_id": "2zYzyRzz6pRmhPzyfMEC8s",
+          "spotify_url": "https://open.spotify.com/track/2zYzyRzz6pRmhPzyfMEC8s",
+          "comment": "This actually an Australian band.  Never knew that."
+        }
+      ],
+      "leaderboard": [
+        {
+          "player_id": "dea876f23cf9428185f8757955c2eecd",
+          "player": "Claire E.",
+          "points": 15,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 1
+        },
+        {
+          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "player": "Mike D.",
+          "points": 11,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 2
+        },
+        {
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
+          "points": 11,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 2
+        },
+        {
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
+          "points": 9,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 4
+        },
+        {
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
+          "points": 8,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 5
+        },
+        {
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
+          "points": 7,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 6
+        },
+        {
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
+          "points": 6,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 7
+        },
+        {
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
+          "points": 6,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 7
+        },
+        {
+          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "player": "Olivia D.",
+          "points": 6,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 7
+        },
+        {
+          "player_id": "3b87dbe243724d3bbcafea4934075fec",
+          "player": "Steve E.",
+          "points": 0,
+          "voted": false,
+          "pts_forfeited": 4,
+          "rank": 10
+        },
+        {
+          "player_id": "2334709be13e48759338c82689b95d11",
+          "player": "Gabriel M.",
+          "points": 0,
+          "voted": false,
+          "pts_forfeited": 7,
+          "rank": 10
+        }
+      ],
+      "missed_points": [
+        {
+          "player": "Gabriel M.",
+          "total_missed": 7,
+          "songs": 2
+        },
+        {
+          "player": "Steve E.",
+          "total_missed": 4,
+          "songs": 2
+        }
+      ],
+      "generosity": [
+        {
+          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "player": "Olivia D.",
+          "avg_per_vote": 2.5,
+          "total_songs_voted": 4,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
+          "avg_per_vote": 2.0,
+          "total_songs_voted": 5,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
+          "avg_per_vote": 1.67,
+          "total_songs_voted": 6,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
+          "avg_per_vote": 1.43,
+          "total_songs_voted": 7,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "dea876f23cf9428185f8757955c2eecd",
+          "player": "Claire E.",
+          "avg_per_vote": 1.25,
+          "total_songs_voted": 9,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
+          "avg_per_vote": 1.11,
+          "total_songs_voted": 9,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "player": "Mike D.",
+          "avg_per_vote": 1.11,
+          "total_songs_voted": 9,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
+          "avg_per_vote": 1.0,
+          "total_songs_voted": 14,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
+          "avg_per_vote": 1.0,
+          "total_songs_voted": 12,
+          "total_pts_given": 10
+        }
+      ],
+      "vote_details": [
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "99 Luftballons",
+          "points": 4,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Alors On Danse - Remix - Explicit",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Highway to Hell",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Down Under",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Maria fumaça",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Coração Radiante",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "99 Luftballons",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Alors On Danse - Remix - Explicit",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "We Are The World Of Carnaval",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "La Vie en rose",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Down Under",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Mi Gente",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Vaitimbora",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Many Rivers To Cross",
+          "points": 1,
+          "comment": "Yes"
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Coração Radiante",
+          "points": 1,
+          "comment": "I wish I knew what they were talking about, but sounds lovely!"
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "99 Luftballons",
+          "points": 1,
+          "comment": "Yall ever read the translated lyrics of this song? Probably not what you think. "
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Conselho",
+          "points": 1,
+          "comment": "Can’t sit still when the samba is playing"
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "We Are The World Of Carnaval",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "La Vie en rose",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Down Under",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Volare",
+          "points": 1,
+          "comment": "Listening to Gipsy Kings always makes me think of the Jesus"
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "1977",
+          "points": 1,
+          "comment": "The Trey Anastasio Band cover is my favorite version of this song. "
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Dancing Queen",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "My Sweet Lord - 2014 Remaster",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Paper Planes",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "99 Luftballons",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "La Vie en rose",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Into the Mystic - 2013 Remaster",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Gasolina",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Vaitimbora",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "points": 1,
+          "comment": "World Cup Coke Memz "
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Maria fumaça",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Coração Radiante",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Conselho",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Fantastic Man",
+          "points": 2,
+          "comment": "The Dillon’s love it. Dray is this. Good submission."
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Volare",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "1977",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "99 Luftballons",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "La Vie en rose",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Into the Mystic - 2013 Remaster",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "My Sweet Lord - 2014 Remaster",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Vaitimbora",
+          "points": 1,
+          "comment": "Love this vibe and the harmonies"
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Coração Radiante",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Dancing Queen",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Mi Gente",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Volare",
+          "points": 1,
+          "comment": "Car commercial aside, this music a fun vibe. "
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "1977",
+          "points": 1,
+          "comment": "Dillon family dance vibes here…"
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "99 Luftballons",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "La Vie en rose",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Volare",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Paper Planes",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Dancing Queen",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "My Sweet Lord - 2014 Remaster",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Many Rivers To Cross",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Coração Radiante",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "99 Luftballons",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Conselho",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Fantastic Man",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Mi Gente",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "My Sweet Lord - 2014 Remaster",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Paper Planes",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Fantastic Man",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Mi Gente",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Favourite",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "1977",
+          "points": 1,
+          "comment": ""
+        }
+      ],
+      "stats": {
+        "total_submissions": 22,
+        "total_votes": 68,
+        "unique_voters": 9,
+        "unique_submitters": 11
+      },
+      "commentary": {
+        "title": "Week 3 Recap",
+        "sections": [
+          {
+            "heading": "Scouting Report (written blind)",
+            "text": "The blind report was committed before votes were revealed, with submitter IDs stripped from the submissions CSV for the first time this season. Top 5 prediction: La Vie en rose (winner), 99 Luftballons, Dancing Queen, Many Rivers To Cross, Volare. Zero-vote calls: Conselho, Vaitimbora, Favourite. Dark horse: Fantastic Man by William Onyeabor. Sneaky floor: Highway to Hell. Theme reading: a Brazil bloc of 5 songs (23% of the playlist) would cannibalize itself, and the 10 English-language picks (45% of the playlist, in defiance of the prompt's \"preferably no English\" soft constraint) would collectively underperform. See the scorecard at the bottom for what actually happened."
+          },
+          {
+            "heading": "Claire E. wins the round with the most theme-pure pick on the playlist",
+            "text": "99 Luftballons — Nena, 1983, German, anti-war Cold War classic — picked up 13 points from 7 of 9 voters (78% reach), the broadest support any song has received in three weeks. Jack L. dropped the only 4-point vote of the entire round on it. Olivia D. backed it with a 3. Everyone else who voted contributed at least 1.\n\nThis is the cleanest win the league has produced so far. Round 1 was won by an emotional storytelling combo (Olivia's Ants Marching + Mamma Mia). Round 2 was won by pure radio recognition (Mills's All Star + Scar Tissue). Round 3 is the first time the league has rewarded *theme-fit* above all else — Nena is the rare song that achieved global pop status while remaining in its original language, which is exactly what \"world music\" is asking for. Claire jumps from #1 by 1 point in the season to #1 by 5 points, with two-round-winner Mills falling all the way back to #5. The season's first repeat top-finisher is starting to look like a contender."
+          },
+          {
+            "heading": "Mike D. is now writing romance novels in the commentary section",
+            "text": "Mike D.'s comment on La Vie en rose (which finished 2nd at 7 points): \"This song reminds me of mary, the love of my life, dancing the night away during our recent trip to paris.\" That's a man who knows what he's doing. Mike has now used three rounds in a row to commemorate Dillon family relationships through music — Round 1 had Mary's Walking on Sunshine accompanied by her own paragraph about summer family trips; Round 2 had Mike's wedding-song double-submission for the Claire/Dray and Olivia/Mills weddings; Round 3 has Mike soft-launching a Paris trip with his wife.\n\nThe pattern is now official: Mike is not playing to win this league. He's playing to score points with Mary and document the family. La Vie en rose finishing 2nd at 7 points is also his highest single-song total of the season, which suggests this strategy is, against all odds, working."
+          },
+          {
+            "heading": "The Brazil bloc was three submitters, not one — and they cannibalized themselves anyway",
+            "text": "The blind report flagged 5 Brazilian submissions and bet that one submitter had gone deep on Brazilian music. Reveal: it was three different submitters splitting the bloc. Dray E. (Maria fumaça), Elyse E. (Vaitimbora + Conselho), and Gabriel M. (Coração Radiante + We Are The World Of Carnaval). The Magalhães-Ensor household alone produced 4 of the 5 Brazil picks, with Dray adding one more from the partner desk. The cannibalization happened anyway: the Brazil bloc averaged 3.4 points per song, versus 4.3 for non-Brazil songs. 19% of total round points were absorbed by 23% of the playlist — a 4-point underperformance on volume.\n\nGabriel's Coração Radiante hit 5 points and 5 voters (decent), but his Banda Eva carnaval pick only managed 2. Elyse's Vaitimbora — the song most penalized for unfamiliarity in the blind report — actually pulled 4 points and *avoided* the zero-vote prediction. Dray's Maria fumaça scored 3, with 2 voters going hard (Steve E. and Tess D.). The Brazil bloc is now a known taste signature for three players. If the family ever runs a \"Songs from your in-laws\" prompt, watch this space."
+          },
+          {
+            "heading": "The English-language penalty was real",
+            "text": "10 of 22 songs were in English. They collectively pulled 36 of 90 total points (40%). That's an English-song average of 3.6 vs. a non-English average of 4.5 — a 25% performance gap. The prompt said \"preferably no English\" and the family voted accordingly, just not enough to flip the leaderboard: Wavin' Flag (English, but the Coca-Cola Celebration Mix in a world-music week) still finished 3rd at 6 points; My Sweet Lord (George Harrison, English) also finished T-3rd. The most punished English picks: Highway to Hell (AC/DC, 1 point, 1 voter — the lowest score of the round, ahead of only Gasolina), and Favourite (Fontaines D.C., 2 points, 1 voter). The sneaky floor prediction held — AC/DC got *exactly* the 1 point of pity vote it was forecast to receive. \n\nMeaning for future weeks: when a theme has a soft constraint, the family takes it seriously. The voting majority is willing to penalize song quality in service of theme discipline. Submitters who ignore the constraint pay for it. Calibrate accordingly."
+          },
+          {
+            "heading": "The dark horse hit",
+            "text": "Fantastic Man — William Onyeabor — was called as a dark horse in the blind report on the theory that \"if even 3 voters know who Onyeabor is, this hits top 8.\" Final: 5 points, 3 voters, T-6th. Exact landing. The 3 voters were Mills T. (2 pts), Tess D. (2 pts), and Olivia D. (1 pt). Mills putting 2 points on Onyeabor is the most encouraging signal the league has produced for music discovery this season — he's the radio-friendly voter who would normally never engage with 1977 Nigerian electronic-funk, and he did. Submitter (Dray E.) gets a quiet win on taste-credibility, even if the broader playlist didn't reward him with a top-3 round."
+          },
+          {
+            "heading": "Ghost Report: the void reopens",
+            "text": "Last week we welcomed Steve E. back from the inaugural Round 1 ghosting and declared the Ghost Report empty. This week, Steve E. did the unthinkable: he submitted (Dancing Queen — ABBA, and Highway to Hell — AC/DC), but he didn't vote. Under the league's forfeit rule, that means his two songs earned 4 raw points from real voters and Steve receives zero. Worse: Gabriel M. *also* didn't vote, which forfeits the 7 raw points his two Brazilian songs earned. Coração Radiante landed at 5 points and Carnaval at 2, both deleted from the standings.\n\nThat's a 7-point forfeit for Gabriel and a 4-point forfeit for Steve. Gabriel goes from a hypothetical 4th place in the round to dead last with 0. Steve stays stuck at 2 season points. The Ghost Report on the Season tab now has two names again. Forfeit math is brutal: this is the league's first round where the *raw* leaderboard and the *real* leaderboard look fundamentally different."
+          },
+          {
+            "heading": "Couples voting: the saga continues to deescalate",
+            "text": "Round 1 had wildly lopsided couples voting (Tess→Jack 5–0, Mills→Olivia 5–1). Round 2 was almost perfectly balanced across all 5 couples. Round 3 splits the difference:\n\n• Tess ↔ Jack: 2 ↔ 2 (balanced, second week running)\n• Mike ↔ Mary: 3 ↔ 2 (Mike still voting more, but he's been to Paris with her, so)\n• Mills ↔ Olivia: 1 ↔ 0 (Olivia did not vote for Mills's Favourite, which got 1 voter total — that voter was Tess)\n• Dray ↔ Claire: 3 ↔ 1 (Claire's 99 Luftballons winning a Dray-credible 1-point vote, despite him not being a Nena guy)\n• Gabriel forfeit (didn't vote) ↔ Elyse: 2 → 0 (asymmetry by default)\n\nCumulative through three rounds, the Tess→Jack asymmetry has narrowed (now 10 vs. 4), and the Olivia→Mills relationship has neutralized (Mills gave Olivia 8 total, Olivia gave Mills 2 total — still imbalanced, but trending toward equilibrium). The Round 1 \"couples don't vote symmetrically\" headline is officially walked back. They mostly do — except when one of them forgets to vote."
+          },
+          {
+            "heading": "Standings: Claire pulls away, the middle tightens up",
+            "text": "Claire E. is now the runaway season leader at 43 points, 10 ahead of a two-way tie at #2 between Elyse E. and Mills T. (33 each), with Olivia D. one point further back at #4 (32) and Dray E. fifth (31). Five players are clustered between 31 and 33 points. Mike D. and Jack L. both move up to a tie at #6 with 28 points. Tess D. has the most dramatic week-over-week jump of any player: she was dead last among active members at 12 points and rockets to #8 at 23 by virtue of an 11-point week from just two songs and four voters (an absurd points-per-voter rate). Mary D. drops from T-#8 to #9 after a quiet week. Gabriel M. is now #10 at 15 — the forfeit penalty froze him in place while everyone except Steve passed him.\n\nThree rounds, three different round winners (Olivia, Mills, Claire). Three rounds, three different last-place finishers (Mary T-9th W1, Tess W2, Gabriel and Steve tied W3 by forfeit). Pattern stability remains zero. The only durable storyline is: voting consistently across weeks is mathematically more important than scoring big in any single one. Mike D. has 4-13-11 across three rounds and is now T-#6 at 28 points — quietly the most consistent submitter in the league. Mills T. has 7-20-6 and is two points further up the table at 33 — but volatility is starting to look like a season-killer."
+          },
+          {
+            "heading": "Blind report scorecard",
+            "text": "Top 5 prediction (in order): La Vie en rose, 99 Luftballons, Dancing Queen, Many Rivers To Cross, Volare. Actual top 5: 99 Luftballons (winner), La Vie en rose, Wavin' Flag, My Sweet Lord, Coração Radiante / Fantastic Man / Mi Gente / Volare (4-way T-5th at 5 points).\n\nScoring: 99 Luftballons — predicted #2, actual #1, hit within ±1. La Vie en rose — predicted #1, actual #2, hit within ±1. Volare — predicted #5, actual T-5th, exact. That's 3 of 5 predictions within ±2 ranks. Dancing Queen badly missed (predicted #3, actual T-13th — the karaoke staple theory got refuted; the family wasn't going to reward ABBA in a world music week when 99 Luftballons was already on the playlist serving the same theme better). Many Rivers To Cross also missed (predicted #4, actual T-14th — Boomer recognition didn't materialize the way I expected).\n\nZero-vote predictions: 0 of 3. Conselho got 3 pts. Vaitimbora got 4. Favourite got 2. *No song received zero votes in Week 3.* That's a fascinating data point — the family is more generous than the model expected. The 1-point pity vote is doing a lot of work in this league.\n\nDark horse: Fantastic Man predicted top 8 if 3 voters knew Onyeabor; actual T-#6 with exactly 3 voters. **Exact landing.** Sneaky floor: Highway to Hell predicted 8–12 points; actual 1 point. Big miss — underestimated the English-language penalty.\n\nCumulative blind report record across 3 weeks: top-5 predictions improving (this week was the model's best), zero-vote predictions getting *worse* (0/3 after going 1/3 and 1/1), and the framework keeps overestimating consensus picks while underestimating the family's willingness to enforce theme discipline. Round 4 adjustment: be less confident about \"obvious\" picks, more confident about theme-pure picks, and stop predicting any song to score zero unless it's *both* off-theme AND from an unfamiliar artist."
+          }
+        ]
+      }
     }
   ],
   "season_leaderboard": [
     {
       "player_id": "dea876f23cf9428185f8757955c2eecd",
       "player": "Claire E.",
-      "points": 28,
-      "rounds_played": 2,
-      "wins": 0,
-      "avg_per_round": 14.0,
+      "points": 43,
+      "rounds_played": 3,
+      "wins": 1,
+      "avg_per_round": 14.3,
       "joined_round": 1,
       "weekly": [
         {
@@ -2343,39 +3488,22 @@
           "round": 2,
           "points": 10,
           "rank": 5
+        },
+        {
+          "round": 3,
+          "points": 15,
+          "rank": 1
         }
       ],
       "rank": 1
     },
     {
-      "player_id": "5838e19081f440598e554c420f257ab7",
-      "player": "Mills T.",
-      "points": 27,
-      "rounds_played": 2,
-      "wins": 1,
-      "avg_per_round": 13.5,
-      "joined_round": 1,
-      "weekly": [
-        {
-          "round": 1,
-          "points": 7,
-          "rank": 6
-        },
-        {
-          "round": 2,
-          "points": 20,
-          "rank": 1
-        }
-      ],
-      "rank": 2
-    },
-    {
       "player_id": "19e6c48a177c458398bb138a991a2e4c",
       "player": "Elyse E.",
-      "points": 26,
-      "rounds_played": 2,
+      "points": 33,
+      "rounds_played": 3,
       "wins": 0,
-      "avg_per_round": 13.0,
+      "avg_per_round": 11.0,
       "joined_round": 1,
       "weekly": [
         {
@@ -2387,17 +3515,49 @@
           "round": 2,
           "points": 16,
           "rank": 2
+        },
+        {
+          "round": 3,
+          "points": 7,
+          "rank": 6
         }
       ],
-      "rank": 3
+      "rank": 2
+    },
+    {
+      "player_id": "5838e19081f440598e554c420f257ab7",
+      "player": "Mills T.",
+      "points": 33,
+      "rounds_played": 3,
+      "wins": 1,
+      "avg_per_round": 11.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 7,
+          "rank": 6
+        },
+        {
+          "round": 2,
+          "points": 20,
+          "rank": 1
+        },
+        {
+          "round": 3,
+          "points": 6,
+          "rank": 7
+        }
+      ],
+      "rank": 2
     },
     {
       "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
       "player": "Olivia D.",
-      "points": 26,
-      "rounds_played": 2,
+      "points": 32,
+      "rounds_played": 3,
       "wins": 1,
-      "avg_per_round": 13.0,
+      "avg_per_round": 10.7,
       "joined_round": 1,
       "weekly": [
         {
@@ -2409,17 +3569,22 @@
           "round": 2,
           "points": 7,
           "rank": 8
+        },
+        {
+          "round": 3,
+          "points": 6,
+          "rank": 7
         }
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
       "player": "Dray E.",
-      "points": 23,
-      "rounds_played": 2,
+      "points": 31,
+      "rounds_played": 3,
       "wins": 0,
-      "avg_per_round": 11.5,
+      "avg_per_round": 10.3,
       "joined_round": 1,
       "weekly": [
         {
@@ -2431,6 +3596,11 @@
           "round": 2,
           "points": 7,
           "rank": 8
+        },
+        {
+          "round": 3,
+          "points": 8,
+          "rank": 5
         }
       ],
       "rank": 5
@@ -2438,10 +3608,10 @@
     {
       "player_id": "994734a26c814552ad88e0ce9ea4cfce",
       "player": "Jack L.",
-      "points": 19,
-      "rounds_played": 2,
+      "points": 28,
+      "rounds_played": 3,
       "wins": 0,
-      "avg_per_round": 9.5,
+      "avg_per_round": 9.3,
       "joined_round": 1,
       "weekly": [
         {
@@ -2453,6 +3623,11 @@
           "round": 2,
           "points": 9,
           "rank": 7
+        },
+        {
+          "round": 3,
+          "points": 9,
+          "rank": 4
         }
       ],
       "rank": 6
@@ -2460,10 +3635,10 @@
     {
       "player_id": "e0e0d50ee23443cf80cea1d777fac793",
       "player": "Mike D.",
-      "points": 17,
-      "rounds_played": 2,
+      "points": 28,
+      "rounds_played": 3,
       "wins": 0,
-      "avg_per_round": 8.5,
+      "avg_per_round": 9.3,
       "joined_round": 1,
       "weekly": [
         {
@@ -2475,61 +3650,22 @@
           "round": 2,
           "points": 13,
           "rank": 3
-        }
-      ],
-      "rank": 7
-    },
-    {
-      "player_id": "2334709be13e48759338c82689b95d11",
-      "player": "Gabriel M.",
-      "points": 15,
-      "rounds_played": 2,
-      "wins": 0,
-      "avg_per_round": 7.5,
-      "joined_round": 1,
-      "weekly": [
-        {
-          "round": 1,
-          "points": 5,
-          "rank": 8
         },
         {
-          "round": 2,
-          "points": 10,
-          "rank": 5
-        }
-      ],
-      "rank": 8
-    },
-    {
-      "player_id": "41a0d64fae1f40489679232baec98925",
-      "player": "Mary D.",
-      "points": 15,
-      "rounds_played": 2,
-      "wins": 0,
-      "avg_per_round": 7.5,
-      "joined_round": 1,
-      "weekly": [
-        {
-          "round": 1,
-          "points": 4,
-          "rank": 9
-        },
-        {
-          "round": 2,
+          "round": 3,
           "points": 11,
-          "rank": 4
+          "rank": 2
         }
       ],
-      "rank": 8
+      "rank": 6
     },
     {
       "player_id": "4853a05f049d4d4682257bed4b277eed",
       "player": "Tess D.",
-      "points": 12,
-      "rounds_played": 2,
+      "points": 23,
+      "rounds_played": 3,
       "wins": 0,
-      "avg_per_round": 6.0,
+      "avg_per_round": 7.7,
       "joined_round": 1,
       "weekly": [
         {
@@ -2541,6 +3677,65 @@
           "round": 2,
           "points": 5,
           "rank": 10
+        },
+        {
+          "round": 3,
+          "points": 11,
+          "rank": 2
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "player_id": "41a0d64fae1f40489679232baec98925",
+      "player": "Mary D.",
+      "points": 21,
+      "rounds_played": 3,
+      "wins": 0,
+      "avg_per_round": 7.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 4,
+          "rank": 9
+        },
+        {
+          "round": 2,
+          "points": 11,
+          "rank": 4
+        },
+        {
+          "round": 3,
+          "points": 6,
+          "rank": 7
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "player_id": "2334709be13e48759338c82689b95d11",
+      "player": "Gabriel M.",
+      "points": 15,
+      "rounds_played": 3,
+      "wins": 0,
+      "avg_per_round": 5.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 5,
+          "rank": 8
+        },
+        {
+          "round": 2,
+          "points": 10,
+          "rank": 5
+        },
+        {
+          "round": 3,
+          "points": 0,
+          "rank": 10
         }
       ],
       "rank": 10
@@ -2549,15 +3744,20 @@
       "player_id": "3b87dbe243724d3bbcafea4934075fec",
       "player": "Steve E.",
       "points": 2,
-      "rounds_played": 1,
+      "rounds_played": 2,
       "wins": 0,
-      "avg_per_round": 2.0,
+      "avg_per_round": 1.0,
       "joined_round": 2,
       "weekly": [
         {
           "round": 2,
           "points": 2,
           "rank": 11
+        },
+        {
+          "round": 3,
+          "points": 0,
+          "rank": 10
         }
       ],
       "rank": 11
@@ -2567,26 +3767,86 @@
     {
       "voter": "Mike D.",
       "submitter": "Claire E.",
-      "total_pts": 9,
-      "times": 3
+      "total_pts": 10,
+      "times": 4
     },
     {
       "voter": "Tess D.",
       "submitter": "Jack L.",
+      "total_pts": 10,
+      "times": 4
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Dray E.",
+      "total_pts": 8,
+      "times": 5
+    },
+    {
+      "voter": "Jack L.",
+      "submitter": "Claire E.",
       "total_pts": 8,
       "times": 3
     },
     {
       "voter": "Mills T.",
       "submitter": "Olivia D.",
+      "total_pts": 7,
+      "times": 4
+    },
+    {
+      "voter": "Jack L.",
+      "submitter": "Mills T.",
+      "total_pts": 7,
+      "times": 3
+    },
+    {
+      "voter": "Olivia D.",
+      "submitter": "Tess D.",
       "total_pts": 6,
       "times": 3
     },
     {
+      "voter": "Olivia D.",
+      "submitter": "Claire E.",
+      "total_pts": 6,
+      "times": 4
+    },
+    {
+      "voter": "Mike D.",
+      "submitter": "Mary D.",
+      "total_pts": 6,
+      "times": 4
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Claire E.",
+      "total_pts": 6,
+      "times": 4
+    },
+    {
+      "voter": "Olivia D.",
+      "submitter": "Mike D.",
+      "total_pts": 6,
+      "times": 2
+    },
+    {
       "voter": "Claire E.",
-      "submitter": "Dray E.",
+      "submitter": "Mike D.",
       "total_pts": 5,
-      "times": 3
+      "times": 4
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Elyse E.",
+      "total_pts": 5,
+      "times": 5
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Mike D.",
+      "total_pts": 5,
+      "times": 5
     },
     {
       "voter": "Olivia D.",
@@ -2595,10 +3855,34 @@
       "times": 3
     },
     {
-      "voter": "Jack L.",
-      "submitter": "Mills T.",
+      "voter": "Tess D.",
+      "submitter": "Olivia D.",
+      "total_pts": 5,
+      "times": 3
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Dray E.",
       "total_pts": 5,
       "times": 2
+    },
+    {
+      "voter": "Mills T.",
+      "submitter": "Mike D.",
+      "total_pts": 5,
+      "times": 3
+    },
+    {
+      "voter": "Mills T.",
+      "submitter": "Jack L.",
+      "total_pts": 5,
+      "times": 3
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Mills T.",
+      "total_pts": 5,
+      "times": 3
     },
     {
       "voter": "Mills T.",
@@ -2607,10 +3891,10 @@
       "times": 2
     },
     {
-      "voter": "Claire E.",
-      "submitter": "Mike D.",
+      "voter": "Dray E.",
+      "submitter": "Mills T.",
       "total_pts": 4,
-      "times": 3
+      "times": 4
     },
     {
       "voter": "Olivia D.",
@@ -2619,8 +3903,38 @@
       "times": 1
     },
     {
+      "voter": "Mary D.",
+      "submitter": "Gabriel M.",
+      "total_pts": 4,
+      "times": 3
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Tess D.",
+      "total_pts": 4,
+      "times": 4
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Olivia D.",
+      "total_pts": 4,
+      "times": 4
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Mike D.",
+      "total_pts": 4,
+      "times": 4
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Jack L.",
+      "total_pts": 4,
+      "times": 4
+    },
+    {
       "voter": "Elyse E.",
-      "submitter": "Claire E.",
+      "submitter": "Olivia D.",
       "total_pts": 4,
       "times": 2
     },
@@ -2637,16 +3951,28 @@
       "times": 3
     },
     {
-      "voter": "Mills T.",
-      "submitter": "Mike D.",
+      "voter": "Tess D.",
+      "submitter": "Dray E.",
       "total_pts": 4,
       "times": 2
     },
     {
-      "voter": "Elyse E.",
-      "submitter": "Mills T.",
+      "voter": "Jack L.",
+      "submitter": "Tess D.",
       "total_pts": 4,
       "times": 2
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Elyse E.",
+      "total_pts": 4,
+      "times": 3
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Tess D.",
+      "total_pts": 3,
+      "times": 3
     },
     {
       "voter": "Claire E.",
@@ -2662,207 +3988,81 @@
     },
     {
       "voter": "Dray E.",
-      "submitter": "Mills T.",
-      "total_pts": 3,
-      "times": 3
-    },
-    {
-      "voter": "Dray E.",
-      "submitter": "Elyse E.",
-      "total_pts": 3,
-      "times": 3
-    },
-    {
-      "voter": "Dray E.",
-      "submitter": "Mike D.",
-      "total_pts": 3,
-      "times": 3
-    },
-    {
-      "voter": "Olivia D.",
       "submitter": "Claire E.",
       "total_pts": 3,
       "times": 3
     },
     {
+      "voter": "Dray E.",
+      "submitter": "Tess D.",
+      "total_pts": 3,
+      "times": 3
+    },
+    {
       "voter": "Mike D.",
+      "submitter": "Gabriel M.",
+      "total_pts": 3,
+      "times": 3
+    },
+    {
+      "voter": "Mike D.",
+      "submitter": "Elyse E.",
+      "total_pts": 3,
+      "times": 3
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Claire E.",
+      "total_pts": 3,
+      "times": 3
+    },
+    {
+      "voter": "Jack L.",
+      "submitter": "Gabriel M.",
+      "total_pts": 3,
+      "times": 2
+    },
+    {
+      "voter": "Jack L.",
+      "submitter": "Elyse E.",
+      "total_pts": 3,
+      "times": 2
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Jack L.",
+      "total_pts": 3,
+      "times": 2
+    },
+    {
+      "voter": "Gabriel M.",
+      "submitter": "Olivia D.",
+      "total_pts": 3,
+      "times": 2
+    },
+    {
+      "voter": "Tess D.",
+      "submitter": "Mills T.",
+      "total_pts": 3,
+      "times": 2
+    },
+    {
+      "voter": "Tess D.",
+      "submitter": "Claire E.",
+      "total_pts": 3,
+      "times": 1
+    },
+    {
+      "voter": "Dray E.",
       "submitter": "Mary D.",
       "total_pts": 3,
-      "times": 2
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Gabriel M.",
-      "total_pts": 3,
-      "times": 2
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Tess D.",
-      "total_pts": 3,
       "times": 3
     },
     {
-      "voter": "Mary D.",
-      "submitter": "Olivia D.",
+      "voter": "Dray E.",
+      "submitter": "Gabriel M.",
       "total_pts": 3,
       "times": 3
-    },
-    {
-      "voter": "Tess D.",
-      "submitter": "Olivia D.",
-      "total_pts": 3,
-      "times": 2
-    },
-    {
-      "voter": "Jack L.",
-      "submitter": "Gabriel M.",
-      "total_pts": 3,
-      "times": 2
-    },
-    {
-      "voter": "Jack L.",
-      "submitter": "Claire E.",
-      "total_pts": 3,
-      "times": 1
-    },
-    {
-      "voter": "Jack L.",
-      "submitter": "Elyse E.",
-      "total_pts": 3,
-      "times": 2
-    },
-    {
-      "voter": "Elyse E.",
-      "submitter": "Dray E.",
-      "total_pts": 3,
-      "times": 1
-    },
-    {
-      "voter": "Elyse E.",
-      "submitter": "Jack L.",
-      "total_pts": 3,
-      "times": 2
-    },
-    {
-      "voter": "Elyse E.",
-      "submitter": "Olivia D.",
-      "total_pts": 3,
-      "times": 1
-    },
-    {
-      "voter": "Gabriel M.",
-      "submitter": "Olivia D.",
-      "total_pts": 3,
-      "times": 2
-    },
-    {
-      "voter": "Tess D.",
-      "submitter": "Claire E.",
-      "total_pts": 3,
-      "times": 1
-    },
-    {
-      "voter": "Olivia D.",
-      "submitter": "Mike D.",
-      "total_pts": 3,
-      "times": 1
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Elyse E.",
-      "total_pts": 3,
-      "times": 2
-    },
-    {
-      "voter": "Gabriel M.",
-      "submitter": "Mills T.",
-      "total_pts": 3,
-      "times": 2
-    },
-    {
-      "voter": "Mills T.",
-      "submitter": "Gabriel M.",
-      "total_pts": 2,
-      "times": 1
-    },
-    {
-      "voter": "Dray E.",
-      "submitter": "Claire E.",
-      "total_pts": 2,
-      "times": 2
-    },
-    {
-      "voter": "Dray E.",
-      "submitter": "Tess D.",
-      "total_pts": 2,
-      "times": 2
-    },
-    {
-      "voter": "Dray E.",
-      "submitter": "Olivia D.",
-      "total_pts": 2,
-      "times": 2
-    },
-    {
-      "voter": "Olivia D.",
-      "submitter": "Tess D.",
-      "total_pts": 2,
-      "times": 1
-    },
-    {
-      "voter": "Olivia D.",
-      "submitter": "Mills T.",
-      "total_pts": 2,
-      "times": 2
-    },
-    {
-      "voter": "Mike D.",
-      "submitter": "Gabriel M.",
-      "total_pts": 2,
-      "times": 2
-    },
-    {
-      "voter": "Mike D.",
-      "submitter": "Elyse E.",
-      "total_pts": 2,
-      "times": 2
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Claire E.",
-      "total_pts": 2,
-      "times": 2
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Mike D.",
-      "total_pts": 2,
-      "times": 2
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Jack L.",
-      "total_pts": 2,
-      "times": 2
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Mills T.",
-      "total_pts": 2,
-      "times": 2
-    },
-    {
-      "voter": "Tess D.",
-      "submitter": "Elyse E.",
-      "total_pts": 2,
-      "times": 1
-    },
-    {
-      "voter": "Jack L.",
-      "submitter": "Olivia D.",
-      "total_pts": 2,
-      "times": 1
     }
   ],
   "hall_of_fame": [
@@ -2876,6 +4076,17 @@
       "unique_voters": 5,
       "track_id": "6leiB1fEsTnVCuPiielde5",
       "spotify_url": "https://open.spotify.com/track/6leiB1fEsTnVCuPiielde5"
+    },
+    {
+      "round": 3,
+      "title": "99 Luftballons",
+      "artist": "Nena",
+      "submitter": "Claire E.",
+      "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+      "total_pts": 13,
+      "unique_voters": 7,
+      "track_id": "2IJftBfq7pJ43tfnOR0RB3",
+      "spotify_url": "https://open.spotify.com/track/2IJftBfq7pJ43tfnOR0RB3"
     },
     {
       "round": 1,
@@ -2988,6 +4199,17 @@
       "spotify_url": "https://open.spotify.com/track/4agp6oHofabdUedr0B1krj"
     },
     {
+      "round": 3,
+      "title": "La Vie en rose",
+      "artist": "Édith Piaf",
+      "submitter": "Mike D.",
+      "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+      "total_pts": 7,
+      "unique_voters": 5,
+      "track_id": "3lAun9V0YdTlCSIEXPvfsY",
+      "spotify_url": "https://open.spotify.com/track/3lAun9V0YdTlCSIEXPvfsY"
+    },
+    {
       "round": 2,
       "title": "Elderly Woman Behind the Counter in a Small Town - Remastered",
       "artist": "Pearl Jam",
@@ -3054,37 +4276,15 @@
       "spotify_url": "https://open.spotify.com/track/1qPbGZqppFwLwcBC1JQ6Vr"
     },
     {
-      "round": 2,
-      "title": "Everybody (Backstreet's Back) - Radio Edit",
-      "artist": "Backstreet Boys",
-      "submitter": "Gabriel M.",
-      "submitter_id": "2334709be13e48759338c82689b95d11",
-      "total_pts": 5,
+      "round": 3,
+      "title": "My Sweet Lord - 2014 Remaster",
+      "artist": "George Harrison",
+      "submitter": "Jack L.",
+      "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+      "total_pts": 6,
       "unique_voters": 4,
-      "track_id": "1di1BEgJYzPvXUuinsYJGP",
-      "spotify_url": "https://open.spotify.com/track/1di1BEgJYzPvXUuinsYJGP"
-    },
-    {
-      "round": 2,
-      "title": "Good Riddance (Time of Your Life)",
-      "artist": "Green Day",
-      "submitter": "Gabriel M.",
-      "submitter_id": "2334709be13e48759338c82689b95d11",
-      "total_pts": 5,
-      "unique_voters": 4,
-      "track_id": "6ORqU0bHbVCRjXm9AjyHyZ",
-      "spotify_url": "https://open.spotify.com/track/6ORqU0bHbVCRjXm9AjyHyZ"
-    },
-    {
-      "round": 2,
-      "title": "Ring of Fire",
-      "artist": "Johnny Cash",
-      "submitter": "Mary D.",
-      "submitter_id": "41a0d64fae1f40489679232baec98925",
-      "total_pts": 5,
-      "unique_voters": 4,
-      "track_id": "5rDkA2TFOImbiVenmnE9r4",
-      "spotify_url": "https://open.spotify.com/track/5rDkA2TFOImbiVenmnE9r4"
+      "track_id": "0KZodeWxqxd88F9wY1cqgs",
+      "spotify_url": "https://open.spotify.com/track/0KZodeWxqxd88F9wY1cqgs"
     }
   ],
   "player_profiles": {
@@ -3130,6 +4330,26 @@
           "unique_voters": 0,
           "track_id": "6DyywdbmTzlmXBzG9ym7Rt",
           "spotify_url": "https://open.spotify.com/track/6DyywdbmTzlmXBzG9ym7Rt"
+        },
+        {
+          "round": 3,
+          "title": "Fantastic Man",
+          "artist": "William Onyeabor",
+          "album": "Tomorrow",
+          "total_pts": 5,
+          "unique_voters": 3,
+          "track_id": "3anMkSns8d9sLKH0Tpya13",
+          "spotify_url": "https://open.spotify.com/track/3anMkSns8d9sLKH0Tpya13"
+        },
+        {
+          "round": 3,
+          "title": "Maria fumaça",
+          "artist": "Banda Black Rio",
+          "album": "Maria Fumaça (Remasterizado)",
+          "total_pts": 3,
+          "unique_voters": 2,
+          "track_id": "0C4zk034TFnI2z8eorbv4K",
+          "spotify_url": "https://open.spotify.com/track/0C4zk034TFnI2z8eorbv4K"
         }
       ],
       "voting_history": [
@@ -3252,10 +4472,70 @@
           "song": "Twist And Shout - Remastered 2009",
           "voted_for": "Mary D.",
           "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Vaitimbora",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Many Rivers To Cross",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Coração Radiante",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "99 Luftballons",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Conselho",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "We Are The World Of Carnaval",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "La Vie en rose",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Down Under",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Volare",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "1977",
+          "voted_for": "Mike D.",
+          "points_given": 1
         }
       ],
-      "season_points": 23,
-      "rounds_played": 2
+      "season_points": 31,
+      "rounds_played": 3
     },
     "19e6c48a177c458398bb138a991a2e4c": {
       "name": "Elyse E.",
@@ -3299,6 +4579,26 @@
           "unique_voters": 4,
           "track_id": "1qPbGZqppFwLwcBC1JQ6Vr",
           "spotify_url": "https://open.spotify.com/track/1qPbGZqppFwLwcBC1JQ6Vr"
+        },
+        {
+          "round": 3,
+          "title": "Vaitimbora",
+          "artist": "Mari Froes, Trinix",
+          "album": "Vaitimbora",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "track_id": "0QAUgW2vTmlUWhbiNeSkWm",
+          "spotify_url": "https://open.spotify.com/track/0QAUgW2vTmlUWhbiNeSkWm"
+        },
+        {
+          "round": 3,
+          "title": "Conselho",
+          "artist": "Samba De Raiz",
+          "album": "Fundamental - Samba de Raiz",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "track_id": "2JnVkJsUnBs7kyvVzD8E6L",
+          "spotify_url": "https://open.spotify.com/track/2JnVkJsUnBs7kyvVzD8E6L"
         }
       ],
       "voting_history": [
@@ -3367,10 +4667,64 @@
           "song": "Twist And Shout - Remastered 2009",
           "voted_for": "Mary D.",
           "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Maria fumaça",
+          "voted_for": "Dray E.",
+          "points_given": 2
+        },
+        {
+          "round": 3,
+          "song": "Coração Radiante",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "99 Luftballons",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Alors On Danse - Remix - Explicit",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "We Are The World Of Carnaval",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "La Vie en rose",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Down Under",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Mi Gente",
+          "voted_for": "Olivia D.",
+          "points_given": 1
         }
       ],
-      "season_points": 26,
-      "rounds_played": 2
+      "season_points": 33,
+      "rounds_played": 3
     },
     "2334709be13e48759338c82689b95d11": {
       "name": "Gabriel M.",
@@ -3414,6 +4768,26 @@
           "unique_voters": 4,
           "track_id": "6ORqU0bHbVCRjXm9AjyHyZ",
           "spotify_url": "https://open.spotify.com/track/6ORqU0bHbVCRjXm9AjyHyZ"
+        },
+        {
+          "round": 3,
+          "title": "Coração Radiante",
+          "artist": "Grupo Revelação",
+          "album": "Ao Vivo No Olimpo",
+          "total_pts": 5,
+          "unique_voters": 5,
+          "track_id": "1PWpeF2KQQzBjqkJPMqvpJ",
+          "spotify_url": "https://open.spotify.com/track/1PWpeF2KQQzBjqkJPMqvpJ"
+        },
+        {
+          "round": 3,
+          "title": "We Are The World Of Carnaval",
+          "artist": "Banda Eva",
+          "album": "Banda Eva 25 Anos ao Vivo/ Audio do DVD",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "track_id": "3BBXm1zA7ct5KFZTEszfDc",
+          "spotify_url": "https://open.spotify.com/track/3BBXm1zA7ct5KFZTEszfDc"
         }
       ],
       "voting_history": [
@@ -3503,7 +4877,7 @@
         }
       ],
       "season_points": 15,
-      "rounds_played": 2
+      "rounds_played": 3
     },
     "3b87dbe243724d3bbcafea4934075fec": {
       "name": "Steve E.",
@@ -3527,6 +4901,26 @@
           "unique_voters": 1,
           "track_id": "391TUcoPonqYykPkSZ5Z9U",
           "spotify_url": "https://open.spotify.com/track/391TUcoPonqYykPkSZ5Z9U"
+        },
+        {
+          "round": 3,
+          "title": "Dancing Queen",
+          "artist": "ABBA",
+          "album": "Arrival",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "track_id": "0GjEhVFGZW8afUYGChu3Rr",
+          "spotify_url": "https://open.spotify.com/track/0GjEhVFGZW8afUYGChu3Rr"
+        },
+        {
+          "round": 3,
+          "title": "Highway to Hell",
+          "artist": "AC/DC",
+          "album": "Highway to Hell",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "track_id": "2zYzyRzz6pRmhPzyfMEC8s",
+          "spotify_url": "https://open.spotify.com/track/2zYzyRzz6pRmhPzyfMEC8s"
         }
       ],
       "voting_history": [
@@ -3580,7 +4974,7 @@
         }
       ],
       "season_points": 2,
-      "rounds_played": 1
+      "rounds_played": 2
     },
     "41a0d64fae1f40489679232baec98925": {
       "name": "Mary D.",
@@ -3624,6 +5018,26 @@
           "unique_voters": 4,
           "track_id": "5rDkA2TFOImbiVenmnE9r4",
           "spotify_url": "https://open.spotify.com/track/5rDkA2TFOImbiVenmnE9r4"
+        },
+        {
+          "round": 3,
+          "title": "Paper Planes",
+          "artist": "M.I.A.",
+          "album": "Kala",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "track_id": "1ixbwbeBi5ufN4noUKmW5a",
+          "spotify_url": "https://open.spotify.com/track/1ixbwbeBi5ufN4noUKmW5a"
+        },
+        {
+          "round": 3,
+          "title": "Many Rivers To Cross",
+          "artist": "Jimmy Cliff",
+          "album": "Wonderful World, Beautiful People",
+          "total_pts": 3,
+          "unique_voters": 2,
+          "track_id": "1dZxI6OuzwJ283y3gOU1Kq",
+          "spotify_url": "https://open.spotify.com/track/1dZxI6OuzwJ283y3gOU1Kq"
         }
       ],
       "voting_history": [
@@ -3734,10 +5148,70 @@
           "song": "Scar Tissue",
           "voted_for": "Mills T.",
           "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "99 Luftballons",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "La Vie en rose",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Into the Mystic - 2013 Remaster",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "My Sweet Lord - 2014 Remaster",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Vaitimbora",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Coração Radiante",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Dancing Queen",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Mi Gente",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Volare",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "1977",
+          "voted_for": "Mike D.",
+          "points_given": 1
         }
       ],
-      "season_points": 15,
-      "rounds_played": 2
+      "season_points": 21,
+      "rounds_played": 3
     },
     "4853a05f049d4d4682257bed4b277eed": {
       "name": "Tess D.",
@@ -3781,6 +5255,26 @@
           "unique_voters": 2,
           "track_id": "6qspW4YKycviDFjHBOaqUY",
           "spotify_url": "https://open.spotify.com/track/6qspW4YKycviDFjHBOaqUY"
+        },
+        {
+          "round": 3,
+          "title": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "artist": "K'NAAN",
+          "album": "Troubadour",
+          "total_pts": 6,
+          "unique_voters": 4,
+          "track_id": "02WDuAXXKumemrvsmrVBvH",
+          "spotify_url": "https://open.spotify.com/track/02WDuAXXKumemrvsmrVBvH"
+        },
+        {
+          "round": 3,
+          "title": "Volare",
+          "artist": "Gipsy Kings",
+          "album": "!Volare! The Very Best of the Gipsy Kings",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "track_id": "5oVs4alUctAl0B0QhWY0I2",
+          "spotify_url": "https://open.spotify.com/track/5oVs4alUctAl0B0QhWY0I2"
         }
       ],
       "voting_history": [
@@ -3843,10 +5337,46 @@
           "song": "Moon River (From \"Breakfast at Tiffany's\")",
           "voted_for": "Mike D.",
           "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "My Sweet Lord - 2014 Remaster",
+          "voted_for": "Jack L.",
+          "points_given": 2
+        },
+        {
+          "round": 3,
+          "song": "Paper Planes",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Fantastic Man",
+          "voted_for": "Dray E.",
+          "points_given": 2
+        },
+        {
+          "round": 3,
+          "song": "Mi Gente",
+          "voted_for": "Olivia D.",
+          "points_given": 2
+        },
+        {
+          "round": 3,
+          "song": "Favourite",
+          "voted_for": "Mills T.",
+          "points_given": 2
+        },
+        {
+          "round": 3,
+          "song": "1977",
+          "voted_for": "Mike D.",
+          "points_given": 1
         }
       ],
-      "season_points": 12,
-      "rounds_played": 2
+      "season_points": 23,
+      "rounds_played": 3
     },
     "5838e19081f440598e554c420f257ab7": {
       "name": "Mills T.",
@@ -3890,6 +5420,26 @@
           "unique_voters": 6,
           "track_id": "1G391cbiT3v3Cywg8T7DM1",
           "spotify_url": "https://open.spotify.com/track/1G391cbiT3v3Cywg8T7DM1"
+        },
+        {
+          "round": 3,
+          "title": "Down Under",
+          "artist": "Men At Work",
+          "album": "Business As Usual",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "track_id": "3ZZq9396zv8pcn5GYVhxUi",
+          "spotify_url": "https://open.spotify.com/track/3ZZq9396zv8pcn5GYVhxUi"
+        },
+        {
+          "round": 3,
+          "title": "Favourite",
+          "artist": "Fontaines D.C.",
+          "album": "Favourite",
+          "total_pts": 2,
+          "unique_voters": 1,
+          "track_id": "7oG9qhZ0UaQEoUGJJVXh1U",
+          "spotify_url": "https://open.spotify.com/track/7oG9qhZ0UaQEoUGJJVXh1U"
         }
       ],
       "voting_history": [
@@ -3964,10 +5514,52 @@
           "song": "Iris",
           "voted_for": "Olivia D.",
           "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Dancing Queen",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "My Sweet Lord - 2014 Remaster",
+          "voted_for": "Jack L.",
+          "points_given": 2
+        },
+        {
+          "round": 3,
+          "song": "Paper Planes",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "99 Luftballons",
+          "voted_for": "Claire E.",
+          "points_given": 2
+        },
+        {
+          "round": 3,
+          "song": "La Vie en rose",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Into the Mystic - 2013 Remaster",
+          "voted_for": "Jack L.",
+          "points_given": 2
+        },
+        {
+          "round": 3,
+          "song": "Gasolina",
+          "voted_for": "Olivia D.",
+          "points_given": 1
         }
       ],
-      "season_points": 27,
-      "rounds_played": 2
+      "season_points": 33,
+      "rounds_played": 3
     },
     "994734a26c814552ad88e0ce9ea4cfce": {
       "name": "Jack L.",
@@ -4011,6 +5603,26 @@
           "unique_voters": 1,
           "track_id": "3oWXoSkjdbTlQlteizN7Hb",
           "spotify_url": "https://open.spotify.com/track/3oWXoSkjdbTlQlteizN7Hb"
+        },
+        {
+          "round": 3,
+          "title": "My Sweet Lord - 2014 Remaster",
+          "artist": "George Harrison",
+          "album": "All Things Must Pass (2014 Remaster)",
+          "total_pts": 6,
+          "unique_voters": 4,
+          "track_id": "0KZodeWxqxd88F9wY1cqgs",
+          "spotify_url": "https://open.spotify.com/track/0KZodeWxqxd88F9wY1cqgs"
+        },
+        {
+          "round": 3,
+          "title": "Into the Mystic - 2013 Remaster",
+          "artist": "Van Morrison",
+          "album": "Moondance",
+          "total_pts": 3,
+          "unique_voters": 2,
+          "track_id": "3lh3iiiJeiBXHSZw6u0kh6",
+          "spotify_url": "https://open.spotify.com/track/3lh3iiiJeiBXHSZw6u0kh6"
         }
       ],
       "voting_history": [
@@ -4073,10 +5685,40 @@
           "song": "Run-Around",
           "voted_for": "Elyse E.",
           "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "99 Luftballons",
+          "voted_for": "Claire E.",
+          "points_given": 4
+        },
+        {
+          "round": 3,
+          "song": "Alors On Danse - Remix - Explicit",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "voted_for": "Tess D.",
+          "points_given": 2
+        },
+        {
+          "round": 3,
+          "song": "Highway to Hell",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Down Under",
+          "voted_for": "Mills T.",
+          "points_given": 2
         }
       ],
-      "season_points": 19,
-      "rounds_played": 2
+      "season_points": 28,
+      "rounds_played": 3
     },
     "9ce50e4f032c45afaa3eca936e99c9db": {
       "name": "Olivia D.",
@@ -4120,6 +5762,26 @@
           "unique_voters": 3,
           "track_id": "6Qyc6fS4DsZjB2mRW9DsQs",
           "spotify_url": "https://open.spotify.com/track/6Qyc6fS4DsZjB2mRW9DsQs"
+        },
+        {
+          "round": 3,
+          "title": "Mi Gente",
+          "artist": "J Balvin, Willy William",
+          "album": "Mi Gente",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "track_id": "4ipnJyDU3Lq15qBAYNqlqK",
+          "spotify_url": "https://open.spotify.com/track/4ipnJyDU3Lq15qBAYNqlqK"
+        },
+        {
+          "round": 3,
+          "title": "Gasolina",
+          "artist": "Daddy Yankee",
+          "album": "Barrio Fino (Bonus Track Version)",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "track_id": "5YoITs1m0q8UOQ4AW7N5ga",
+          "spotify_url": "https://open.spotify.com/track/5YoITs1m0q8UOQ4AW7N5ga"
         }
       ],
       "voting_history": [
@@ -4194,10 +5856,34 @@
           "song": "Run-Around",
           "voted_for": "Elyse E.",
           "points_given": 2
+        },
+        {
+          "round": 3,
+          "song": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "voted_for": "Tess D.",
+          "points_given": 2
+        },
+        {
+          "round": 3,
+          "song": "99 Luftballons",
+          "voted_for": "Claire E.",
+          "points_given": 3
+        },
+        {
+          "round": 3,
+          "song": "La Vie en rose",
+          "voted_for": "Mike D.",
+          "points_given": 3
+        },
+        {
+          "round": 3,
+          "song": "Volare",
+          "voted_for": "Tess D.",
+          "points_given": 2
         }
       ],
-      "season_points": 26,
-      "rounds_played": 2
+      "season_points": 32,
+      "rounds_played": 3
     },
     "dea876f23cf9428185f8757955c2eecd": {
       "name": "Claire E.",
@@ -4241,6 +5927,26 @@
           "unique_voters": 1,
           "track_id": "1SAkL1mYNJlaqnBQxVZrRl",
           "spotify_url": "https://open.spotify.com/track/1SAkL1mYNJlaqnBQxVZrRl"
+        },
+        {
+          "round": 3,
+          "title": "99 Luftballons",
+          "artist": "Nena",
+          "album": "Nena",
+          "total_pts": 13,
+          "unique_voters": 7,
+          "track_id": "2IJftBfq7pJ43tfnOR0RB3",
+          "spotify_url": "https://open.spotify.com/track/2IJftBfq7pJ43tfnOR0RB3"
+        },
+        {
+          "round": 3,
+          "title": "Alors On Danse - Remix - Explicit",
+          "artist": "Stromae, Kanye West, Gilbere Forté",
+          "album": "Alors On Danse (Remix - Explicit)",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "track_id": "2SRzCZMWi0vJM5ngaKjcjX",
+          "spotify_url": "https://open.spotify.com/track/2SRzCZMWi0vJM5ngaKjcjX"
         }
       ],
       "voting_history": [
@@ -4333,10 +6039,58 @@
           "song": "Everybody (Backstreet's Back) - Radio Edit",
           "voted_for": "Gabriel M.",
           "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Vaitimbora",
+          "voted_for": "Elyse E.",
+          "points_given": 2
+        },
+        {
+          "round": 3,
+          "song": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Maria fumaça",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Coração Radiante",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Conselho",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Fantastic Man",
+          "voted_for": "Dray E.",
+          "points_given": 2
+        },
+        {
+          "round": 3,
+          "song": "Volare",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "1977",
+          "voted_for": "Mike D.",
+          "points_given": 1
         }
       ],
-      "season_points": 28,
-      "rounds_played": 2
+      "season_points": 43,
+      "rounds_played": 3
     },
     "e0e0d50ee23443cf80cea1d777fac793": {
       "name": "Mike D.",
@@ -4380,6 +6134,26 @@
           "unique_voters": 3,
           "track_id": "44AyOl4qVkzS48vBsbNXaC",
           "spotify_url": "https://open.spotify.com/track/44AyOl4qVkzS48vBsbNXaC"
+        },
+        {
+          "round": 3,
+          "title": "La Vie en rose",
+          "artist": "Édith Piaf",
+          "album": "Edith Piaf - The Best Of",
+          "total_pts": 7,
+          "unique_voters": 5,
+          "track_id": "3lAun9V0YdTlCSIEXPvfsY",
+          "spotify_url": "https://open.spotify.com/track/3lAun9V0YdTlCSIEXPvfsY"
+        },
+        {
+          "round": 3,
+          "title": "1977",
+          "artist": "Ana Tijoux",
+          "album": "1977",
+          "total_pts": 4,
+          "unique_voters": 4,
+          "track_id": "7tOAN6w4a1LD0iqkRnIrhZ",
+          "spotify_url": "https://open.spotify.com/track/7tOAN6w4a1LD0iqkRnIrhZ"
         }
       ],
       "voting_history": [
@@ -4454,10 +6228,64 @@
           "song": "Scar Tissue",
           "voted_for": "Mills T.",
           "points_given": 2
+        },
+        {
+          "round": 3,
+          "song": "Paper Planes",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Dancing Queen",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "My Sweet Lord - 2014 Remaster",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Many Rivers To Cross",
+          "voted_for": "Mary D.",
+          "points_given": 2
+        },
+        {
+          "round": 3,
+          "song": "Coração Radiante",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "99 Luftballons",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Conselho",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Fantastic Man",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 3,
+          "song": "Mi Gente",
+          "voted_for": "Olivia D.",
+          "points_given": 1
         }
       ],
-      "season_points": 17,
-      "rounds_played": 2
+      "season_points": 28,
+      "rounds_played": 3
     }
   },
   "fun_metrics": {
@@ -4465,18 +6293,18 @@
       "title": "Kingmaker",
       "description": "Most points given to eventual weekly winners",
       "leader": {
-        "player": "Claire E.",
-        "value": "5 pts",
-        "detail": "R1: 3 pts to Something Like That · R2: 2 pts to All Star"
+        "player": "Olivia D.",
+        "value": "8 pts",
+        "detail": "R1: 4 pts to Something Like That · R2: 1 pts to All Star · R3: 3 pts to 99 Luftballons"
       }
     },
     "hipster": {
       "title": "Hipster",
       "description": "Highest percentage of solo votes (songs nobody else voted for)",
       "leader": {
-        "player": "Dray E.",
-        "value": "15% solo",
-        "detail": "3 solo votes out of 20"
+        "player": "Steve E.",
+        "value": "12% solo",
+        "detail": "1 solo votes out of 8"
       }
     },
     "sheep": {
@@ -4485,7 +6313,7 @@
       "leader": {
         "player": "Olivia D.",
         "value": "100% consensus",
-        "detail": "20 of 20 pts to songs with 3+ voters"
+        "detail": "30 of 30 pts to songs with 3+ voters"
       }
     },
     "cold_shoulder": {
@@ -4502,6 +6330,15 @@
       "title": "Snub Detector",
       "description": "Most acknowledged songs that collectively got the fewest points — max 2 per round",
       "songs": [
+        {
+          "round": 3,
+          "song": "Coração Radiante",
+          "artist": "Grupo Revelação",
+          "submitter": "Gabriel M.",
+          "voters": 5,
+          "pts": 5,
+          "avg": 1.0
+        },
         {
           "round": 1,
           "song": "Gimme! Gimme! Gimme! (A Man After Midnight) - From 'Mamma Mia!' Original Motion Picture Soundtrack",
@@ -4530,13 +6367,13 @@
           "avg": 1.2
         },
         {
-          "round": 2,
-          "song": "Everybody (Backstreet's Back) - Radio Edit",
-          "artist": "Backstreet Boys",
-          "submitter": "Gabriel M.",
+          "round": 3,
+          "song": "1977",
+          "artist": "Ana Tijoux",
+          "submitter": "Mike D.",
           "voters": 4,
-          "pts": 5,
-          "avg": 1.25
+          "pts": 4,
+          "avg": 1.0
         }
       ]
     },
@@ -4545,34 +6382,34 @@
       "description": "Highest voting overlap between two players",
       "pairs": [
         {
-          "player1": "Gabriel M.",
-          "player2": "Olivia D.",
-          "overlap": "37%",
-          "detail": "7 shared of 19 total"
-        },
-        {
-          "player1": "Dray E.",
-          "player2": "Mike D.",
-          "overlap": "33%",
-          "detail": "8 shared of 24 total"
-        },
-        {
-          "player1": "Elyse E.",
-          "player2": "Gabriel M.",
-          "overlap": "32%",
-          "detail": "6 shared of 19 total"
-        },
-        {
           "player1": "Dray E.",
           "player2": "Mary D.",
-          "overlap": "31%",
-          "detail": "9 shared of 29 total"
+          "overlap": "35%",
+          "detail": "15 shared of 43 total"
         },
         {
           "player1": "Mary D.",
           "player2": "Mills T.",
+          "overlap": "34%",
+          "detail": "12 shared of 35 total"
+        },
+        {
+          "player1": "Dray E.",
+          "player2": "Mike D.",
+          "overlap": "31%",
+          "detail": "12 shared of 39 total"
+        },
+        {
+          "player1": "Gabriel M.",
+          "player2": "Olivia D.",
           "overlap": "30%",
           "detail": "7 shared of 23 total"
+        },
+        {
+          "player1": "Elyse E.",
+          "player2": "Jack L.",
+          "overlap": "30%",
+          "detail": "8 shared of 27 total"
         }
       ]
     },
@@ -4582,43 +6419,43 @@
       "leaders": [
         {
           "player": "Claire E.",
-          "value": "7.0 avg",
-          "detail": "4 songs"
-        },
-        {
-          "player": "Mills T.",
-          "value": "6.8 avg",
-          "detail": "4 songs"
-        },
-        {
-          "player": "Olivia D.",
-          "value": "6.5 avg",
-          "detail": "4 songs"
+          "value": "7.2 avg",
+          "detail": "6 songs"
         },
         {
           "player": "Elyse E.",
-          "value": "6.5 avg",
-          "detail": "4 songs"
+          "value": "5.5 avg",
+          "detail": "6 songs"
+        },
+        {
+          "player": "Mills T.",
+          "value": "5.5 avg",
+          "detail": "6 songs"
+        },
+        {
+          "player": "Olivia D.",
+          "value": "5.3 avg",
+          "detail": "6 songs"
         },
         {
           "player": "Dray E.",
-          "value": "5.8 avg",
-          "detail": "4 songs"
+          "value": "5.2 avg",
+          "detail": "6 songs"
         },
         {
           "player": "Jack L.",
-          "value": "4.8 avg",
-          "detail": "4 songs"
+          "value": "4.7 avg",
+          "detail": "6 songs"
         },
         {
           "player": "Mike D.",
-          "value": "4.2 avg",
-          "detail": "4 songs"
+          "value": "4.7 avg",
+          "detail": "6 songs"
         },
         {
-          "player": "Gabriel M.",
+          "player": "Tess D.",
           "value": "3.8 avg",
-          "detail": "4 songs"
+          "detail": "6 songs"
         }
       ]
     },
