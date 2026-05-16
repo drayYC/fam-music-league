@@ -803,8 +803,9 @@ body.accent-dotted .stat-box.cool {
   color: var(--text);
   font-size: 15px;
   line-height: 1.65;
-  margin: 0;
+  margin: 0 0 14px 0;
 }
+.recap-p:last-child { margin-bottom: 0; }
 
 /* ---------- Empty states ---------- */
 .empty {
@@ -2361,7 +2362,9 @@ function RecapPage({ data, roundIdx, setRoundIdx }) {
               {(commentary.sections || []).map((s, i) => (
                 <div className="recap-section" key={i}>
                   <div className="recap-h">{s.heading}</div>
-                  <p className="recap-p">{s.text}</p>
+                  {(s.text || '').split(/\n\n+/).map((para, j) => (
+                    <p className="recap-p" key={j}>{para}</p>
+                  ))}
                 </div>
               ))}
             </>
