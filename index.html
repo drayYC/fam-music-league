@@ -627,6 +627,64 @@ body.accent-dotted .stat-box.cool {
   white-space: nowrap;
 }
 
+/* Zero-point vote row — voter left a comment but did NOT give points.
+   Renders without a points pill: just a "no vote" label and the comment. */
+.vote-row.zero {
+  opacity: 0.78;
+}
+.vote-pts.zero {
+  background: transparent;
+  color: var(--dim);
+  border: 1px dashed var(--surf);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  padding: 1px 6px;
+}
+
+/* Forfeited submission — submitter did not vote this round, so their song's points
+   are zeroed out. Render with strikethrough on the points + visually demoted. */
+.song-card.forfeited .song-pts-num {
+  text-decoration: line-through;
+  text-decoration-thickness: 1.5px;
+  color: var(--dim);
+}
+.song-card.forfeited .song-pts-vot {
+  text-decoration: line-through;
+  color: var(--dim);
+}
+.song-card.forfeited .song-meta { opacity: 0.7; }
+.song-card.forfeited .song-art  { opacity: 0.7; }
+.song-card.forfeited::before {
+  /* Subtle "FORFEIT" tag in the top-right corner of the card head */
+  content: 'forfeit';
+  position: absolute;
+  top: 6px;
+  right: 36px;
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--dim);
+  pointer-events: none;
+}
+.song-card.forfeited { position: relative; }
+.forfeit-divider {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 14px 0 4px 0;
+  color: var(--dim);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.forfeit-divider::before, .forfeit-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--surf);
+}
+
 .expand-toggle {
   background: transparent;
   border: 1px solid var(--line);
@@ -1573,13 +1631,18 @@ function RoundBar({ round, totalRounds, onPrev, onNext, idx }) {
 // ---------------------------------------------------------------------------
 
 function SongCard({ song, rank, voteDetails, isOpen, onToggle, onPlayerClick }) {
-  // votes for this song
+  // All votes & comments associated with this song. Sort point-bearing votes by points
+  // descending; comment-only rows (0 points) trail at the bottom alphabetically by voter.
   const songVotes = (voteDetails || [])
     .filter(v => v.song === song.title && v.submitter === song.submitter)
-    .sort((a, b) => b.points - a.points);
+    .sort((a, b) => {
+      if ((b.points > 0) !== (a.points > 0)) return (b.points > 0) ? 1 : -1;
+      if (b.points !== a.points) return b.points - a.points;
+      return a.voter.localeCompare(b.voter);
+    });
 
   return (
-    <div className={`song-card${isOpen ? ' open' : ''}`}>
+    <div className={`song-card${isOpen ? ' open' : ''}${song.forfeited ? ' forfeited' : ''}`}>
       <div className="song-card-head" onClick={onToggle}>
         <div className="song-rank">{rank}</div>
         <div className="song-art">
@@ -1614,10 +1677,11 @@ function SongCard({ song, rank, voteDetails, isOpen, onToggle, onPlayerClick }) 
           ) : (
             <div className="vote-list">
               {songVotes.map((v, i) => {
-                const ptsClass = v.points >= 4 ? 'high' : v.points >= 2 ? 'mid' : '';
+                const isZero = v.points === 0;
+                const ptsClass = isZero ? 'zero' : v.points >= 4 ? 'high' : v.points >= 2 ? 'mid' : '';
                 return (
-                  <div className="vote-row" key={i}>
-                    <span className={`vote-pts ${ptsClass}`}>{v.points}</span>
+                  <div className={`vote-row${isZero ? ' zero' : ''}`} key={i}>
+                    <span className={`vote-pts ${ptsClass}`}>{isZero ? 'note' : v.points}</span>
                     <span className="vote-name" onClick={() => onPlayerClick(v.voter_id)}>{v.voter}</span>
                     {v.comment ? <span className="vote-comment">"{v.comment.trim()}"</span> : null}
                   </div>
@@ -1625,6 +1689,14 @@ function SongCard({ song, rank, voteDetails, isOpen, onToggle, onPlayerClick }) 
               })}
             </div>
           )}
+          {song.forfeited ? (
+            <div className="song-comment" style={{ borderBottom: 'none', marginTop: '8px', paddingTop: '8px', borderTop: '1px solid var(--surf)' }}>
+              <span className="song-comment-label" style={{ color: 'var(--p)' }}>forfeit</span>
+              <span style={{ fontStyle: 'normal', color: 'var(--mute)' }}>
+                {song.submitter} did not vote this round. Per league rules, the {song.total_pts} {song.total_pts === 1 ? 'point' : 'points'} this song earned do not count toward their season total.
+              </span>
+            </div>
+          ) : null}
         </div>
       ) : null}
     </div>
@@ -1746,17 +1818,43 @@ function WeeklyPage({ data, roundIdx, setRoundIdx, onPlayerClick }) {
           </div>
         </div>
         <div className="song-list">
-          {round.songs.map((s, i) => (
-            <SongCard
-              key={s.spotify_uri}
-              song={s}
-              rank={i + 1}
-              voteDetails={round.vote_details}
-              isOpen={expandedSongs.has(s.spotify_uri)}
-              onToggle={() => toggleSong(s.spotify_uri)}
-              onPlayerClick={onPlayerClick}
-            />
-          ))}
+          {(() => {
+            const nonForfeit = round.songs.filter(s => !s.forfeited);
+            const forfeit    = round.songs.filter(s => s.forfeited);
+            const items = [];
+            nonForfeit.forEach((s, i) => {
+              items.push(
+                <SongCard
+                  key={s.spotify_uri}
+                  song={s}
+                  rank={i + 1}
+                  voteDetails={round.vote_details}
+                  isOpen={expandedSongs.has(s.spotify_uri)}
+                  onToggle={() => toggleSong(s.spotify_uri)}
+                  onPlayerClick={onPlayerClick}
+                />
+              );
+            });
+            if (forfeit.length > 0) {
+              items.push(
+                <div className="forfeit-divider" key="__forfeit-div__">forfeits — submitter didn't vote</div>
+              );
+              forfeit.forEach((s) => {
+                items.push(
+                  <SongCard
+                    key={s.spotify_uri}
+                    song={s}
+                    rank="—"
+                    voteDetails={round.vote_details}
+                    isOpen={expandedSongs.has(s.spotify_uri)}
+                    onToggle={() => toggleSong(s.spotify_uri)}
+                    onPlayerClick={onPlayerClick}
+                  />
+                );
+              });
+            }
+            return items;
+          })()}
         </div>
 
         {round.missed_points && round.missed_points.length > 0 ? (
@@ -1915,7 +2013,7 @@ function SongsPage({ data, onPlayerClick }) {
 
   const hofChartConfig = useMemo(() => {
     if (hof.length === 0) return null;
-    const top = hof.slice(0, 10);
+    const top = hof.slice(0, 20);
     return {
       type: 'bar',
       data: {
@@ -1945,7 +2043,7 @@ function SongsPage({ data, onPlayerClick }) {
         <div className="section-h-title">Hall of fame</div>
         <div className="section-h-meta">top songs of the season</div>
       </div>
-      {hofChartConfig ? <ChartCanvas config={hofChartConfig} height={300} /> : (
+      {hofChartConfig ? <ChartCanvas config={hofChartConfig} height={500} /> : (
         <div className="empty">No songs yet.</div>
       )}
 
