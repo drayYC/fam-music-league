@@ -2048,11 +2048,11 @@ function SongsPage({ data, onPlayerClick }) {
       )}
 
       <div className="section-h" style={{ marginTop: '24px' }}>
-        <div className="section-h-title">All songs</div>
-        <div className="section-h-meta">{allSongs.length} total</div>
+        <div className="section-h-title">Top 20 songs</div>
+        <div className="section-h-meta">{allSongs.length} total this season</div>
       </div>
       <div className="song-list">
-        {allSongs.map((s, i) => (
+        {allSongs.slice(0, 20).map((s, i) => (
           <div className="song-card" key={`${s.round}-${s.spotify_uri}`}>
             <div className="song-card-head" style={{ cursor: 'default' }}>
               <div className="song-rank">{i + 1}</div>
