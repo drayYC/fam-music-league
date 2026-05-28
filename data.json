@@ -2,7 +2,7 @@
   "league": {
     "name": "Fam Music League",
     "subtitle": "Season One",
-    "total_rounds": 3
+    "total_rounds": 4
   },
   "players": {
     "0a831b84b60a4aaca7c6f3150bbccb88": "Dray E.",
@@ -350,14 +350,6 @@
           "rank": 3
         },
         {
-          "player_id": "19e6c48a177c458398bb138a991a2e4c",
-          "player": "Elyse E.",
-          "points": 10,
-          "voted": true,
-          "pts_forfeited": 0,
-          "rank": 4
-        },
-        {
           "player_id": "994734a26c814552ad88e0ce9ea4cfce",
           "player": "Jack L.",
           "points": 10,
@@ -366,16 +358,24 @@
           "rank": 4
         },
         {
-          "player_id": "4853a05f049d4d4682257bed4b277eed",
-          "player": "Tess D.",
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
+          "points": 10,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 4
+        },
+        {
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
           "points": 7,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 6
         },
         {
-          "player_id": "5838e19081f440598e554c420f257ab7",
-          "player": "Mills T.",
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
           "points": 7,
           "voted": true,
           "pts_forfeited": 0,
@@ -1540,16 +1540,16 @@
           "rank": 4
         },
         {
-          "player_id": "dea876f23cf9428185f8757955c2eecd",
-          "player": "Claire E.",
+          "player_id": "2334709be13e48759338c82689b95d11",
+          "player": "Gabriel M.",
           "points": 10,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 5
         },
         {
-          "player_id": "2334709be13e48759338c82689b95d11",
-          "player": "Gabriel M.",
+          "player_id": "dea876f23cf9428185f8757955c2eecd",
+          "player": "Claire E.",
           "points": 10,
           "voted": true,
           "pts_forfeited": 0,
@@ -2785,8 +2785,8 @@
           "rank": 6
         },
         {
-          "player_id": "41a0d64fae1f40489679232baec98925",
-          "player": "Mary D.",
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
           "points": 6,
           "voted": true,
           "pts_forfeited": 0,
@@ -2801,8 +2801,8 @@
           "rank": 7
         },
         {
-          "player_id": "5838e19081f440598e554c420f257ab7",
-          "player": "Mills T.",
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
           "points": 6,
           "voted": true,
           "pts_forfeited": 0,
@@ -3634,16 +3634,1327 @@
           }
         ]
       }
+    },
+    {
+      "id": "a900496fb2c940a0a4ad7b834757eb07",
+      "number": 4,
+      "name": "Spotify All Time Most Played",
+      "description": "Let’s do an easy one this week. Go to your Spotify home page, and click the 20th anniversary wrapped-style recap. On the last page, it will give you a link to a playlist of your top played songs from your entire Spotify account history. Submit 2 of your top 3 most played songs of all time.",
+      "playlist_url": "https://open.spotify.com/playlist/59CGriZCmeht5YFeMYBjL1",
+      "theme": {
+        "name": "histogram",
+        "tile_class": "theme-histogram-bg",
+        "palette": {
+          "primary": "#E8447C",
+          "accent": "#F2A53C",
+          "cool": "#5B8DEF",
+          "highlight": "#C9356A",
+          "tile": "#15121A"
+        },
+        "band_gradient": "linear-gradient(90deg, #5B8DEF 0%, #F2A53C 50%, #E8447C 100%)",
+        "design": {
+          "band": "histogram",
+          "tab_underline": "bars",
+          "stat_accent": "bars",
+          "mark": "histogram"
+        }
+      },
+      "songs": [
+        {
+          "title": "Brandy (You're a Fine Girl)",
+          "artist": "Looking Glass",
+          "album": "Looking Glass",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "total_pts": 14,
+          "unique_voters": 9,
+          "spotify_uri": "spotify:track:2BY7ALEWdloFHgQZG6VMLA",
+          "track_id": "2BY7ALEWdloFHgQZG6VMLA",
+          "spotify_url": "https://open.spotify.com/track/2BY7ALEWdloFHgQZG6VMLA",
+          "comment": "My number two. I’ve only been on Spotify since 2020. ",
+          "forfeited": false
+        },
+        {
+          "title": "Dreams - 2004 Remaster",
+          "artist": "Fleetwood Mac",
+          "album": "Rumours (Super Deluxe)",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "total_pts": 13,
+          "unique_voters": 9,
+          "spotify_uri": "spotify:track:0ofHAoxe9vBkTCp2UQIavz",
+          "track_id": "0ofHAoxe9vBkTCp2UQIavz",
+          "spotify_url": "https://open.spotify.com/track/0ofHAoxe9vBkTCp2UQIavz",
+          "comment": "You already know… Stevie nicks alter ego full swing.. ",
+          "forfeited": false
+        },
+        {
+          "title": "September",
+          "artist": "Earth, Wind & Fire",
+          "album": "The Best Of Earth, Wind & Fire Vol. 1",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "total_pts": 11,
+          "unique_voters": 8,
+          "spotify_uri": "spotify:track:2grjqo0Frpf2okIBiifQKs",
+          "track_id": "2grjqo0Frpf2okIBiifQKs",
+          "spotify_url": "https://open.spotify.com/track/2grjqo0Frpf2okIBiifQKs",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Southside Of Heaven",
+          "artist": "Ryan Bingham",
+          "album": "Mescalito",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "total_pts": 8,
+          "unique_voters": 6,
+          "spotify_uri": "spotify:track:0qCQg5TkfBfkTsQP3IhAmC",
+          "track_id": "0qCQg5TkfBfkTsQP3IhAmC",
+          "spotify_url": "https://open.spotify.com/track/0qCQg5TkfBfkTsQP3IhAmC",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Up!",
+          "artist": "Shania Twain",
+          "album": "Up! (Green Version)",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "total_pts": 7,
+          "unique_voters": 6,
+          "spotify_uri": "spotify:track:4dIrj82d70x7vGmUxTyOYC",
+          "track_id": "4dIrj82d70x7vGmUxTyOYC",
+          "spotify_url": "https://open.spotify.com/track/4dIrj82d70x7vGmUxTyOYC",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Bohemian Rhapsody - Remastered 2011",
+          "artist": "Queen",
+          "album": "A Night At The Opera",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "total_pts": 7,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:5eIDxmWYxRA0HJBYM9bIIS",
+          "track_id": "5eIDxmWYxRA0HJBYM9bIIS",
+          "spotify_url": "https://open.spotify.com/track/5eIDxmWYxRA0HJBYM9bIIS",
+          "comment": "This song plays on repeat in my head rent free. It’s got so much to offer! A dramatic story, Symphonic sounds, cool transitions, falsetto, amazing guitar solo, amazing shout outs Galileo!Figaro! Bealzibub!  One rewrite - Everything really\nMatters…to meeeeeeee!",
+          "forfeited": false
+        },
+        {
+          "title": "Beast Of Burden - Remastered 1994",
+          "artist": "The Rolling Stones",
+          "album": "Some Girls",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:77oU2rjC5XbjQfNe3bD6so",
+          "track_id": "77oU2rjC5XbjQfNe3bD6so",
+          "spotify_url": "https://open.spotify.com/track/77oU2rjC5XbjQfNe3bD6so",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "It Ain’t Me (with Selena Gomez)",
+          "artist": "Kygo, Selena Gomez",
+          "album": "It Ain't Me",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "total_pts": 6,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:12GEpg2XOPyqk03JZEZnJs",
+          "track_id": "12GEpg2XOPyqk03JZEZnJs",
+          "spotify_url": "https://open.spotify.com/track/12GEpg2XOPyqk03JZEZnJs",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Sueño de una noche de verano",
+          "artist": "Delahoja",
+          "album": "El Mordisco",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "total_pts": 6,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:4Ddac1auZ5h2lsQkthGvQP",
+          "track_id": "4Ddac1auZ5h2lsQkthGvQP",
+          "spotify_url": "https://open.spotify.com/track/4Ddac1auZ5h2lsQkthGvQP",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "I Want It That Way",
+          "artist": "Backstreet Boys",
+          "album": "Millennium",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:47BBI51FKFwOMlIiX6m8ya",
+          "track_id": "47BBI51FKFwOMlIiX6m8ya",
+          "spotify_url": "https://open.spotify.com/track/47BBI51FKFwOMlIiX6m8ya",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Catching Fireflies",
+          "artist": "The Revivalists",
+          "album": "Vital Signs",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "total_pts": 5,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:4daxThR2Ny2xj0hkar6XkX",
+          "track_id": "4daxThR2Ny2xj0hkar6XkX",
+          "spotify_url": "https://open.spotify.com/track/4daxThR2Ny2xj0hkar6XkX",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Sugar Magnolia - 2013 Remaster",
+          "artist": "Grateful Dead",
+          "album": "American Beauty (2013 Remaster)",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "total_pts": 4,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:2EB1aFLWC4uIfld5Z3Yj1z",
+          "track_id": "2EB1aFLWC4uIfld5Z3Yj1z",
+          "spotify_url": "https://open.spotify.com/track/2EB1aFLWC4uIfld5Z3Yj1z",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Box of Rain - 2013 Remaster",
+          "artist": "Grateful Dead",
+          "album": "American Beauty (2013 Remaster)",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:7x2xjJV3YAPeLQJ7u3Kjet",
+          "track_id": "7x2xjJV3YAPeLQJ7u3Kjet",
+          "spotify_url": "https://open.spotify.com/track/7x2xjJV3YAPeLQJ7u3Kjet",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Birmingham",
+          "artist": "Shovels & Rope",
+          "album": "O' Be Joyful",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:5ciSr1SyZUQrxySlxZhdhg",
+          "track_id": "5ciSr1SyZUQrxySlxZhdhg",
+          "spotify_url": "https://open.spotify.com/track/5ciSr1SyZUQrxySlxZhdhg",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Pickin' Up The Pieces",
+          "artist": "Widespread Panic",
+          "album": "Everyday",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:3NTwkFnd4dPcvpg43O3XW3",
+          "track_id": "3NTwkFnd4dPcvpg43O3XW3",
+          "spotify_url": "https://open.spotify.com/track/3NTwkFnd4dPcvpg43O3XW3",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Just Us Kids",
+          "artist": "James McMurtry",
+          "album": "Just Us Kids",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:7IQj4J24ZPRk1XS1rBFk2h",
+          "track_id": "7IQj4J24ZPRk1XS1rBFk2h",
+          "spotify_url": "https://open.spotify.com/track/7IQj4J24ZPRk1XS1rBFk2h",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Shines",
+          "artist": "The Donkeys",
+          "album": "Ride the Black Wave",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:3eK4Rh8wjiVfYncZgWekzr",
+          "track_id": "3eK4Rh8wjiVfYncZgWekzr",
+          "spotify_url": "https://open.spotify.com/track/3eK4Rh8wjiVfYncZgWekzr",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "You Make My Dreams (Come True)",
+          "artist": "Daryl Hall & John Oates",
+          "album": "Voices",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:4o6BgsqLIBViaGVbx5rbRk",
+          "track_id": "4o6BgsqLIBViaGVbx5rbRk",
+          "spotify_url": "https://open.spotify.com/track/4o6BgsqLIBViaGVbx5rbRk",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Deixe Me Ir (feat. Pablo Martins) - Acústico 1Kilo",
+          "artist": "1Kilo, Baviera, Knust, Pablo Martins",
+          "album": "Deixe Me Ir (feat. Pablo Martins) [Acústico 1Kilo]",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "spotify_uri": "spotify:track:6JKkP9ABQzYZUFSKSVDKIc",
+          "track_id": "6JKkP9ABQzYZUFSKSVDKIc",
+          "spotify_url": "https://open.spotify.com/track/6JKkP9ABQzYZUFSKSVDKIc",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Mandona - Acústico",
+          "artist": "Oriente, MC Hariel",
+          "album": "Mandona (Acústico)",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "spotify_uri": "spotify:track:0R4dwzW253KTxchGryT1H6",
+          "track_id": "0R4dwzW253KTxchGryT1H6",
+          "spotify_url": "https://open.spotify.com/track/0R4dwzW253KTxchGryT1H6",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Cool to You",
+          "artist": "Teenage Priest",
+          "album": "Cool to You",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "total_pts": 0,
+          "unique_voters": 0,
+          "spotify_uri": "spotify:track:3axvLn8vg0TtBNVDzbtmrb",
+          "track_id": "3axvLn8vg0TtBNVDzbtmrb",
+          "spotify_url": "https://open.spotify.com/track/3axvLn8vg0TtBNVDzbtmrb",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "It's Strange (feat. K.Flay)",
+          "artist": "Louis The Child, K.Flay",
+          "album": "It's Strange (feat. K.Flay)",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "total_pts": 0,
+          "unique_voters": 0,
+          "spotify_uri": "spotify:track:2Th9BGKvfZG8bKQSACitwG",
+          "track_id": "2Th9BGKvfZG8bKQSACitwG",
+          "spotify_url": "https://open.spotify.com/track/2Th9BGKvfZG8bKQSACitwG",
+          "comment": "",
+          "forfeited": false
+        }
+      ],
+      "leaderboard": [
+        {
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
+          "points": 21,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 1
+        },
+        {
+          "player_id": "3b87dbe243724d3bbcafea4934075fec",
+          "player": "Steve E.",
+          "points": 16,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 2
+        },
+        {
+          "player_id": "dea876f23cf9428185f8757955c2eecd",
+          "player": "Claire E.",
+          "points": 15,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 3
+        },
+        {
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
+          "points": 13,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 4
+        },
+        {
+          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "player": "Olivia D.",
+          "points": 13,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 4
+        },
+        {
+          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "player": "Mike D.",
+          "points": 8,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 6
+        },
+        {
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
+          "points": 6,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 7
+        },
+        {
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
+          "points": 6,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 7
+        },
+        {
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
+          "points": 5,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 9
+        },
+        {
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
+          "points": 5,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 9
+        },
+        {
+          "player_id": "2334709be13e48759338c82689b95d11",
+          "player": "Gabriel M.",
+          "points": 2,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 11
+        }
+      ],
+      "missed_points": [],
+      "generosity": [
+        {
+          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "player": "Olivia D.",
+          "avg_per_vote": 2.5,
+          "total_songs_voted": 4,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
+          "avg_per_vote": 2.0,
+          "total_songs_voted": 5,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "3b87dbe243724d3bbcafea4934075fec",
+          "player": "Steve E.",
+          "avg_per_vote": 1.67,
+          "total_songs_voted": 6,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
+          "avg_per_vote": 1.43,
+          "total_songs_voted": 7,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "dea876f23cf9428185f8757955c2eecd",
+          "player": "Claire E.",
+          "avg_per_vote": 1.25,
+          "total_songs_voted": 8,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
+          "avg_per_vote": 1.25,
+          "total_songs_voted": 8,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
+          "avg_per_vote": 1.25,
+          "total_songs_voted": 8,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
+          "avg_per_vote": 1.25,
+          "total_songs_voted": 8,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
+          "avg_per_vote": 1.0,
+          "total_songs_voted": 10,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "2334709be13e48759338c82689b95d11",
+          "player": "Gabriel M.",
+          "avg_per_vote": 1.0,
+          "total_songs_voted": 10,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "player": "Mike D.",
+          "avg_per_vote": 1.0,
+          "total_songs_voted": 10,
+          "total_pts_given": 10
+        }
+      ],
+      "vote_details": [
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Dreams - 2004 Remaster",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Mandona - Acústico",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Brandy (You're a Fine Girl)",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Sueño de una noche de verano",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "You Make My Dreams (Come True)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Bohemian Rhapsody - Remastered 2011",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Dreams - 2004 Remaster",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "It Ain’t Me (with Selena Gomez)",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Brandy (You're a Fine Girl)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Sugar Magnolia - 2013 Remaster",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "September",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Shines",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Pickin' Up The Pieces",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Up!",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Southside Of Heaven",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "I Want It That Way",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Catching Fireflies",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Bohemian Rhapsody - Remastered 2011",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Dreams - 2004 Remaster",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Brandy (You're a Fine Girl)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "September",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Shines",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Pickin' Up The Pieces",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Catching Fireflies",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Up!",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Birmingham",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Bohemian Rhapsody - Remastered 2011",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Beast Of Burden - Remastered 1994",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Dreams - 2004 Remaster",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Brandy (You're a Fine Girl)",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Sugar Magnolia - 2013 Remaster",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "September",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Birmingham",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Beast Of Burden - Remastered 1994",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Box of Rain - 2013 Remaster",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Dreams - 2004 Remaster",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "It Ain’t Me (with Selena Gomez)",
+          "points": 2,
+          "comment": "IT AINT ME ✌️ what a bop"
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Brandy (You're a Fine Girl)",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "September",
+          "points": 2,
+          "comment": "*involuntarily begins shaking ass*"
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Up!",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Dreams - 2004 Remaster",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Southside Of Heaven",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Brandy (You're a Fine Girl)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "September",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Catching Fireflies",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Sueño de una noche de verano",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "You Make My Dreams (Come True)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Bohemian Rhapsody - Remastered 2011",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Beast Of Burden - Remastered 1994",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Just Us Kids",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Dreams - 2004 Remaster",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Southside Of Heaven",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Sugar Magnolia - 2013 Remaster",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "September",
+          "points": 2,
+          "comment": "This song is the anthem of my college years! So glad it’s still relevant. And it helps me to remember Vedas birthday!"
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "I Want It That Way",
+          "points": 1,
+          "comment": "Hey Millennial 👋🏻 or Zillenial 1992-1998. Go Claire?"
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Up!",
+          "points": 1,
+          "comment": "It’s a vibe. Female anthem"
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Beast Of Burden - Remastered 1994",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Box of Rain - 2013 Remaster",
+          "points": 2,
+          "comment": "I know this is my favorite guy Mike Dillon. I’ve heard this song thousands of times"
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Dreams - 2004 Remaster",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Southside Of Heaven",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Brandy (You're a Fine Girl)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Sugar Magnolia - 2013 Remaster",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "September",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Pickin' Up The Pieces",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Sueño de una noche de verano",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Bohemian Rhapsody - Remastered 2011",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Beast Of Burden - Remastered 1994",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Box of Rain - 2013 Remaster",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Southside Of Heaven",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "It Ain’t Me (with Selena Gomez)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Brandy (You're a Fine Girl)",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "I Want It That Way",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Sueño de una noche de verano",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Up!",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "You Make My Dreams (Come True)",
+          "points": 0,
+          "comment": "You can’t not be happy, it’s a  theme song to your life"
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Birmingham",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Just Us Kids",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Dreams - 2004 Remaster",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Southside Of Heaven",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "It Ain’t Me (with Selena Gomez)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Brandy (You're a Fine Girl)",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "September",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "I Want It That Way",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Up!",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Deixe Me Ir (feat. Pablo Martins) - Acústico 1Kilo",
+          "points": 1,
+          "comment": ""
+        }
+      ],
+      "stats": {
+        "total_submissions": 22,
+        "total_votes": 84,
+        "unique_voters": 11,
+        "unique_submitters": 11
+      },
+      "commentary": {
+        "title": "Week 4 Recap",
+        "sections": [
+          {
+            "heading": "Scouting Report (written blind)",
+            "text": "The blind report was committed before votes were revealed, submitter IDs stripped from the upload. This was the no-game round — \"your two most-played songs of all time\" can't be strategized, so the submissions were pure taste confessions. Top 5 prediction: September, Bohemian Rhapsody, You Make My Dreams, I Want It That Way, Dreams. Song of the Week pick: September. Dark horse: I Want It That Way (Backstreet Boys). Predicted zeros: Cool to You, Shines, Sueño de una noche de verano. The scorecard at the bottom has the verified results."
+          },
+          {
+            "heading": "Mary D. wins the round — and posts the best single-round total of the season",
+            "text": "Mary D. took Round 4 with 21 points across her two submissions: Brandy (You're a Fine Girl) by Looking Glass won the round outright at 14 points, and Bohemian Rhapsody added 7 more. That 21-point haul is the highest single-round score any player has posted all season, edging Mills T.'s 20-point Week 2.\n\nBrandy won in the most democratic way possible: 9 of 11 voters gave it points, and not one of them gave it more than 2. Five 2-point votes (Steve, Jack, Tess, Claire, Elyse) and four 1-point votes (Mills, Mike, Gabriel, Dray). No whale vote, no bloc — just near-universal mild affection for a 1972 one-hit-wonder soft-rock song. That is the platonic ideal of a consensus winner: nobody's favorite, almost everybody's fine-with-it.\n\nMary's submitter comment on Brandy was disarmingly honest: \"My number two. I've only been on Spotify since 2020.\" She's the only player who flagged that her \"all-time most played\" data is actually just a five-year window — which, given that she still won the round with it, suggests Mary's five years of Spotify are more potent than everyone else's twenty."
+          },
+          {
+            "heading": "Steve E. emerges from the void, and he brought the whole party",
+            "text": "Steve E. entered Week 4 with a season scoreline of 0, 2, 0 — two ghostings and one near-miss across three rounds. In Round 4 he scored 16 points (September at 11, I Want It That Way at 5), good for the second-highest individual round total of the week behind only Mary.\n\nHere's the kicker for the blind report: the two songs I predicted #1 and #4 in the entire round — September and I Want It That Way — were *both* Steve's. The model nailed the picks and had no idea they came from the player who'd done the least all season. September pulled 11 points and 8 voters, with Tess leaving the comment of the round: \"*involuntarily begins shaking ass*.\" Mary gave September 2 points with \"This song is the anthem of my college years! So glad it's still relevant.\" Steve's 16-point round vaults him from dead last to 10th, finally clear of the basement."
+          },
+          {
+            "heading": "The no-game round confirmed everything the echo chamber theory predicted",
+            "text": "Because nobody could strategize this round, the results map the family's actual shared taste with unusual clarity. The top of the board is dominated by the universally-legible: Brandy (14), Dreams by Fleetwood Mac (13, Claire), September (11, Steve). All three are cross-generational, instantly familiar, hard-to-dislike songs.\n\nThe bottom of the board is exactly where genuine personal taste went to get filtered out by shared unfamiliarity. The two true zeros were Cool to You by Teenage Priest (Tess) and It's Strange by Louis the Child feat. K.Flay (Elyse) — both lower-recognizability tracks that scored zero not because they're bad but because nobody else in the family had the context to reward them. The two Brazilian most-played tracks (Gabriel's Mandona and Deixe Me Ir) managed just 1 point each. Genuine daily-listening favorites, filtered to the floor.\n\nThat's the dynamic in miniature: the songs the whole family already shares rise; the songs that would actually expand anyone's horizons sink. Useful confirmation heading into future rounds."
+          },
+          {
+            "heading": "Standings: Claire pulls clear, Mary storms the top four",
+            "text": "Claire E. now leads the season at 58 points, 12 clear of Mills T. (46). Claire has placed in the top tier every single round since Week 1 and is the only player who has never had a bad week — her four-round line is 18-10-15-15, remarkably steady. She didn't even win Round 4 (Dreams finished 2nd at 13) and still extended her lead.\n\nThe big mover is Mary D., whose 21-point round rockets her from 9th to 4th (42 points), now within striking distance of Olivia (45) and Mills (46). Mike D. and Dray E. are tied at 36. The bottom two are Gabriel M. (17, hurt badly by the Week 3 forfeit) and Steve E. (18, climbing).\n\nFour rounds, four different round winners: Olivia, Mills, Claire, Mary. The league still has no repeat champion, but it does now have a clear season frontrunner for the first time."
+          },
+          {
+            "heading": "Couples voting: the point-weighted picture after four rounds",
+            "text": "Recomputing the partner-bonus ratios (how each person scores their partner versus everyone else) with Round 4 folded in:\n\nTess → Jack remains the strongest tilt in the league at 1.42×. Tess gives the average submitter 1.76 pts/vote but Jack gets 2.50, and she's now spent 10 of her cumulative points on him.\n\nClaire → Dray sits at 1.14×, Mills → Olivia at 1.17×, Jack → Tess at 1.12×, Mike → Mary at 1.04×, Mary → Mike at 1.06× — a cluster of mild, healthy positive tilts.\n\nThe notable update: Olivia → Mills moved from 0.50× last week to 1.00× this week. After looking underweighted in Week 3, Olivia evened things out in Round 4, and her cumulative ratio is now neutral — she scores Mills exactly as she scores the field. The Week 3 \"phoning it in\" read has corrected itself with more data. The only sub-baseline direction left is Elyse → Gabriel at 0.67×.\n\nAnd Dray → Claire stays locked at 1.00× for the structural reason it always will: Dray gives ten 1-point votes to ten different songs every single week. He has never given anyone a 2. He mathematically cannot favor a partner, so his 1.00× is less a verdict on the marriage than a verdict on his voting style."
+          },
+          {
+            "heading": "Blind report scorecard",
+            "text": "Top 5 prediction vs. actual: September predicted #1, finished #3 (11 pts) — within ±2. Dreams predicted #5, finished #2 (13 pts) — within ±3. Bohemian Rhapsody predicted #2, finished #5–6 (7 pts) — within ±4. I Want It That Way predicted #4 (and tagged dark-horse top-3), finished #10–11 (5 pts) — a clear miss; the family did not lean into the Backstreet Boys nostalgia the way the model bet they would. You Make My Dreams predicted #3, finished #18 (2 pts) — a catastrophic miss, the model's worst single call of the season. \"Universal warmth, zero haters\" turned out to be two points and near-total indifference.\n\nThe winner was missed entirely: Brandy was tagged only as a \"sleeper, could overperform on warmth,\" not as the #1. So the model identified the right *quality* (broad mild affection) but pinned it to the wrong song.\n\nZero-vote predictions: 1 of 3 clean. Cool to You was correctly called for zero — exact hit. Shines finished 2 points (close). Sueño de una noche de verano was the miss — predicted bottom-3, actually finished 9th with 6 points, the round's biggest overperformance relative to prediction. And It's Strange hit zero without being predicted.\n\nCumulative across four rounds: the model is good at identifying which songs will cluster near the top, weak at picking the exact winner, and consistently wrong about consensus pop (it overrates universally-known songs like You Make My Dreams and the Backstreet Boys, which the family treats as background rather than vote-worthy). Adjustment for Round 5: stop assuming maximum-recognizability equals maximum points. In this family, the song everyone knows is often the song nobody bothers to rank."
+          }
+        ]
+      }
     }
   ],
   "season_leaderboard": [
     {
       "player_id": "dea876f23cf9428185f8757955c2eecd",
       "player": "Claire E.",
-      "points": 43,
-      "rounds_played": 3,
+      "points": 58,
+      "rounds_played": 4,
       "wins": 1,
-      "avg_per_round": 14.3,
+      "avg_per_round": 14.5,
       "joined_round": 1,
       "weekly": [
         {
@@ -3660,44 +4971,22 @@
           "round": 3,
           "points": 15,
           "rank": 1
+        },
+        {
+          "round": 4,
+          "points": 15,
+          "rank": 3
         }
       ],
       "rank": 1
     },
     {
-      "player_id": "19e6c48a177c458398bb138a991a2e4c",
-      "player": "Elyse E.",
-      "points": 33,
-      "rounds_played": 3,
-      "wins": 0,
-      "avg_per_round": 11.0,
-      "joined_round": 1,
-      "weekly": [
-        {
-          "round": 1,
-          "points": 10,
-          "rank": 4
-        },
-        {
-          "round": 2,
-          "points": 16,
-          "rank": 2
-        },
-        {
-          "round": 3,
-          "points": 7,
-          "rank": 6
-        }
-      ],
-      "rank": 2
-    },
-    {
       "player_id": "5838e19081f440598e554c420f257ab7",
       "player": "Mills T.",
-      "points": 33,
-      "rounds_played": 3,
+      "points": 46,
+      "rounds_played": 4,
       "wins": 1,
-      "avg_per_round": 11.0,
+      "avg_per_round": 11.5,
       "joined_round": 1,
       "weekly": [
         {
@@ -3714,6 +5003,11 @@
           "round": 3,
           "points": 6,
           "rank": 7
+        },
+        {
+          "round": 4,
+          "points": 13,
+          "rank": 4
         }
       ],
       "rank": 2
@@ -3721,10 +5015,10 @@
     {
       "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
       "player": "Olivia D.",
-      "points": 32,
-      "rounds_played": 3,
+      "points": 45,
+      "rounds_played": 4,
       "wins": 1,
-      "avg_per_round": 10.7,
+      "avg_per_round": 11.2,
       "joined_round": 1,
       "weekly": [
         {
@@ -3741,125 +5035,22 @@
           "round": 3,
           "points": 6,
           "rank": 7
-        }
-      ],
-      "rank": 4
-    },
-    {
-      "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
-      "player": "Dray E.",
-      "points": 31,
-      "rounds_played": 3,
-      "wins": 0,
-      "avg_per_round": 10.3,
-      "joined_round": 1,
-      "weekly": [
-        {
-          "round": 1,
-          "points": 16,
-          "rank": 3
         },
         {
-          "round": 2,
-          "points": 7,
-          "rank": 8
-        },
-        {
-          "round": 3,
-          "points": 8,
-          "rank": 5
-        }
-      ],
-      "rank": 5
-    },
-    {
-      "player_id": "994734a26c814552ad88e0ce9ea4cfce",
-      "player": "Jack L.",
-      "points": 28,
-      "rounds_played": 3,
-      "wins": 0,
-      "avg_per_round": 9.3,
-      "joined_round": 1,
-      "weekly": [
-        {
-          "round": 1,
-          "points": 10,
-          "rank": 4
-        },
-        {
-          "round": 2,
-          "points": 9,
-          "rank": 7
-        },
-        {
-          "round": 3,
-          "points": 9,
-          "rank": 4
-        }
-      ],
-      "rank": 6
-    },
-    {
-      "player_id": "e0e0d50ee23443cf80cea1d777fac793",
-      "player": "Mike D.",
-      "points": 28,
-      "rounds_played": 3,
-      "wins": 0,
-      "avg_per_round": 9.3,
-      "joined_round": 1,
-      "weekly": [
-        {
-          "round": 1,
-          "points": 4,
-          "rank": 9
-        },
-        {
-          "round": 2,
+          "round": 4,
           "points": 13,
-          "rank": 3
-        },
-        {
-          "round": 3,
-          "points": 11,
-          "rank": 2
+          "rank": 4
         }
       ],
-      "rank": 6
-    },
-    {
-      "player_id": "4853a05f049d4d4682257bed4b277eed",
-      "player": "Tess D.",
-      "points": 23,
-      "rounds_played": 3,
-      "wins": 0,
-      "avg_per_round": 7.7,
-      "joined_round": 1,
-      "weekly": [
-        {
-          "round": 1,
-          "points": 7,
-          "rank": 6
-        },
-        {
-          "round": 2,
-          "points": 5,
-          "rank": 10
-        },
-        {
-          "round": 3,
-          "points": 11,
-          "rank": 2
-        }
-      ],
-      "rank": 8
+      "rank": 3
     },
     {
       "player_id": "41a0d64fae1f40489679232baec98925",
       "player": "Mary D.",
-      "points": 21,
-      "rounds_played": 3,
-      "wins": 0,
-      "avg_per_round": 7.0,
+      "points": 42,
+      "rounds_played": 4,
+      "wins": 1,
+      "avg_per_round": 10.5,
       "joined_round": 1,
       "weekly": [
         {
@@ -3876,17 +5067,209 @@
           "round": 3,
           "points": 6,
           "rank": 7
+        },
+        {
+          "round": 4,
+          "points": 21,
+          "rank": 1
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "player_id": "19e6c48a177c458398bb138a991a2e4c",
+      "player": "Elyse E.",
+      "points": 39,
+      "rounds_played": 4,
+      "wins": 0,
+      "avg_per_round": 9.8,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 10,
+          "rank": 4
+        },
+        {
+          "round": 2,
+          "points": 16,
+          "rank": 2
+        },
+        {
+          "round": 3,
+          "points": 7,
+          "rank": 6
+        },
+        {
+          "round": 4,
+          "points": 6,
+          "rank": 7
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+      "player": "Dray E.",
+      "points": 36,
+      "rounds_played": 4,
+      "wins": 0,
+      "avg_per_round": 9.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 16,
+          "rank": 3
+        },
+        {
+          "round": 2,
+          "points": 7,
+          "rank": 8
+        },
+        {
+          "round": 3,
+          "points": 8,
+          "rank": 5
+        },
+        {
+          "round": 4,
+          "points": 5,
+          "rank": 9
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+      "player": "Mike D.",
+      "points": 36,
+      "rounds_played": 4,
+      "wins": 0,
+      "avg_per_round": 9.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 4,
+          "rank": 9
+        },
+        {
+          "round": 2,
+          "points": 13,
+          "rank": 3
+        },
+        {
+          "round": 3,
+          "points": 11,
+          "rank": 2
+        },
+        {
+          "round": 4,
+          "points": 8,
+          "rank": 6
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+      "player": "Jack L.",
+      "points": 33,
+      "rounds_played": 4,
+      "wins": 0,
+      "avg_per_round": 8.2,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 10,
+          "rank": 4
+        },
+        {
+          "round": 2,
+          "points": 9,
+          "rank": 7
+        },
+        {
+          "round": 3,
+          "points": 9,
+          "rank": 4
+        },
+        {
+          "round": 4,
+          "points": 5,
+          "rank": 9
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "player_id": "4853a05f049d4d4682257bed4b277eed",
+      "player": "Tess D.",
+      "points": 29,
+      "rounds_played": 4,
+      "wins": 0,
+      "avg_per_round": 7.2,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 7,
+          "rank": 6
+        },
+        {
+          "round": 2,
+          "points": 5,
+          "rank": 10
+        },
+        {
+          "round": 3,
+          "points": 11,
+          "rank": 2
+        },
+        {
+          "round": 4,
+          "points": 6,
+          "rank": 7
         }
       ],
       "rank": 9
     },
     {
-      "player_id": "2334709be13e48759338c82689b95d11",
-      "player": "Gabriel M.",
-      "points": 15,
+      "player_id": "3b87dbe243724d3bbcafea4934075fec",
+      "player": "Steve E.",
+      "points": 18,
       "rounds_played": 3,
       "wins": 0,
-      "avg_per_round": 5.0,
+      "avg_per_round": 6.0,
+      "joined_round": 2,
+      "weekly": [
+        {
+          "round": 2,
+          "points": 2,
+          "rank": 11
+        },
+        {
+          "round": 3,
+          "points": 0,
+          "rank": 10
+        },
+        {
+          "round": 4,
+          "points": 16,
+          "rank": 2
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "player_id": "2334709be13e48759338c82689b95d11",
+      "player": "Gabriel M.",
+      "points": 17,
+      "rounds_played": 4,
+      "wins": 0,
+      "avg_per_round": 4.2,
       "joined_round": 1,
       "weekly": [
         {
@@ -3903,28 +5286,11 @@
           "round": 3,
           "points": 0,
           "rank": 10
-        }
-      ],
-      "rank": 10
-    },
-    {
-      "player_id": "3b87dbe243724d3bbcafea4934075fec",
-      "player": "Steve E.",
-      "points": 2,
-      "rounds_played": 2,
-      "wins": 0,
-      "avg_per_round": 1.0,
-      "joined_round": 2,
-      "weekly": [
-        {
-          "round": 2,
-          "points": 2,
-          "rank": 11
         },
         {
-          "round": 3,
-          "points": 0,
-          "rank": 10
+          "round": 4,
+          "points": 2,
+          "rank": 11
         }
       ],
       "rank": 11
@@ -3934,8 +5300,20 @@
     {
       "voter": "Mike D.",
       "submitter": "Claire E.",
+      "total_pts": 11,
+      "times": 5
+    },
+    {
+      "voter": "Mills T.",
+      "submitter": "Olivia D.",
       "total_pts": 10,
-      "times": 4
+      "times": 6
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Dray E.",
+      "total_pts": 10,
+      "times": 7
     },
     {
       "voter": "Tess D.",
@@ -3944,28 +5322,64 @@
       "times": 4
     },
     {
-      "voter": "Claire E.",
-      "submitter": "Dray E.",
-      "total_pts": 8,
+      "voter": "Tess D.",
+      "submitter": "Olivia D.",
+      "total_pts": 9,
       "times": 5
     },
     {
       "voter": "Jack L.",
       "submitter": "Claire E.",
-      "total_pts": 8,
-      "times": 3
+      "total_pts": 9,
+      "times": 4
     },
     {
-      "voter": "Mills T.",
-      "submitter": "Olivia D.",
-      "total_pts": 7,
+      "voter": "Olivia D.",
+      "submitter": "Mills T.",
+      "total_pts": 8,
       "times": 4
+    },
+    {
+      "voter": "Mike D.",
+      "submitter": "Mary D.",
+      "total_pts": 8,
+      "times": 6
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Claire E.",
+      "total_pts": 8,
+      "times": 5
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Mike D.",
+      "total_pts": 7,
+      "times": 7
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Mike D.",
+      "total_pts": 7,
+      "times": 6
     },
     {
       "voter": "Jack L.",
       "submitter": "Mills T.",
       "total_pts": 7,
       "times": 3
+    },
+    {
+      "voter": "Mills T.",
+      "submitter": "Jack L.",
+      "total_pts": 7,
+      "times": 5
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Elyse E.",
+      "total_pts": 6,
+      "times": 6
     },
     {
       "voter": "Olivia D.",
@@ -3980,14 +5394,14 @@
       "times": 4
     },
     {
-      "voter": "Mike D.",
-      "submitter": "Mary D.",
+      "voter": "Elyse E.",
+      "submitter": "Olivia D.",
       "total_pts": 6,
       "times": 4
     },
     {
-      "voter": "Elyse E.",
-      "submitter": "Claire E.",
+      "voter": "Gabriel M.",
+      "submitter": "Mary D.",
       "total_pts": 6,
       "times": 4
     },
@@ -3996,6 +5410,24 @@
       "submitter": "Mike D.",
       "total_pts": 6,
       "times": 2
+    },
+    {
+      "voter": "Mills T.",
+      "submitter": "Mike D.",
+      "total_pts": 6,
+      "times": 4
+    },
+    {
+      "voter": "Jack L.",
+      "submitter": "Tess D.",
+      "total_pts": 6,
+      "times": 3
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Mills T.",
+      "total_pts": 6,
+      "times": 4
     },
     {
       "voter": "Claire E.",
@@ -4004,16 +5436,22 @@
       "times": 4
     },
     {
+      "voter": "Claire E.",
+      "submitter": "Olivia D.",
+      "total_pts": 5,
+      "times": 4
+    },
+    {
       "voter": "Dray E.",
-      "submitter": "Elyse E.",
+      "submitter": "Mills T.",
       "total_pts": 5,
       "times": 5
     },
     {
       "voter": "Dray E.",
-      "submitter": "Mike D.",
+      "submitter": "Mary D.",
       "total_pts": 5,
-      "times": 5
+      "times": 6
     },
     {
       "voter": "Olivia D.",
@@ -4022,10 +5460,16 @@
       "times": 3
     },
     {
-      "voter": "Tess D.",
+      "voter": "Mary D.",
+      "submitter": "Tess D.",
+      "total_pts": 5,
+      "times": 5
+    },
+    {
+      "voter": "Mary D.",
       "submitter": "Olivia D.",
       "total_pts": 5,
-      "times": 3
+      "times": 5
     },
     {
       "voter": "Elyse E.",
@@ -4034,20 +5478,32 @@
       "times": 2
     },
     {
-      "voter": "Mills T.",
-      "submitter": "Mike D.",
+      "voter": "Gabriel M.",
+      "submitter": "Elyse E.",
       "total_pts": 5,
-      "times": 3
+      "times": 4
     },
     {
-      "voter": "Mills T.",
-      "submitter": "Jack L.",
+      "voter": "Tess D.",
+      "submitter": "Claire E.",
       "total_pts": 5,
-      "times": 3
+      "times": 2
     },
     {
-      "voter": "Elyse E.",
+      "voter": "Gabriel M.",
       "submitter": "Mills T.",
+      "total_pts": 5,
+      "times": 4
+    },
+    {
+      "voter": "Steve E.",
+      "submitter": "Mary D.",
+      "total_pts": 5,
+      "times": 3
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Elyse E.",
       "total_pts": 5,
       "times": 3
     },
@@ -4056,12 +5512,24 @@
       "submitter": "Dray E.",
       "total_pts": 4,
       "times": 2
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Mills T.",
+      "total_pts": 4,
+      "times": 3
     },
     {
       "voter": "Dray E.",
-      "submitter": "Mills T.",
+      "submitter": "Tess D.",
       "total_pts": 4,
-      "times": 4
+      "times": 6
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Claire E.",
+      "total_pts": 4,
+      "times": 6
     },
     {
       "voter": "Olivia D.",
@@ -4071,27 +5539,15 @@
     },
     {
       "voter": "Mary D.",
+      "submitter": "Claire E.",
+      "total_pts": 4,
+      "times": 5
+    },
+    {
+      "voter": "Mary D.",
       "submitter": "Gabriel M.",
       "total_pts": 4,
       "times": 3
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Tess D.",
-      "total_pts": 4,
-      "times": 4
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Olivia D.",
-      "total_pts": 4,
-      "times": 4
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Mike D.",
-      "total_pts": 4,
-      "times": 4
     },
     {
       "voter": "Mary D.",
@@ -4100,22 +5556,10 @@
       "times": 4
     },
     {
-      "voter": "Elyse E.",
-      "submitter": "Olivia D.",
-      "total_pts": 4,
-      "times": 2
-    },
-    {
       "voter": "Gabriel M.",
-      "submitter": "Mary D.",
+      "submitter": "Claire E.",
       "total_pts": 4,
-      "times": 2
-    },
-    {
-      "voter": "Gabriel M.",
-      "submitter": "Elyse E.",
-      "total_pts": 4,
-      "times": 3
+      "times": 4
     },
     {
       "voter": "Tess D.",
@@ -4124,115 +5568,48 @@
       "times": 2
     },
     {
-      "voter": "Jack L.",
-      "submitter": "Tess D.",
-      "total_pts": 4,
-      "times": 2
-    },
-    {
       "voter": "Mary D.",
       "submitter": "Elyse E.",
       "total_pts": 4,
       "times": 3
-    },
-    {
-      "voter": "Claire E.",
-      "submitter": "Tess D.",
-      "total_pts": 3,
-      "times": 3
-    },
-    {
-      "voter": "Claire E.",
-      "submitter": "Mills T.",
-      "total_pts": 3,
-      "times": 2
-    },
-    {
-      "voter": "Claire E.",
-      "submitter": "Olivia D.",
-      "total_pts": 3,
-      "times": 2
-    },
-    {
-      "voter": "Dray E.",
-      "submitter": "Tess D.",
-      "total_pts": 3,
-      "times": 5
-    },
-    {
-      "voter": "Dray E.",
-      "submitter": "Claire E.",
-      "total_pts": 3,
-      "times": 5
-    },
-    {
-      "voter": "Dray E.",
-      "submitter": "Mary D.",
-      "total_pts": 3,
-      "times": 4
-    },
-    {
-      "voter": "Mike D.",
-      "submitter": "Gabriel M.",
-      "total_pts": 3,
-      "times": 3
-    },
-    {
-      "voter": "Mike D.",
-      "submitter": "Elyse E.",
-      "total_pts": 3,
-      "times": 3
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Claire E.",
-      "total_pts": 3,
-      "times": 4
-    },
-    {
-      "voter": "Jack L.",
-      "submitter": "Gabriel M.",
-      "total_pts": 3,
-      "times": 2
-    },
-    {
-      "voter": "Jack L.",
-      "submitter": "Elyse E.",
-      "total_pts": 3,
-      "times": 2
     },
     {
       "voter": "Elyse E.",
-      "submitter": "Jack L.",
-      "total_pts": 3,
-      "times": 2
-    },
-    {
-      "voter": "Gabriel M.",
-      "submitter": "Olivia D.",
-      "total_pts": 3,
-      "times": 2
-    },
-    {
-      "voter": "Tess D.",
-      "submitter": "Mills T.",
-      "total_pts": 3,
-      "times": 2
-    },
-    {
-      "voter": "Tess D.",
-      "submitter": "Claire E.",
-      "total_pts": 3,
-      "times": 1
-    },
-    {
-      "voter": "Dray E.",
-      "submitter": "Gabriel M.",
-      "total_pts": 3,
+      "submitter": "Mary D.",
+      "total_pts": 4,
       "times": 3
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Gabriel M.",
+      "total_pts": 4,
+      "times": 4
+    },
+    {
+      "voter": "Steve E.",
+      "submitter": "Elyse E.",
+      "total_pts": 4,
+      "times": 2
+    },
+    {
+      "voter": "Mills T.",
+      "submitter": "Claire E.",
+      "total_pts": 4,
+      "times": 2
     }
   ],
   "hall_of_fame": [
+    {
+      "round": 4,
+      "title": "Brandy (You're a Fine Girl)",
+      "artist": "Looking Glass",
+      "submitter": "Mary D.",
+      "submitter_id": "41a0d64fae1f40489679232baec98925",
+      "total_pts": 14,
+      "unique_voters": 9,
+      "track_id": "2BY7ALEWdloFHgQZG6VMLA",
+      "spotify_url": "https://open.spotify.com/track/2BY7ALEWdloFHgQZG6VMLA"
+    },
     {
       "round": 1,
       "title": "Something Like That",
@@ -4243,6 +5620,17 @@
       "unique_voters": 5,
       "track_id": "6leiB1fEsTnVCuPiielde5",
       "spotify_url": "https://open.spotify.com/track/6leiB1fEsTnVCuPiielde5"
+    },
+    {
+      "round": 4,
+      "title": "Dreams - 2004 Remaster",
+      "artist": "Fleetwood Mac",
+      "submitter": "Claire E.",
+      "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+      "total_pts": 13,
+      "unique_voters": 9,
+      "track_id": "0ofHAoxe9vBkTCp2UQIavz",
+      "spotify_url": "https://open.spotify.com/track/0ofHAoxe9vBkTCp2UQIavz"
     },
     {
       "round": 3,
@@ -4276,6 +5664,17 @@
       "unique_voters": 6,
       "track_id": "3cfOd4CMv2snFaKAnMdnvK",
       "spotify_url": "https://open.spotify.com/track/3cfOd4CMv2snFaKAnMdnvK"
+    },
+    {
+      "round": 4,
+      "title": "September",
+      "artist": "Earth, Wind & Fire",
+      "submitter": "Steve E.",
+      "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+      "total_pts": 11,
+      "unique_voters": 8,
+      "track_id": "2grjqo0Frpf2okIBiifQKs",
+      "spotify_url": "https://open.spotify.com/track/2grjqo0Frpf2okIBiifQKs"
     },
     {
       "round": 2,
@@ -4322,6 +5721,17 @@
       "spotify_url": "https://open.spotify.com/track/1G391cbiT3v3Cywg8T7DM1"
     },
     {
+      "round": 4,
+      "title": "Southside Of Heaven",
+      "artist": "Ryan Bingham",
+      "submitter": "Mills T.",
+      "submitter_id": "5838e19081f440598e554c420f257ab7",
+      "total_pts": 8,
+      "unique_voters": 6,
+      "track_id": "0qCQg5TkfBfkTsQP3IhAmC",
+      "spotify_url": "https://open.spotify.com/track/0qCQg5TkfBfkTsQP3IhAmC"
+    },
+    {
       "round": 1,
       "title": "Chicken Fried",
       "artist": "Zac Brown Band",
@@ -4355,6 +5765,17 @@
       "spotify_url": "https://open.spotify.com/track/4ePP9So5xRzspjLFVVbj90"
     },
     {
+      "round": 4,
+      "title": "Up!",
+      "artist": "Shania Twain",
+      "submitter": "Olivia D.",
+      "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+      "total_pts": 7,
+      "unique_voters": 6,
+      "track_id": "4dIrj82d70x7vGmUxTyOYC",
+      "spotify_url": "https://open.spotify.com/track/4dIrj82d70x7vGmUxTyOYC"
+    },
+    {
       "round": 1,
       "title": "Steal My Sunshine",
       "artist": "LEN",
@@ -4377,6 +5798,17 @@
       "spotify_url": "https://open.spotify.com/track/3lAun9V0YdTlCSIEXPvfsY"
     },
     {
+      "round": 4,
+      "title": "Bohemian Rhapsody - Remastered 2011",
+      "artist": "Queen",
+      "submitter": "Mary D.",
+      "submitter_id": "41a0d64fae1f40489679232baec98925",
+      "total_pts": 7,
+      "unique_voters": 5,
+      "track_id": "5eIDxmWYxRA0HJBYM9bIIS",
+      "spotify_url": "https://open.spotify.com/track/5eIDxmWYxRA0HJBYM9bIIS"
+    },
+    {
       "round": 2,
       "title": "Elderly Woman Behind the Counter in a Small Town - Remastered",
       "artist": "Pearl Jam",
@@ -4386,72 +5818,6 @@
       "unique_voters": 4,
       "track_id": "5lHgBqh9VwAAzQma55gHRY",
       "spotify_url": "https://open.spotify.com/track/5lHgBqh9VwAAzQma55gHRY"
-    },
-    {
-      "round": 1,
-      "title": "Gimme! Gimme! Gimme! (A Man After Midnight) - From 'Mamma Mia!' Original Motion Picture Soundtrack",
-      "artist": "Amanda Seyfried, Ashley Lilley, Rachel McDowall",
-      "submitter": "Olivia D.",
-      "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
-      "total_pts": 6,
-      "unique_voters": 5,
-      "track_id": "7lkeI7MsLOZ5gyh9ejaf3W",
-      "spotify_url": "https://open.spotify.com/track/7lkeI7MsLOZ5gyh9ejaf3W"
-    },
-    {
-      "round": 1,
-      "title": "Texas Sun",
-      "artist": "Khruangbin, Leon Bridges",
-      "submitter": "Elyse E.",
-      "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
-      "total_pts": 6,
-      "unique_voters": 5,
-      "track_id": "24ntSW3QVJzR79lHAAOTaY",
-      "spotify_url": "https://open.spotify.com/track/24ntSW3QVJzR79lHAAOTaY"
-    },
-    {
-      "round": 1,
-      "title": "Wild Night",
-      "artist": "Van Morrison",
-      "submitter": "Mills T.",
-      "submitter_id": "5838e19081f440598e554c420f257ab7",
-      "total_pts": 6,
-      "unique_voters": 5,
-      "track_id": "10znDvpdCNThhMapRt5NOw",
-      "spotify_url": "https://open.spotify.com/track/10znDvpdCNThhMapRt5NOw"
-    },
-    {
-      "round": 2,
-      "title": "Twist And Shout - Remastered 2009",
-      "artist": "The Beatles",
-      "submitter": "Mary D.",
-      "submitter_id": "41a0d64fae1f40489679232baec98925",
-      "total_pts": 6,
-      "unique_voters": 5,
-      "track_id": "5ZBeML7Lf3FMEVviTyvi8l",
-      "spotify_url": "https://open.spotify.com/track/5ZBeML7Lf3FMEVviTyvi8l"
-    },
-    {
-      "round": 2,
-      "title": "Wonderwall",
-      "artist": "Oasis",
-      "submitter": "Elyse E.",
-      "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
-      "total_pts": 6,
-      "unique_voters": 4,
-      "track_id": "1qPbGZqppFwLwcBC1JQ6Vr",
-      "spotify_url": "https://open.spotify.com/track/1qPbGZqppFwLwcBC1JQ6Vr"
-    },
-    {
-      "round": 3,
-      "title": "My Sweet Lord - 2014 Remaster",
-      "artist": "George Harrison",
-      "submitter": "Jack L.",
-      "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
-      "total_pts": 6,
-      "unique_voters": 4,
-      "track_id": "0KZodeWxqxd88F9wY1cqgs",
-      "spotify_url": "https://open.spotify.com/track/0KZodeWxqxd88F9wY1cqgs"
     }
   ],
   "player_profiles": {
@@ -4517,6 +5883,26 @@
           "unique_voters": 2,
           "track_id": "0C4zk034TFnI2z8eorbv4K",
           "spotify_url": "https://open.spotify.com/track/0C4zk034TFnI2z8eorbv4K"
+        },
+        {
+          "round": 4,
+          "title": "Birmingham",
+          "artist": "Shovels & Rope",
+          "album": "O' Be Joyful",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "track_id": "5ciSr1SyZUQrxySlxZhdhg",
+          "spotify_url": "https://open.spotify.com/track/5ciSr1SyZUQrxySlxZhdhg"
+        },
+        {
+          "round": 4,
+          "title": "Just Us Kids",
+          "artist": "James McMurtry",
+          "album": "Just Us Kids",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "track_id": "7IQj4J24ZPRk1XS1rBFk2h",
+          "spotify_url": "https://open.spotify.com/track/7IQj4J24ZPRk1XS1rBFk2h"
         }
       ],
       "voting_history": [
@@ -4747,10 +6133,70 @@
           "song": "1977",
           "voted_for": "Mike D.",
           "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Dreams - 2004 Remaster",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Southside Of Heaven",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Brandy (You're a Fine Girl)",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Sugar Magnolia - 2013 Remaster",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "September",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Pickin' Up The Pieces",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Sueño de una noche de verano",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Bohemian Rhapsody - Remastered 2011",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Beast Of Burden - Remastered 1994",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Box of Rain - 2013 Remaster",
+          "voted_for": "Mike D.",
+          "points_given": 1
         }
       ],
-      "season_points": 31,
-      "rounds_played": 3
+      "season_points": 36,
+      "rounds_played": 4
     },
     "19e6c48a177c458398bb138a991a2e4c": {
       "name": "Elyse E.",
@@ -4814,6 +6260,26 @@
           "unique_voters": 3,
           "track_id": "2JnVkJsUnBs7kyvVzD8E6L",
           "spotify_url": "https://open.spotify.com/track/2JnVkJsUnBs7kyvVzD8E6L"
+        },
+        {
+          "round": 4,
+          "title": "Sueño de una noche de verano",
+          "artist": "Delahoja",
+          "album": "El Mordisco",
+          "total_pts": 6,
+          "unique_voters": 4,
+          "track_id": "4Ddac1auZ5h2lsQkthGvQP",
+          "spotify_url": "https://open.spotify.com/track/4Ddac1auZ5h2lsQkthGvQP"
+        },
+        {
+          "round": 4,
+          "title": "It's Strange (feat. K.Flay)",
+          "artist": "Louis The Child, K.Flay",
+          "album": "It's Strange (feat. K.Flay)",
+          "total_pts": 0,
+          "unique_voters": 0,
+          "track_id": "2Th9BGKvfZG8bKQSACitwG",
+          "spotify_url": "https://open.spotify.com/track/2Th9BGKvfZG8bKQSACitwG"
         }
       ],
       "voting_history": [
@@ -4936,10 +6402,58 @@
           "song": "Mi Gente",
           "voted_for": "Olivia D.",
           "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Dreams - 2004 Remaster",
+          "voted_for": "Claire E.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "Southside Of Heaven",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "It Ain’t Me (with Selena Gomez)",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Brandy (You're a Fine Girl)",
+          "voted_for": "Mary D.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "September",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "I Want It That Way",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Up!",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Deixe Me Ir (feat. Pablo Martins) - Acústico 1Kilo",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
         }
       ],
-      "season_points": 33,
-      "rounds_played": 3
+      "season_points": 39,
+      "rounds_played": 4
     },
     "2334709be13e48759338c82689b95d11": {
       "name": "Gabriel M.",
@@ -5003,6 +6517,26 @@
           "unique_voters": 2,
           "track_id": "3BBXm1zA7ct5KFZTEszfDc",
           "spotify_url": "https://open.spotify.com/track/3BBXm1zA7ct5KFZTEszfDc"
+        },
+        {
+          "round": 4,
+          "title": "Deixe Me Ir (feat. Pablo Martins) - Acústico 1Kilo",
+          "artist": "1Kilo, Baviera, Knust, Pablo Martins",
+          "album": "Deixe Me Ir (feat. Pablo Martins) [Acústico 1Kilo]",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "track_id": "6JKkP9ABQzYZUFSKSVDKIc",
+          "spotify_url": "https://open.spotify.com/track/6JKkP9ABQzYZUFSKSVDKIc"
+        },
+        {
+          "round": 4,
+          "title": "Mandona - Acústico",
+          "artist": "Oriente, MC Hariel",
+          "album": "Mandona (Acústico)",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "track_id": "0R4dwzW253KTxchGryT1H6",
+          "spotify_url": "https://open.spotify.com/track/0R4dwzW253KTxchGryT1H6"
         }
       ],
       "voting_history": [
@@ -5089,10 +6623,70 @@
           "song": "Scar Tissue",
           "voted_for": "Mills T.",
           "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Dreams - 2004 Remaster",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Southside Of Heaven",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Brandy (You're a Fine Girl)",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "September",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Catching Fireflies",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Sueño de una noche de verano",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "You Make My Dreams (Come True)",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Bohemian Rhapsody - Remastered 2011",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Beast Of Burden - Remastered 1994",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Just Us Kids",
+          "voted_for": "Dray E.",
+          "points_given": 1
         }
       ],
-      "season_points": 15,
-      "rounds_played": 3
+      "season_points": 17,
+      "rounds_played": 4
     },
     "3b87dbe243724d3bbcafea4934075fec": {
       "name": "Steve E.",
@@ -5136,6 +6730,26 @@
           "unique_voters": 1,
           "track_id": "2zYzyRzz6pRmhPzyfMEC8s",
           "spotify_url": "https://open.spotify.com/track/2zYzyRzz6pRmhPzyfMEC8s"
+        },
+        {
+          "round": 4,
+          "title": "September",
+          "artist": "Earth, Wind & Fire",
+          "album": "The Best Of Earth, Wind & Fire Vol. 1",
+          "total_pts": 11,
+          "unique_voters": 8,
+          "track_id": "2grjqo0Frpf2okIBiifQKs",
+          "spotify_url": "https://open.spotify.com/track/2grjqo0Frpf2okIBiifQKs"
+        },
+        {
+          "round": 4,
+          "title": "I Want It That Way",
+          "artist": "Backstreet Boys",
+          "album": "Millennium",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "track_id": "47BBI51FKFwOMlIiX6m8ya",
+          "spotify_url": "https://open.spotify.com/track/47BBI51FKFwOMlIiX6m8ya"
         }
       ],
       "voting_history": [
@@ -5186,10 +6800,46 @@
           "song": "Believe",
           "voted_for": "Olivia D.",
           "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Dreams - 2004 Remaster",
+          "voted_for": "Claire E.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "Mandona - Acústico",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Brandy (You're a Fine Girl)",
+          "voted_for": "Mary D.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "Sueño de una noche de verano",
+          "voted_for": "Elyse E.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "You Make My Dreams (Come True)",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Bohemian Rhapsody - Remastered 2011",
+          "voted_for": "Mary D.",
+          "points_given": 2
         }
       ],
-      "season_points": 2,
-      "rounds_played": 2
+      "season_points": 18,
+      "rounds_played": 3
     },
     "41a0d64fae1f40489679232baec98925": {
       "name": "Mary D.",
@@ -5253,6 +6903,26 @@
           "unique_voters": 2,
           "track_id": "1dZxI6OuzwJ283y3gOU1Kq",
           "spotify_url": "https://open.spotify.com/track/1dZxI6OuzwJ283y3gOU1Kq"
+        },
+        {
+          "round": 4,
+          "title": "Brandy (You're a Fine Girl)",
+          "artist": "Looking Glass",
+          "album": "Looking Glass",
+          "total_pts": 14,
+          "unique_voters": 9,
+          "track_id": "2BY7ALEWdloFHgQZG6VMLA",
+          "spotify_url": "https://open.spotify.com/track/2BY7ALEWdloFHgQZG6VMLA"
+        },
+        {
+          "round": 4,
+          "title": "Bohemian Rhapsody - Remastered 2011",
+          "artist": "Queen",
+          "album": "A Night At The Opera",
+          "total_pts": 7,
+          "unique_voters": 5,
+          "track_id": "5eIDxmWYxRA0HJBYM9bIIS",
+          "spotify_url": "https://open.spotify.com/track/5eIDxmWYxRA0HJBYM9bIIS"
         }
       ],
       "voting_history": [
@@ -5435,10 +7105,58 @@
           "song": "1977",
           "voted_for": "Mike D.",
           "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Dreams - 2004 Remaster",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Southside Of Heaven",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Sugar Magnolia - 2013 Remaster",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "September",
+          "voted_for": "Steve E.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "I Want It That Way",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Up!",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Beast Of Burden - Remastered 1994",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Box of Rain - 2013 Remaster",
+          "voted_for": "Mike D.",
+          "points_given": 2
         }
       ],
-      "season_points": 21,
-      "rounds_played": 3
+      "season_points": 42,
+      "rounds_played": 4
     },
     "4853a05f049d4d4682257bed4b277eed": {
       "name": "Tess D.",
@@ -5502,6 +7220,26 @@
           "unique_voters": 4,
           "track_id": "5oVs4alUctAl0B0QhWY0I2",
           "spotify_url": "https://open.spotify.com/track/5oVs4alUctAl0B0QhWY0I2"
+        },
+        {
+          "round": 4,
+          "title": "Beast Of Burden - Remastered 1994",
+          "artist": "The Rolling Stones",
+          "album": "Some Girls",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "track_id": "77oU2rjC5XbjQfNe3bD6so",
+          "spotify_url": "https://open.spotify.com/track/77oU2rjC5XbjQfNe3bD6so"
+        },
+        {
+          "round": 4,
+          "title": "Cool to You",
+          "artist": "Teenage Priest",
+          "album": "Cool to You",
+          "total_pts": 0,
+          "unique_voters": 0,
+          "track_id": "3axvLn8vg0TtBNVDzbtmrb",
+          "spotify_url": "https://open.spotify.com/track/3axvLn8vg0TtBNVDzbtmrb"
         }
       ],
       "voting_history": [
@@ -5600,10 +7338,40 @@
           "song": "1977",
           "voted_for": "Mike D.",
           "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Dreams - 2004 Remaster",
+          "voted_for": "Claire E.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "It Ain’t Me (with Selena Gomez)",
+          "voted_for": "Olivia D.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "Brandy (You're a Fine Girl)",
+          "voted_for": "Mary D.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "September",
+          "voted_for": "Steve E.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "Up!",
+          "voted_for": "Olivia D.",
+          "points_given": 2
         }
       ],
-      "season_points": 23,
-      "rounds_played": 3
+      "season_points": 29,
+      "rounds_played": 4
     },
     "5838e19081f440598e554c420f257ab7": {
       "name": "Mills T.",
@@ -5667,6 +7435,26 @@
           "unique_voters": 1,
           "track_id": "7oG9qhZ0UaQEoUGJJVXh1U",
           "spotify_url": "https://open.spotify.com/track/7oG9qhZ0UaQEoUGJJVXh1U"
+        },
+        {
+          "round": 4,
+          "title": "Southside Of Heaven",
+          "artist": "Ryan Bingham",
+          "album": "Mescalito",
+          "total_pts": 8,
+          "unique_voters": 6,
+          "track_id": "0qCQg5TkfBfkTsQP3IhAmC",
+          "spotify_url": "https://open.spotify.com/track/0qCQg5TkfBfkTsQP3IhAmC"
+        },
+        {
+          "round": 4,
+          "title": "Catching Fireflies",
+          "artist": "The Revivalists",
+          "album": "Vital Signs",
+          "total_pts": 5,
+          "unique_voters": 3,
+          "track_id": "4daxThR2Ny2xj0hkar6XkX",
+          "spotify_url": "https://open.spotify.com/track/4daxThR2Ny2xj0hkar6XkX"
         }
       ],
       "voting_history": [
@@ -5783,10 +7571,58 @@
           "song": "Gasolina",
           "voted_for": "Olivia D.",
           "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Dreams - 2004 Remaster",
+          "voted_for": "Claire E.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "It Ain’t Me (with Selena Gomez)",
+          "voted_for": "Olivia D.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "Brandy (You're a Fine Girl)",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Sugar Magnolia - 2013 Remaster",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "September",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Shines",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Pickin' Up The Pieces",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Up!",
+          "voted_for": "Olivia D.",
+          "points_given": 1
         }
       ],
-      "season_points": 33,
-      "rounds_played": 3
+      "season_points": 46,
+      "rounds_played": 4
     },
     "994734a26c814552ad88e0ce9ea4cfce": {
       "name": "Jack L.",
@@ -5850,6 +7686,26 @@
           "unique_voters": 2,
           "track_id": "3lh3iiiJeiBXHSZw6u0kh6",
           "spotify_url": "https://open.spotify.com/track/3lh3iiiJeiBXHSZw6u0kh6"
+        },
+        {
+          "round": 4,
+          "title": "Pickin' Up The Pieces",
+          "artist": "Widespread Panic",
+          "album": "Everyday",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "track_id": "3NTwkFnd4dPcvpg43O3XW3",
+          "spotify_url": "https://open.spotify.com/track/3NTwkFnd4dPcvpg43O3XW3"
+        },
+        {
+          "round": 4,
+          "title": "Shines",
+          "artist": "The Donkeys",
+          "album": "Ride the Black Wave",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "track_id": "3eK4Rh8wjiVfYncZgWekzr",
+          "spotify_url": "https://open.spotify.com/track/3eK4Rh8wjiVfYncZgWekzr"
         }
       ],
       "voting_history": [
@@ -5942,10 +7798,52 @@
           "song": "Down Under",
           "voted_for": "Mills T.",
           "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "Dreams - 2004 Remaster",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Brandy (You're a Fine Girl)",
+          "voted_for": "Mary D.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "Sugar Magnolia - 2013 Remaster",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "September",
+          "voted_for": "Steve E.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "Birmingham",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Beast Of Burden - Remastered 1994",
+          "voted_for": "Tess D.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "Box of Rain - 2013 Remaster",
+          "voted_for": "Mike D.",
+          "points_given": 1
         }
       ],
-      "season_points": 28,
-      "rounds_played": 3
+      "season_points": 33,
+      "rounds_played": 4
     },
     "9ce50e4f032c45afaa3eca936e99c9db": {
       "name": "Olivia D.",
@@ -6009,6 +7907,26 @@
           "unique_voters": 1,
           "track_id": "5YoITs1m0q8UOQ4AW7N5ga",
           "spotify_url": "https://open.spotify.com/track/5YoITs1m0q8UOQ4AW7N5ga"
+        },
+        {
+          "round": 4,
+          "title": "Up!",
+          "artist": "Shania Twain",
+          "album": "Up! (Green Version)",
+          "total_pts": 7,
+          "unique_voters": 6,
+          "track_id": "4dIrj82d70x7vGmUxTyOYC",
+          "spotify_url": "https://open.spotify.com/track/4dIrj82d70x7vGmUxTyOYC"
+        },
+        {
+          "round": 4,
+          "title": "It Ain’t Me (with Selena Gomez)",
+          "artist": "Kygo, Selena Gomez",
+          "album": "It Ain't Me",
+          "total_pts": 6,
+          "unique_voters": 4,
+          "track_id": "12GEpg2XOPyqk03JZEZnJs",
+          "spotify_url": "https://open.spotify.com/track/12GEpg2XOPyqk03JZEZnJs"
         }
       ],
       "voting_history": [
@@ -6107,10 +8025,34 @@
           "song": "Volare",
           "voted_for": "Tess D.",
           "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "Southside Of Heaven",
+          "voted_for": "Mills T.",
+          "points_given": 3
+        },
+        {
+          "round": 4,
+          "song": "I Want It That Way",
+          "voted_for": "Steve E.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "Catching Fireflies",
+          "voted_for": "Mills T.",
+          "points_given": 3
+        },
+        {
+          "round": 4,
+          "song": "Bohemian Rhapsody - Remastered 2011",
+          "voted_for": "Mary D.",
+          "points_given": 2
         }
       ],
-      "season_points": 32,
-      "rounds_played": 3
+      "season_points": 45,
+      "rounds_played": 4
     },
     "dea876f23cf9428185f8757955c2eecd": {
       "name": "Claire E.",
@@ -6174,6 +8116,26 @@
           "unique_voters": 2,
           "track_id": "2SRzCZMWi0vJM5ngaKjcjX",
           "spotify_url": "https://open.spotify.com/track/2SRzCZMWi0vJM5ngaKjcjX"
+        },
+        {
+          "round": 4,
+          "title": "Dreams - 2004 Remaster",
+          "artist": "Fleetwood Mac",
+          "album": "Rumours (Super Deluxe)",
+          "total_pts": 13,
+          "unique_voters": 9,
+          "track_id": "0ofHAoxe9vBkTCp2UQIavz",
+          "spotify_url": "https://open.spotify.com/track/0ofHAoxe9vBkTCp2UQIavz"
+        },
+        {
+          "round": 4,
+          "title": "You Make My Dreams (Come True)",
+          "artist": "Daryl Hall & John Oates",
+          "album": "Voices",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "track_id": "4o6BgsqLIBViaGVbx5rbRk",
+          "spotify_url": "https://open.spotify.com/track/4o6BgsqLIBViaGVbx5rbRk"
         }
       ],
       "voting_history": [
@@ -6320,10 +8282,64 @@
           "song": "1977",
           "voted_for": "Mike D.",
           "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Southside Of Heaven",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "It Ain’t Me (with Selena Gomez)",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Brandy (You're a Fine Girl)",
+          "voted_for": "Mary D.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "I Want It That Way",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Sueño de una noche de verano",
+          "voted_for": "Elyse E.",
+          "points_given": 2
+        },
+        {
+          "round": 4,
+          "song": "Up!",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "You Make My Dreams (Come True)",
+          "voted_for": "Claire E.",
+          "points_given": 0
+        },
+        {
+          "round": 4,
+          "song": "Birmingham",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Just Us Kids",
+          "voted_for": "Dray E.",
+          "points_given": 1
         }
       ],
-      "season_points": 43,
-      "rounds_played": 3
+      "season_points": 58,
+      "rounds_played": 4
     },
     "e0e0d50ee23443cf80cea1d777fac793": {
       "name": "Mike D.",
@@ -6387,6 +8403,26 @@
           "unique_voters": 4,
           "track_id": "7tOAN6w4a1LD0iqkRnIrhZ",
           "spotify_url": "https://open.spotify.com/track/7tOAN6w4a1LD0iqkRnIrhZ"
+        },
+        {
+          "round": 4,
+          "title": "Sugar Magnolia - 2013 Remaster",
+          "artist": "Grateful Dead",
+          "album": "American Beauty (2013 Remaster)",
+          "total_pts": 4,
+          "unique_voters": 4,
+          "track_id": "2EB1aFLWC4uIfld5Z3Yj1z",
+          "spotify_url": "https://open.spotify.com/track/2EB1aFLWC4uIfld5Z3Yj1z"
+        },
+        {
+          "round": 4,
+          "title": "Box of Rain - 2013 Remaster",
+          "artist": "Grateful Dead",
+          "album": "American Beauty (2013 Remaster)",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "track_id": "7x2xjJV3YAPeLQJ7u3Kjet",
+          "spotify_url": "https://open.spotify.com/track/7x2xjJV3YAPeLQJ7u3Kjet"
         }
       ],
       "voting_history": [
@@ -6515,10 +8551,70 @@
           "song": "Mi Gente",
           "voted_for": "Olivia D.",
           "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Dreams - 2004 Remaster",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Brandy (You're a Fine Girl)",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "September",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Shines",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Pickin' Up The Pieces",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Catching Fireflies",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Up!",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Birmingham",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Bohemian Rhapsody - Remastered 2011",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 4,
+          "song": "Beast Of Burden - Remastered 1994",
+          "voted_for": "Tess D.",
+          "points_given": 1
         }
       ],
-      "season_points": 28,
-      "rounds_played": 3
+      "season_points": 36,
+      "rounds_played": 4
     }
   },
   "fun_metrics": {
@@ -6526,9 +8622,9 @@
       "title": "Kingmaker",
       "description": "Most points given to eventual weekly winners",
       "leader": {
-        "player": "Olivia D.",
-        "value": "8 pts",
-        "detail": "R1: 4 pts to Something Like That · R2: 1 pts to All Star · R3: 3 pts to 99 Luftballons"
+        "player": "Jack L.",
+        "value": "9 pts",
+        "detail": "R2: 3 pts to All Star · R3: 4 pts to 99 Luftballons · R4: 2 pts to Brandy (You're a Fine Girl)"
       }
     },
     "hipster": {
@@ -6536,8 +8632,8 @@
       "description": "Highest percentage of solo votes (songs nobody else voted for)",
       "leader": {
         "player": "Steve E.",
-        "value": "12% solo",
-        "detail": "1 solo votes out of 8"
+        "value": "14% solo",
+        "detail": "2 solo votes out of 14"
       }
     },
     "sheep": {
@@ -6546,7 +8642,7 @@
       "leader": {
         "player": "Olivia D.",
         "value": "100% consensus",
-        "detail": "30 of 30 pts to songs with 3+ voters"
+        "detail": "40 of 40 pts to songs with 3+ voters"
       }
     },
     "cold_shoulder": {
@@ -6556,6 +8652,14 @@
         {
           "player": "Dray E.",
           "value": "1 zero-vote songs"
+        },
+        {
+          "player": "Tess D.",
+          "value": "1 zero-vote songs"
+        },
+        {
+          "player": "Elyse E.",
+          "value": "1 zero-vote songs"
         }
       ]
     },
@@ -6563,6 +8667,15 @@
       "title": "Snub Detector",
       "description": "Most acknowledged songs that collectively got the fewest points — max 2 per round",
       "songs": [
+        {
+          "round": 4,
+          "song": "Up!",
+          "artist": "Shania Twain",
+          "submitter": "Olivia D.",
+          "voters": 6,
+          "pts": 7,
+          "avg": 1.17
+        },
         {
           "round": 3,
           "song": "Coração Radiante",
@@ -6598,15 +8711,6 @@
           "voters": 5,
           "pts": 6,
           "avg": 1.2
-        },
-        {
-          "round": 3,
-          "song": "1977",
-          "artist": "Ana Tijoux",
-          "submitter": "Mike D.",
-          "voters": 4,
-          "pts": 4,
-          "avg": 1.0
         }
       ]
     },
@@ -6617,32 +8721,32 @@
         {
           "player1": "Dray E.",
           "player2": "Mary D.",
-          "overlap": "42%",
-          "detail": "20 shared of 48 total"
+          "overlap": "43%",
+          "detail": "26 shared of 60 total"
+        },
+        {
+          "player1": "Tess D.",
+          "player2": "Mills T.",
+          "overlap": "33%",
+          "detail": "12 shared of 36 total"
         },
         {
           "player1": "Mary D.",
           "player2": "Mills T.",
-          "overlap": "32%",
-          "detail": "12 shared of 37 total"
-        },
-        {
-          "player1": "Mary D.",
-          "player2": "Mike D.",
-          "overlap": "31%",
-          "detail": "12 shared of 39 total"
-        },
-        {
-          "player1": "Gabriel M.",
-          "player2": "Olivia D.",
-          "overlap": "30%",
-          "detail": "7 shared of 23 total"
+          "overlap": "33%",
+          "detail": "16 shared of 49 total"
         },
         {
           "player1": "Elyse E.",
-          "player2": "Jack L.",
-          "overlap": "30%",
-          "detail": "8 shared of 27 total"
+          "player2": "Claire E.",
+          "overlap": "33%",
+          "detail": "15 shared of 46 total"
+        },
+        {
+          "player1": "Dray E.",
+          "player2": "Mike D.",
+          "overlap": "32%",
+          "detail": "19 shared of 60 total"
         }
       ]
     },
@@ -6653,42 +8757,42 @@
         {
           "player": "Claire E.",
           "value": "7.2 avg",
-          "detail": "6 songs"
-        },
-        {
-          "player": "Elyse E.",
-          "value": "5.5 avg",
-          "detail": "6 songs"
+          "detail": "8 songs"
         },
         {
           "player": "Mills T.",
-          "value": "5.5 avg",
-          "detail": "6 songs"
+          "value": "5.8 avg",
+          "detail": "8 songs"
         },
         {
           "player": "Olivia D.",
-          "value": "5.3 avg",
-          "detail": "6 songs"
+          "value": "5.6 avg",
+          "detail": "8 songs"
+        },
+        {
+          "player": "Mary D.",
+          "value": "5.2 avg",
+          "detail": "8 songs"
+        },
+        {
+          "player": "Elyse E.",
+          "value": "4.9 avg",
+          "detail": "8 songs"
         },
         {
           "player": "Dray E.",
-          "value": "5.2 avg",
-          "detail": "6 songs"
-        },
-        {
-          "player": "Jack L.",
-          "value": "4.7 avg",
-          "detail": "6 songs"
+          "value": "4.5 avg",
+          "detail": "8 songs"
         },
         {
           "player": "Mike D.",
-          "value": "4.7 avg",
-          "detail": "6 songs"
+          "value": "4.5 avg",
+          "detail": "8 songs"
         },
         {
-          "player": "Tess D.",
-          "value": "3.8 avg",
-          "detail": "6 songs"
+          "player": "Jack L.",
+          "value": "4.1 avg",
+          "detail": "8 songs"
         }
       ]
     },

@@ -91,6 +91,9 @@ button { font-family: inherit; cursor: pointer; }
 .themeband.themeband-passport {
   height: 44px;
 }
+.themeband.themeband-histogram {
+  height: 48px;
+}
 
 /* Horizon band (Week 1 / summer) */
 .band-horizon {
@@ -128,6 +131,22 @@ button { font-family: inherit; cursor: pointer; }
   overflow: hidden;
 }
 .band-passport svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Histogram band (Week 4) — vertical "minutes listened" bars across full width */
+.band-histogram {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.band-histogram svg {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -219,6 +238,15 @@ body.tab-stamp .nav-item::after {
 }
 body.tab-stamp .nav-item:hover::after {
   box-shadow: 0 2px 0 0 color-mix(in srgb, var(--p) 22%, transparent);
+}
+
+/* Bars tab underline (histogram theme) — a little equalizer cluster: the
+   underline is rendered as a repeating-bar gradient so it reads as tiny bars. */
+body.tab-bars .nav-item::after {
+  height: 3px;
+  bottom: 0;
+  border-radius: 1px;
+  background-image: repeating-linear-gradient(90deg, var(--p) 0, var(--p) 3px, transparent 3px, transparent 6px);
 }
 
 /* ---------- Page container ---------- */
@@ -414,6 +442,11 @@ body.accent-dashed .stat-box.cool {
 /* Dotted border variant for passport theme (postage perforation reference) */
 body.accent-dotted .stat-box.cool {
   border-top: 2px dotted var(--c);
+}
+/* Bars border variant for histogram theme (mini bar-chart rule) */
+body.accent-bars .stat-box.cool {
+  border-top: 3px solid transparent;
+  border-image: repeating-linear-gradient(90deg, var(--c) 0, var(--c) 4px, transparent 4px, transparent 7px) 3;
 }
 .stat-label {
   color: var(--dim);
@@ -850,6 +883,9 @@ body.theme-cassette-bg {
 body.theme-passport-bg {
   --body-tile: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'><g fill='none' stroke='%23181410' stroke-width='2.4' stroke-linecap='square'><line x1='-10' y1='10' x2='10' y2='-10'/><line x1='-10' y1='30' x2='30' y2='-10'/><line x1='-10' y1='50' x2='50' y2='-10'/><line x1='-10' y1='70' x2='70' y2='-10'/><line x1='-10' y1='90' x2='90' y2='-10'/><line x1='10' y1='90' x2='90' y2='10'/><line x1='30' y1='90' x2='90' y2='30'/><line x1='50' y1='90' x2='90' y2='50'/><line x1='70' y1='90' x2='90' y2='70'/></g></svg>");
 }
+body.theme-histogram-bg {
+  --body-tile: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'><g fill='%2315121A'><rect x='6' y='34' width='5' height='24'/><rect x='15' y='20' width='5' height='38'/><rect x='24' y='42' width='5' height='16'/><rect x='33' y='12' width='5' height='46'/><rect x='42' y='28' width='5' height='30'/><rect x='51' y='38' width='5' height='20'/></g></svg>");
+}
 
 /* ---------- Spotify oEmbed link wrap ---------- */
 .spotify-link { display: block; width: 100%; height: 100%; }
@@ -1230,10 +1266,38 @@ function PassportBand({ palette }) {
   );
 }
 
+function HistogramBand({ palette }) {
+  // Vertical "minutes listened" bars across the band, tinted across the palette.
+  // Deterministic heights (no randomness) so the band is stable across renders.
+  const primary   = palette?.primary   || '#E8447C';
+  const accent    = palette?.accent    || '#F2A53C';
+  const cool      = palette?.cool       || '#5B8DEF';
+  const highlight = palette?.highlight  || '#C9356A';
+  // 40 bars, heights drawn from a fixed pattern that rises and falls like a recap chart
+  const heights = [8,14,11,20,16,26,19,30,24,34,22,38,28,30,18,24,14,20,12,16,
+                   22,28,18,32,26,36,30,40,34,28,20,26,16,22,14,18,10,16,12,9];
+  const colorFor = (h) => h >= 34 ? highlight : h >= 26 ? primary : h >= 18 ? accent : cool;
+  const n = heights.length;
+  const slot = 680 / n;
+  const bw = slot * 0.62;
+  return (
+    <div className="band-histogram">
+      <svg viewBox="0 0 680 48" preserveAspectRatio="none" aria-hidden="true">
+        {heights.map((h, i) => {
+          const x = i * slot + (slot - bw) / 2;
+          const y = 44 - h;
+          return <rect key={i} x={x} y={y} width={bw} height={h} rx="1" fill={colorFor(h)} opacity="0.92" />;
+        })}
+      </svg>
+    </div>
+  );
+}
+
 const themeBands = {
-  summer:   HorizonBand,
-  cassette: CassetteBand,
-  passport: PassportBand,
+  summer:    HorizonBand,
+  cassette:  CassetteBand,
+  passport:  PassportBand,
+  histogram: HistogramBand,
 };
 
 // ---------------------------------------------------------------------------
@@ -1599,12 +1663,31 @@ function PassportStampMark({ palette }) {
   );
 }
 
+function HistogramMark({ palette }) {
+  // Tall-bars glyph — the round-bar mark for Week 4 (listening histogram).
+  const primary   = palette?.primary   || '#E8447C';
+  const accent    = palette?.accent    || '#F2A53C';
+  const cool      = palette?.cool       || '#5B8DEF';
+  const highlight = palette?.highlight  || '#C9356A';
+  return (
+    <svg viewBox="0 0 64 64" width="48" height="48" aria-hidden="true">
+      <g>
+        <rect x="12" y="34" width="7" height="18" rx="1.5" fill={cool} />
+        <rect x="22" y="24" width="7" height="28" rx="1.5" fill={accent} />
+        <rect x="32" y="14" width="7" height="38" rx="1.5" fill={highlight} />
+        <rect x="42" y="28" width="7" height="24" rx="1.5" fill={primary} />
+      </g>
+    </svg>
+  );
+}
+
 const themeMarks = {
   // Keyed by theme.design.mark, not theme.name — lets future weeks share marks
   sun:                SunMark,
   cassette:           CassetteMark,
   play:               PlayMark,
   'passport-stamp':   PassportStampMark,
+  histogram:          HistogramMark,
 };
 
 function RoundBar({ round, totalRounds, onPrev, onNext, idx }) {
@@ -2474,7 +2557,7 @@ function App() {
 
   // Load data — bump ?v=N each weekly deploy
   useEffect(() => {
-    fetch('data.json?v=3')
+    fetch('data.json?v=4')
       .then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json();
