@@ -103,6 +103,9 @@ button { font-family: inherit; cursor: pointer; }
 .themeband.themeband-waveform {
   height: 48px;
 }
+.themeband.themeband-covers {
+  height: 64px;
+}
 
 /* Horizon band (Week 1 / summer) */
 .band-horizon {
@@ -175,6 +178,23 @@ button { font-family: inherit; cursor: pointer; }
 .band-sprout        { background: #13241A; }
 .band-waveform      { background: #0E1F24; }
 .band-constellation svg, .band-sprout svg, .band-waveform svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Covers (W8) — two offset record arcs (original + cover), duotone */
+.band-covers {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background: #16130E;
+}
+.band-covers svg {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -302,6 +322,15 @@ body.tab-wave .nav-item::after {
   bottom: 0;
   border-radius: 1px;
   background-image: repeating-linear-gradient(90deg, var(--p) 0, var(--p) 2px, transparent 2px, transparent 5px);
+}
+
+/* Echo tab underline (covers theme) — a doubled offset stripe: original + cover */
+body.tab-echo .nav-item::after {
+  height: 2px;
+  bottom: 0;
+  border-radius: 0;
+  background: var(--p);
+  box-shadow: 3px 3px 0 0 var(--a);
 }
 
 /* ---------- Page container ---------- */
@@ -515,6 +544,11 @@ body.accent-leaf .stat-box.cool {
 body.accent-wave .stat-box.cool {
   border-top: 3px solid transparent;
   border-image: repeating-linear-gradient(90deg, var(--c) 0, var(--c) 2px, transparent 2px, transparent 5px) 3;
+}
+/* Echo variant (covers theme) — a doubled offset top rule */
+body.accent-echo .stat-box.cool {
+  border-top: 2px solid var(--c);
+  box-shadow: 0 3px 0 -1px color-mix(in srgb, var(--p) 55%, transparent);
 }
 .stat-label {
   color: var(--dim);
@@ -962,6 +996,9 @@ body.theme-sprout-bg {
 }
 body.theme-waveform-bg {
   --body-tile: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='96' height='48' viewBox='0 0 96 48'><path d='M0 24 Q6 8 12 24 T24 24 T36 24 T48 24 T60 24 T72 24 T84 24 T96 24' fill='none' stroke='%230B1418' stroke-width='2'/></svg>");
+}
+body.theme-covers-bg {
+  --body-tile: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'><g stroke='%2316130E' stroke-width='2' stroke-linecap='round'><line x1='36' y1='36' x2='36' y2='10'/><line x1='36' y1='36' x2='54' y2='18'/><line x1='36' y1='36' x2='62' y2='36'/><line x1='36' y1='36' x2='54' y2='54'/><line x1='36' y1='36' x2='36' y2='62'/><line x1='36' y1='36' x2='18' y2='54'/><line x1='36' y1='36' x2='10' y2='36'/><line x1='36' y1='36' x2='18' y2='18'/></g></svg>");
 }
 
 /* ---------- Spotify oEmbed link wrap ---------- */
@@ -1451,6 +1488,40 @@ function WaveformBand({ palette }) {
   );
 }
 
+function CoversBand({ palette }) {
+  // Covers — a single retro sunray fan rising from a gold sun on the baseline.
+  // Thick alternating amber/teal wedges; ray density scales with width so the
+  // wedges stay a consistent thickness from mobile (~360px) to desktop.
+  const primary = palette?.primary   || '#E0964A';  // amber
+  const accent  = palette?.accent    || '#4FB0A8';  // teal
+  const gold    = palette?.highlight || '#E8B45C';  // sun core
+  const W = 380, H = 64;
+  const cx = W / 2, cy = H + 4;          // center just below the baseline
+  const R = Math.max(W, H) * 1.6;        // overshoot so rays fill the band at this ratio
+  const rays = 30;                        // tuned so wedges read well stretched from mobile to desktop
+  const start = Math.PI * 1.04, end = Math.PI * 1.96;  // upward fan
+  const wedges = [];
+  for (let i = 0; i < rays; i++) {
+    const a0 = start + (end - start) * (i / rays);
+    const a1 = start + (end - start) * ((i + 0.58) / rays);  // gap between wedges
+    const x0 = cx + Math.cos(a0) * R, y0 = cy + Math.sin(a0) * R;
+    const x1 = cx + Math.cos(a1) * R, y1 = cy + Math.sin(a1) * R;
+    const even = i % 2 === 0;
+    wedges.push(
+      <path key={i} d={`M${cx} ${cy} L${x0} ${y0} L${x1} ${y1} Z`}
+        fill={even ? primary : accent} opacity={even ? 0.92 : 0.8} />
+    );
+  }
+  return (
+    <div className="band-covers">
+      <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" aria-hidden="true">
+        {wedges}
+        <circle cx={cx} cy={cy} r={H * 0.28} fill={gold} opacity="0.95" />
+      </svg>
+    </div>
+  );
+}
+
 const themeBands = {
   summer:        HorizonBand,
   cassette:      CassetteBand,
@@ -1459,6 +1530,7 @@ const themeBands = {
   constellation: ConstellationBand,
   sprout:        SproutBand,
   waveform:      WaveformBand,
+  covers:        CoversBand,
 };
 
 // ---------------------------------------------------------------------------
@@ -1896,6 +1968,25 @@ function WaveformMark({ palette }) {
   );
 }
 
+function CoversMark({ palette }) {
+  // Two overlapping records — original (amber) + cover (teal).
+  const primary = palette?.primary || '#E0964A';
+  const accent  = palette?.accent  || '#4FB0A8';
+  const disc = (cx, cy, color) => (
+    <g>
+      <circle cx={cx} cy={cy} r="15" fill="none" stroke={color} strokeWidth="2.2" />
+      <circle cx={cx} cy={cy} r="9"  fill="none" stroke={color} strokeWidth="1" opacity="0.6" />
+      <circle cx={cx} cy={cy} r="3"  fill={color} />
+    </g>
+  );
+  return (
+    <svg viewBox="0 0 64 64" width="48" height="48" aria-hidden="true">
+      {disc(25, 26, primary)}
+      {disc(39, 38, accent)}
+    </svg>
+  );
+}
+
 const themeMarks = {
   // Keyed by theme.design.mark, not theme.name — lets future weeks share marks
   sun:                SunMark,
@@ -1906,6 +1997,7 @@ const themeMarks = {
   constellation:      ConstellationMark,
   sprout:             SproutMark,
   waveform:           WaveformMark,
+  covers:             CoversMark,
 };
 
 function RoundBar({ round, totalRounds, onPrev, onNext, idx }) {
@@ -2775,7 +2867,7 @@ function App() {
 
   // Load data — bump ?v=N each weekly deploy
   useEffect(() => {
-    fetch('data.json?v=7')
+    fetch('data.json?v=8')
       .then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json();

@@ -2,7 +2,7 @@
   "league": {
     "name": "Fam Music League",
     "subtitle": "Season One",
-    "total_rounds": 7
+    "total_rounds": 8
   },
   "players": {
     "0a831b84b60a4aaca7c6f3150bbccb88": "Dray E.",
@@ -351,16 +351,16 @@
           "rank": 3
         },
         {
-          "player_id": "19e6c48a177c458398bb138a991a2e4c",
-          "player": "Elyse E.",
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
           "points": 10,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 4
         },
         {
-          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
-          "player": "Jack L.",
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
           "points": 10,
           "voted": true,
           "pts_forfeited": 0,
@@ -1541,16 +1541,16 @@
           "rank": 4
         },
         {
-          "player_id": "2334709be13e48759338c82689b95d11",
-          "player": "Gabriel M.",
+          "player_id": "dea876f23cf9428185f8757955c2eecd",
+          "player": "Claire E.",
           "points": 10,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 5
         },
         {
-          "player_id": "dea876f23cf9428185f8757955c2eecd",
-          "player": "Claire E.",
+          "player_id": "2334709be13e48759338c82689b95d11",
+          "player": "Gabriel M.",
           "points": 10,
           "voted": true,
           "pts_forfeited": 0,
@@ -2786,16 +2786,16 @@
           "rank": 6
         },
         {
-          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
-          "player": "Olivia D.",
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
           "points": 6,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 7
         },
         {
-          "player_id": "41a0d64fae1f40489679232baec98925",
-          "player": "Mary D.",
+          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "player": "Olivia D.",
           "points": 6,
           "voted": true,
           "pts_forfeited": 0,
@@ -2810,19 +2810,19 @@
           "rank": 7
         },
         {
-          "player_id": "3b87dbe243724d3bbcafea4934075fec",
-          "player": "Steve E.",
-          "points": 0,
-          "voted": false,
-          "pts_forfeited": 4,
-          "rank": 10
-        },
-        {
           "player_id": "2334709be13e48759338c82689b95d11",
           "player": "Gabriel M.",
           "points": 0,
           "voted": false,
           "pts_forfeited": 7,
+          "rank": 10
+        },
+        {
+          "player_id": "3b87dbe243724d3bbcafea4934075fec",
+          "player": "Steve E.",
+          "points": 0,
+          "voted": false,
+          "pts_forfeited": 4,
           "rank": 10
         }
       ],
@@ -4036,16 +4036,16 @@
           "rank": 7
         },
         {
-          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
-          "player": "Dray E.",
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
           "points": 5,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 9
         },
         {
-          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
-          "player": "Jack L.",
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
           "points": 5,
           "voted": true,
           "pts_forfeited": 0,
@@ -5291,16 +5291,16 @@
           "rank": 1
         },
         {
-          "player_id": "5838e19081f440598e554c420f257ab7",
-          "player": "Mills T.",
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
           "points": 15,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 2
         },
         {
-          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
-          "player": "Jack L.",
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
           "points": 15,
           "voted": true,
           "pts_forfeited": 0,
@@ -6571,16 +6571,16 @@
           "rank": 1
         },
         {
-          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
-          "player": "Jack L.",
+          "player_id": "dea876f23cf9428185f8757955c2eecd",
+          "player": "Claire E.",
           "points": 8,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 2
         },
         {
-          "player_id": "dea876f23cf9428185f8757955c2eecd",
-          "player": "Claire E.",
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
           "points": 8,
           "voted": true,
           "pts_forfeited": 0,
@@ -6619,19 +6619,19 @@
           "rank": 7
         },
         {
-          "player_id": "3b87dbe243724d3bbcafea4934075fec",
-          "player": "Steve E.",
-          "points": 0,
-          "voted": false,
-          "pts_forfeited": 2,
-          "rank": 8
-        },
-        {
           "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
           "player": "Olivia D.",
           "points": 0,
           "voted": false,
           "pts_forfeited": 6,
+          "rank": 8
+        },
+        {
+          "player_id": "2334709be13e48759338c82689b95d11",
+          "player": "Gabriel M.",
+          "points": 0,
+          "voted": false,
+          "pts_forfeited": 11,
           "rank": 8
         },
         {
@@ -6643,11 +6643,11 @@
           "rank": 8
         },
         {
-          "player_id": "2334709be13e48759338c82689b95d11",
-          "player": "Gabriel M.",
+          "player_id": "3b87dbe243724d3bbcafea4934075fec",
+          "player": "Steve E.",
           "points": 0,
           "voted": false,
-          "pts_forfeited": 11,
+          "pts_forfeited": 2,
           "rank": 8
         }
       ],
@@ -7698,16 +7698,16 @@
           "rank": 4
         },
         {
-          "player_id": "37957b35724d4660a62379edd6b4e09c",
-          "player": "Cindy E.",
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
           "points": 9,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 5
         },
         {
-          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
-          "player": "Jack L.",
+          "player_id": "37957b35724d4660a62379edd6b4e09c",
+          "player": "Cindy E.",
           "points": 9,
           "voted": true,
           "pts_forfeited": 0,
@@ -7722,16 +7722,16 @@
           "rank": 7
         },
         {
-          "player_id": "4853a05f049d4d4682257bed4b277eed",
-          "player": "Tess D.",
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
           "points": 5,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 8
         },
         {
-          "player_id": "41a0d64fae1f40489679232baec98925",
-          "player": "Mary D.",
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
           "points": 5,
           "voted": true,
           "pts_forfeited": 0,
@@ -8675,16 +8675,1505 @@
           }
         ]
       }
+    },
+    {
+      "id": "b2b2de86dcce45e89046a85bcb8bd17a",
+      "number": 8,
+      "name": "Covers",
+      "description": "Songs previously recorded by another artist",
+      "playlist_url": "https://open.spotify.com/playlist/11Hufo8SsMkj1EUjCjx1Ek",
+      "theme": {
+        "name": "covers",
+        "tile_class": "theme-covers-bg",
+        "palette": {
+          "primary": "#E0964A",
+          "accent": "#4FB0A8",
+          "cool": "#4FB0A8",
+          "highlight": "#E8B45C",
+          "tile": "#16130E"
+        },
+        "band_gradient": "linear-gradient(90deg, #E0964A 0%, #4FB0A8 100%)",
+        "design": {
+          "band": "covers",
+          "tab_underline": "echo",
+          "stat_accent": "echo",
+          "mark": "covers"
+        }
+      },
+      "songs": [
+        {
+          "title": "Rich Girl",
+          "artist": "Lake Street Dive",
+          "album": "Fun Machine EP",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "total_pts": 11,
+          "unique_voters": 7,
+          "spotify_uri": "spotify:track:0RKKLIOnAPImtlLlYEjbYF",
+          "track_id": "0RKKLIOnAPImtlLlYEjbYF",
+          "spotify_url": "https://open.spotify.com/track/0RKKLIOnAPImtlLlYEjbYF",
+          "comment": "Ella was born to this one :) lol",
+          "forfeited": false
+        },
+        {
+          "title": "Hallelujah",
+          "artist": "Rufus Wainwright",
+          "album": "Shrek",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "total_pts": 9,
+          "unique_voters": 7,
+          "spotify_uri": "spotify:track:5USZyz6dnBEn1oLsKcAKQy",
+          "track_id": "5USZyz6dnBEn1oLsKcAKQy",
+          "spotify_url": "https://open.spotify.com/track/5USZyz6dnBEn1oLsKcAKQy",
+          "comment": "So many good covers of this song. K.D. Lang and Jeff Buckley versions were amazing but this one is tied to Shrek all time great kiddie movie for grown ups. ",
+          "forfeited": false
+        },
+        {
+          "title": "Gin and Juice",
+          "artist": "The Gourds",
+          "album": "Shinebox",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "total_pts": 8,
+          "unique_voters": 6,
+          "spotify_uri": "spotify:track:6CeszonFOlgp7HiawTSqCu",
+          "track_id": "6CeszonFOlgp7HiawTSqCu",
+          "spotify_url": "https://open.spotify.com/track/6CeszonFOlgp7HiawTSqCu",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "I Will Always Love You",
+          "artist": "Whitney Houston",
+          "album": "The Bodyguard - Original Soundtrack Album",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "total_pts": 8,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:4eHbdreAnSOrDDsFfc4Fpm",
+          "track_id": "4eHbdreAnSOrDDsFfc4Fpm",
+          "spotify_url": "https://open.spotify.com/track/4eHbdreAnSOrDDsFfc4Fpm",
+          "comment": "Dolly wrote it and sang it well but Whitney changed it forever. ",
+          "forfeited": false
+        },
+        {
+          "title": "Linger - SiriusXM Session",
+          "artist": "Royel Otis",
+          "album": "Linger / Heading For The Door (Sirius XM Session)",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "total_pts": 7,
+          "unique_voters": 6,
+          "spotify_uri": "spotify:track:2dono2Koz7DEvGwxUsmMLq",
+          "track_id": "2dono2Koz7DEvGwxUsmMLq",
+          "spotify_url": "https://open.spotify.com/track/2dono2Koz7DEvGwxUsmMLq",
+          "comment": "Had to do it to em",
+          "forfeited": false
+        },
+        {
+          "title": "Don't Think Twice, It's Alright (Live at Alltel Pavilion at Walnut Creek, Raleigh, Nc, 8/10/2003)",
+          "artist": "Allman Brothers Band, Susan Tedeschi",
+          "album": "Raleigh, Nc 8-10-03",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "total_pts": 7,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:1kLAlfXX8kB2LNduNOmiXW",
+          "track_id": "1kLAlfXX8kB2LNduNOmiXW",
+          "spotify_url": "https://open.spotify.com/track/1kLAlfXX8kB2LNduNOmiXW",
+          "comment": "Bob Dylan wrote this 1963 breakup song as a kind of farewell to an ex, and it’s been covered by everyone from Peter, Paul and Mary to Eric Clapton. This live version features Susan Tedeschi on vocals — a blues guitarist and singer who married Derek Trucks, the Allman Brothers’ slide guitarist, making it something of a family affair on stage.",
+          "forfeited": false
+        },
+        {
+          "title": "Atlantic City",
+          "artist": "The Band",
+          "album": "Jericho",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "total_pts": 6,
+          "unique_voters": 6,
+          "spotify_uri": "spotify:track:4JwjzS9WFkWlpzGCwh82fn",
+          "track_id": "4JwjzS9WFkWlpzGCwh82fn",
+          "spotify_url": "https://open.spotify.com/track/4JwjzS9WFkWlpzGCwh82fn",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Killing Me Softly With His Song",
+          "artist": "Fugees, Ms. Lauryn Hill",
+          "album": "The Score (Expanded Edition)",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:0Q0IVlqMV64kNLlwjPj0Hl",
+          "track_id": "0Q0IVlqMV64kNLlwjPj0Hl",
+          "spotify_url": "https://open.spotify.com/track/0Q0IVlqMV64kNLlwjPj0Hl",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Rocky Raccoon",
+          "artist": "Scary Pockets, George Krikes",
+          "album": "Nu Funk",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:0sdQ5hPULJilp0gpAXGq8E",
+          "track_id": "0sdQ5hPULJilp0gpAXGq8E",
+          "spotify_url": "https://open.spotify.com/track/0sdQ5hPULJilp0gpAXGq8E",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Tupelo Honey",
+          "artist": "JJ Grey & Mofro",
+          "album": "The Choice Cuts",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:05933lttebzVMkaRQmgHr8",
+          "track_id": "05933lttebzVMkaRQmgHr8",
+          "spotify_url": "https://open.spotify.com/track/05933lttebzVMkaRQmgHr8",
+          "comment": "Had no idea!",
+          "forfeited": false
+        },
+        {
+          "title": "Where Is My Mind?",
+          "artist": "Trampled by Turtles",
+          "album": "Where Is My Mind?",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "total_pts": 5,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:2dJrn376fJPUCj1f4txnRQ",
+          "track_id": "2dJrn376fJPUCj1f4txnRQ",
+          "spotify_url": "https://open.spotify.com/track/2dJrn376fJPUCj1f4txnRQ",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Proud Mary",
+          "artist": "Tina Turner",
+          "album": "What's Love Got to Do with It?",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:6gJdDnF2TzfA1WPMXuCa3x",
+          "track_id": "6gJdDnF2TzfA1WPMXuCa3x",
+          "spotify_url": "https://open.spotify.com/track/6gJdDnF2TzfA1WPMXuCa3x",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "You Got The Silver",
+          "artist": "Susan Tedeschi",
+          "album": "Hope And Desire",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:5jQPaMjSWpFOMx8BVUOtpM",
+          "track_id": "5jQPaMjSWpFOMx8BVUOtpM",
+          "spotify_url": "https://open.spotify.com/track/5jQPaMjSWpFOMx8BVUOtpM",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Valerie",
+          "artist": "The Brothers Comatose",
+          "album": "City Painted Gold",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "total_pts": 4,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:3wShyyPO8fob86VMwkZOCt",
+          "track_id": "3wShyyPO8fob86VMwkZOCt",
+          "spotify_url": "https://open.spotify.com/track/3wShyyPO8fob86VMwkZOCt",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Respect",
+          "artist": "Aretha Franklin",
+          "album": "I Never Loved a Man the Way I Love You",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:7s25THrKz86DM225dOYwnr",
+          "track_id": "7s25THrKz86DM225dOYwnr",
+          "spotify_url": "https://open.spotify.com/track/7s25THrKz86DM225dOYwnr",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Tyrone",
+          "artist": "My Morning Jacket",
+          "album": "Chapter 2: Learning: Early Recordings, B-Sides, Covers, Y Mas",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:0axsMumJxKRTuYCMb9oeWl",
+          "track_id": "0axsMumJxKRTuYCMb9oeWl",
+          "spotify_url": "https://open.spotify.com/track/0axsMumJxKRTuYCMb9oeWl",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Dreams - Lanie's Version",
+          "artist": "Lanie Gardner",
+          "album": "Dreams (Lanie's Version)",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:1SPdIvUEblev9NlO9X4LtC",
+          "track_id": "1SPdIvUEblev9NlO9X4LtC",
+          "spotify_url": "https://open.spotify.com/track/1SPdIvUEblev9NlO9X4LtC",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Goodbye Yellow Brick Road",
+          "artist": "Fireside Collective",
+          "album": "Goodbye Yellow Brick Road",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:3V0vJXkBDGEZsG2mMzm32S",
+          "track_id": "3V0vJXkBDGEZsG2mMzm32S",
+          "spotify_url": "https://open.spotify.com/track/3V0vJXkBDGEZsG2mMzm32S",
+          "comment": "This song always makes me think of Wilson. Fireside Collective is an Asheville-based progressive bluegrass band known for stretching the genre’s boundaries. Their take strips Elton John’s 1973 orchestral-pop anthem down to acoustic strings, trading Gus Dudgeon’s lush studio production for tight mandolin-and-banjo interplay.",
+          "forfeited": false
+        },
+        {
+          "title": "Pepper",
+          "artist": "Keller & The Keels",
+          "album": "Thief",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:4YFSwAQH0hnhizv570glsn",
+          "track_id": "4YFSwAQH0hnhizv570glsn",
+          "spotify_url": "https://open.spotify.com/track/4YFSwAQH0hnhizv570glsn",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Two Trains (feat. Marcus King)",
+          "artist": "Ty Myers, Marcus King",
+          "album": "Two Trains (feat. Marcus King)",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:23cBxlsY43hiuiLwXn5Xkn",
+          "track_id": "23cBxlsY43hiuiLwXn5Xkn",
+          "spotify_url": "https://open.spotify.com/track/23cBxlsY43hiuiLwXn5Xkn",
+          "comment": "Tasty little number / little feat cover",
+          "forfeited": false
+        },
+        {
+          "title": "Wake Me Up",
+          "artist": "Sambô",
+          "album": "Pediu pra Sambar, Sambô",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:7jpZkSDydbFrxt4ZXRTnQT",
+          "track_id": "7jpZkSDydbFrxt4ZXRTnQT",
+          "spotify_url": "https://open.spotify.com/track/7jpZkSDydbFrxt4ZXRTnQT",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Maggie May",
+          "artist": "Tyler Stenson",
+          "album": "Maggie May",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:4YZs2PyBukix79k8zYk0eG",
+          "track_id": "4YZs2PyBukix79k8zYk0eG",
+          "spotify_url": "https://open.spotify.com/track/4YZs2PyBukix79k8zYk0eG",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Hotel California",
+          "artist": "Bossa Bros, Nara",
+          "album": "Hotel California",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "total_pts": 2,
+          "unique_voters": 1,
+          "spotify_uri": "spotify:track:1O03qM96Z5500ACbAaJSuZ",
+          "track_id": "1O03qM96Z5500ACbAaJSuZ",
+          "spotify_url": "https://open.spotify.com/track/1O03qM96Z5500ACbAaJSuZ",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Across the Universe",
+          "artist": "Fiona Apple",
+          "album": "Pleasantville -Music From The Motion Picture",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "total_pts": 0,
+          "unique_voters": 0,
+          "spotify_uri": "spotify:track:6ZQgooEk8PvsLxedYaT6Oa",
+          "track_id": "6ZQgooEk8PvsLxedYaT6Oa",
+          "spotify_url": "https://open.spotify.com/track/6ZQgooEk8PvsLxedYaT6Oa",
+          "comment": "",
+          "forfeited": false
+        }
+      ],
+      "leaderboard": [
+        {
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
+          "points": 17,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 1
+        },
+        {
+          "player_id": "dea876f23cf9428185f8757955c2eecd",
+          "player": "Claire E.",
+          "points": 14,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 2
+        },
+        {
+          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "player": "Olivia D.",
+          "points": 12,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 3
+        },
+        {
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
+          "points": 12,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 3
+        },
+        {
+          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "player": "Mike D.",
+          "points": 11,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 5
+        },
+        {
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
+          "points": 10,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 6
+        },
+        {
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
+          "points": 10,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 6
+        },
+        {
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
+          "points": 10,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 6
+        },
+        {
+          "player_id": "3b87dbe243724d3bbcafea4934075fec",
+          "player": "Steve E.",
+          "points": 9,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 9
+        },
+        {
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
+          "points": 5,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 10
+        },
+        {
+          "player_id": "2334709be13e48759338c82689b95d11",
+          "player": "Gabriel M.",
+          "points": 5,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 10
+        },
+        {
+          "player_id": "37957b35724d4660a62379edd6b4e09c",
+          "player": "Cindy E.",
+          "points": 5,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 10
+        }
+      ],
+      "missed_points": [],
+      "generosity": [
+        {
+          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "player": "Olivia D.",
+          "avg_per_vote": 2.5,
+          "total_songs_voted": 4,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
+          "avg_per_vote": 1.67,
+          "total_songs_voted": 6,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
+          "avg_per_vote": 1.67,
+          "total_songs_voted": 6,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "dea876f23cf9428185f8757955c2eecd",
+          "player": "Claire E.",
+          "avg_per_vote": 1.43,
+          "total_songs_voted": 7,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "2334709be13e48759338c82689b95d11",
+          "player": "Gabriel M.",
+          "avg_per_vote": 1.25,
+          "total_songs_voted": 8,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "37957b35724d4660a62379edd6b4e09c",
+          "player": "Cindy E.",
+          "avg_per_vote": 1.11,
+          "total_songs_voted": 9,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "player": "Mike D.",
+          "avg_per_vote": 1.11,
+          "total_songs_voted": 9,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
+          "avg_per_vote": 1.11,
+          "total_songs_voted": 9,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
+          "avg_per_vote": 1.0,
+          "total_songs_voted": 10,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
+          "avg_per_vote": 1.0,
+          "total_songs_voted": 10,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
+          "avg_per_vote": 1.0,
+          "total_songs_voted": 10,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "3b87dbe243724d3bbcafea4934075fec",
+          "player": "Steve E.",
+          "avg_per_vote": 1.0,
+          "total_songs_voted": 10,
+          "total_pts_given": 10
+        }
+      ],
+      "vote_details": [
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Valerie",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "You Got The Silver",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "song": "Maggie May",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "I Will Always Love You",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Tupelo Honey",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Don't Think Twice, It's Alright (Live at Alltel Pavilion at Walnut Creek, Raleigh, Nc, 8/10/2003)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "song": "Dreams - Lanie's Version",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Where Is My Mind?",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Linger - SiriusXM Session",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Rich Girl",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Gin and Juice",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Hallelujah",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "I Will Always Love You",
+          "points": 4,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Hallelujah",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Valerie",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Don't Think Twice, It's Alright (Live at Alltel Pavilion at Walnut Creek, Raleigh, Nc, 8/10/2003)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Rich Girl",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Killing Me Softly With His Song",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Tyrone",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Tupelo Honey",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Where Is My Mind?",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Atlantic City",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "You Got The Silver",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "37957b35724d4660a62379edd6b4e09c",
+          "voter": "Cindy E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Tupelo Honey",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "37957b35724d4660a62379edd6b4e09c",
+          "voter": "Cindy E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Killing Me Softly With His Song",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "37957b35724d4660a62379edd6b4e09c",
+          "voter": "Cindy E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Rich Girl",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "37957b35724d4660a62379edd6b4e09c",
+          "voter": "Cindy E.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Rocky Raccoon",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "37957b35724d4660a62379edd6b4e09c",
+          "voter": "Cindy E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "I Will Always Love You",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "37957b35724d4660a62379edd6b4e09c",
+          "voter": "Cindy E.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Respect",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "37957b35724d4660a62379edd6b4e09c",
+          "voter": "Cindy E.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Linger - SiriusXM Session",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "37957b35724d4660a62379edd6b4e09c",
+          "voter": "Cindy E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Wake Me Up",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "37957b35724d4660a62379edd6b4e09c",
+          "voter": "Cindy E.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Proud Mary",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Proud Mary",
+          "points": 0,
+          "comment": "a tape deck, some Creedence tapes, and there was a, uh... my briefcase."
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Gin and Juice",
+          "points": 1,
+          "comment": "The lead singer for this band is one of the nicest musicians I’ve ever met."
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "You Got The Silver",
+          "points": 1,
+          "comment": "Hello fellow Susan enjoyer"
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Pepper",
+          "points": 1,
+          "comment": "I knew this would be here, it was on my short list for pandering purposes."
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Atlantic City",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Valerie",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Linger - SiriusXM Session",
+          "points": 1,
+          "comment": "Schuyler-adjacent"
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Where Is My Mind?",
+          "points": 1,
+          "comment": "This was also on my short list"
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Two Trains (feat. Marcus King)",
+          "points": 1,
+          "comment": "I’m a little feat slut and I don’t care who knows it"
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Hotel California",
+          "points": 0,
+          "comment": "Gypsy kings was the obvious choice, this is good too!"
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Rocky Raccoon",
+          "points": 1,
+          "comment": "This was on my short list"
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Tyrone",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Gin and Juice",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Rich Girl",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Rocky Raccoon",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Don't Think Twice, It's Alright (Live at Alltel Pavilion at Walnut Creek, Raleigh, Nc, 8/10/2003)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Where Is My Mind?",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Linger - SiriusXM Session",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Hallelujah",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Proud Mary",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Respect",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Proud Mary",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Respect",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Killing Me Softly With His Song",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Rich Girl",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Rocky Raccoon",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "song": "Dreams - Lanie's Version",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Killing Me Softly With His Song",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Rich Girl",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Two Trains (feat. Marcus King)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Goodbye Yellow Brick Road",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Linger - SiriusXM Session",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "I Will Always Love You",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Atlantic City",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Hallelujah",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Gin and Juice",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Wake Me Up",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Rocky Raccoon",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Goodbye Yellow Brick Road",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Valerie",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Atlantic City",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Pepper",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Hallelujah",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Tupelo Honey",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Two Trains (feat. Marcus King)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Hotel California",
+          "points": 2,
+          "comment": "😂😂😂"
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Hallelujah",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "You Got The Silver",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "song": "Maggie May",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Pepper",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Tyrone",
+          "points": 2,
+          "comment": "Straight to playlist"
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Don't Think Twice, It's Alright (Live at Alltel Pavilion at Walnut Creek, Raleigh, Nc, 8/10/2003)",
+          "points": 3,
+          "comment": "Chills, Susan is queen"
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Where Is My Mind?",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Goodbye Yellow Brick Road",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "I Will Always Love You",
+          "points": 1,
+          "comment": "I blasted Ella with this song on the way home one day this week"
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Atlantic City",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Gin and Juice",
+          "points": 2,
+          "comment": "This is how I first heard this song… Saleem malik"
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Proud Mary",
+          "points": 1,
+          "comment": "I will dance my ass off to this song at every wedding. And make everyone else stay their ass off too."
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Tupelo Honey",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Killing Me Softly With His Song",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Rich Girl",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Don't Think Twice, It's Alright (Live at Alltel Pavilion at Walnut Creek, Raleigh, Nc, 8/10/2003)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "song": "Dreams - Lanie's Version",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "Linger - SiriusXM Session",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Atlantic City",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Hallelujah",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "Gin and Juice",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Wake Me Up",
+          "points": 1,
+          "comment": ""
+        }
+      ],
+      "stats": {
+        "total_submissions": 24,
+        "total_votes": 98,
+        "unique_voters": 12,
+        "unique_submitters": 12
+      },
+      "commentary": {
+        "title": "Week 8 Recap",
+        "sections": [
+          {
+            "heading": "Scouting Report (written blind)",
+            "text": "The blind report was committed before votes were revealed, submitter IDs stripped. Top 5 prediction: Don't Think Twice It's Alright (Song of the Week pick), Gin and Juice, Respect, Killing Me Softly, Rich Girl. The central thesis: the three canonical famous covers — Whitney's \"I Will Always Love You,\" Aretha's \"Respect,\" Tina's \"Proud Mary,\" all more famous than their originals — would all score respectably but none would win, because this family rewards reinvention over recognition. Scorecard at the bottom."
+          },
+          {
+            "heading": "Mary D. wins again — her second round of the season",
+            "text": "Mary D. took Covers with 17 points across two of the most famous covers ever recorded: Rufus Wainwright's \"Hallelujah\" (9 points) and Whitney Houston's \"I Will Always Love You\" (8 points). It's her second round win after the Spotify Wrapped round in Week 4, making her one of only two players — alongside Claire — to win multiple rounds this season.\n\nWhat's striking is that Mary won by leaning hard into the famous-cover strategy that the blind report bet against, and made it work through sheer song quality plus genuinely good liner notes. On Whitney she wrote: \"Dolly wrote it and sang it well but Whitney changed it forever.\" On Hallelujah: \"So many good covers of this song. K.D. Lang and Jeff Buckley versions were amazing but this one is tied to Shrek all time great kiddie movie for grown ups.\" Mary knows exactly what she submitted and why, and the voters rewarded the conviction."
+          },
+          {
+            "heading": "Claire had the single best song — and her daughter's stamp of approval",
+            "text": "Claire E. finished second in the round at 14 points but submitted the highest-scoring single song of the week: Lake Street Dive's soul cover of Hall & Oates' \"Rich Girl\" (11 points, 7 voters), narrowly the most democratic pick of the round. Her submitter comment revealed the real judge: \"Ella was born to this one :) lol.\" Claire's daughter Ella gets a recurring role in this round — Claire also noted she \"blasted Ella with this song on the way home one day this week\" when voting for her mother's Whitney cover. Three generations of Dillon women in one round: Mary submitting, Claire voting, Ella reacting from the car seat.\n\nClaire remains the runaway season leader and her near-win keeps her perfect record intact: she has finished in the upper half of every single round across all eight weeks."
+          },
+          {
+            "heading": "The famous-cover thesis held: all three icons scored, none won",
+            "text": "The blind report's central bet was that Whitney, Aretha, and Tina would all be undeniable but none would take the round, because this family prefers a surprising reinvention to a canonical performance. The verdict: Whitney's \"I Will Always Love You\" finished 4th (8 pts), Tina's \"Proud Mary\" 12th (5 pts), and Aretha's \"Respect\" 15th (4 pts). All three scored, none won, exactly as predicted — though the model badly overrated Respect, which it had pegged at #3.\n\nThe winning move instead came from the family's actual native dialect: soulful, string-band, and jam-adjacent reinventions. The top of the board was Lake Street Dive's soul (Rich Girl), Rufus Wainwright's theatrical Hallelujah, and The Gourds' legendary bluegrass \"Gin and Juice\" (Mills, 3rd at 8 points) — the cover of Snoop Dogg that this family was always going to love. Steve's Proud Mary did draw the round's best comment, from Claire: \"I will dance my ass off to this song at every wedding.\""
+          },
+          {
+            "heading": "Dray's voting comments were a one-man comedy set",
+            "text": "Dray spread the standard ten 1-point votes across ten songs again, but the comments attached to them were the real event. On Steve's Proud Mary (which he gave 0): \"a tape deck, some Creedence tapes, and there was a, uh... my briefcase.\" On Jack's Little Feat cover: \"I'm a little feat slut and I don't care who knows it.\" On Claire's Pepper: \"I knew this would be here, it was on my short list for pandering purposes.\" On Mike's Susan Tedeschi cover: \"Hello fellow Susan enjoyer.\" He also revealed that three other songs (Where Is My Mind, Rocky Raccoon, and Two Trains) had all been on his own short list, which is either taste alignment or mild competitive frustration, hard to say which.\n\nNotably, Susan Tedeschi appeared twice this round — on Dray's own \"Don't Think Twice\" (as featured vocalist) and Mike's \"You Got The Silver\" — but from two different submitters, not one superfan, with Dray saluting Mike as a \"fellow Susan enjoyer.\""
+          },
+          {
+            "heading": "Standings: Claire pulls toward an insurmountable lead",
+            "text": "Claire E. now leads the season at 110 points, 20 clear of Mills T. (90), with Dray E. third (83) and Jack L. fourth (75). Mary's win moves her into a tie for fifth with Mike at 64. The story at the top is no longer in much doubt: Claire has now placed in the upper half of all eight rounds, the only player who can claim that, and with two rounds banked at 18 and 19 points she has both the highest ceiling and the steadiest floor in the league.\n\nJack L. holds an unusual distinction — fourth in the season at 75 points without a single round win, the best player yet to take a weekly trophy. Six different players have now won rounds (Olivia, Mills, Claire twice, Mary twice, Dray, Steve), but Claire is the one pulling away from the pack."
+          },
+          {
+            "heading": "Blind report scorecard",
+            "text": "Top 5 prediction versus actual: Rich Girl predicted #5, finished #1 (11 pts) — the model correctly tagged it a sleeper top-five and undersold how good it was. Gin and Juice predicted #2, finished #3 (8 pts), within one. Killing Me Softly predicted #4, finished #8 (6 pts), within four. Don't Think Twice (the Song of the Week pick) predicted #1, finished #6 (7 pts) — an overestimate, but still near the top. Respect predicted #3, finished #15 (4 pts) — the worst miss; the model wildly overrated Aretha's recognition value, which is the exact mistake it has made all season.\n\nWhere the report nailed it: the famous-cover thesis (Whitney, Tina, and Aretha all scored, none won — precisely the predicted pattern), two of three bottom predictions (Hotel California 23rd, Maggie May 22nd), and the Susan Tedeschi double-appearance (though they turned out to be two submitters, which the report hedged). Where it whiffed: overrating canonical recognition again, this time on Aretha. Eight rounds in, the lesson is now permanent — in this family, being the most famous version is worth less than being the most delightful one. The model's job going forward is to stop being impressed by songs everyone already knows."
+          }
+        ]
+      }
     }
   ],
   "season_leaderboard": [
     {
       "player_id": "dea876f23cf9428185f8757955c2eecd",
       "player": "Claire E.",
-      "points": 96,
-      "rounds_played": 7,
+      "points": 110,
+      "rounds_played": 8,
       "wins": 2,
-      "avg_per_round": 13.7,
+      "avg_per_round": 13.8,
       "joined_round": 1,
       "weekly": [
         {
@@ -8721,6 +10210,11 @@
           "round": 7,
           "points": 11,
           "rank": 4
+        },
+        {
+          "round": 8,
+          "points": 14,
+          "rank": 2
         }
       ],
       "rank": 1
@@ -8728,10 +10222,10 @@
     {
       "player_id": "5838e19081f440598e554c420f257ab7",
       "player": "Mills T.",
-      "points": 78,
-      "rounds_played": 7,
+      "points": 90,
+      "rounds_played": 8,
       "wins": 1,
-      "avg_per_round": 11.1,
+      "avg_per_round": 11.2,
       "joined_round": 1,
       "weekly": [
         {
@@ -8768,6 +10262,11 @@
           "round": 7,
           "points": 12,
           "rank": 3
+        },
+        {
+          "round": 8,
+          "points": 12,
+          "rank": 3
         }
       ],
       "rank": 2
@@ -8775,8 +10274,8 @@
     {
       "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
       "player": "Dray E.",
-      "points": 73,
-      "rounds_played": 7,
+      "points": 83,
+      "rounds_played": 8,
       "wins": 1,
       "avg_per_round": 10.4,
       "joined_round": 1,
@@ -8815,6 +10314,11 @@
           "round": 7,
           "points": 14,
           "rank": 2
+        },
+        {
+          "round": 8,
+          "points": 10,
+          "rank": 6
         }
       ],
       "rank": 3
@@ -8822,10 +10326,10 @@
     {
       "player_id": "994734a26c814552ad88e0ce9ea4cfce",
       "player": "Jack L.",
-      "points": 65,
-      "rounds_played": 7,
+      "points": 75,
+      "rounds_played": 8,
       "wins": 0,
-      "avg_per_round": 9.3,
+      "avg_per_round": 9.4,
       "joined_round": 1,
       "weekly": [
         {
@@ -8862,158 +10366,22 @@
           "round": 7,
           "points": 9,
           "rank": 5
+        },
+        {
+          "round": 8,
+          "points": 10,
+          "rank": 6
         }
       ],
       "rank": 4
     },
     {
-      "player_id": "e0e0d50ee23443cf80cea1d777fac793",
-      "player": "Mike D.",
-      "points": 53,
-      "rounds_played": 7,
-      "wins": 0,
-      "avg_per_round": 7.6,
-      "joined_round": 1,
-      "weekly": [
-        {
-          "round": 1,
-          "points": 4,
-          "rank": 9
-        },
-        {
-          "round": 2,
-          "points": 13,
-          "rank": 3
-        },
-        {
-          "round": 3,
-          "points": 11,
-          "rank": 2
-        },
-        {
-          "round": 4,
-          "points": 8,
-          "rank": 6
-        },
-        {
-          "round": 5,
-          "points": 3,
-          "rank": 10
-        },
-        {
-          "round": 6,
-          "points": 6,
-          "rank": 4
-        },
-        {
-          "round": 7,
-          "points": 8,
-          "rank": 7
-        }
-      ],
-      "rank": 5
-    },
-    {
-      "player_id": "19e6c48a177c458398bb138a991a2e4c",
-      "player": "Elyse E.",
-      "points": 49,
-      "rounds_played": 7,
-      "wins": 0,
-      "avg_per_round": 7.0,
-      "joined_round": 1,
-      "weekly": [
-        {
-          "round": 1,
-          "points": 10,
-          "rank": 4
-        },
-        {
-          "round": 2,
-          "points": 16,
-          "rank": 2
-        },
-        {
-          "round": 3,
-          "points": 7,
-          "rank": 6
-        },
-        {
-          "round": 4,
-          "points": 6,
-          "rank": 7
-        },
-        {
-          "round": 5,
-          "points": 5,
-          "rank": 8
-        },
-        {
-          "round": 6,
-          "points": 2,
-          "rank": 7
-        },
-        {
-          "round": 7,
-          "points": 3,
-          "rank": 10
-        }
-      ],
-      "rank": 6
-    },
-    {
-      "player_id": "4853a05f049d4d4682257bed4b277eed",
-      "player": "Tess D.",
-      "points": 48,
-      "rounds_played": 7,
-      "wins": 0,
-      "avg_per_round": 6.9,
-      "joined_round": 1,
-      "weekly": [
-        {
-          "round": 1,
-          "points": 7,
-          "rank": 6
-        },
-        {
-          "round": 2,
-          "points": 5,
-          "rank": 10
-        },
-        {
-          "round": 3,
-          "points": 11,
-          "rank": 2
-        },
-        {
-          "round": 4,
-          "points": 6,
-          "rank": 7
-        },
-        {
-          "round": 5,
-          "points": 8,
-          "rank": 5
-        },
-        {
-          "round": 6,
-          "points": 6,
-          "rank": 4
-        },
-        {
-          "round": 7,
-          "points": 5,
-          "rank": 8
-        }
-      ],
-      "rank": 7
-    },
-    {
       "player_id": "41a0d64fae1f40489679232baec98925",
       "player": "Mary D.",
-      "points": 47,
-      "rounds_played": 7,
-      "wins": 1,
-      "avg_per_round": 6.7,
+      "points": 64,
+      "rounds_played": 8,
+      "wins": 2,
+      "avg_per_round": 8.0,
       "joined_round": 1,
       "weekly": [
         {
@@ -9050,17 +10418,126 @@
           "round": 7,
           "points": 5,
           "rank": 8
+        },
+        {
+          "round": 8,
+          "points": 17,
+          "rank": 1
         }
       ],
-      "rank": 8
+      "rank": 5
+    },
+    {
+      "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+      "player": "Mike D.",
+      "points": 64,
+      "rounds_played": 8,
+      "wins": 0,
+      "avg_per_round": 8.0,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 4,
+          "rank": 9
+        },
+        {
+          "round": 2,
+          "points": 13,
+          "rank": 3
+        },
+        {
+          "round": 3,
+          "points": 11,
+          "rank": 2
+        },
+        {
+          "round": 4,
+          "points": 8,
+          "rank": 6
+        },
+        {
+          "round": 5,
+          "points": 3,
+          "rank": 10
+        },
+        {
+          "round": 6,
+          "points": 6,
+          "rank": 4
+        },
+        {
+          "round": 7,
+          "points": 8,
+          "rank": 7
+        },
+        {
+          "round": 8,
+          "points": 11,
+          "rank": 5
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "player_id": "19e6c48a177c458398bb138a991a2e4c",
+      "player": "Elyse E.",
+      "points": 59,
+      "rounds_played": 8,
+      "wins": 0,
+      "avg_per_round": 7.4,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 10,
+          "rank": 4
+        },
+        {
+          "round": 2,
+          "points": 16,
+          "rank": 2
+        },
+        {
+          "round": 3,
+          "points": 7,
+          "rank": 6
+        },
+        {
+          "round": 4,
+          "points": 6,
+          "rank": 7
+        },
+        {
+          "round": 5,
+          "points": 5,
+          "rank": 8
+        },
+        {
+          "round": 6,
+          "points": 2,
+          "rank": 7
+        },
+        {
+          "round": 7,
+          "points": 3,
+          "rank": 10
+        },
+        {
+          "round": 8,
+          "points": 10,
+          "rank": 6
+        }
+      ],
+      "rank": 7
     },
     {
       "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
       "player": "Olivia D.",
-      "points": 45,
-      "rounds_played": 7,
+      "points": 57,
+      "rounds_played": 8,
       "wins": 1,
-      "avg_per_round": 6.4,
+      "avg_per_round": 7.1,
       "joined_round": 1,
       "weekly": [
         {
@@ -9097,6 +10574,63 @@
           "round": 7,
           "points": 0,
           "rank": null
+        },
+        {
+          "round": 8,
+          "points": 12,
+          "rank": 3
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "player_id": "4853a05f049d4d4682257bed4b277eed",
+      "player": "Tess D.",
+      "points": 53,
+      "rounds_played": 8,
+      "wins": 0,
+      "avg_per_round": 6.6,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 7,
+          "rank": 6
+        },
+        {
+          "round": 2,
+          "points": 5,
+          "rank": 10
+        },
+        {
+          "round": 3,
+          "points": 11,
+          "rank": 2
+        },
+        {
+          "round": 4,
+          "points": 6,
+          "rank": 7
+        },
+        {
+          "round": 5,
+          "points": 8,
+          "rank": 5
+        },
+        {
+          "round": 6,
+          "points": 6,
+          "rank": 4
+        },
+        {
+          "round": 7,
+          "points": 5,
+          "rank": 8
+        },
+        {
+          "round": 8,
+          "points": 5,
+          "rank": 10
         }
       ],
       "rank": 9
@@ -9104,10 +10638,10 @@
     {
       "player_id": "3b87dbe243724d3bbcafea4934075fec",
       "player": "Steve E.",
-      "points": 40,
-      "rounds_played": 6,
+      "points": 49,
+      "rounds_played": 7,
       "wins": 1,
-      "avg_per_round": 6.7,
+      "avg_per_round": 7.0,
       "joined_round": 2,
       "weekly": [
         {
@@ -9139,6 +10673,11 @@
           "round": 7,
           "points": 15,
           "rank": 1
+        },
+        {
+          "round": 8,
+          "points": 9,
+          "rank": 9
         }
       ],
       "rank": 10
@@ -9146,10 +10685,10 @@
     {
       "player_id": "2334709be13e48759338c82689b95d11",
       "player": "Gabriel M.",
-      "points": 23,
-      "rounds_played": 7,
+      "points": 28,
+      "rounds_played": 8,
       "wins": 0,
-      "avg_per_round": 3.3,
+      "avg_per_round": 3.5,
       "joined_round": 1,
       "weekly": [
         {
@@ -9186,6 +10725,11 @@
           "round": 7,
           "points": 0,
           "rank": 11
+        },
+        {
+          "round": 8,
+          "points": 5,
+          "rank": 10
         }
       ],
       "rank": 11
@@ -9193,10 +10737,10 @@
     {
       "player_id": "37957b35724d4660a62379edd6b4e09c",
       "player": "Cindy E.",
-      "points": 13,
-      "rounds_played": 3,
+      "points": 18,
+      "rounds_played": 4,
       "wins": 0,
-      "avg_per_round": 4.3,
+      "avg_per_round": 4.5,
       "joined_round": 5,
       "weekly": [
         {
@@ -9213,6 +10757,11 @@
           "round": 7,
           "points": 9,
           "rank": 5
+        },
+        {
+          "round": 8,
+          "points": 5,
+          "rank": 10
         }
       ],
       "rank": 12
@@ -9222,14 +10771,14 @@
     {
       "voter": "Claire E.",
       "submitter": "Dray E.",
-      "total_pts": 17,
-      "times": 12
+      "total_pts": 21,
+      "times": 14
     },
     {
       "voter": "Mike D.",
       "submitter": "Claire E.",
-      "total_pts": 17,
-      "times": 11
+      "total_pts": 19,
+      "times": 12
     },
     {
       "voter": "Tess D.",
@@ -9240,20 +10789,32 @@
     {
       "voter": "Jack L.",
       "submitter": "Claire E.",
-      "total_pts": 14,
-      "times": 7
+      "total_pts": 15,
+      "times": 8
     },
     {
       "voter": "Jack L.",
       "submitter": "Mills T.",
-      "total_pts": 14,
-      "times": 7
+      "total_pts": 15,
+      "times": 8
     },
     {
       "voter": "Mills T.",
       "submitter": "Olivia D.",
+      "total_pts": 14,
+      "times": 9
+    },
+    {
+      "voter": "Mills T.",
+      "submitter": "Jack L.",
+      "total_pts": 14,
+      "times": 9
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Mills T.",
       "total_pts": 13,
-      "times": 8
+      "times": 13
     },
     {
       "voter": "Tess D.",
@@ -9264,260 +10825,248 @@
     {
       "voter": "Elyse E.",
       "submitter": "Claire E.",
-      "total_pts": 12,
-      "times": 9
+      "total_pts": 13,
+      "times": 10
     },
     {
-      "voter": "Mills T.",
-      "submitter": "Jack L.",
+      "voter": "Jack L.",
+      "submitter": "Dray E.",
       "total_pts": 12,
       "times": 8
     },
     {
-      "voter": "Dray E.",
+      "voter": "Claire E.",
       "submitter": "Mills T.",
       "total_pts": 11,
-      "times": 11
+      "times": 9
     },
     {
-      "voter": "Jack L.",
+      "voter": "Dray E.",
+      "submitter": "Mike D.",
+      "total_pts": 11,
+      "times": 13
+    },
+    {
+      "voter": "Mike D.",
+      "submitter": "Mary D.",
+      "total_pts": 11,
+      "times": 9
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Mike D.",
+      "total_pts": 11,
+      "times": 9
+    },
+    {
+      "voter": "Elyse E.",
       "submitter": "Dray E.",
       "total_pts": 11,
       "times": 7
     },
     {
+      "voter": "Mills T.",
+      "submitter": "Dray E.",
+      "total_pts": 10,
+      "times": 7
+    },
+    {
       "voter": "Dray E.",
-      "submitter": "Mike D.",
+      "submitter": "Elyse E.",
       "total_pts": 10,
       "times": 12
     },
     {
-      "voter": "Mike D.",
-      "submitter": "Mary D.",
-      "total_pts": 10,
-      "times": 8
-    },
-    {
-      "voter": "Elyse E.",
-      "submitter": "Dray E.",
-      "total_pts": 10,
-      "times": 6
-    },
-    {
-      "voter": "Mills T.",
-      "submitter": "Dray E.",
-      "total_pts": 9,
-      "times": 6
-    },
-    {
-      "voter": "Claire E.",
-      "submitter": "Mills T.",
-      "total_pts": 9,
-      "times": 8
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Mike D.",
-      "total_pts": 9,
-      "times": 8
-    },
-    {
-      "voter": "Tess D.",
-      "submitter": "Dray E.",
-      "total_pts": 9,
-      "times": 5
-    },
-    {
-      "voter": "Mills T.",
-      "submitter": "Mike D.",
-      "total_pts": 9,
-      "times": 6
-    },
-    {
-      "voter": "Elyse E.",
-      "submitter": "Gabriel M.",
-      "total_pts": 9,
-      "times": 9
-    },
-    {
-      "voter": "Elyse E.",
-      "submitter": "Mills T.",
-      "total_pts": 9,
-      "times": 6
-    },
-    {
-      "voter": "Dray E.",
-      "submitter": "Elyse E.",
-      "total_pts": 8,
-      "times": 10
-    },
-    {
       "voter": "Dray E.",
       "submitter": "Jack L.",
-      "total_pts": 8,
-      "times": 9
+      "total_pts": 10,
+      "times": 11
     },
     {
       "voter": "Olivia D.",
       "submitter": "Mills T.",
-      "total_pts": 8,
-      "times": 4
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Tess D.",
-      "total_pts": 8,
-      "times": 7
-    },
-    {
-      "voter": "Gabriel M.",
-      "submitter": "Mills T.",
-      "total_pts": 8,
-      "times": 6
-    },
-    {
-      "voter": "Mills T.",
-      "submitter": "Claire E.",
-      "total_pts": 8,
+      "total_pts": 10,
       "times": 5
     },
     {
-      "voter": "Claire E.",
-      "submitter": "Elyse E.",
-      "total_pts": 8,
-      "times": 6
-    },
-    {
-      "voter": "Claire E.",
+      "voter": "Mills T.",
       "submitter": "Mike D.",
-      "total_pts": 7,
-      "times": 7
-    },
-    {
-      "voter": "Dray E.",
-      "submitter": "Claire E.",
-      "total_pts": 7,
-      "times": 9
-    },
-    {
-      "voter": "Mike D.",
-      "submitter": "Dray E.",
-      "total_pts": 7,
+      "total_pts": 10,
       "times": 7
     },
     {
       "voter": "Elyse E.",
-      "submitter": "Olivia D.",
-      "total_pts": 7,
-      "times": 5
+      "submitter": "Gabriel M.",
+      "total_pts": 10,
+      "times": 10
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Mills T.",
+      "total_pts": 10,
+      "times": 7
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Steve E.",
+      "total_pts": 10,
+      "times": 7
     },
     {
       "voter": "Tess D.",
       "submitter": "Mills T.",
-      "total_pts": 7,
-      "times": 4
+      "total_pts": 9,
+      "times": 5
     },
     {
       "voter": "Tess D.",
-      "submitter": "Claire E.",
-      "total_pts": 7,
-      "times": 3
+      "submitter": "Dray E.",
+      "total_pts": 9,
+      "times": 5
     },
     {
-      "voter": "Dray E.",
-      "submitter": "Gabriel M.",
-      "total_pts": 7,
-      "times": 8
-    },
-    {
-      "voter": "Mike D.",
-      "submitter": "Jack L.",
-      "total_pts": 7,
-      "times": 7
+      "voter": "Olivia D.",
+      "submitter": "Mary D.",
+      "total_pts": 9,
+      "times": 4
     },
     {
       "voter": "Cindy E.",
       "submitter": "Claire E.",
-      "total_pts": 7,
-      "times": 3
-    },
-    {
-      "voter": "Mills T.",
-      "submitter": "Gabriel M.",
-      "total_pts": 6,
+      "total_pts": 9,
       "times": 4
     },
     {
-      "voter": "Claire E.",
-      "submitter": "Tess D.",
-      "total_pts": 6,
-      "times": 6
-    },
-    {
-      "voter": "Claire E.",
-      "submitter": "Olivia D.",
-      "total_pts": 6,
-      "times": 5
-    },
-    {
-      "voter": "Olivia D.",
-      "submitter": "Tess D.",
-      "total_pts": 6,
-      "times": 3
+      "voter": "Dray E.",
+      "submitter": "Claire E.",
+      "total_pts": 8,
+      "times": 10
     },
     {
       "voter": "Olivia D.",
       "submitter": "Claire E.",
-      "total_pts": 6,
-      "times": 4
+      "total_pts": 8,
+      "times": 5
     },
     {
       "voter": "Mike D.",
-      "submitter": "Tess D.",
-      "total_pts": 6,
-      "times": 6
+      "submitter": "Dray E.",
+      "total_pts": 8,
+      "times": 8
     },
     {
       "voter": "Mary D.",
       "submitter": "Claire E.",
-      "total_pts": 6,
-      "times": 7
+      "total_pts": 8,
+      "times": 8
     },
     {
-      "voter": "Jack L.",
-      "submitter": "Gabriel M.",
-      "total_pts": 6,
-      "times": 4
+      "voter": "Mary D.",
+      "submitter": "Tess D.",
+      "total_pts": 8,
+      "times": 7
     },
     {
       "voter": "Elyse E.",
       "submitter": "Jack L.",
-      "total_pts": 6,
-      "times": 5
+      "total_pts": 8,
+      "times": 7
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Olivia D.",
+      "total_pts": 8,
+      "times": 6
     },
     {
       "voter": "Gabriel M.",
-      "submitter": "Mary D.",
-      "total_pts": 6,
+      "submitter": "Elyse E.",
+      "total_pts": 8,
+      "times": 6
+    },
+    {
+      "voter": "Tess D.",
+      "submitter": "Claire E.",
+      "total_pts": 8,
       "times": 4
     },
     {
       "voter": "Gabriel M.",
-      "submitter": "Claire E.",
-      "total_pts": 6,
+      "submitter": "Mills T.",
+      "total_pts": 8,
       "times": 6
+    },
+    {
+      "voter": "Mills T.",
+      "submitter": "Claire E.",
+      "total_pts": 8,
+      "times": 5
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Elyse E.",
+      "total_pts": 8,
+      "times": 6
+    },
+    {
+      "voter": "Mike D.",
+      "submitter": "Jack L.",
+      "total_pts": 8,
+      "times": 8
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Mike D.",
+      "total_pts": 7,
+      "times": 7
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Tess D.",
+      "total_pts": 7,
+      "times": 7
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Olivia D.",
+      "total_pts": 7,
+      "times": 6
+    },
+    {
+      "voter": "Mike D.",
+      "submitter": "Tess D.",
+      "total_pts": 7,
+      "times": 7
+    },
+    {
+      "voter": "Gabriel M.",
+      "submitter": "Mary D.",
+      "total_pts": 7,
+      "times": 5
+    },
+    {
+      "voter": "Gabriel M.",
+      "submitter": "Claire E.",
+      "total_pts": 7,
+      "times": 7
     },
     {
       "voter": "Dray E.",
-      "submitter": "Steve E.",
-      "total_pts": 6,
-      "times": 6
+      "submitter": "Gabriel M.",
+      "total_pts": 7,
+      "times": 9
     },
     {
-      "voter": "Olivia D.",
-      "submitter": "Mike D.",
-      "total_pts": 6,
-      "times": 2
+      "voter": "Jack L.",
+      "submitter": "Tess D.",
+      "total_pts": 7,
+      "times": 4
+    },
+    {
+      "voter": "Steve E.",
+      "submitter": "Gabriel M.",
+      "total_pts": 7,
+      "times": 7
     }
   ],
   "hall_of_fame": [
@@ -9610,6 +11159,17 @@
       "spotify_url": "https://open.spotify.com/track/3rts9sVLm6KQkVOacdE6jg"
     },
     {
+      "round": 8,
+      "title": "Rich Girl",
+      "artist": "Lake Street Dive",
+      "submitter": "Claire E.",
+      "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+      "total_pts": 11,
+      "unique_voters": 7,
+      "track_id": "0RKKLIOnAPImtlLlYEjbYF",
+      "spotify_url": "https://open.spotify.com/track/0RKKLIOnAPImtlLlYEjbYF"
+    },
+    {
       "round": 5,
       "title": "High Feeling",
       "artist": "Cordovas",
@@ -9665,6 +11225,17 @@
       "spotify_url": "https://open.spotify.com/track/2M7EflZCPCqqRLB9hy5MDy"
     },
     {
+      "round": 8,
+      "title": "Hallelujah",
+      "artist": "Rufus Wainwright",
+      "submitter": "Mary D.",
+      "submitter_id": "41a0d64fae1f40489679232baec98925",
+      "total_pts": 9,
+      "unique_voters": 7,
+      "track_id": "5USZyz6dnBEn1oLsKcAKQy",
+      "spotify_url": "https://open.spotify.com/track/5USZyz6dnBEn1oLsKcAKQy"
+    },
+    {
       "round": 5,
       "title": "Skipping Stones",
       "artist": "Chris Kasper",
@@ -9709,37 +11280,15 @@
       "spotify_url": "https://open.spotify.com/track/0qCQg5TkfBfkTsQP3IhAmC"
     },
     {
-      "round": 1,
-      "title": "Chicken Fried",
-      "artist": "Zac Brown Band",
-      "submitter": "Claire E.",
-      "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+      "round": 8,
+      "title": "Gin and Juice",
+      "artist": "The Gourds",
+      "submitter": "Mills T.",
+      "submitter_id": "5838e19081f440598e554c420f257ab7",
       "total_pts": 8,
-      "unique_voters": 5,
-      "track_id": "0LQtEJt7x0s6knb6RKdRYc",
-      "spotify_url": "https://open.spotify.com/track/0LQtEJt7x0s6knb6RKdRYc"
-    },
-    {
-      "round": 2,
-      "title": "Moon River (From \"Breakfast at Tiffany's\")",
-      "artist": "Andy Williams",
-      "submitter": "Mike D.",
-      "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
-      "total_pts": 8,
-      "unique_voters": 5,
-      "track_id": "24AIahNHzBxm9S12peXbnG",
-      "spotify_url": "https://open.spotify.com/track/24AIahNHzBxm9S12peXbnG"
-    },
-    {
-      "round": 2,
-      "title": "Two Princes",
-      "artist": "Spin Doctors",
-      "submitter": "Jack L.",
-      "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
-      "total_pts": 8,
-      "unique_voters": 5,
-      "track_id": "4ePP9So5xRzspjLFVVbj90",
-      "spotify_url": "https://open.spotify.com/track/4ePP9So5xRzspjLFVVbj90"
+      "unique_voters": 6,
+      "track_id": "6CeszonFOlgp7HiawTSqCu",
+      "spotify_url": "https://open.spotify.com/track/6CeszonFOlgp7HiawTSqCu"
     }
   ],
   "player_profiles": {
@@ -9885,6 +11434,26 @@
           "unique_voters": 6,
           "track_id": "7dnYeTq7IuVkNBqivWrjmh",
           "spotify_url": "https://open.spotify.com/track/7dnYeTq7IuVkNBqivWrjmh"
+        },
+        {
+          "round": 8,
+          "title": "Don't Think Twice, It's Alright (Live at Alltel Pavilion at Walnut Creek, Raleigh, Nc, 8/10/2003)",
+          "artist": "Allman Brothers Band, Susan Tedeschi",
+          "album": "Raleigh, Nc 8-10-03",
+          "total_pts": 7,
+          "unique_voters": 5,
+          "track_id": "1kLAlfXX8kB2LNduNOmiXW",
+          "spotify_url": "https://open.spotify.com/track/1kLAlfXX8kB2LNduNOmiXW"
+        },
+        {
+          "round": 8,
+          "title": "Goodbye Yellow Brick Road",
+          "artist": "Fireside Collective",
+          "album": "Goodbye Yellow Brick Road",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "track_id": "3V0vJXkBDGEZsG2mMzm32S",
+          "spotify_url": "https://open.spotify.com/track/3V0vJXkBDGEZsG2mMzm32S"
         }
       ],
       "voting_history": [
@@ -10409,10 +11978,82 @@
           "song": "Dern Kala",
           "voted_for": "Mills T.",
           "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Proud Mary",
+          "voted_for": "Steve E.",
+          "points_given": 0
+        },
+        {
+          "round": 8,
+          "song": "Gin and Juice",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "You Got The Silver",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Pepper",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Atlantic City",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Valerie",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Linger - SiriusXM Session",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Where Is My Mind?",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Two Trains (feat. Marcus King)",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Hotel California",
+          "voted_for": "Gabriel M.",
+          "points_given": 0
+        },
+        {
+          "round": 8,
+          "song": "Rocky Raccoon",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Tyrone",
+          "voted_for": "Mills T.",
+          "points_given": 1
         }
       ],
-      "season_points": 73,
-      "rounds_played": 7
+      "season_points": 83,
+      "rounds_played": 8
     },
     "19e6c48a177c458398bb138a991a2e4c": {
       "name": "Elyse E.",
@@ -10556,6 +12197,26 @@
           "unique_voters": 0,
           "track_id": "5NKfB21hWeirObQjEN44x1",
           "spotify_url": "https://open.spotify.com/track/5NKfB21hWeirObQjEN44x1"
+        },
+        {
+          "round": 8,
+          "title": "Rocky Raccoon",
+          "artist": "Scary Pockets, George Krikes",
+          "album": "Nu Funk",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "track_id": "0sdQ5hPULJilp0gpAXGq8E",
+          "spotify_url": "https://open.spotify.com/track/0sdQ5hPULJilp0gpAXGq8E"
+        },
+        {
+          "round": 8,
+          "title": "Valerie",
+          "artist": "The Brothers Comatose",
+          "album": "City Painted Gold",
+          "total_pts": 4,
+          "unique_voters": 4,
+          "track_id": "3wShyyPO8fob86VMwkZOCt",
+          "spotify_url": "https://open.spotify.com/track/3wShyyPO8fob86VMwkZOCt"
         }
       ],
       "voting_history": [
@@ -10894,10 +12555,70 @@
           "song": "Walk Faster",
           "voted_for": "Dray E.",
           "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Killing Me Softly With His Song",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Rich Girl",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Two Trains (feat. Marcus King)",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Goodbye Yellow Brick Road",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Linger - SiriusXM Session",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "I Will Always Love You",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Atlantic City",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Hallelujah",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Gin and Juice",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Wake Me Up",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
         }
       ],
-      "season_points": 49,
-      "rounds_played": 7
+      "season_points": 59,
+      "rounds_played": 8
     },
     "2334709be13e48759338c82689b95d11": {
       "name": "Gabriel M.",
@@ -11041,6 +12762,26 @@
           "unique_voters": 4,
           "track_id": "25sZRDmSS7iLlhRh6tLjra",
           "spotify_url": "https://open.spotify.com/track/25sZRDmSS7iLlhRh6tLjra"
+        },
+        {
+          "round": 8,
+          "title": "Wake Me Up",
+          "artist": "Sambô",
+          "album": "Pediu pra Sambar, Sambô",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "track_id": "7jpZkSDydbFrxt4ZXRTnQT",
+          "spotify_url": "https://open.spotify.com/track/7jpZkSDydbFrxt4ZXRTnQT"
+        },
+        {
+          "round": 8,
+          "title": "Hotel California",
+          "artist": "Bossa Bros, Nara",
+          "album": "Hotel California",
+          "total_pts": 2,
+          "unique_voters": 1,
+          "track_id": "1O03qM96Z5500ACbAaJSuZ",
+          "spotify_url": "https://open.spotify.com/track/1O03qM96Z5500ACbAaJSuZ"
         }
       ],
       "voting_history": [
@@ -11241,10 +12982,58 @@
           "song": "Lose My Number",
           "voted_for": "Claire E.",
           "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Rocky Raccoon",
+          "voted_for": "Elyse E.",
+          "points_given": 2
+        },
+        {
+          "round": 8,
+          "song": "Goodbye Yellow Brick Road",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Valerie",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Atlantic City",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Pepper",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Hallelujah",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Tupelo Honey",
+          "voted_for": "Olivia D.",
+          "points_given": 2
+        },
+        {
+          "round": 8,
+          "song": "Two Trains (feat. Marcus King)",
+          "voted_for": "Jack L.",
+          "points_given": 1
         }
       ],
-      "season_points": 23,
-      "rounds_played": 7
+      "season_points": 28,
+      "rounds_played": 8
     },
     "3b87dbe243724d3bbcafea4934075fec": {
       "name": "Steve E.",
@@ -11368,6 +13157,26 @@
           "unique_voters": 5,
           "track_id": "2kgqupahrJpYB4r1poTXEY",
           "spotify_url": "https://open.spotify.com/track/2kgqupahrJpYB4r1poTXEY"
+        },
+        {
+          "round": 8,
+          "title": "Proud Mary",
+          "artist": "Tina Turner",
+          "album": "What's Love Got to Do with It?",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "track_id": "6gJdDnF2TzfA1WPMXuCa3x",
+          "spotify_url": "https://open.spotify.com/track/6gJdDnF2TzfA1WPMXuCa3x"
+        },
+        {
+          "round": 8,
+          "title": "Respect",
+          "artist": "Aretha Franklin",
+          "album": "I Never Loved a Man the Way I Love You",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "track_id": "7s25THrKz86DM225dOYwnr",
+          "spotify_url": "https://open.spotify.com/track/7s25THrKz86DM225dOYwnr"
         }
       ],
       "voting_history": [
@@ -11544,10 +13353,70 @@
           "song": "MRG",
           "voted_for": "Jack L.",
           "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Tupelo Honey",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Killing Me Softly With His Song",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Rich Girl",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Don't Think Twice, It's Alright (Live at Alltel Pavilion at Walnut Creek, Raleigh, Nc, 8/10/2003)",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Dreams - Lanie's Version",
+          "voted_for": "Cindy E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Linger - SiriusXM Session",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Atlantic City",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Hallelujah",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Gin and Juice",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Wake Me Up",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
         }
       ],
-      "season_points": 40,
-      "rounds_played": 6
+      "season_points": 49,
+      "rounds_played": 7
     },
     "41a0d64fae1f40489679232baec98925": {
       "name": "Mary D.",
@@ -11651,6 +13520,26 @@
           "unique_voters": 2,
           "track_id": "64ta7ZvTJeThz7Ns4LmAHS",
           "spotify_url": "https://open.spotify.com/track/64ta7ZvTJeThz7Ns4LmAHS"
+        },
+        {
+          "round": 8,
+          "title": "Hallelujah",
+          "artist": "Rufus Wainwright",
+          "album": "Shrek",
+          "total_pts": 9,
+          "unique_voters": 7,
+          "track_id": "5USZyz6dnBEn1oLsKcAKQy",
+          "spotify_url": "https://open.spotify.com/track/5USZyz6dnBEn1oLsKcAKQy"
+        },
+        {
+          "round": 8,
+          "title": "I Will Always Love You",
+          "artist": "Whitney Houston",
+          "album": "The Bodyguard - Original Soundtrack Album",
+          "total_pts": 8,
+          "unique_voters": 5,
+          "track_id": "4eHbdreAnSOrDDsFfc4Fpm",
+          "spotify_url": "https://open.spotify.com/track/4eHbdreAnSOrDDsFfc4Fpm"
         }
       ],
       "voting_history": [
@@ -11941,10 +13830,46 @@
           "song": "Liz On Top Of The World - From \"Pride & Prejudice\" Soundtrack",
           "voted_for": "Tess D.",
           "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Proud Mary",
+          "voted_for": "Steve E.",
+          "points_given": 2
+        },
+        {
+          "round": 8,
+          "song": "Respect",
+          "voted_for": "Steve E.",
+          "points_given": 2
+        },
+        {
+          "round": 8,
+          "song": "Killing Me Softly With His Song",
+          "voted_for": "Mike D.",
+          "points_given": 2
+        },
+        {
+          "round": 8,
+          "song": "Rich Girl",
+          "voted_for": "Claire E.",
+          "points_given": 2
+        },
+        {
+          "round": 8,
+          "song": "Rocky Raccoon",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Dreams - Lanie's Version",
+          "voted_for": "Cindy E.",
+          "points_given": 1
         }
       ],
-      "season_points": 47,
-      "rounds_played": 7
+      "season_points": 64,
+      "rounds_played": 8
     },
     "4853a05f049d4d4682257bed4b277eed": {
       "name": "Tess D.",
@@ -12088,6 +14013,26 @@
           "unique_voters": 2,
           "track_id": "6QuCKdMsTW8ppnUiFmxJLF",
           "spotify_url": "https://open.spotify.com/track/6QuCKdMsTW8ppnUiFmxJLF"
+        },
+        {
+          "round": 8,
+          "title": "Where Is My Mind?",
+          "artist": "Trampled by Turtles",
+          "album": "Where Is My Mind?",
+          "total_pts": 5,
+          "unique_voters": 5,
+          "track_id": "2dJrn376fJPUCj1f4txnRQ",
+          "spotify_url": "https://open.spotify.com/track/2dJrn376fJPUCj1f4txnRQ"
+        },
+        {
+          "round": 8,
+          "title": "Across the Universe",
+          "artist": "Fiona Apple",
+          "album": "Pleasantville -Music From The Motion Picture",
+          "total_pts": 0,
+          "unique_voters": 0,
+          "track_id": "6ZQgooEk8PvsLxedYaT6Oa",
+          "spotify_url": "https://open.spotify.com/track/6ZQgooEk8PvsLxedYaT6Oa"
         }
       ],
       "voting_history": [
@@ -12336,10 +14281,46 @@
           "song": "Walk Faster",
           "voted_for": "Dray E.",
           "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Hotel California",
+          "voted_for": "Gabriel M.",
+          "points_given": 2
+        },
+        {
+          "round": 8,
+          "song": "Hallelujah",
+          "voted_for": "Mary D.",
+          "points_given": 2
+        },
+        {
+          "round": 8,
+          "song": "You Got The Silver",
+          "voted_for": "Mike D.",
+          "points_given": 2
+        },
+        {
+          "round": 8,
+          "song": "Maggie May",
+          "voted_for": "Cindy E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Pepper",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Tyrone",
+          "voted_for": "Mills T.",
+          "points_given": 2
         }
       ],
-      "season_points": 48,
-      "rounds_played": 7
+      "season_points": 53,
+      "rounds_played": 8
     },
     "5838e19081f440598e554c420f257ab7": {
       "name": "Mills T.",
@@ -12483,6 +14464,26 @@
           "unique_voters": 3,
           "track_id": "4sYn64V9gqP6bpkOGw5B9k",
           "spotify_url": "https://open.spotify.com/track/4sYn64V9gqP6bpkOGw5B9k"
+        },
+        {
+          "round": 8,
+          "title": "Gin and Juice",
+          "artist": "The Gourds",
+          "album": "Shinebox",
+          "total_pts": 8,
+          "unique_voters": 6,
+          "track_id": "6CeszonFOlgp7HiawTSqCu",
+          "spotify_url": "https://open.spotify.com/track/6CeszonFOlgp7HiawTSqCu"
+        },
+        {
+          "round": 8,
+          "title": "Tyrone",
+          "artist": "My Morning Jacket",
+          "album": "Chapter 2: Learning: Early Recordings, B-Sides, Covers, Y Mas",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "track_id": "0axsMumJxKRTuYCMb9oeWl",
+          "spotify_url": "https://open.spotify.com/track/0axsMumJxKRTuYCMb9oeWl"
         }
       ],
       "voting_history": [
@@ -12779,10 +14780,64 @@
           "song": "Liz On Top Of The World - From \"Pride & Prejudice\" Soundtrack",
           "voted_for": "Tess D.",
           "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Valerie",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "You Got The Silver",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Maggie May",
+          "voted_for": "Cindy E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "I Will Always Love You",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Tupelo Honey",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Don't Think Twice, It's Alright (Live at Alltel Pavilion at Walnut Creek, Raleigh, Nc, 8/10/2003)",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Dreams - Lanie's Version",
+          "voted_for": "Cindy E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Where Is My Mind?",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Linger - SiriusXM Session",
+          "voted_for": "Jack L.",
+          "points_given": 2
         }
       ],
-      "season_points": 78,
-      "rounds_played": 7
+      "season_points": 90,
+      "rounds_played": 8
     },
     "994734a26c814552ad88e0ce9ea4cfce": {
       "name": "Jack L.",
@@ -12926,6 +14981,26 @@
           "unique_voters": 2,
           "track_id": "66Ii958y29MsnAXjGub2hu",
           "spotify_url": "https://open.spotify.com/track/66Ii958y29MsnAXjGub2hu"
+        },
+        {
+          "round": 8,
+          "title": "Linger - SiriusXM Session",
+          "artist": "Royel Otis",
+          "album": "Linger / Heading For The Door (Sirius XM Session)",
+          "total_pts": 7,
+          "unique_voters": 6,
+          "track_id": "2dono2Koz7DEvGwxUsmMLq",
+          "spotify_url": "https://open.spotify.com/track/2dono2Koz7DEvGwxUsmMLq"
+        },
+        {
+          "round": 8,
+          "title": "Two Trains (feat. Marcus King)",
+          "artist": "Ty Myers, Marcus King",
+          "album": "Two Trains (feat. Marcus King)",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "track_id": "23cBxlsY43hiuiLwXn5Xkn",
+          "spotify_url": "https://open.spotify.com/track/23cBxlsY43hiuiLwXn5Xkn"
         }
       ],
       "voting_history": [
@@ -13180,10 +15255,70 @@
           "song": "Walk Faster",
           "voted_for": "Dray E.",
           "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Hallelujah",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Valerie",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Don't Think Twice, It's Alright (Live at Alltel Pavilion at Walnut Creek, Raleigh, Nc, 8/10/2003)",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Rich Girl",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Killing Me Softly With His Song",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Tyrone",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Tupelo Honey",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Where Is My Mind?",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Atlantic City",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "You Got The Silver",
+          "voted_for": "Mike D.",
+          "points_given": 1
         }
       ],
-      "season_points": 65,
-      "rounds_played": 7
+      "season_points": 75,
+      "rounds_played": 8
     },
     "9ce50e4f032c45afaa3eca936e99c9db": {
       "name": "Olivia D.",
@@ -13307,6 +15442,26 @@
           "unique_voters": 0,
           "track_id": "29iva9idM6rFCPUlu7Rhxl",
           "spotify_url": "https://open.spotify.com/track/29iva9idM6rFCPUlu7Rhxl"
+        },
+        {
+          "round": 8,
+          "title": "Atlantic City",
+          "artist": "The Band",
+          "album": "Jericho",
+          "total_pts": 6,
+          "unique_voters": 6,
+          "track_id": "4JwjzS9WFkWlpzGCwh82fn",
+          "spotify_url": "https://open.spotify.com/track/4JwjzS9WFkWlpzGCwh82fn"
+        },
+        {
+          "round": 8,
+          "title": "Tupelo Honey",
+          "artist": "JJ Grey & Mofro",
+          "album": "The Choice Cuts",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "track_id": "05933lttebzVMkaRQmgHr8",
+          "spotify_url": "https://open.spotify.com/track/05933lttebzVMkaRQmgHr8"
         }
       ],
       "voting_history": [
@@ -13429,10 +15584,34 @@
           "song": "Bohemian Rhapsody - Remastered 2011",
           "voted_for": "Mary D.",
           "points_given": 2
+        },
+        {
+          "round": 8,
+          "song": "Rich Girl",
+          "voted_for": "Claire E.",
+          "points_given": 2
+        },
+        {
+          "round": 8,
+          "song": "Gin and Juice",
+          "voted_for": "Mills T.",
+          "points_given": 2
+        },
+        {
+          "round": 8,
+          "song": "Hallelujah",
+          "voted_for": "Mary D.",
+          "points_given": 2
+        },
+        {
+          "round": 8,
+          "song": "I Will Always Love You",
+          "voted_for": "Mary D.",
+          "points_given": 4
         }
       ],
-      "season_points": 45,
-      "rounds_played": 7
+      "season_points": 57,
+      "rounds_played": 8
     },
     "dea876f23cf9428185f8757955c2eecd": {
       "name": "Claire E.",
@@ -13576,6 +15755,26 @@
           "unique_voters": 3,
           "track_id": "0EHJOhOakEiobXo81vegdy",
           "spotify_url": "https://open.spotify.com/track/0EHJOhOakEiobXo81vegdy"
+        },
+        {
+          "round": 8,
+          "title": "Rich Girl",
+          "artist": "Lake Street Dive",
+          "album": "Fun Machine EP",
+          "total_pts": 11,
+          "unique_voters": 7,
+          "track_id": "0RKKLIOnAPImtlLlYEjbYF",
+          "spotify_url": "https://open.spotify.com/track/0RKKLIOnAPImtlLlYEjbYF"
+        },
+        {
+          "round": 8,
+          "title": "Pepper",
+          "artist": "Keller & The Keels",
+          "album": "Thief",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "track_id": "4YFSwAQH0hnhizv570glsn",
+          "spotify_url": "https://open.spotify.com/track/4YFSwAQH0hnhizv570glsn"
         }
       ],
       "voting_history": [
@@ -13962,10 +16161,52 @@
           "song": "Walk Faster",
           "voted_for": "Dray E.",
           "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Don't Think Twice, It's Alright (Live at Alltel Pavilion at Walnut Creek, Raleigh, Nc, 8/10/2003)",
+          "voted_for": "Dray E.",
+          "points_given": 3
+        },
+        {
+          "round": 8,
+          "song": "Where Is My Mind?",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Goodbye Yellow Brick Road",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "I Will Always Love You",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Atlantic City",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Gin and Juice",
+          "voted_for": "Mills T.",
+          "points_given": 2
+        },
+        {
+          "round": 8,
+          "song": "Proud Mary",
+          "voted_for": "Steve E.",
+          "points_given": 1
         }
       ],
-      "season_points": 96,
-      "rounds_played": 7
+      "season_points": 110,
+      "rounds_played": 8
     },
     "e0e0d50ee23443cf80cea1d777fac793": {
       "name": "Mike D.",
@@ -14109,6 +16350,26 @@
           "unique_voters": 1,
           "track_id": "6kf7ZCJjEbjZXikivKOsvJ",
           "spotify_url": "https://open.spotify.com/track/6kf7ZCJjEbjZXikivKOsvJ"
+        },
+        {
+          "round": 8,
+          "title": "Killing Me Softly With His Song",
+          "artist": "Fugees, Ms. Lauryn Hill",
+          "album": "The Score (Expanded Edition)",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "track_id": "0Q0IVlqMV64kNLlwjPj0Hl",
+          "spotify_url": "https://open.spotify.com/track/0Q0IVlqMV64kNLlwjPj0Hl"
+        },
+        {
+          "round": 8,
+          "title": "You Got The Silver",
+          "artist": "Susan Tedeschi",
+          "album": "Hope And Desire",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "track_id": "5jQPaMjSWpFOMx8BVUOtpM",
+          "spotify_url": "https://open.spotify.com/track/5jQPaMjSWpFOMx8BVUOtpM"
         }
       ],
       "voting_history": [
@@ -14477,10 +16738,64 @@
           "song": "Walk Faster",
           "voted_for": "Dray E.",
           "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Gin and Juice",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Rich Girl",
+          "voted_for": "Claire E.",
+          "points_given": 2
+        },
+        {
+          "round": 8,
+          "song": "Rocky Raccoon",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Don't Think Twice, It's Alright (Live at Alltel Pavilion at Walnut Creek, Raleigh, Nc, 8/10/2003)",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Where Is My Mind?",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Linger - SiriusXM Session",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Hallelujah",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Proud Mary",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Respect",
+          "voted_for": "Steve E.",
+          "points_given": 1
         }
       ],
-      "season_points": 53,
-      "rounds_played": 7
+      "season_points": 64,
+      "rounds_played": 8
     },
     "37957b35724d4660a62379edd6b4e09c": {
       "name": "Cindy E.",
@@ -14544,6 +16859,26 @@
           "unique_voters": 1,
           "track_id": "2IQMgkKFyGljLzS0ZojYQZ",
           "spotify_url": "https://open.spotify.com/track/2IQMgkKFyGljLzS0ZojYQZ"
+        },
+        {
+          "round": 8,
+          "title": "Dreams - Lanie's Version",
+          "artist": "Lanie Gardner",
+          "album": "Dreams (Lanie's Version)",
+          "total_pts": 3,
+          "unique_voters": 3,
+          "track_id": "1SPdIvUEblev9NlO9X4LtC",
+          "spotify_url": "https://open.spotify.com/track/1SPdIvUEblev9NlO9X4LtC"
+        },
+        {
+          "round": 8,
+          "title": "Maggie May",
+          "artist": "Tyler Stenson",
+          "album": "Maggie May",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "track_id": "4YZs2PyBukix79k8zYk0eG",
+          "spotify_url": "https://open.spotify.com/track/4YZs2PyBukix79k8zYk0eG"
         }
       ],
       "voting_history": [
@@ -14618,10 +16953,64 @@
           "song": "Walk Faster",
           "voted_for": "Dray E.",
           "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Tupelo Honey",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Killing Me Softly With His Song",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Rich Girl",
+          "voted_for": "Claire E.",
+          "points_given": 2
+        },
+        {
+          "round": 8,
+          "song": "Rocky Raccoon",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "I Will Always Love You",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Respect",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Linger - SiriusXM Session",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Wake Me Up",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 8,
+          "song": "Proud Mary",
+          "voted_for": "Steve E.",
+          "points_given": 1
         }
       ],
-      "season_points": 13,
-      "rounds_played": 3
+      "season_points": 18,
+      "rounds_played": 4
     }
   },
   "fun_metrics": {
@@ -14630,8 +17019,8 @@
       "description": "Most points given to eventual weekly winners",
       "leader": {
         "player": "Jack L.",
-        "value": "14 pts",
-        "detail": "R2: 3 pts to All Star · R3: 4 pts to 99 Luftballons · R4: 2 pts to Brandy (You're a Fine Girl) · R5: 2 pts to Louisiana Saturday Night · R6: 2 pts to Creeping Away · R7: 1 pts to Feels So Good"
+        "value": "15 pts",
+        "detail": "R2: 3 pts to All Star · R3: 4 pts to 99 Luftballons · R4: 2 pts to Brandy (You're a Fine Girl) · R5: 2 pts to Louisiana Saturday Night · R6: 2 pts to Creeping Away · R7: 1 pts to Feels So Good · R8: 1 pts to Rich Girl"
       }
     },
     "hipster": {
@@ -14639,8 +17028,8 @@
       "description": "Highest percentage of solo votes (songs nobody else voted for)",
       "leader": {
         "player": "Tess D.",
-        "value": "7% solo",
-        "detail": "3 solo votes out of 41"
+        "value": "6% solo",
+        "detail": "3 solo votes out of 47"
       }
     },
     "sheep": {
@@ -14649,7 +17038,7 @@
       "leader": {
         "player": "Olivia D.",
         "value": "100% consensus",
-        "detail": "40 of 40 pts to songs with 3+ voters"
+        "detail": "50 of 50 pts to songs with 3+ voters"
       }
     },
     "cold_shoulder": {
@@ -14657,15 +17046,15 @@
       "description": "Most songs submitted that received zero votes",
       "players": [
         {
+          "player": "Tess D.",
+          "value": "2 zero-vote songs"
+        },
+        {
           "player": "Elyse E.",
           "value": "2 zero-vote songs"
         },
         {
           "player": "Dray E.",
-          "value": "1 zero-vote songs"
-        },
-        {
-          "player": "Tess D.",
           "value": "1 zero-vote songs"
         },
         {
@@ -14710,19 +17099,19 @@
           "avg": 1.25
         },
         {
+          "round": 8,
+          "song": "Hallelujah",
+          "artist": "Rufus Wainwright",
+          "submitter": "Mary D.",
+          "voters": 7,
+          "pts": 9,
+          "avg": 1.29
+        },
+        {
           "round": 6,
           "song": "Mr. Saturday Night",
           "artist": "Jon Pardi",
           "submitter": "Olivia D.",
-          "voters": 6,
-          "pts": 6,
-          "avg": 1.0
-        },
-        {
-          "round": 7,
-          "song": "Walk Faster",
-          "artist": "Macadam Crocodile",
-          "submitter": "Dray E.",
           "voters": 6,
           "pts": 6,
           "avg": 1.0
@@ -14736,32 +17125,32 @@
         {
           "player1": "Elyse E.",
           "player2": "Jack L.",
-          "overlap": "36%",
-          "detail": "26 shared of 72 total"
+          "overlap": "34%",
+          "detail": "30 shared of 88 total"
         },
         {
           "player1": "Dray E.",
           "player2": "Elyse E.",
-          "overlap": "34%",
-          "detail": "36 shared of 107 total"
-        },
-        {
-          "player1": "Dray E.",
-          "player2": "Claire E.",
-          "overlap": "31%",
-          "detail": "36 shared of 115 total"
-        },
-        {
-          "player1": "Dray E.",
-          "player2": "Mary D.",
-          "overlap": "31%",
-          "detail": "32 shared of 103 total"
+          "overlap": "32%",
+          "detail": "40 shared of 125 total"
         },
         {
           "player1": "Dray E.",
           "player2": "Mike D.",
           "overlap": "31%",
-          "detail": "35 shared of 113 total"
+          "detail": "40 shared of 129 total"
+        },
+        {
+          "player1": "Dray E.",
+          "player2": "Claire E.",
+          "overlap": "31%",
+          "detail": "40 shared of 130 total"
+        },
+        {
+          "player1": "Elyse E.",
+          "player2": "Claire E.",
+          "overlap": "30%",
+          "detail": "32 shared of 105 total"
         }
       ]
     },
@@ -14772,41 +17161,41 @@
         {
           "player": "Claire E.",
           "value": "6.9 avg",
-          "detail": "14 songs"
+          "detail": "16 songs"
         },
         {
           "player": "Mills T.",
           "value": "5.6 avg",
-          "detail": "14 songs"
+          "detail": "16 songs"
+        },
+        {
+          "player": "Mary D.",
+          "value": "5.3 avg",
+          "detail": "12 songs"
         },
         {
           "player": "Dray E.",
           "value": "5.2 avg",
-          "detail": "14 songs"
+          "detail": "16 songs"
         },
         {
           "player": "Olivia D.",
-          "value": "4.9 avg",
-          "detail": "12 songs"
-        },
-        {
-          "player": "Mary D.",
-          "value": "4.7 avg",
-          "detail": "10 songs"
-        },
-        {
-          "player": "Jack L.",
-          "value": "4.6 avg",
+          "value": "5.1 avg",
           "detail": "14 songs"
         },
         {
-          "player": "Steve E.",
-          "value": "3.8 avg",
-          "detail": "12 songs"
+          "player": "Jack L.",
+          "value": "4.7 avg",
+          "detail": "16 songs"
         },
         {
           "player": "Mike D.",
-          "value": "3.8 avg",
+          "value": "4.0 avg",
+          "detail": "16 songs"
+        },
+        {
+          "player": "Steve E.",
+          "value": "3.9 avg",
           "detail": "14 songs"
         }
       ]
