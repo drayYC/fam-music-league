@@ -58,6 +58,14 @@ button { font-family: inherit; cursor: pointer; }
   position: relative;
 }
 
+/* Page content wrapper — horizontal breathing room (more relative weight on mobile) */
+.page {
+  padding: 20px 24px 72px 24px;
+}
+@media (max-width: 600px) {
+  .page { padding: 18px 18px 64px 18px; }
+}
+
 /* ---------- Header ---------- */
 .header {
   background: var(--bg);
@@ -2882,44 +2890,58 @@ function RecapPage({ data, roundIdx, setRoundIdx }) {
 function FunMetrics({ metrics }) {
   const cards = [];
   const m = metrics || {};
+  const S = (v) => (v == null ? '' : String(v));
 
-  if (m.kingmaker?.leader?.player) {
-    cards.push({ k: 'kingmaker', t: m.kingmaker.title, d: m.kingmaker.description,
-      lead: `${m.kingmaker.leader.player} · ${m.kingmaker.leader.value}`, det: m.kingmaker.leader.detail });
-  }
-  // The Spreader vs The Sniper — two leaders in one card
-  if (m.voting_style?.spreader?.player) {
-    const sp = m.voting_style.spreader, sn = m.voting_style.sniper;
-    cards.push({ k: 'style', t: m.voting_style.title, d: m.voting_style.description,
-      list: [
-        { player: `Spreader · ${sp.player}`, value: sp.value },
-        { player: `Sniper · ${sn.player}`, value: sn.value },
-      ] });
-  }
-  // Front-Runner vs Lone Wolf
-  if (m.allegiance?.front_runner?.player) {
-    const fr = m.allegiance.front_runner, lw = m.allegiance.lone_wolf;
-    cards.push({ k: 'allegiance', t: m.allegiance.title, d: m.allegiance.description,
-      list: [
-        { player: `Front-runner · ${fr.player}`, value: fr.value },
-        { player: `Lone wolf · ${lw.player}`, value: lw.value },
-      ] });
-  }
-  // The Closer — top-3 finishes
-  if (m.closer?.leaders?.length > 0) {
-    cards.push({ k: 'closer', t: m.closer.title, d: m.closer.description,
-      list: m.closer.leaders.map(l => ({ player: l.player, value: l.value })) });
-  }
-  // Patron & Beneficiary — biggest one-way flows
-  if (m.patronage?.flows?.length > 0) {
-    cards.push({ k: 'patron', t: m.patronage.title, d: m.patronage.description,
-      list: m.patronage.flows.map(f => ({ player: `${f.from} → ${f.to}`, value: f.value })) });
-  }
-  // Best Friends & Cold Shoulders
-  if (m.bonds?.rows?.length > 0) {
-    cards.push({ k: 'bonds', t: m.bonds.title, d: m.bonds.description,
-      list: m.bonds.rows.map(r => ({ player: r.pair, value: r.value })) });
-  }
+  try {
+    if (m.kingmaker && m.kingmaker.leader && m.kingmaker.leader.player) {
+      const L = m.kingmaker.leader;
+      cards.push({ k: 'kingmaker', t: S(m.kingmaker.title), d: S(m.kingmaker.description),
+        lead: `${S(L.player)} · ${S(L.value)}`, det: S(L.detail) });
+    }
+  } catch (e) {}
+
+  try {
+    const vs = m.voting_style;
+    if (vs && vs.spreader && vs.spreader.player && vs.sniper && vs.sniper.player) {
+      cards.push({ k: 'style', t: S(vs.title), d: S(vs.description),
+        list: [
+          { player: `Spreader · ${S(vs.spreader.player)}`, value: S(vs.spreader.value) },
+          { player: `Sniper · ${S(vs.sniper.player)}`, value: S(vs.sniper.value) },
+        ] });
+    }
+  } catch (e) {}
+
+  try {
+    const al = m.allegiance;
+    if (al && al.front_runner && al.front_runner.player && al.lone_wolf && al.lone_wolf.player) {
+      cards.push({ k: 'allegiance', t: S(al.title), d: S(al.description),
+        list: [
+          { player: `Front-runner · ${S(al.front_runner.player)}`, value: S(al.front_runner.value) },
+          { player: `Lone wolf · ${S(al.lone_wolf.player)}`, value: S(al.lone_wolf.value) },
+        ] });
+    }
+  } catch (e) {}
+
+  try {
+    if (m.closer && Array.isArray(m.closer.leaders) && m.closer.leaders.length > 0) {
+      cards.push({ k: 'closer', t: S(m.closer.title), d: S(m.closer.description),
+        list: m.closer.leaders.map((l) => ({ player: S(l && l.player), value: S(l && l.value) })) });
+    }
+  } catch (e) {}
+
+  try {
+    if (m.patronage && Array.isArray(m.patronage.flows) && m.patronage.flows.length > 0) {
+      cards.push({ k: 'patron', t: S(m.patronage.title), d: S(m.patronage.description),
+        list: m.patronage.flows.map((f) => ({ player: `${S(f && f.from)} → ${S(f && f.to)}`, value: S(f && f.value) })) });
+    }
+  } catch (e) {}
+
+  try {
+    if (m.bonds && Array.isArray(m.bonds.rows) && m.bonds.rows.length > 0) {
+      cards.push({ k: 'bonds', t: S(m.bonds.title), d: S(m.bonds.description),
+        list: m.bonds.rows.map((r) => ({ player: S(r && r.pair), value: S(r && r.value) })) });
+    }
+  } catch (e) {}
 
   if (cards.length === 0) return null;
 
@@ -2933,7 +2955,7 @@ function FunMetrics({ metrics }) {
         <div className="section-h-title">Fun metrics</div>
       </div>
       <div className="fm-grid">
-        {cards.map(c => (
+        {cards.map((c) => (
           <div className={`fm-card${c.full ? ' full' : ''}`} key={c.k}>
             <div className="fm-title">{c.t}</div>
             <div className="fm-desc">{c.d}</div>
@@ -2969,7 +2991,7 @@ function App() {
 
   // Load data — bump ?v=N each weekly deploy
   useEffect(() => {
-    fetch('data.json?v=11')
+    fetch('data.json?v=12')
       .then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json();
