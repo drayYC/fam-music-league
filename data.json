@@ -2,7 +2,7 @@
   "league": {
     "name": "Fam Music League",
     "subtitle": "Season One",
-    "total_rounds": 8
+    "total_rounds": 9
   },
   "players": {
     "0a831b84b60a4aaca7c6f3150bbccb88": "Dray E.",
@@ -16,7 +16,9 @@
     "9ce50e4f032c45afaa3eca936e99c9db": "Olivia D.",
     "dea876f23cf9428185f8757955c2eecd": "Claire E.",
     "e0e0d50ee23443cf80cea1d777fac793": "Mike D.",
-    "37957b35724d4660a62379edd6b4e09c": "Cindy E."
+    "37957b35724d4660a62379edd6b4e09c": "Cindy E.",
+    "071c311e3b154327818fe074aeaa3087": "Jake H.",
+    "8d1ba5575516432f851d16bffecc1970": "Kelsey H."
   },
   "rounds": [
     {
@@ -351,16 +353,16 @@
           "rank": 3
         },
         {
-          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
-          "player": "Jack L.",
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
           "points": 10,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 4
         },
         {
-          "player_id": "19e6c48a177c458398bb138a991a2e4c",
-          "player": "Elyse E.",
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
           "points": 10,
           "voted": true,
           "pts_forfeited": 0,
@@ -2786,16 +2788,16 @@
           "rank": 6
         },
         {
-          "player_id": "41a0d64fae1f40489679232baec98925",
-          "player": "Mary D.",
+          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "player": "Olivia D.",
           "points": 6,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 7
         },
         {
-          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
-          "player": "Olivia D.",
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
           "points": 6,
           "voted": true,
           "pts_forfeited": 0,
@@ -4020,14 +4022,6 @@
           "rank": 6
         },
         {
-          "player_id": "4853a05f049d4d4682257bed4b277eed",
-          "player": "Tess D.",
-          "points": 6,
-          "voted": true,
-          "pts_forfeited": 0,
-          "rank": 7
-        },
-        {
           "player_id": "19e6c48a177c458398bb138a991a2e4c",
           "player": "Elyse E.",
           "points": 6,
@@ -4036,16 +4030,24 @@
           "rank": 7
         },
         {
-          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
-          "player": "Jack L.",
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
+          "points": 6,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 7
+        },
+        {
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
           "points": 5,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 9
         },
         {
-          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
-          "player": "Dray E.",
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
           "points": 5,
           "voted": true,
           "pts_forfeited": 0,
@@ -5291,16 +5293,16 @@
           "rank": 1
         },
         {
-          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
-          "player": "Jack L.",
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
           "points": 15,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 2
         },
         {
-          "player_id": "5838e19081f440598e554c420f257ab7",
-          "player": "Mills T.",
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
           "points": 15,
           "voted": true,
           "pts_forfeited": 0,
@@ -7698,16 +7700,16 @@
           "rank": 4
         },
         {
-          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
-          "player": "Jack L.",
+          "player_id": "37957b35724d4660a62379edd6b4e09c",
+          "player": "Cindy E.",
           "points": 9,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 5
         },
         {
-          "player_id": "37957b35724d4660a62379edd6b4e09c",
-          "player": "Cindy E.",
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
           "points": 9,
           "voted": true,
           "pts_forfeited": 0,
@@ -9080,14 +9082,6 @@
           "rank": 5
         },
         {
-          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
-          "player": "Jack L.",
-          "points": 10,
-          "voted": true,
-          "pts_forfeited": 0,
-          "rank": 6
-        },
-        {
           "player_id": "19e6c48a177c458398bb138a991a2e4c",
           "player": "Elyse E.",
           "points": 10,
@@ -9104,20 +9098,20 @@
           "rank": 6
         },
         {
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
+          "points": 10,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 6
+        },
+        {
           "player_id": "3b87dbe243724d3bbcafea4934075fec",
           "player": "Steve E.",
           "points": 9,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 9
-        },
-        {
-          "player_id": "4853a05f049d4d4682257bed4b277eed",
-          "player": "Tess D.",
-          "points": 5,
-          "voted": true,
-          "pts_forfeited": 0,
-          "rank": 10
         },
         {
           "player_id": "2334709be13e48759338c82689b95d11",
@@ -9130,6 +9124,14 @@
         {
           "player_id": "37957b35724d4660a62379edd6b4e09c",
           "player": "Cindy E.",
+          "points": 5,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 10
+        },
+        {
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
           "points": 5,
           "voted": true,
           "pts_forfeited": 0,
@@ -10164,16 +10166,1703 @@
           }
         ]
       }
+    },
+    {
+      "id": "948835cd6ca942bc9652ffade8a495e3",
+      "number": 9,
+      "name": "Bottom of the 9th, bases loaded, this is your music",
+      "description": "The bullpen door swings open. 45,000 people are on their feet. You jog in from the pen to slam the door on the game, and for these ninety seconds the stadium plays your song — the one that announces, before you’ve thrown a single pitch, that the save is already over. This is your closer entrance music. It has to do one job: make the other team feel like they’ve already lost. Submit two songs you’d walk out to from the bullpen — intimidation, swagger, pure adrenaline, a riff that drops the hammer. Mariano had Enter Sandman. Hoffman had Hells Bells. What’s yours?",
+      "playlist_url": "https://open.spotify.com/playlist/0NLFQ0VRW9ZXtPglitD1gH",
+      "theme": {
+        "name": "scoreboard",
+        "tile_class": "theme-scoreboard-bg",
+        "palette": {
+          "primary": "#FFB22C",
+          "accent": "#FF5A3C",
+          "cool": "#39D98A",
+          "highlight": "#FFD45E",
+          "tile": "#0A0E0C"
+        },
+        "band_gradient": "linear-gradient(90deg, #FFB22C 0%, #FF5A3C 100%)",
+        "design": {
+          "band": "scoreboard",
+          "tab_underline": "led",
+          "stat_accent": "led",
+          "mark": "scoreboard"
+        }
+      },
+      "songs": [
+        {
+          "title": "Dirty Deeds Done Dirt Cheap",
+          "artist": "AC/DC",
+          "album": "Dirty Deeds Done Dirt Cheap",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "total_pts": 11,
+          "unique_voters": 7,
+          "spotify_uri": "spotify:track:2d4e45fmUnguxh6yqC7gNT",
+          "track_id": "2d4e45fmUnguxh6yqC7gNT",
+          "spotify_url": "https://open.spotify.com/track/2d4e45fmUnguxh6yqC7gNT",
+          "comment": "Torn from the diary of a 64-year-old closer making an improbable return to the majors on a one year “prove it” contract.  ",
+          "forfeited": false
+        },
+        {
+          "title": "X Gon' Give It To Ya",
+          "artist": "DMX",
+          "album": "The Definition Of X: Pick Of The Litter",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "total_pts": 11,
+          "unique_voters": 6,
+          "spotify_uri": "spotify:track:1zzxoZVylsna2BQB65Ppcb",
+          "track_id": "1zzxoZVylsna2BQB65Ppcb",
+          "spotify_url": "https://open.spotify.com/track/1zzxoZVylsna2BQB65Ppcb",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "I'm Shipping Up To Boston",
+          "artist": "Dropkick Murphys",
+          "album": "The Warrior's Code",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "total_pts": 9,
+          "unique_voters": 6,
+          "spotify_uri": "spotify:track:7rSERmjAT38lC5QhJ8hnQc",
+          "track_id": "7rSERmjAT38lC5QhJ8hnQc",
+          "spotify_url": "https://open.spotify.com/track/7rSERmjAT38lC5QhJ8hnQc",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Crazy Train",
+          "artist": "Ozzy Osbourne",
+          "album": "Blizzard Of Ozz (40th Anniversary Expanded Edition)",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "total_pts": 9,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:7ACxUo21jtTHzy7ZEV56vU",
+          "track_id": "7ACxUo21jtTHzy7ZEV56vU",
+          "spotify_url": "https://open.spotify.com/track/7ACxUo21jtTHzy7ZEV56vU",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Devil with the Blue Dress On / Good Golly Miss Molly (Medley)",
+          "artist": "Mitch Ryder and The Detroit Wheels",
+          "album": "The Best of Mitch Ryder & The Detroit Wheels",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "total_pts": 7,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:4d6FHaOlHLo4sGpMXaexho",
+          "track_id": "4d6FHaOlHLo4sGpMXaexho",
+          "spotify_url": "https://open.spotify.com/track/4d6FHaOlHLo4sGpMXaexho",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "SpottieOttieDopaliscious",
+          "artist": "Outkast",
+          "album": "Aquemini",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "total_pts": 7,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:4GdB5M7GbwLZLouktYocFC",
+          "track_id": "4GdB5M7GbwLZLouktYocFC",
+          "spotify_url": "https://open.spotify.com/track/4GdB5M7GbwLZLouktYocFC",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "All I Do Is Win",
+          "artist": "DJ Khaled, T-Pain, Ludacris, Snoop Dogg, Rick Ross",
+          "album": "All I Do Is Win",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "total_pts": 7,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:12sXrSIdiqCtB0vKYHNH29",
+          "track_id": "12sXrSIdiqCtB0vKYHNH29",
+          "spotify_url": "https://open.spotify.com/track/12sXrSIdiqCtB0vKYHNH29",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Ms. New Booty",
+          "artist": "Bubba Sparxxx, Ying Yang Twins, Mr. Collipark",
+          "album": "The Charm",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:01yJb0xHAvf0Sac9eJBy6O",
+          "track_id": "01yJb0xHAvf0Sac9eJBy6O",
+          "spotify_url": "https://open.spotify.com/track/01yJb0xHAvf0Sac9eJBy6O",
+          "comment": "College Park, bubba sparxxx!!! ",
+          "forfeited": false
+        },
+        {
+          "title": "The Boss",
+          "artist": "James Brown, The J.B.'s",
+          "album": "Black Caesar",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:6LzjgzpVl0hB3YrBU1b8Z1",
+          "track_id": "6LzjgzpVl0hB3YrBU1b8Z1",
+          "spotify_url": "https://open.spotify.com/track/6LzjgzpVl0hB3YrBU1b8Z1",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Wild Thing",
+          "artist": "The Troggs",
+          "album": "From Nowhere",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:7jGzYUZ2Bgg8BDfYlQRfn8",
+          "track_id": "7jGzYUZ2Bgg8BDfYlQRfn8",
+          "spotify_url": "https://open.spotify.com/track/7jGzYUZ2Bgg8BDfYlQRfn8",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Man! I Feel Like A Woman!",
+          "artist": "Shania Twain",
+          "album": "Come On Over",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "total_pts": 6,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:6sxptembJVty4sNtcPMAVz",
+          "track_id": "6sxptembJVty4sNtcPMAVz",
+          "spotify_url": "https://open.spotify.com/track/6sxptembJVty4sNtcPMAVz",
+          "comment": "Let’s go girls. ",
+          "forfeited": false
+        },
+        {
+          "title": "Paper Planes",
+          "artist": "M.I.A.",
+          "album": "Kala",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "total_pts": 5,
+          "unique_voters": 5,
+          "spotify_uri": "spotify:track:1ixbwbeBi5ufN4noUKmW5a",
+          "track_id": "1ixbwbeBi5ufN4noUKmW5a",
+          "spotify_url": "https://open.spotify.com/track/1ixbwbeBi5ufN4noUKmW5a",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Cowboy Killer",
+          "artist": "That Mexican OT",
+          "album": "Lonestar Luchador",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:5SGWCqheDXPlYnv9aQs795",
+          "track_id": "5SGWCqheDXPlYnv9aQs795",
+          "spotify_url": "https://open.spotify.com/track/5SGWCqheDXPlYnv9aQs795",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Get Back",
+          "artist": "Ludacris",
+          "album": "The Red Light District",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:3njpLvANriMsdv3dgADEad",
+          "track_id": "3njpLvANriMsdv3dgADEad",
+          "spotify_url": "https://open.spotify.com/track/3njpLvANriMsdv3dgADEad",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "I Got 5 On It",
+          "artist": "Luniz, Michael Marshall",
+          "album": "Operation Stackola",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:4IYKjN1DrYzxKXt0umJqsG",
+          "track_id": "4IYKjN1DrYzxKXt0umJqsG",
+          "spotify_url": "https://open.spotify.com/track/4IYKjN1DrYzxKXt0umJqsG",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Move Bitch",
+          "artist": "Ludacris, Mystikal, I-20",
+          "album": "Word Of Mouf",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:1Q9b6CeMcDuO0uq5OJCrqu",
+          "track_id": "1Q9b6CeMcDuO0uq5OJCrqu",
+          "spotify_url": "https://open.spotify.com/track/1Q9b6CeMcDuO0uq5OJCrqu",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "artist": "K'NAAN",
+          "album": "Wavin' Flag (International Version Coca-Cola® Celebration Mix)",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "total_pts": 5,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:6WFQsZZa81anp9BkqZMyTb",
+          "track_id": "6WFQsZZa81anp9BkqZMyTb",
+          "spotify_url": "https://open.spotify.com/track/6WFQsZZa81anp9BkqZMyTb",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "BATTLE WITHOUT HONOR OR HUMANITY",
+          "artist": "HOTEI",
+          "album": "エレクトリック・サムライ",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "total_pts": 4,
+          "unique_voters": 4,
+          "spotify_uri": "spotify:track:0PH3OkM1QnIyb44VhFVbca",
+          "track_id": "0PH3OkM1QnIyb44VhFVbca",
+          "spotify_url": "https://open.spotify.com/track/0PH3OkM1QnIyb44VhFVbca",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Lights, Camera, Action!",
+          "artist": "Mr. Cheeks",
+          "album": "John P. Kelly",
+          "submitter_id": "8d1ba5575516432f851d16bffecc1970",
+          "submitter": "Kelsey H.",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:36gOOIQaBwXZVKL5z2vC3Z",
+          "track_id": "36gOOIQaBwXZVKL5z2vC3Z",
+          "spotify_url": "https://open.spotify.com/track/36gOOIQaBwXZVKL5z2vC3Z",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "The Riders of Rohan",
+          "artist": "Howard Shore",
+          "album": "The Lord of the Rings: The Two Towers (Original Motion Picture Soundtrack)",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "spotify_uri": "spotify:track:1mJxXKuqwo0TBwf13vBUKH",
+          "track_id": "1mJxXKuqwo0TBwf13vBUKH",
+          "spotify_url": "https://open.spotify.com/track/1mJxXKuqwo0TBwf13vBUKH",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Killer Queen - Remastered",
+          "artist": "Queen",
+          "album": "Greatest Hits - We Will Rock You Edition",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:1zvjTusTVWseney5P81L1c",
+          "track_id": "1zvjTusTVWseney5P81L1c",
+          "spotify_url": "https://open.spotify.com/track/1zvjTusTVWseney5P81L1c",
+          "comment": "There were two other contenders in the Queenosphere We are the Champions and We Will Rock you but those are so overused. Queen is the band that just knows how to make an athlete’s anthem. ",
+          "forfeited": false
+        },
+        {
+          "title": "Lucro (Descomprimindo)",
+          "artist": "BaianaSystem",
+          "album": "Duas Cidades",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:5iRaOjjwXRAFWQCxCR6IY6",
+          "track_id": "5iRaOjjwXRAFWQCxCR6IY6",
+          "spotify_url": "https://open.spotify.com/track/5iRaOjjwXRAFWQCxCR6IY6",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Mr. Blue Sky",
+          "artist": "Electric Light Orchestra",
+          "album": "Out of the Blue",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:2RlgNHKcydI9sayD2Df2xp",
+          "track_id": "2RlgNHKcydI9sayD2Df2xp",
+          "spotify_url": "https://open.spotify.com/track/2RlgNHKcydI9sayD2Df2xp",
+          "comment": "Can’t play in the rain!",
+          "forfeited": false
+        },
+        {
+          "title": "Poppin' My Collar (feat. Project Pat)",
+          "artist": "Three 6 Mafia, Project Pat",
+          "album": "Most Known Unknown",
+          "submitter_id": "8d1ba5575516432f851d16bffecc1970",
+          "submitter": "Kelsey H.",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:5zd9TgduWbfFXwgnm3K3Rz",
+          "track_id": "5zd9TgduWbfFXwgnm3K3Rz",
+          "spotify_url": "https://open.spotify.com/track/5zd9TgduWbfFXwgnm3K3Rz",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Smooth Operator - Single Version",
+          "artist": "Sade",
+          "album": "The Best of Sade",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:1Hv1VTm8zeOeybub15mA2R",
+          "track_id": "1Hv1VTm8zeOeybub15mA2R",
+          "spotify_url": "https://open.spotify.com/track/1Hv1VTm8zeOeybub15mA2R",
+          "comment": "Read the lyrics like a poem. \n\nThis is clearly an ode to a well traveled baseball mercenary that moves in space with minimum waste and maximum joy \n\nI’m pretty sure Walt Whitman wrote this song, and Sade cloaked it with cool French jazz - \npastoral and personal observations, the sweeping eye, the catalogued landscape, and intensely body-forward magnetism ",
+          "forfeited": false
+        },
+        {
+          "title": "Treat Me Like Your Mother",
+          "artist": "The Dead Weather",
+          "album": "Horehound",
+          "submitter_id": "071c311e3b154327818fe074aeaa3087",
+          "submitter": "Jake H.",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "spotify_uri": "spotify:track:63V30V2ctYEum3nmlrsm5E",
+          "track_id": "63V30V2ctYEum3nmlrsm5E",
+          "spotify_url": "https://open.spotify.com/track/63V30V2ctYEum3nmlrsm5E",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "Breathe Deeper - Lil Yachty Remix",
+          "artist": "Tame Impala, Lil Yachty",
+          "album": "Breathe Deeper (Lil Yachty Remix)",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "spotify_uri": "spotify:track:6GtOsEzNUhJghrIf6UTbRV",
+          "track_id": "6GtOsEzNUhJghrIf6UTbRV",
+          "spotify_url": "https://open.spotify.com/track/6GtOsEzNUhJghrIf6UTbRV",
+          "comment": "",
+          "forfeited": false
+        },
+        {
+          "title": "The New Black",
+          "artist": "Every Time I Die",
+          "album": "Gutter Phenomenon",
+          "submitter_id": "071c311e3b154327818fe074aeaa3087",
+          "submitter": "Jake H.",
+          "total_pts": 0,
+          "unique_voters": 0,
+          "spotify_uri": "spotify:track:22EXrfNV0f9ZcWMpK2lF67",
+          "track_id": "22EXrfNV0f9ZcWMpK2lF67",
+          "spotify_url": "https://open.spotify.com/track/22EXrfNV0f9ZcWMpK2lF67",
+          "comment": "",
+          "forfeited": false
+        }
+      ],
+      "leaderboard": [
+        {
+          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "player": "Olivia D.",
+          "points": 16,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 1
+        },
+        {
+          "player_id": "37957b35724d4660a62379edd6b4e09c",
+          "player": "Cindy E.",
+          "points": 16,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 1
+        },
+        {
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
+          "points": 14,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 3
+        },
+        {
+          "player_id": "3b87dbe243724d3bbcafea4934075fec",
+          "player": "Steve E.",
+          "points": 13,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 4
+        },
+        {
+          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "player": "Mike D.",
+          "points": 13,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 4
+        },
+        {
+          "player_id": "dea876f23cf9428185f8757955c2eecd",
+          "player": "Claire E.",
+          "points": 12,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 6
+        },
+        {
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
+          "points": 12,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 6
+        },
+        {
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
+          "points": 11,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 8
+        },
+        {
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
+          "points": 8,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 9
+        },
+        {
+          "player_id": "2334709be13e48759338c82689b95d11",
+          "player": "Gabriel M.",
+          "points": 7,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 10
+        },
+        {
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
+          "points": 6,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 11
+        },
+        {
+          "player_id": "8d1ba5575516432f851d16bffecc1970",
+          "player": "Kelsey H.",
+          "points": 6,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 11
+        },
+        {
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
+          "points": 4,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 13
+        },
+        {
+          "player_id": "071c311e3b154327818fe074aeaa3087",
+          "player": "Jake H.",
+          "points": 2,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 14
+        }
+      ],
+      "missed_points": [],
+      "generosity": [
+        {
+          "player_id": "37957b35724d4660a62379edd6b4e09c",
+          "player": "Cindy E.",
+          "avg_per_vote": 2.5,
+          "total_songs_voted": 4,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "3b87dbe243724d3bbcafea4934075fec",
+          "player": "Steve E.",
+          "avg_per_vote": 2.5,
+          "total_songs_voted": 4,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
+          "avg_per_vote": 1.67,
+          "total_songs_voted": 6,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "player": "Olivia D.",
+          "avg_per_vote": 1.67,
+          "total_songs_voted": 6,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "dea876f23cf9428185f8757955c2eecd",
+          "player": "Claire E.",
+          "avg_per_vote": 1.43,
+          "total_songs_voted": 7,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
+          "avg_per_vote": 1.43,
+          "total_songs_voted": 7,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "071c311e3b154327818fe074aeaa3087",
+          "player": "Jake H.",
+          "avg_per_vote": 1.43,
+          "total_songs_voted": 7,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
+          "avg_per_vote": 1.43,
+          "total_songs_voted": 7,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
+          "avg_per_vote": 1.25,
+          "total_songs_voted": 8,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "2334709be13e48759338c82689b95d11",
+          "player": "Gabriel M.",
+          "avg_per_vote": 1.25,
+          "total_songs_voted": 8,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
+          "avg_per_vote": 1.11,
+          "total_songs_voted": 9,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
+          "avg_per_vote": 1.0,
+          "total_songs_voted": 10,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "8d1ba5575516432f851d16bffecc1970",
+          "player": "Kelsey H.",
+          "avg_per_vote": 1.0,
+          "total_songs_voted": 10,
+          "total_pts_given": 10
+        },
+        {
+          "player_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "player": "Mike D.",
+          "avg_per_vote": 1.0,
+          "total_songs_voted": 10,
+          "total_pts_given": 10
+        }
+      ],
+      "vote_details": [
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "SpottieOttieDopaliscious",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "X Gon' Give It To Ya",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "song": "Crazy Train",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Wild Thing",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "I'm Shipping Up To Boston",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Dirty Deeds Done Dirt Cheap",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "voter": "Jack L.",
+          "submitter_id": "8d1ba5575516432f851d16bffecc1970",
+          "submitter": "Kelsey H.",
+          "song": "Lights, Camera, Action!",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Ms. New Booty",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "BATTLE WITHOUT HONOR OR HUMANITY",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Paper Planes",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Move Bitch",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Killer Queen - Remastered",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "X Gon' Give It To Ya",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "8d1ba5575516432f851d16bffecc1970",
+          "submitter": "Kelsey H.",
+          "song": "Poppin' My Collar (feat. Project Pat)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "voter": "Elyse E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Ms. New Booty",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "song": "All I Do Is Win",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Get Back",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Man! I Feel Like A Woman!",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "voter": "Olivia D.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "I Got 5 On It",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Move Bitch",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Cowboy Killer",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "SpottieOttieDopaliscious",
+          "points": 2,
+          "comment": "I see an aquemini song I vote for an acquemini song"
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "X Gon' Give It To Ya",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Paper Planes",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "5838e19081f440598e554c420f257ab7",
+          "voter": "Mills T.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Ms. New Booty",
+          "points": 2,
+          "comment": "Bubba sparxxx will always get multiple votes from me"
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Wild Thing",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "I'm Shipping Up To Boston",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Ms. New Booty",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "song": "All I Do Is Win",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Killer Queen - Remastered",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "X Gon' Give It To Ya",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Dirty Deeds Done Dirt Cheap",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "2334709be13e48759338c82689b95d11",
+          "voter": "Gabriel M.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "The Boss",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "BATTLE WITHOUT HONOR OR HUMANITY",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Paper Planes",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Move Bitch",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Mr. Blue Sky",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "8d1ba5575516432f851d16bffecc1970",
+          "submitter": "Kelsey H.",
+          "song": "Lights, Camera, Action!",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Get Back",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "071c311e3b154327818fe074aeaa3087",
+          "submitter": "Jake H.",
+          "song": "Treat Me Like Your Mother",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "song": "Crazy Train",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Wild Thing",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "voter": "Mike D.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "I'm Shipping Up To Boston",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "I'm Shipping Up To Boston",
+          "points": 0,
+          "comment": "Fuck Jonathan Papelbon"
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "BATTLE WITHOUT HONOR OR HUMANITY",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Smooth Operator - Single Version",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Paper Planes",
+          "points": 0,
+          "comment": "Repeat submission"
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "The Riders of Rohan",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "X Gon' Give It To Ya",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Dirty Deeds Done Dirt Cheap",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "41a0d64fae1f40489679232baec98925",
+          "submitter": "Mary D.",
+          "song": "Mr. Blue Sky",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Get Back",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Lucro (Descomprimindo)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "8d1ba5575516432f851d16bffecc1970",
+          "submitter": "Kelsey H.",
+          "song": "Poppin' My Collar (feat. Project Pat)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "The Boss",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "points": 0,
+          "comment": "Repeat submission"
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "song": "Crazy Train",
+          "points": 0,
+          "comment": "I’m not voting for this out of principle, the prompt was what is YOUR walkout song, not the most recognizable one for everyone in this group."
+        },
+        {
+          "voter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "voter": "Dray E.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Wild Thing",
+          "points": 0,
+          "comment": "I’m not voting for this out of principle, the prompt was what is YOUR walkout song, not the most famous movie walkout song of all time."
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "SpottieOttieDopaliscious",
+          "points": 1,
+          "comment": "Too mellow to give 2"
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "071c311e3b154327818fe074aeaa3087",
+          "submitter": "Jake H.",
+          "song": "The New Black",
+          "points": 0,
+          "comment": "I can see how this would hype somebody up.. I guess."
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "X Gon' Give It To Ya",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "submitter": "Olivia D.",
+          "song": "Move Bitch",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "BATTLE WITHOUT HONOR OR HUMANITY",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Ms. New Booty",
+          "points": 0,
+          "comment": "ATL..!"
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Smooth Operator - Single Version",
+          "points": 0,
+          "comment": "I see where you were going with this one. Ella danced to it."
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "song": "Crazy Train",
+          "points": 3,
+          "comment": "All aboard!!"
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Man! I Feel Like A Woman!",
+          "points": 0,
+          "comment": "Can’t deny, the intro slaps!"
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Cowboy Killer",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "dea876f23cf9428185f8757955c2eecd",
+          "voter": "Claire E.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "I Got 5 On It",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "071c311e3b154327818fe074aeaa3087",
+          "voter": "Jake H.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "I'm Shipping Up To Boston",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "071c311e3b154327818fe074aeaa3087",
+          "voter": "Jake H.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Breathe Deeper - Lil Yachty Remix",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "071c311e3b154327818fe074aeaa3087",
+          "voter": "Jake H.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Cowboy Killer",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "071c311e3b154327818fe074aeaa3087",
+          "voter": "Jake H.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "I Got 5 On It",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "071c311e3b154327818fe074aeaa3087",
+          "voter": "Jake H.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Devil with the Blue Dress On / Good Golly Miss Molly (Medley)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "071c311e3b154327818fe074aeaa3087",
+          "voter": "Jake H.",
+          "submitter_id": "8d1ba5575516432f851d16bffecc1970",
+          "submitter": "Kelsey H.",
+          "song": "Lights, Camera, Action!",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "071c311e3b154327818fe074aeaa3087",
+          "voter": "Jake H.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "The Riders of Rohan",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Paper Planes",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Smooth Operator - Single Version",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "I'm Shipping Up To Boston",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Wild Thing",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Man! I Feel Like A Woman!",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "The Boss",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Devil with the Blue Dress On / Good Golly Miss Molly (Medley)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "41a0d64fae1f40489679232baec98925",
+          "voter": "Mary D.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Dirty Deeds Done Dirt Cheap",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "37957b35724d4660a62379edd6b4e09c",
+          "voter": "Cindy E.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Wild Thing",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "37957b35724d4660a62379edd6b4e09c",
+          "voter": "Cindy E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Man! I Feel Like A Woman!",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "37957b35724d4660a62379edd6b4e09c",
+          "voter": "Cindy E.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Devil with the Blue Dress On / Good Golly Miss Molly (Medley)",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "37957b35724d4660a62379edd6b4e09c",
+          "voter": "Cindy E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Dirty Deeds Done Dirt Cheap",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "song": "All I Do Is Win",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "song": "Crazy Train",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Man! I Feel Like A Woman!",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "voter": "Steve E.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Dirty Deeds Done Dirt Cheap",
+          "points": 3,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+          "submitter": "Mike D.",
+          "song": "Dirty Deeds Done Dirt Cheap",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "dea876f23cf9428185f8757955c2eecd",
+          "submitter": "Claire E.",
+          "song": "Ms. New Booty",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "submitter": "Jack L.",
+          "song": "The Riders of Rohan",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "I'm Shipping Up To Boston",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "The Boss",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "SpottieOttieDopaliscious",
+          "points": 2,
+          "comment": ""
+        },
+        {
+          "voter_id": "4853a05f049d4d4682257bed4b277eed",
+          "voter": "Tess D.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Devil with the Blue Dress On / Good Golly Miss Molly (Medley)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "8d1ba5575516432f851d16bffecc1970",
+          "voter": "Kelsey H.",
+          "submitter_id": "071c311e3b154327818fe074aeaa3087",
+          "submitter": "Jake H.",
+          "song": "Treat Me Like Your Mother",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "8d1ba5575516432f851d16bffecc1970",
+          "voter": "Kelsey H.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "The Boss",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "8d1ba5575516432f851d16bffecc1970",
+          "voter": "Kelsey H.",
+          "submitter_id": "3b87dbe243724d3bbcafea4934075fec",
+          "submitter": "Steve E.",
+          "song": "Devil with the Blue Dress On / Good Golly Miss Molly (Medley)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "8d1ba5575516432f851d16bffecc1970",
+          "voter": "Kelsey H.",
+          "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+          "submitter": "Elyse E.",
+          "song": "Get Back",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "8d1ba5575516432f851d16bffecc1970",
+          "voter": "Kelsey H.",
+          "submitter_id": "4853a05f049d4d4682257bed4b277eed",
+          "submitter": "Tess D.",
+          "song": "Paper Planes",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "8d1ba5575516432f851d16bffecc1970",
+          "voter": "Kelsey H.",
+          "submitter_id": "37957b35724d4660a62379edd6b4e09c",
+          "submitter": "Cindy E.",
+          "song": "All I Do Is Win",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "8d1ba5575516432f851d16bffecc1970",
+          "voter": "Kelsey H.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "SpottieOttieDopaliscious",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "8d1ba5575516432f851d16bffecc1970",
+          "voter": "Kelsey H.",
+          "submitter_id": "5838e19081f440598e554c420f257ab7",
+          "submitter": "Mills T.",
+          "song": "I Got 5 On It",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "8d1ba5575516432f851d16bffecc1970",
+          "voter": "Kelsey H.",
+          "submitter_id": "2334709be13e48759338c82689b95d11",
+          "submitter": "Gabriel M.",
+          "song": "Lucro (Descomprimindo)",
+          "points": 1,
+          "comment": ""
+        },
+        {
+          "voter_id": "8d1ba5575516432f851d16bffecc1970",
+          "voter": "Kelsey H.",
+          "submitter_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "submitter": "Dray E.",
+          "song": "Cowboy Killer",
+          "points": 1,
+          "comment": ""
+        }
+      ],
+      "stats": {
+        "total_submissions": 28,
+        "total_votes": 103,
+        "unique_voters": 14,
+        "unique_submitters": 14
+      },
+      "commentary": {
+        "title": "Week 9 Recap",
+        "sections": [
+          {
+            "heading": "The most personal prompt produced the least decisive result",
+            "text": "Closer entrance music asks for the single most individual choice in baseball: the ninety seconds that are supposed to be uniquely yours. Across the season's other eight rounds, a clear winner always separated from the pack — the best song beat the second-best by an average of two points, and twice by six. Round 9 is the only round all season where the top two songs finished dead even. Mike D.'s Dirty Deeds Done Dirt Cheap and Olivia D.'s X Gon' Give It To Ya both landed on 11, and behind them Crazy Train and I'm Shipping Up To Boston both landed on 9. The top four read 11-11-9-9, the flattest leaderboard the family has ever produced.\n\nAnd it wasn't because nobody cared. The opposite: the round drew six maximum three-point votes, tied for the second-most conviction of any round this season, and 27 of 28 songs scored at least a point, the highest participation rate all year. Everyone voted hard. They just voted hard in different directions. The prompt that was supposed to surface one defining anthem instead revealed that twelve people's idea of intimidation points twelve different ways — which is its own kind of answer."
+          },
+          {
+            "heading": "The family brought rap and then voted for guitars",
+            "text": "This was, by a wide margin, the most hip-hop the family has ever submitted: 11 of the 28 songs were rap, in a league whose center of gravity is jam bands and Americana. It looked like a genre coming out party. Then the votes landed, and the top four were AC/DC, DMX, Ozzy Osbourne, and the Dropkick Murphys — three classic-rock and one Celtic-punk anthem, with DMX's X Gon' Give It To Ya the lone rap song to crack the top tier, sitting at number two.\n\nThe split is sharper under the hood. The 11 rap songs averaged 5.6 points each; the 8 rock songs averaged 5.8 — functionally identical. Rap didn't get rejected; it got distributed. The family spread its rap votes evenly across a dozen tracks and then concentrated its rock votes onto a few anthems, so every one of the round's peaks came with a guitar. When this family wants a song to *win*, nine rounds of data now say it reaches for a riff."
+          },
+          {
+            "heading": "Cindy E. climbed out of the basement and tied for the win",
+            "text": "Cindy joined in Round 5 and spent four weeks at the bottom of the league. Her round-by-round finishing positions tell the whole story: ninth, twelfth, sixth, twelfth. She was, by the numbers, the least competitive player in the family — twice finishing dead last — the grandmother who famously miscalculated her monthly-listener counts in the Deep Cuts round and got publicly scolded for it.\n\nIn Round 9 she finished second of fourteen, on 16 points, and tied Olivia D. for the round win — the first co-championship in league history. Both reached 16: Olivia on X Gon' Give It To Ya plus Move Bitch, Cindy on Crazy Train plus All I Do Is Win, two stadium anthems played without a trace of irony. Four rounds in the cellar, then a flawless reading of the one prompt that rewarded exactly what she brought. Closer music, it turns out, was Cindy's game all along."
+          },
+          {
+            "heading": "Steve E. didn't just vote for the co-champion — he built her",
+            "text": "Cindy won the round by a margin of zero, which makes the question of who supplied her points more than academic. The answer is Steve E. Of the ten points Steve had to give, he put six on Cindy: a maximum three on All I Do Is Win and another maximum three on Crazy Train. His only other meaningful vote, a third three, went to Mike's Dirty Deeds — the song that tied for first overall. Steve spent his entire allotment of conviction on the two songs that finished at the very top of the board, and one of them was lifted into a tie for the win almost single-handedly by his support. In a round decided by nothing, the kingmaker had a name and a receipt."
+          },
+          {
+            "heading": "Claire E. had her worst round of the season and her lead grew anyway",
+            "text": "Claire finished sixth in Round 9. That is, by a comfortable distance, the lowest she has placed all season — she had finished outside the top four exactly once before, a fifth in Round 2, and otherwise lived in the top three. And her lead over the field went *up*.\n\nThat sentence is the entire Claire E. season in miniature. She took over first place after Round 2 and has never given it back, and the remarkable part is the shape of the margin: 1, then 10, 12, 16, 19, 18, 20, 21. Almost monotonic growth over seven straight rounds, built not on explosive weeks but on the simple refusal to ever have a genuinely bad one. In nine rounds she has finished first twice, second three times, and never lower than sixth; in Round 9 she posted that sixth and still stretched her cushion to 21 points, because a merely-okay Claire week is still better than everyone else's average. With two rounds left, the math is nearly settled — not because she keeps winning, but because she never loses ground."
+          },
+          {
+            "heading": "Jack L., the best player who cannot win a round",
+            "text": "Jack L. sits fourth in the season standings on 83 points, ahead of two players who have each won a round outright and several who have come close. He has not won a round. He has, in fact, never finished higher than third in any single week — a mark he reached twice, in Rounds 5 and 6, always close enough to see the summit and never close enough to touch it.\n\nIt is one of the quietly remarkable lines in the data: nine rounds of steady upper-table finishes that have added up to the fourth-most points in the league and exactly zero trophies. Jack is the family's most reliable non-winner, the player whose floor is high enough to contend for the season and whose ceiling has, so far, topped out at least one spot short every single time. Two rounds remain for the pattern to break — or to become the defining stat of his season."
+          },
+          {
+            "heading": "The cousins arrive into a fourteen-person field",
+            "text": "Claire's cousins Jake H. and Kelsey H. became the 13th and 14th players this week, the largest the league has ever been. Their debuts split: Kelsey opened with 6 points and a mid-pack finish, while Jake's Every Time I Die metalcore submission became the round's only goose egg — zero points, zero voters, the first shutout since the Covers round. With fourteen players now submitting two songs each, the leaderboard has to distribute the same pool of votes across 28 songs instead of the early season's 20, which is part of why the per-song scores keep compressing: more songs, same fixed conviction, flatter results. The field has nearly doubled since Round 1, and the math of winning a round has quietly gotten harder for everyone in it."
+          },
+          {
+            "heading": "Blind report scorecard, and the rule that finally broke",
+            "text": "For eight rounds the prediction model made one consistent error: it overrated famous songs, because this family had spent the whole season punishing the obvious and rewarding the deep cut. So in Round 9 the model bet against the obvious again — and walked directly into the one round where the obvious was the entire point.\n\nThe results: I'm Shipping Up To Boston, predicted third, finished third. Crazy Train, predicted fourth, finished fourth. Two clean hits. But the confident Song of the Week pick, the Kill Bill instrumental Battle Without Honor or Humanity, finished 18th — the worst top-pick miss of the season — and the model's bet that a fresher banger would beat the certified stadium classics was exactly backwards. The four most recognizable songs on the playlist swept the top four. The lesson is the inverse of every prior week: when the prompt is literally 'the song 45,000 people recognize,' recognition stops being a penalty and becomes the assignment. Nine rounds in, the family's one ironclad rule — that the famous pick underperforms — finally met the exception that defined it."
+          }
+        ]
+      }
     }
   ],
   "season_leaderboard": [
     {
       "player_id": "dea876f23cf9428185f8757955c2eecd",
       "player": "Claire E.",
-      "points": 110,
-      "rounds_played": 8,
+      "points": 122,
+      "rounds_played": 9,
       "wins": 2,
-      "avg_per_round": 13.8,
+      "avg_per_round": 13.6,
       "joined_round": 1,
       "weekly": [
         {
@@ -10215,6 +11904,11 @@
           "round": 8,
           "points": 14,
           "rank": 2
+        },
+        {
+          "round": 9,
+          "points": 12,
+          "rank": 6
         }
       ],
       "rank": 1
@@ -10222,8 +11916,8 @@
     {
       "player_id": "5838e19081f440598e554c420f257ab7",
       "player": "Mills T.",
-      "points": 90,
-      "rounds_played": 8,
+      "points": 101,
+      "rounds_played": 9,
       "wins": 1,
       "avg_per_round": 11.2,
       "joined_round": 1,
@@ -10267,6 +11961,11 @@
           "round": 8,
           "points": 12,
           "rank": 3
+        },
+        {
+          "round": 9,
+          "points": 11,
+          "rank": 8
         }
       ],
       "rank": 2
@@ -10274,10 +11973,10 @@
     {
       "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
       "player": "Dray E.",
-      "points": 83,
-      "rounds_played": 8,
+      "points": 95,
+      "rounds_played": 9,
       "wins": 1,
-      "avg_per_round": 10.4,
+      "avg_per_round": 10.6,
       "joined_round": 1,
       "weekly": [
         {
@@ -10319,6 +12018,11 @@
           "round": 8,
           "points": 10,
           "rank": 6
+        },
+        {
+          "round": 9,
+          "points": 12,
+          "rank": 6
         }
       ],
       "rank": 3
@@ -10326,10 +12030,10 @@
     {
       "player_id": "994734a26c814552ad88e0ce9ea4cfce",
       "player": "Jack L.",
-      "points": 75,
-      "rounds_played": 8,
+      "points": 83,
+      "rounds_played": 9,
       "wins": 0,
-      "avg_per_round": 9.4,
+      "avg_per_round": 9.2,
       "joined_round": 1,
       "weekly": [
         {
@@ -10371,69 +12075,22 @@
           "round": 8,
           "points": 10,
           "rank": 6
+        },
+        {
+          "round": 9,
+          "points": 8,
+          "rank": 9
         }
       ],
       "rank": 4
     },
     {
-      "player_id": "41a0d64fae1f40489679232baec98925",
-      "player": "Mary D.",
-      "points": 64,
-      "rounds_played": 8,
-      "wins": 2,
-      "avg_per_round": 8.0,
-      "joined_round": 1,
-      "weekly": [
-        {
-          "round": 1,
-          "points": 4,
-          "rank": 9
-        },
-        {
-          "round": 2,
-          "points": 11,
-          "rank": 4
-        },
-        {
-          "round": 3,
-          "points": 6,
-          "rank": 7
-        },
-        {
-          "round": 4,
-          "points": 21,
-          "rank": 1
-        },
-        {
-          "round": 5,
-          "points": 0,
-          "rank": null
-        },
-        {
-          "round": 6,
-          "points": 0,
-          "rank": null
-        },
-        {
-          "round": 7,
-          "points": 5,
-          "rank": 8
-        },
-        {
-          "round": 8,
-          "points": 17,
-          "rank": 1
-        }
-      ],
-      "rank": 5
-    },
-    {
       "player_id": "e0e0d50ee23443cf80cea1d777fac793",
       "player": "Mike D.",
-      "points": 64,
-      "rounds_played": 8,
+      "points": 77,
+      "rounds_played": 9,
       "wins": 0,
-      "avg_per_round": 8.0,
+      "avg_per_round": 8.6,
       "joined_round": 1,
       "weekly": [
         {
@@ -10475,6 +12132,11 @@
           "round": 8,
           "points": 11,
           "rank": 5
+        },
+        {
+          "round": 9,
+          "points": 13,
+          "rank": 4
         }
       ],
       "rank": 5
@@ -10482,10 +12144,10 @@
     {
       "player_id": "19e6c48a177c458398bb138a991a2e4c",
       "player": "Elyse E.",
-      "points": 59,
-      "rounds_played": 8,
+      "points": 73,
+      "rounds_played": 9,
       "wins": 0,
-      "avg_per_round": 7.4,
+      "avg_per_round": 8.1,
       "joined_round": 1,
       "weekly": [
         {
@@ -10527,17 +12189,22 @@
           "round": 8,
           "points": 10,
           "rank": 6
+        },
+        {
+          "round": 9,
+          "points": 14,
+          "rank": 3
         }
       ],
-      "rank": 7
+      "rank": 6
     },
     {
       "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
       "player": "Olivia D.",
-      "points": 57,
-      "rounds_played": 8,
-      "wins": 1,
-      "avg_per_round": 7.1,
+      "points": 73,
+      "rounds_played": 9,
+      "wins": 2,
+      "avg_per_round": 8.1,
       "joined_round": 1,
       "weekly": [
         {
@@ -10579,15 +12246,129 @@
           "round": 8,
           "points": 12,
           "rank": 3
+        },
+        {
+          "round": 9,
+          "points": 16,
+          "rank": 1
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "player_id": "41a0d64fae1f40489679232baec98925",
+      "player": "Mary D.",
+      "points": 68,
+      "rounds_played": 9,
+      "wins": 2,
+      "avg_per_round": 7.6,
+      "joined_round": 1,
+      "weekly": [
+        {
+          "round": 1,
+          "points": 4,
+          "rank": 9
+        },
+        {
+          "round": 2,
+          "points": 11,
+          "rank": 4
+        },
+        {
+          "round": 3,
+          "points": 6,
+          "rank": 7
+        },
+        {
+          "round": 4,
+          "points": 21,
+          "rank": 1
+        },
+        {
+          "round": 5,
+          "points": 0,
+          "rank": null
+        },
+        {
+          "round": 6,
+          "points": 0,
+          "rank": null
+        },
+        {
+          "round": 7,
+          "points": 5,
+          "rank": 8
+        },
+        {
+          "round": 8,
+          "points": 17,
+          "rank": 1
+        },
+        {
+          "round": 9,
+          "points": 4,
+          "rank": 13
         }
       ],
       "rank": 8
     },
     {
+      "player_id": "3b87dbe243724d3bbcafea4934075fec",
+      "player": "Steve E.",
+      "points": 62,
+      "rounds_played": 8,
+      "wins": 1,
+      "avg_per_round": 7.8,
+      "joined_round": 2,
+      "weekly": [
+        {
+          "round": 2,
+          "points": 2,
+          "rank": 11
+        },
+        {
+          "round": 3,
+          "points": 0,
+          "rank": 10
+        },
+        {
+          "round": 4,
+          "points": 16,
+          "rank": 2
+        },
+        {
+          "round": 5,
+          "points": 7,
+          "rank": 6
+        },
+        {
+          "round": 6,
+          "points": 0,
+          "rank": 8
+        },
+        {
+          "round": 7,
+          "points": 15,
+          "rank": 1
+        },
+        {
+          "round": 8,
+          "points": 9,
+          "rank": 9
+        },
+        {
+          "round": 9,
+          "points": 13,
+          "rank": 4
+        }
+      ],
+      "rank": 9
+    },
+    {
       "player_id": "4853a05f049d4d4682257bed4b277eed",
       "player": "Tess D.",
-      "points": 53,
-      "rounds_played": 8,
+      "points": 59,
+      "rounds_played": 9,
       "wins": 0,
       "avg_per_round": 6.6,
       "joined_round": 1,
@@ -10631,53 +12412,11 @@
           "round": 8,
           "points": 5,
           "rank": 10
-        }
-      ],
-      "rank": 9
-    },
-    {
-      "player_id": "3b87dbe243724d3bbcafea4934075fec",
-      "player": "Steve E.",
-      "points": 49,
-      "rounds_played": 7,
-      "wins": 1,
-      "avg_per_round": 7.0,
-      "joined_round": 2,
-      "weekly": [
+        },
         {
-          "round": 2,
-          "points": 2,
+          "round": 9,
+          "points": 6,
           "rank": 11
-        },
-        {
-          "round": 3,
-          "points": 0,
-          "rank": 10
-        },
-        {
-          "round": 4,
-          "points": 16,
-          "rank": 2
-        },
-        {
-          "round": 5,
-          "points": 7,
-          "rank": 6
-        },
-        {
-          "round": 6,
-          "points": 0,
-          "rank": 8
-        },
-        {
-          "round": 7,
-          "points": 15,
-          "rank": 1
-        },
-        {
-          "round": 8,
-          "points": 9,
-          "rank": 9
         }
       ],
       "rank": 10
@@ -10685,10 +12424,10 @@
     {
       "player_id": "2334709be13e48759338c82689b95d11",
       "player": "Gabriel M.",
-      "points": 28,
-      "rounds_played": 8,
+      "points": 35,
+      "rounds_played": 9,
       "wins": 0,
-      "avg_per_round": 3.5,
+      "avg_per_round": 3.9,
       "joined_round": 1,
       "weekly": [
         {
@@ -10730,6 +12469,11 @@
           "round": 8,
           "points": 5,
           "rank": 10
+        },
+        {
+          "round": 9,
+          "points": 7,
+          "rank": 10
         }
       ],
       "rank": 11
@@ -10737,10 +12481,10 @@
     {
       "player_id": "37957b35724d4660a62379edd6b4e09c",
       "player": "Cindy E.",
-      "points": 18,
-      "rounds_played": 4,
-      "wins": 0,
-      "avg_per_round": 4.5,
+      "points": 34,
+      "rounds_played": 5,
+      "wins": 1,
+      "avg_per_round": 6.8,
       "joined_round": 5,
       "weekly": [
         {
@@ -10762,17 +12506,56 @@
           "round": 8,
           "points": 5,
           "rank": 10
+        },
+        {
+          "round": 9,
+          "points": 16,
+          "rank": 1
         }
       ],
       "rank": 12
+    },
+    {
+      "player_id": "8d1ba5575516432f851d16bffecc1970",
+      "player": "Kelsey H.",
+      "points": 6,
+      "rounds_played": 1,
+      "wins": 0,
+      "avg_per_round": 6.0,
+      "joined_round": 9,
+      "weekly": [
+        {
+          "round": 9,
+          "points": 6,
+          "rank": 11
+        }
+      ],
+      "rank": 13
+    },
+    {
+      "player_id": "071c311e3b154327818fe074aeaa3087",
+      "player": "Jake H.",
+      "points": 2,
+      "rounds_played": 1,
+      "wins": 0,
+      "avg_per_round": 2.0,
+      "joined_round": 9,
+      "weekly": [
+        {
+          "round": 9,
+          "points": 2,
+          "rank": 14
+        }
+      ],
+      "rank": 14
     }
   ],
   "voting_affinities": [
     {
       "voter": "Claire E.",
       "submitter": "Dray E.",
-      "total_pts": 21,
-      "times": 14
+      "total_pts": 23,
+      "times": 16
     },
     {
       "voter": "Mike D.",
@@ -10781,10 +12564,16 @@
       "times": 12
     },
     {
+      "voter": "Mills T.",
+      "submitter": "Olivia D.",
+      "total_pts": 18,
+      "times": 11
+    },
+    {
       "voter": "Tess D.",
       "submitter": "Jack L.",
-      "total_pts": 15,
-      "times": 7
+      "total_pts": 16,
+      "times": 8
     },
     {
       "voter": "Jack L.",
@@ -10797,130 +12586,196 @@
       "submitter": "Mills T.",
       "total_pts": 15,
       "times": 8
-    },
-    {
-      "voter": "Mills T.",
-      "submitter": "Olivia D.",
-      "total_pts": 14,
-      "times": 9
-    },
-    {
-      "voter": "Mills T.",
-      "submitter": "Jack L.",
-      "total_pts": 14,
-      "times": 9
     },
     {
       "voter": "Dray E.",
       "submitter": "Mills T.",
-      "total_pts": 13,
-      "times": 13
-    },
-    {
-      "voter": "Tess D.",
-      "submitter": "Olivia D.",
-      "total_pts": 13,
-      "times": 7
+      "total_pts": 14,
+      "times": 14
     },
     {
       "voter": "Elyse E.",
       "submitter": "Claire E.",
-      "total_pts": 13,
-      "times": 10
+      "total_pts": 14,
+      "times": 11
     },
     {
-      "voter": "Jack L.",
+      "voter": "Mills T.",
+      "submitter": "Jack L.",
+      "total_pts": 14,
+      "times": 9
+    },
+    {
+      "voter": "Mills T.",
       "submitter": "Dray E.",
-      "total_pts": 12,
-      "times": 8
-    },
-    {
-      "voter": "Claire E.",
-      "submitter": "Mills T.",
-      "total_pts": 11,
+      "total_pts": 13,
       "times": 9
     },
     {
       "voter": "Dray E.",
       "submitter": "Mike D.",
-      "total_pts": 11,
-      "times": 13
-    },
-    {
-      "voter": "Mike D.",
-      "submitter": "Mary D.",
-      "total_pts": 11,
-      "times": 9
+      "total_pts": 13,
+      "times": 15
     },
     {
       "voter": "Mary D.",
       "submitter": "Mike D.",
-      "total_pts": 11,
+      "total_pts": 13,
+      "times": 11
+    },
+    {
+      "voter": "Tess D.",
+      "submitter": "Olivia D.",
+      "total_pts": 13,
+      "times": 7
+    },
+    {
+      "voter": "Jack L.",
+      "submitter": "Dray E.",
+      "total_pts": 13,
       "times": 9
     },
     {
-      "voter": "Elyse E.",
-      "submitter": "Dray E.",
-      "total_pts": 11,
-      "times": 7
+      "voter": "Steve E.",
+      "submitter": "Cindy E.",
+      "total_pts": 13,
+      "times": 5
     },
     {
-      "voter": "Mills T.",
-      "submitter": "Dray E.",
-      "total_pts": 10,
-      "times": 7
-    },
-    {
-      "voter": "Dray E.",
-      "submitter": "Elyse E.",
-      "total_pts": 10,
-      "times": 12
+      "voter": "Claire E.",
+      "submitter": "Mills T.",
+      "total_pts": 12,
+      "times": 10
     },
     {
       "voter": "Dray E.",
       "submitter": "Jack L.",
-      "total_pts": 10,
-      "times": 11
+      "total_pts": 12,
+      "times": 13
     },
     {
       "voter": "Olivia D.",
       "submitter": "Mills T.",
-      "total_pts": 10,
-      "times": 5
+      "total_pts": 12,
+      "times": 6
     },
     {
-      "voter": "Mills T.",
-      "submitter": "Mike D.",
-      "total_pts": 10,
-      "times": 7
-    },
-    {
-      "voter": "Elyse E.",
-      "submitter": "Gabriel M.",
-      "total_pts": 10,
+      "voter": "Mike D.",
+      "submitter": "Mary D.",
+      "total_pts": 12,
       "times": 10
     },
     {
       "voter": "Elyse E.",
-      "submitter": "Mills T.",
-      "total_pts": 10,
-      "times": 7
+      "submitter": "Gabriel M.",
+      "total_pts": 12,
+      "times": 11
     },
     {
       "voter": "Mary D.",
       "submitter": "Steve E.",
+      "total_pts": 12,
+      "times": 9
+    },
+    {
+      "voter": "Cindy E.",
+      "submitter": "Claire E.",
+      "total_pts": 12,
+      "times": 5
+    },
+    {
+      "voter": "Dray E.",
+      "submitter": "Elyse E.",
+      "total_pts": 11,
+      "times": 14
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Dray E.",
+      "total_pts": 11,
+      "times": 7
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Olivia D.",
+      "total_pts": 11,
+      "times": 8
+    },
+    {
+      "voter": "Tess D.",
+      "submitter": "Dray E.",
+      "total_pts": 11,
+      "times": 6
+    },
+    {
+      "voter": "Cindy E.",
+      "submitter": "Steve E.",
+      "total_pts": 11,
+      "times": 6
+    },
+    {
+      "voter": "Claire E.",
+      "submitter": "Olivia D.",
+      "total_pts": 10,
+      "times": 8
+    },
+    {
+      "voter": "Olivia D.",
+      "submitter": "Claire E.",
+      "total_pts": 10,
+      "times": 7
+    },
+    {
+      "voter": "Gabriel M.",
+      "submitter": "Elyse E.",
       "total_pts": 10,
       "times": 7
     },
     {
       "voter": "Tess D.",
       "submitter": "Mills T.",
+      "total_pts": 10,
+      "times": 6
+    },
+    {
+      "voter": "Mills T.",
+      "submitter": "Mike D.",
+      "total_pts": 10,
+      "times": 7
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Mills T.",
+      "total_pts": 10,
+      "times": 7
+    },
+    {
+      "voter": "Mills T.",
+      "submitter": "Claire E.",
+      "total_pts": 10,
+      "times": 6
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Claire E.",
       "total_pts": 9,
-      "times": 5
+      "times": 9
+    },
+    {
+      "voter": "Mary D.",
+      "submitter": "Tess D.",
+      "total_pts": 9,
+      "times": 8
+    },
+    {
+      "voter": "Elyse E.",
+      "submitter": "Jack L.",
+      "total_pts": 9,
+      "times": 8
     },
     {
       "voter": "Tess D.",
-      "submitter": "Dray E.",
+      "submitter": "Claire E.",
       "total_pts": 9,
       "times": 5
     },
@@ -10931,10 +12786,16 @@
       "times": 4
     },
     {
-      "voter": "Cindy E.",
-      "submitter": "Claire E.",
+      "voter": "Gabriel M.",
+      "submitter": "Mills T.",
       "total_pts": 9,
-      "times": 4
+      "times": 7
+    },
+    {
+      "voter": "Mike D.",
+      "submitter": "Jack L.",
+      "total_pts": 9,
+      "times": 9
     },
     {
       "voter": "Dray E.",
@@ -10943,130 +12804,52 @@
       "times": 10
     },
     {
-      "voter": "Olivia D.",
-      "submitter": "Claire E.",
-      "total_pts": 8,
-      "times": 5
-    },
-    {
       "voter": "Mike D.",
       "submitter": "Dray E.",
       "total_pts": 8,
       "times": 8
     },
     {
-      "voter": "Mary D.",
-      "submitter": "Claire E.",
-      "total_pts": 8,
-      "times": 8
-    },
-    {
-      "voter": "Mary D.",
-      "submitter": "Tess D.",
-      "total_pts": 8,
-      "times": 7
-    },
-    {
-      "voter": "Elyse E.",
-      "submitter": "Jack L.",
-      "total_pts": 8,
-      "times": 7
-    },
-    {
-      "voter": "Elyse E.",
-      "submitter": "Olivia D.",
-      "total_pts": 8,
-      "times": 6
-    },
-    {
-      "voter": "Gabriel M.",
-      "submitter": "Elyse E.",
-      "total_pts": 8,
-      "times": 6
-    },
-    {
-      "voter": "Tess D.",
-      "submitter": "Claire E.",
-      "total_pts": 8,
-      "times": 4
-    },
-    {
-      "voter": "Gabriel M.",
-      "submitter": "Mills T.",
-      "total_pts": 8,
-      "times": 6
-    },
-    {
-      "voter": "Mills T.",
-      "submitter": "Claire E.",
-      "total_pts": 8,
-      "times": 5
-    },
-    {
-      "voter": "Claire E.",
-      "submitter": "Elyse E.",
-      "total_pts": 8,
-      "times": 6
-    },
-    {
-      "voter": "Mike D.",
-      "submitter": "Jack L.",
-      "total_pts": 8,
-      "times": 8
-    },
-    {
-      "voter": "Claire E.",
-      "submitter": "Mike D.",
-      "total_pts": 7,
-      "times": 7
-    },
-    {
-      "voter": "Claire E.",
-      "submitter": "Tess D.",
-      "total_pts": 7,
-      "times": 7
-    },
-    {
-      "voter": "Claire E.",
-      "submitter": "Olivia D.",
-      "total_pts": 7,
-      "times": 6
-    },
-    {
       "voter": "Mike D.",
       "submitter": "Tess D.",
-      "total_pts": 7,
-      "times": 7
+      "total_pts": 8,
+      "times": 8
     },
     {
       "voter": "Gabriel M.",
       "submitter": "Mary D.",
-      "total_pts": 7,
-      "times": 5
+      "total_pts": 8,
+      "times": 6
     },
     {
       "voter": "Gabriel M.",
       "submitter": "Claire E.",
-      "total_pts": 7,
-      "times": 7
+      "total_pts": 8,
+      "times": 8
+    },
+    {
+      "voter": "Gabriel M.",
+      "submitter": "Olivia D.",
+      "total_pts": 8,
+      "times": 5
     },
     {
       "voter": "Dray E.",
       "submitter": "Gabriel M.",
-      "total_pts": 7,
-      "times": 9
+      "total_pts": 8,
+      "times": 11
     },
     {
-      "voter": "Jack L.",
-      "submitter": "Tess D.",
-      "total_pts": 7,
-      "times": 4
+      "voter": "Claire E.",
+      "submitter": "Elyse E.",
+      "total_pts": 8,
+      "times": 6
     },
     {
-      "voter": "Steve E.",
-      "submitter": "Gabriel M.",
-      "total_pts": 7,
-      "times": 7
+      "voter": "Mike D.",
+      "submitter": "Steve E.",
+      "total_pts": 8,
+      "times": 8
     }
   ],
   "hall_of_fame": [
@@ -11170,6 +12953,28 @@
       "spotify_url": "https://open.spotify.com/track/0RKKLIOnAPImtlLlYEjbYF"
     },
     {
+      "round": 9,
+      "title": "Dirty Deeds Done Dirt Cheap",
+      "artist": "AC/DC",
+      "submitter": "Mike D.",
+      "submitter_id": "e0e0d50ee23443cf80cea1d777fac793",
+      "total_pts": 11,
+      "unique_voters": 7,
+      "track_id": "2d4e45fmUnguxh6yqC7gNT",
+      "spotify_url": "https://open.spotify.com/track/2d4e45fmUnguxh6yqC7gNT"
+    },
+    {
+      "round": 9,
+      "title": "X Gon' Give It To Ya",
+      "artist": "DMX",
+      "submitter": "Olivia D.",
+      "submitter_id": "9ce50e4f032c45afaa3eca936e99c9db",
+      "total_pts": 11,
+      "unique_voters": 6,
+      "track_id": "1zzxoZVylsna2BQB65Ppcb",
+      "spotify_url": "https://open.spotify.com/track/1zzxoZVylsna2BQB65Ppcb"
+    },
+    {
       "round": 5,
       "title": "High Feeling",
       "artist": "Cordovas",
@@ -11236,6 +13041,17 @@
       "spotify_url": "https://open.spotify.com/track/5USZyz6dnBEn1oLsKcAKQy"
     },
     {
+      "round": 9,
+      "title": "I'm Shipping Up To Boston",
+      "artist": "Dropkick Murphys",
+      "submitter": "Elyse E.",
+      "submitter_id": "19e6c48a177c458398bb138a991a2e4c",
+      "total_pts": 9,
+      "unique_voters": 6,
+      "track_id": "7rSERmjAT38lC5QhJ8hnQc",
+      "spotify_url": "https://open.spotify.com/track/7rSERmjAT38lC5QhJ8hnQc"
+    },
+    {
       "round": 5,
       "title": "Skipping Stones",
       "artist": "Chris Kasper",
@@ -11256,39 +13072,6 @@
       "unique_voters": 4,
       "track_id": "5ghIJDpPoe3CfHMGu71E6T",
       "spotify_url": "https://open.spotify.com/track/5ghIJDpPoe3CfHMGu71E6T"
-    },
-    {
-      "round": 2,
-      "title": "Scar Tissue",
-      "artist": "Red Hot Chili Peppers",
-      "submitter": "Mills T.",
-      "submitter_id": "5838e19081f440598e554c420f257ab7",
-      "total_pts": 8,
-      "unique_voters": 6,
-      "track_id": "1G391cbiT3v3Cywg8T7DM1",
-      "spotify_url": "https://open.spotify.com/track/1G391cbiT3v3Cywg8T7DM1"
-    },
-    {
-      "round": 4,
-      "title": "Southside Of Heaven",
-      "artist": "Ryan Bingham",
-      "submitter": "Mills T.",
-      "submitter_id": "5838e19081f440598e554c420f257ab7",
-      "total_pts": 8,
-      "unique_voters": 6,
-      "track_id": "0qCQg5TkfBfkTsQP3IhAmC",
-      "spotify_url": "https://open.spotify.com/track/0qCQg5TkfBfkTsQP3IhAmC"
-    },
-    {
-      "round": 8,
-      "title": "Gin and Juice",
-      "artist": "The Gourds",
-      "submitter": "Mills T.",
-      "submitter_id": "5838e19081f440598e554c420f257ab7",
-      "total_pts": 8,
-      "unique_voters": 6,
-      "track_id": "6CeszonFOlgp7HiawTSqCu",
-      "spotify_url": "https://open.spotify.com/track/6CeszonFOlgp7HiawTSqCu"
     }
   ],
   "player_profiles": {
@@ -11454,6 +13237,26 @@
           "unique_voters": 3,
           "track_id": "3V0vJXkBDGEZsG2mMzm32S",
           "spotify_url": "https://open.spotify.com/track/3V0vJXkBDGEZsG2mMzm32S"
+        },
+        {
+          "round": 9,
+          "title": "SpottieOttieDopaliscious",
+          "artist": "Outkast",
+          "album": "Aquemini",
+          "total_pts": 7,
+          "unique_voters": 5,
+          "track_id": "4GdB5M7GbwLZLouktYocFC",
+          "spotify_url": "https://open.spotify.com/track/4GdB5M7GbwLZLouktYocFC"
+        },
+        {
+          "round": 9,
+          "title": "Cowboy Killer",
+          "artist": "That Mexican OT",
+          "album": "Lonestar Luchador",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "track_id": "5SGWCqheDXPlYnv9aQs795",
+          "spotify_url": "https://open.spotify.com/track/5SGWCqheDXPlYnv9aQs795"
         }
       ],
       "voting_history": [
@@ -12050,10 +13853,100 @@
           "song": "Tyrone",
           "voted_for": "Mills T.",
           "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "I'm Shipping Up To Boston",
+          "voted_for": "Elyse E.",
+          "points_given": 0
+        },
+        {
+          "round": 9,
+          "song": "BATTLE WITHOUT HONOR OR HUMANITY",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Smooth Operator - Single Version",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Paper Planes",
+          "voted_for": "Tess D.",
+          "points_given": 0
+        },
+        {
+          "round": 9,
+          "song": "The Riders of Rohan",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "X Gon' Give It To Ya",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Dirty Deeds Done Dirt Cheap",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Mr. Blue Sky",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Get Back",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Lucro (Descomprimindo)",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Poppin' My Collar (feat. Project Pat)",
+          "voted_for": "Kelsey H.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "The Boss",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "voted_for": "Gabriel M.",
+          "points_given": 0
+        },
+        {
+          "round": 9,
+          "song": "Crazy Train",
+          "voted_for": "Cindy E.",
+          "points_given": 0
+        },
+        {
+          "round": 9,
+          "song": "Wild Thing",
+          "voted_for": "Steve E.",
+          "points_given": 0
         }
       ],
-      "season_points": 83,
-      "rounds_played": 8
+      "season_points": 95,
+      "rounds_played": 9
     },
     "19e6c48a177c458398bb138a991a2e4c": {
       "name": "Elyse E.",
@@ -12217,6 +14110,26 @@
           "unique_voters": 4,
           "track_id": "3wShyyPO8fob86VMwkZOCt",
           "spotify_url": "https://open.spotify.com/track/3wShyyPO8fob86VMwkZOCt"
+        },
+        {
+          "round": 9,
+          "title": "I'm Shipping Up To Boston",
+          "artist": "Dropkick Murphys",
+          "album": "The Warrior's Code",
+          "total_pts": 9,
+          "unique_voters": 6,
+          "track_id": "7rSERmjAT38lC5QhJ8hnQc",
+          "spotify_url": "https://open.spotify.com/track/7rSERmjAT38lC5QhJ8hnQc"
+        },
+        {
+          "round": 9,
+          "title": "Get Back",
+          "artist": "Ludacris",
+          "album": "The Red Light District",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "track_id": "3njpLvANriMsdv3dgADEad",
+          "spotify_url": "https://open.spotify.com/track/3njpLvANriMsdv3dgADEad"
         }
       ],
       "voting_history": [
@@ -12615,10 +14528,58 @@
           "song": "Wake Me Up",
           "voted_for": "Gabriel M.",
           "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Ms. New Booty",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "BATTLE WITHOUT HONOR OR HUMANITY",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Paper Planes",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Move Bitch",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Killer Queen - Remastered",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "X Gon' Give It To Ya",
+          "voted_for": "Olivia D.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Poppin' My Collar (feat. Project Pat)",
+          "voted_for": "Kelsey H.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "voted_for": "Gabriel M.",
+          "points_given": 2
         }
       ],
-      "season_points": 59,
-      "rounds_played": 8
+      "season_points": 73,
+      "rounds_played": 9
     },
     "2334709be13e48759338c82689b95d11": {
       "name": "Gabriel M.",
@@ -12782,6 +14743,26 @@
           "unique_voters": 1,
           "track_id": "1O03qM96Z5500ACbAaJSuZ",
           "spotify_url": "https://open.spotify.com/track/1O03qM96Z5500ACbAaJSuZ"
+        },
+        {
+          "round": 9,
+          "title": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "artist": "K'NAAN",
+          "album": "Wavin' Flag (International Version Coca-Cola® Celebration Mix)",
+          "total_pts": 5,
+          "unique_voters": 3,
+          "track_id": "6WFQsZZa81anp9BkqZMyTb",
+          "spotify_url": "https://open.spotify.com/track/6WFQsZZa81anp9BkqZMyTb"
+        },
+        {
+          "round": 9,
+          "title": "Lucro (Descomprimindo)",
+          "artist": "BaianaSystem",
+          "album": "Duas Cidades",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "track_id": "5iRaOjjwXRAFWQCxCR6IY6",
+          "spotify_url": "https://open.spotify.com/track/5iRaOjjwXRAFWQCxCR6IY6"
         }
       ],
       "voting_history": [
@@ -13030,10 +15011,58 @@
           "song": "Two Trains (feat. Marcus King)",
           "voted_for": "Jack L.",
           "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Wild Thing",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "I'm Shipping Up To Boston",
+          "voted_for": "Elyse E.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Ms. New Booty",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "All I Do Is Win",
+          "voted_for": "Cindy E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Killer Queen - Remastered",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "X Gon' Give It To Ya",
+          "voted_for": "Olivia D.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Dirty Deeds Done Dirt Cheap",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "The Boss",
+          "voted_for": "Mills T.",
+          "points_given": 1
         }
       ],
-      "season_points": 28,
-      "rounds_played": 8
+      "season_points": 35,
+      "rounds_played": 9
     },
     "3b87dbe243724d3bbcafea4934075fec": {
       "name": "Steve E.",
@@ -13177,6 +15206,26 @@
           "unique_voters": 3,
           "track_id": "7s25THrKz86DM225dOYwnr",
           "spotify_url": "https://open.spotify.com/track/7s25THrKz86DM225dOYwnr"
+        },
+        {
+          "round": 9,
+          "title": "Devil with the Blue Dress On / Good Golly Miss Molly (Medley)",
+          "artist": "Mitch Ryder and The Detroit Wheels",
+          "album": "The Best of Mitch Ryder & The Detroit Wheels",
+          "total_pts": 7,
+          "unique_voters": 5,
+          "track_id": "4d6FHaOlHLo4sGpMXaexho",
+          "spotify_url": "https://open.spotify.com/track/4d6FHaOlHLo4sGpMXaexho"
+        },
+        {
+          "round": 9,
+          "title": "Wild Thing",
+          "artist": "The Troggs",
+          "album": "From Nowhere",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "track_id": "7jGzYUZ2Bgg8BDfYlQRfn8",
+          "spotify_url": "https://open.spotify.com/track/7jGzYUZ2Bgg8BDfYlQRfn8"
         }
       ],
       "voting_history": [
@@ -13413,10 +15462,34 @@
           "song": "Wake Me Up",
           "voted_for": "Gabriel M.",
           "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "All I Do Is Win",
+          "voted_for": "Cindy E.",
+          "points_given": 3
+        },
+        {
+          "round": 9,
+          "song": "Crazy Train",
+          "voted_for": "Cindy E.",
+          "points_given": 3
+        },
+        {
+          "round": 9,
+          "song": "Man! I Feel Like A Woman!",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Dirty Deeds Done Dirt Cheap",
+          "voted_for": "Mike D.",
+          "points_given": 3
         }
       ],
-      "season_points": 49,
-      "rounds_played": 7
+      "season_points": 62,
+      "rounds_played": 8
     },
     "41a0d64fae1f40489679232baec98925": {
       "name": "Mary D.",
@@ -13540,6 +15613,26 @@
           "unique_voters": 5,
           "track_id": "4eHbdreAnSOrDDsFfc4Fpm",
           "spotify_url": "https://open.spotify.com/track/4eHbdreAnSOrDDsFfc4Fpm"
+        },
+        {
+          "round": 9,
+          "title": "Killer Queen - Remastered",
+          "artist": "Queen",
+          "album": "Greatest Hits - We Will Rock You Edition",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "track_id": "1zvjTusTVWseney5P81L1c",
+          "spotify_url": "https://open.spotify.com/track/1zvjTusTVWseney5P81L1c"
+        },
+        {
+          "round": 9,
+          "title": "Mr. Blue Sky",
+          "artist": "Electric Light Orchestra",
+          "album": "Out of the Blue",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "track_id": "2RlgNHKcydI9sayD2Df2xp",
+          "spotify_url": "https://open.spotify.com/track/2RlgNHKcydI9sayD2Df2xp"
         }
       ],
       "voting_history": [
@@ -13866,10 +15959,64 @@
           "song": "Dreams - Lanie's Version",
           "voted_for": "Cindy E.",
           "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Paper Planes",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Smooth Operator - Single Version",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "I'm Shipping Up To Boston",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Wild Thing",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Man! I Feel Like A Woman!",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "The Boss",
+          "voted_for": "Mills T.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Devil with the Blue Dress On / Good Golly Miss Molly (Medley)",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Dirty Deeds Done Dirt Cheap",
+          "voted_for": "Mike D.",
+          "points_given": 1
         }
       ],
-      "season_points": 64,
-      "rounds_played": 8
+      "season_points": 68,
+      "rounds_played": 9
     },
     "4853a05f049d4d4682257bed4b277eed": {
       "name": "Tess D.",
@@ -14033,6 +16180,26 @@
           "unique_voters": 0,
           "track_id": "6ZQgooEk8PvsLxedYaT6Oa",
           "spotify_url": "https://open.spotify.com/track/6ZQgooEk8PvsLxedYaT6Oa"
+        },
+        {
+          "round": 9,
+          "title": "Paper Planes",
+          "artist": "M.I.A.",
+          "album": "Kala",
+          "total_pts": 5,
+          "unique_voters": 5,
+          "track_id": "1ixbwbeBi5ufN4noUKmW5a",
+          "spotify_url": "https://open.spotify.com/track/1ixbwbeBi5ufN4noUKmW5a"
+        },
+        {
+          "round": 9,
+          "title": "Breathe Deeper - Lil Yachty Remix",
+          "artist": "Tame Impala, Lil Yachty",
+          "album": "Breathe Deeper (Lil Yachty Remix)",
+          "total_pts": 1,
+          "unique_voters": 1,
+          "track_id": "6GtOsEzNUhJghrIf6UTbRV",
+          "spotify_url": "https://open.spotify.com/track/6GtOsEzNUhJghrIf6UTbRV"
         }
       ],
       "voting_history": [
@@ -14317,10 +16484,52 @@
           "song": "Tyrone",
           "voted_for": "Mills T.",
           "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Dirty Deeds Done Dirt Cheap",
+          "voted_for": "Mike D.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Ms. New Booty",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "The Riders of Rohan",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "I'm Shipping Up To Boston",
+          "voted_for": "Elyse E.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "The Boss",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "SpottieOttieDopaliscious",
+          "voted_for": "Dray E.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Devil with the Blue Dress On / Good Golly Miss Molly (Medley)",
+          "voted_for": "Steve E.",
+          "points_given": 1
         }
       ],
-      "season_points": 53,
-      "rounds_played": 8
+      "season_points": 59,
+      "rounds_played": 9
     },
     "5838e19081f440598e554c420f257ab7": {
       "name": "Mills T.",
@@ -14484,6 +16693,26 @@
           "unique_voters": 3,
           "track_id": "0axsMumJxKRTuYCMb9oeWl",
           "spotify_url": "https://open.spotify.com/track/0axsMumJxKRTuYCMb9oeWl"
+        },
+        {
+          "round": 9,
+          "title": "The Boss",
+          "artist": "James Brown, The J.B.'s",
+          "album": "Black Caesar",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "track_id": "6LzjgzpVl0hB3YrBU1b8Z1",
+          "spotify_url": "https://open.spotify.com/track/6LzjgzpVl0hB3YrBU1b8Z1"
+        },
+        {
+          "round": 9,
+          "title": "I Got 5 On It",
+          "artist": "Luniz, Michael Marshall",
+          "album": "Operation Stackola",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "track_id": "4IYKjN1DrYzxKXt0umJqsG",
+          "spotify_url": "https://open.spotify.com/track/4IYKjN1DrYzxKXt0umJqsG"
         }
       ],
       "voting_history": [
@@ -14834,10 +17063,46 @@
           "song": "Linger - SiriusXM Session",
           "voted_for": "Jack L.",
           "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Move Bitch",
+          "voted_for": "Olivia D.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Cowboy Killer",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "SpottieOttieDopaliscious",
+          "voted_for": "Dray E.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "X Gon' Give It To Ya",
+          "voted_for": "Olivia D.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Paper Planes",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Ms. New Booty",
+          "voted_for": "Claire E.",
+          "points_given": 2
         }
       ],
-      "season_points": 90,
-      "rounds_played": 8
+      "season_points": 101,
+      "rounds_played": 9
     },
     "994734a26c814552ad88e0ce9ea4cfce": {
       "name": "Jack L.",
@@ -15001,6 +17266,26 @@
           "unique_voters": 3,
           "track_id": "23cBxlsY43hiuiLwXn5Xkn",
           "spotify_url": "https://open.spotify.com/track/23cBxlsY43hiuiLwXn5Xkn"
+        },
+        {
+          "round": 9,
+          "title": "BATTLE WITHOUT HONOR OR HUMANITY",
+          "artist": "HOTEI",
+          "album": "エレクトリック・サムライ",
+          "total_pts": 4,
+          "unique_voters": 4,
+          "track_id": "0PH3OkM1QnIyb44VhFVbca",
+          "spotify_url": "https://open.spotify.com/track/0PH3OkM1QnIyb44VhFVbca"
+        },
+        {
+          "round": 9,
+          "title": "The Riders of Rohan",
+          "artist": "Howard Shore",
+          "album": "The Lord of the Rings: The Two Towers (Original Motion Picture Soundtrack)",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "track_id": "1mJxXKuqwo0TBwf13vBUKH",
+          "spotify_url": "https://open.spotify.com/track/1mJxXKuqwo0TBwf13vBUKH"
         }
       ],
       "voting_history": [
@@ -15315,10 +17600,52 @@
           "song": "You Got The Silver",
           "voted_for": "Mike D.",
           "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "SpottieOttieDopaliscious",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "X Gon' Give It To Ya",
+          "voted_for": "Olivia D.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Crazy Train",
+          "voted_for": "Cindy E.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Wild Thing",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "I'm Shipping Up To Boston",
+          "voted_for": "Elyse E.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Dirty Deeds Done Dirt Cheap",
+          "voted_for": "Mike D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Lights, Camera, Action!",
+          "voted_for": "Kelsey H.",
+          "points_given": 1
         }
       ],
-      "season_points": 75,
-      "rounds_played": 8
+      "season_points": 83,
+      "rounds_played": 9
     },
     "9ce50e4f032c45afaa3eca936e99c9db": {
       "name": "Olivia D.",
@@ -15462,6 +17789,26 @@
           "unique_voters": 5,
           "track_id": "05933lttebzVMkaRQmgHr8",
           "spotify_url": "https://open.spotify.com/track/05933lttebzVMkaRQmgHr8"
+        },
+        {
+          "round": 9,
+          "title": "X Gon' Give It To Ya",
+          "artist": "DMX",
+          "album": "The Definition Of X: Pick Of The Litter",
+          "total_pts": 11,
+          "unique_voters": 6,
+          "track_id": "1zzxoZVylsna2BQB65Ppcb",
+          "spotify_url": "https://open.spotify.com/track/1zzxoZVylsna2BQB65Ppcb"
+        },
+        {
+          "round": 9,
+          "title": "Move Bitch",
+          "artist": "Ludacris, Mystikal, I-20",
+          "album": "Word Of Mouf",
+          "total_pts": 5,
+          "unique_voters": 4,
+          "track_id": "1Q9b6CeMcDuO0uq5OJCrqu",
+          "spotify_url": "https://open.spotify.com/track/1Q9b6CeMcDuO0uq5OJCrqu"
         }
       ],
       "voting_history": [
@@ -15608,10 +17955,46 @@
           "song": "I Will Always Love You",
           "voted_for": "Mary D.",
           "points_given": 4
+        },
+        {
+          "round": 9,
+          "song": "Ms. New Booty",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "All I Do Is Win",
+          "voted_for": "Cindy E.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Get Back",
+          "voted_for": "Elyse E.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Wavin' Flag - Coca-Cola® Celebration Mix",
+          "voted_for": "Gabriel M.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Man! I Feel Like A Woman!",
+          "voted_for": "Claire E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "I Got 5 On It",
+          "voted_for": "Mills T.",
+          "points_given": 2
         }
       ],
-      "season_points": 57,
-      "rounds_played": 8
+      "season_points": 73,
+      "rounds_played": 9
     },
     "dea876f23cf9428185f8757955c2eecd": {
       "name": "Claire E.",
@@ -15775,6 +18158,26 @@
           "unique_voters": 3,
           "track_id": "4YFSwAQH0hnhizv570glsn",
           "spotify_url": "https://open.spotify.com/track/4YFSwAQH0hnhizv570glsn"
+        },
+        {
+          "round": 9,
+          "title": "Ms. New Booty",
+          "artist": "Bubba Sparxxx, Ying Yang Twins, Mr. Collipark",
+          "album": "The Charm",
+          "total_pts": 6,
+          "unique_voters": 5,
+          "track_id": "01yJb0xHAvf0Sac9eJBy6O",
+          "spotify_url": "https://open.spotify.com/track/01yJb0xHAvf0Sac9eJBy6O"
+        },
+        {
+          "round": 9,
+          "title": "Man! I Feel Like A Woman!",
+          "artist": "Shania Twain",
+          "album": "Come On Over",
+          "total_pts": 6,
+          "unique_voters": 4,
+          "track_id": "6sxptembJVty4sNtcPMAVz",
+          "spotify_url": "https://open.spotify.com/track/6sxptembJVty4sNtcPMAVz"
         }
       ],
       "voting_history": [
@@ -16203,10 +18606,76 @@
           "song": "Proud Mary",
           "voted_for": "Steve E.",
           "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "SpottieOttieDopaliscious",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "The New Black",
+          "voted_for": "Jake H.",
+          "points_given": 0
+        },
+        {
+          "round": 9,
+          "song": "X Gon' Give It To Ya",
+          "voted_for": "Olivia D.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Move Bitch",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "BATTLE WITHOUT HONOR OR HUMANITY",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Ms. New Booty",
+          "voted_for": "Claire E.",
+          "points_given": 0
+        },
+        {
+          "round": 9,
+          "song": "Smooth Operator - Single Version",
+          "voted_for": "Mike D.",
+          "points_given": 0
+        },
+        {
+          "round": 9,
+          "song": "Crazy Train",
+          "voted_for": "Cindy E.",
+          "points_given": 3
+        },
+        {
+          "round": 9,
+          "song": "Man! I Feel Like A Woman!",
+          "voted_for": "Claire E.",
+          "points_given": 0
+        },
+        {
+          "round": 9,
+          "song": "Cowboy Killer",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "I Got 5 On It",
+          "voted_for": "Mills T.",
+          "points_given": 1
         }
       ],
-      "season_points": 110,
-      "rounds_played": 8
+      "season_points": 122,
+      "rounds_played": 9
     },
     "e0e0d50ee23443cf80cea1d777fac793": {
       "name": "Mike D.",
@@ -16370,6 +18839,26 @@
           "unique_voters": 4,
           "track_id": "5jQPaMjSWpFOMx8BVUOtpM",
           "spotify_url": "https://open.spotify.com/track/5jQPaMjSWpFOMx8BVUOtpM"
+        },
+        {
+          "round": 9,
+          "title": "Dirty Deeds Done Dirt Cheap",
+          "artist": "AC/DC",
+          "album": "Dirty Deeds Done Dirt Cheap",
+          "total_pts": 11,
+          "unique_voters": 7,
+          "track_id": "2d4e45fmUnguxh6yqC7gNT",
+          "spotify_url": "https://open.spotify.com/track/2d4e45fmUnguxh6yqC7gNT"
+        },
+        {
+          "round": 9,
+          "title": "Smooth Operator - Single Version",
+          "artist": "Sade",
+          "album": "The Best of Sade",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "track_id": "1Hv1VTm8zeOeybub15mA2R",
+          "spotify_url": "https://open.spotify.com/track/1Hv1VTm8zeOeybub15mA2R"
         }
       ],
       "voting_history": [
@@ -16792,10 +19281,70 @@
           "song": "Respect",
           "voted_for": "Steve E.",
           "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "BATTLE WITHOUT HONOR OR HUMANITY",
+          "voted_for": "Jack L.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Paper Planes",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Move Bitch",
+          "voted_for": "Olivia D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Mr. Blue Sky",
+          "voted_for": "Mary D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Lights, Camera, Action!",
+          "voted_for": "Kelsey H.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Get Back",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Treat Me Like Your Mother",
+          "voted_for": "Jake H.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Crazy Train",
+          "voted_for": "Cindy E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Wild Thing",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "I'm Shipping Up To Boston",
+          "voted_for": "Elyse E.",
+          "points_given": 1
         }
       ],
-      "season_points": 64,
-      "rounds_played": 8
+      "season_points": 77,
+      "rounds_played": 9
     },
     "37957b35724d4660a62379edd6b4e09c": {
       "name": "Cindy E.",
@@ -16879,6 +19428,26 @@
           "unique_voters": 2,
           "track_id": "4YZs2PyBukix79k8zYk0eG",
           "spotify_url": "https://open.spotify.com/track/4YZs2PyBukix79k8zYk0eG"
+        },
+        {
+          "round": 9,
+          "title": "Crazy Train",
+          "artist": "Ozzy Osbourne",
+          "album": "Blizzard Of Ozz (40th Anniversary Expanded Edition)",
+          "total_pts": 9,
+          "unique_voters": 4,
+          "track_id": "7ACxUo21jtTHzy7ZEV56vU",
+          "spotify_url": "https://open.spotify.com/track/7ACxUo21jtTHzy7ZEV56vU"
+        },
+        {
+          "round": 9,
+          "title": "All I Do Is Win",
+          "artist": "DJ Khaled, T-Pain, Ludacris, Snoop Dogg, Rick Ross",
+          "album": "All I Do Is Win",
+          "total_pts": 7,
+          "unique_voters": 4,
+          "track_id": "12sXrSIdiqCtB0vKYHNH29",
+          "spotify_url": "https://open.spotify.com/track/12sXrSIdiqCtB0vKYHNH29"
         }
       ],
       "voting_history": [
@@ -17007,10 +19576,194 @@
           "song": "Proud Mary",
           "voted_for": "Steve E.",
           "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Wild Thing",
+          "voted_for": "Steve E.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "Man! I Feel Like A Woman!",
+          "voted_for": "Claire E.",
+          "points_given": 3
+        },
+        {
+          "round": 9,
+          "song": "Devil with the Blue Dress On / Good Golly Miss Molly (Medley)",
+          "voted_for": "Steve E.",
+          "points_given": 3
+        },
+        {
+          "round": 9,
+          "song": "Dirty Deeds Done Dirt Cheap",
+          "voted_for": "Mike D.",
+          "points_given": 2
         }
       ],
-      "season_points": 18,
-      "rounds_played": 4
+      "season_points": 34,
+      "rounds_played": 5
+    },
+    "071c311e3b154327818fe074aeaa3087": {
+      "name": "Jake H.",
+      "submissions": [
+        {
+          "round": 9,
+          "title": "Treat Me Like Your Mother",
+          "artist": "The Dead Weather",
+          "album": "Horehound",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "track_id": "63V30V2ctYEum3nmlrsm5E",
+          "spotify_url": "https://open.spotify.com/track/63V30V2ctYEum3nmlrsm5E"
+        },
+        {
+          "round": 9,
+          "title": "The New Black",
+          "artist": "Every Time I Die",
+          "album": "Gutter Phenomenon",
+          "total_pts": 0,
+          "unique_voters": 0,
+          "track_id": "22EXrfNV0f9ZcWMpK2lF67",
+          "spotify_url": "https://open.spotify.com/track/22EXrfNV0f9ZcWMpK2lF67"
+        }
+      ],
+      "voting_history": [
+        {
+          "round": 9,
+          "song": "I'm Shipping Up To Boston",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Breathe Deeper - Lil Yachty Remix",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Cowboy Killer",
+          "voted_for": "Dray E.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "I Got 5 On It",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Devil with the Blue Dress On / Good Golly Miss Molly (Medley)",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Lights, Camera, Action!",
+          "voted_for": "Kelsey H.",
+          "points_given": 2
+        },
+        {
+          "round": 9,
+          "song": "The Riders of Rohan",
+          "voted_for": "Jack L.",
+          "points_given": 2
+        }
+      ],
+      "season_points": 2,
+      "rounds_played": 1
+    },
+    "8d1ba5575516432f851d16bffecc1970": {
+      "name": "Kelsey H.",
+      "submissions": [
+        {
+          "round": 9,
+          "title": "Lights, Camera, Action!",
+          "artist": "Mr. Cheeks",
+          "album": "John P. Kelly",
+          "total_pts": 4,
+          "unique_voters": 3,
+          "track_id": "36gOOIQaBwXZVKL5z2vC3Z",
+          "spotify_url": "https://open.spotify.com/track/36gOOIQaBwXZVKL5z2vC3Z"
+        },
+        {
+          "round": 9,
+          "title": "Poppin' My Collar (feat. Project Pat)",
+          "artist": "Three 6 Mafia, Project Pat",
+          "album": "Most Known Unknown",
+          "total_pts": 2,
+          "unique_voters": 2,
+          "track_id": "5zd9TgduWbfFXwgnm3K3Rz",
+          "spotify_url": "https://open.spotify.com/track/5zd9TgduWbfFXwgnm3K3Rz"
+        }
+      ],
+      "voting_history": [
+        {
+          "round": 9,
+          "song": "Treat Me Like Your Mother",
+          "voted_for": "Jake H.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "The Boss",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Devil with the Blue Dress On / Good Golly Miss Molly (Medley)",
+          "voted_for": "Steve E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Get Back",
+          "voted_for": "Elyse E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Paper Planes",
+          "voted_for": "Tess D.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "All I Do Is Win",
+          "voted_for": "Cindy E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "SpottieOttieDopaliscious",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "I Got 5 On It",
+          "voted_for": "Mills T.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Lucro (Descomprimindo)",
+          "voted_for": "Gabriel M.",
+          "points_given": 1
+        },
+        {
+          "round": 9,
+          "song": "Cowboy Killer",
+          "voted_for": "Dray E.",
+          "points_given": 1
+        }
+      ],
+      "season_points": 6,
+      "rounds_played": 1
     }
   },
   "fun_metrics": {
@@ -17019,17 +19772,17 @@
       "description": "Most points given to eventual weekly winners",
       "leader": {
         "player": "Jack L.",
-        "value": "15 pts",
-        "detail": "R2: 3 pts to All Star · R3: 4 pts to 99 Luftballons · R4: 2 pts to Brandy (You're a Fine Girl) · R5: 2 pts to Louisiana Saturday Night · R6: 2 pts to Creeping Away · R7: 1 pts to Feels So Good · R8: 1 pts to Rich Girl"
+        "value": "16 pts",
+        "detail": "R2: 3 pts to All Star · R3: 4 pts to 99 Luftballons · R4: 2 pts to Brandy (You're a Fine Girl) · R5: 2 pts to Louisiana Saturday Night · R6: 2 pts to Creeping Away · R7: 1 pts to Feels So Good · R8: 1 pts to Rich Girl · R9: 1 pts to Dirty Deeds Done Dirt Cheap"
       }
     },
     "hipster": {
       "title": "Hipster",
       "description": "Highest percentage of solo votes (songs nobody else voted for)",
       "leader": {
-        "player": "Tess D.",
-        "value": "6% solo",
-        "detail": "3 solo votes out of 47"
+        "player": "Jake H.",
+        "value": "14% solo",
+        "detail": "1 solo votes out of 7"
       }
     },
     "sheep": {
@@ -17038,7 +19791,7 @@
       "leader": {
         "player": "Olivia D.",
         "value": "100% consensus",
-        "detail": "50 of 50 pts to songs with 3+ voters"
+        "detail": "60 of 60 pts to songs with 3+ voters"
       }
     },
     "cold_shoulder": {
@@ -17123,34 +19876,34 @@
       "description": "Highest voting overlap between two players",
       "pairs": [
         {
-          "player1": "Elyse E.",
-          "player2": "Jack L.",
-          "overlap": "34%",
-          "detail": "30 shared of 88 total"
+          "player1": "Dray E.",
+          "player2": "Mike D.",
+          "overlap": "32%",
+          "detail": "47 shared of 147 total"
         },
         {
           "player1": "Dray E.",
           "player2": "Elyse E.",
-          "overlap": "32%",
-          "detail": "40 shared of 125 total"
+          "overlap": "31%",
+          "detail": "45 shared of 143 total"
+        },
+        {
+          "player1": "Elyse E.",
+          "player2": "Jack L.",
+          "overlap": "30%",
+          "detail": "31 shared of 102 total"
         },
         {
           "player1": "Dray E.",
-          "player2": "Mike D.",
-          "overlap": "31%",
-          "detail": "40 shared of 129 total"
-        },
-        {
-          "player1": "Dray E.",
-          "player2": "Claire E.",
-          "overlap": "31%",
-          "detail": "40 shared of 130 total"
+          "player2": "Mary D.",
+          "overlap": "30%",
+          "detail": "41 shared of 136 total"
         },
         {
           "player1": "Elyse E.",
           "player2": "Claire E.",
           "overlap": "30%",
-          "detail": "32 shared of 105 total"
+          "detail": "36 shared of 120 total"
         }
       ]
     },
@@ -17160,43 +19913,43 @@
       "leaders": [
         {
           "player": "Claire E.",
-          "value": "6.9 avg",
-          "detail": "16 songs"
+          "value": "6.8 avg",
+          "detail": "18 songs"
         },
         {
           "player": "Mills T.",
           "value": "5.6 avg",
-          "detail": "16 songs"
-        },
-        {
-          "player": "Mary D.",
-          "value": "5.3 avg",
-          "detail": "12 songs"
-        },
-        {
-          "player": "Dray E.",
-          "value": "5.2 avg",
-          "detail": "16 songs"
+          "detail": "18 songs"
         },
         {
           "player": "Olivia D.",
-          "value": "5.1 avg",
+          "value": "5.4 avg",
+          "detail": "16 songs"
+        },
+        {
+          "player": "Dray E.",
+          "value": "5.3 avg",
+          "detail": "18 songs"
+        },
+        {
+          "player": "Mary D.",
+          "value": "4.9 avg",
           "detail": "14 songs"
         },
         {
           "player": "Jack L.",
-          "value": "4.7 avg",
-          "detail": "16 songs"
+          "value": "4.6 avg",
+          "detail": "18 songs"
         },
         {
           "player": "Mike D.",
-          "value": "4.0 avg",
-          "detail": "16 songs"
+          "value": "4.3 avg",
+          "detail": "18 songs"
         },
         {
           "player": "Steve E.",
-          "value": "3.9 avg",
-          "detail": "14 songs"
+          "value": "4.2 avg",
+          "detail": "16 songs"
         }
       ]
     },
