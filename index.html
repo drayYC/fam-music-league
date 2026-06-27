@@ -205,14 +205,14 @@ button { font-family: inherit; cursor: pointer; }
   display: block;
 }
 
-/* Scoreboard (W9) — LED dot-matrix jumbotron */
+/* Scoreboard (W9) — Wrigley line-score panel */
 .band-scoreboard {
   width: 100%;
   height: 100%;
   position: relative;
   display: block;
   overflow: hidden;
-  background: #0A0E0C;
+  background: #1B4A3A;
 }
 .band-scoreboard svg {
   position: absolute;
@@ -1033,7 +1033,7 @@ body.theme-covers-bg {
   --body-tile: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'><g stroke='%2316130E' stroke-width='2' stroke-linecap='round'><line x1='36' y1='36' x2='36' y2='10'/><line x1='36' y1='36' x2='54' y2='18'/><line x1='36' y1='36' x2='62' y2='36'/><line x1='36' y1='36' x2='54' y2='54'/><line x1='36' y1='36' x2='36' y2='62'/><line x1='36' y1='36' x2='18' y2='54'/><line x1='36' y1='36' x2='10' y2='36'/><line x1='36' y1='36' x2='18' y2='18'/></g></svg>");
 }
 body.theme-scoreboard-bg {
-  --body-tile: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><g fill='%230A0E0C'><circle cx='6' cy='6' r='1.4'/><circle cx='18' cy='6' r='1.4'/><circle cx='6' cy='18' r='1.4'/><circle cx='18' cy='18' r='1.4'/><circle cx='12' cy='12' r='1.4'/></g></svg>");
+  --body-tile: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><g fill='%230E2A20'><circle cx='6' cy='6' r='1.4'/><circle cx='18' cy='6' r='1.4'/><circle cx='6' cy='18' r='1.4'/><circle cx='18' cy='18' r='1.4'/><circle cx='12' cy='12' r='1.4'/></g></svg>");
 }
 
 /* ---------- Spotify oEmbed link wrap ---------- */
@@ -1558,48 +1558,55 @@ function CoversBand({ palette }) {
 }
 
 function ScoreboardBand({ palette }) {
-  // LED dot-matrix jumbotron spelling SAVE — lit amber/red dots over a dim grid.
-  const amber = palette?.primary   || '#FFB22C';
-  const red   = palette?.accent    || '#FF5A3C';
-  const dim   = '#1C2420';
-  const W = 380, H = 60;
-  const gap = 7, dotR = 2.6;
-  // 5x7 dot-matrix glyphs
-  const F = {
-    'S': ["01111","10000","10000","01110","00001","00001","11110"],
-    'A': ["01110","10001","10001","11111","10001","10001","10001"],
-    'V': ["10001","10001","10001","10001","10001","01010","00100"],
-    'E': ["11111","10000","10000","11110","10000","10000","11111"],
-  };
-  const text = "SAVE";
-  const cols = text.length * 6 - 1, rows = 7;
-  const gw = cols * gap, gh = rows * gap;
-  const ox = (W - gw) / 2, oy = (H - gh) / 2 + 1;
-  const dots = [];
-  // dim background grid
-  const ncx = Math.floor(W / gap), ncy = Math.floor(H / gap);
-  for (let gx = 0; gx < ncx; gx++) {
-    for (let gy = 0; gy < ncy; gy++) {
-      dots.push(<circle key={`d${gx}-${gy}`} cx={gx*gap+gap/2} cy={gy*gap+gap/2} r={dotR*0.82} fill={dim} />);
-    }
+  // Wrigley-style line-score panel: innings 1-9 + R/H/E, two team rows,
+  // home runs glowing amber. Deterministic — a fixed illustrative box score.
+  const cream = '#EFE7D2';
+  const amber = palette?.primary || '#F2B33D';
+  const line  = '#2E6B54';
+  const green = '#1B4A3A';
+  const off   = '#15362A';
+  const W = 680, H = 60;
+  const cols = ['1','2','3','4','5','6','7','8','9','R','H','E'];
+  const n = cols.length, pad = 12;
+  const cw = (W - pad * 2) / n;
+  const rowY = [H * 0.34, H * 0.66];
+  const awayLine = ['0','1','0','0','2','0','1','0','0'];
+  const homeLine = ['0','0','3','0','1','0','2','1','X'];
+  const away = awayLine.concat(['4', '8', '0']);
+  const home = homeLine.concat(['7', '11', '1']);
+  const els = [];
+  els.push(<rect key="bg" x="0" y="0" width={W} height={H} fill={green} />);
+  // vertical separators (heavier before R column)
+  for (let c = 0; c <= n; c++) {
+    const x = pad + c * cw;
+    els.push(<line key={`v${c}`} x1={x} y1={H*0.14} x2={x} y2={H*0.86}
+      stroke={line} strokeWidth={c === 9 ? 1.4 : 0.6} opacity={c === 9 ? 0.9 : 0.4} />);
   }
-  // lit letters (amber for first half, red for second half)
-  for (let i = 0; i < text.length; i++) {
-    const g = F[text[i]];
-    for (let r = 0; r < 7; r++) {
-      for (let c = 0; c < 5; c++) {
-        if (g[r][c] === '1') {
-          const cxp = ox + (i*6 + c) * gap + gap/2;
-          const cyp = oy + r * gap + gap/2;
-          dots.push(<circle key={`l${i}-${r}-${c}`} cx={cxp} cy={cyp} r={dotR} fill={i < text.length/2 ? amber : red} />);
-        }
-      }
-    }
+  // horizontal mid separator
+  els.push(<line key="hm" x1={pad} y1={H*0.50} x2={W-pad} y2={H*0.50} stroke={line} strokeWidth="0.6" opacity="0.4" />);
+  // R/H/E amber frame
+  els.push(<rect key="rhe" x={pad + 9*cw} y={H*0.12} width={3*cw} height={H*0.76}
+    fill="none" stroke={amber} strokeWidth="1" opacity="0.45" />);
+  // digits
+  const fs = Math.min(15, cw * 0.72);
+  for (let i = 0; i < n; i++) {
+    const cx = pad + i * cw + cw / 2;
+    const isRHE = i >= 9;
+    [away, home].forEach((row, ri) => {
+      const v = row[i];
+      let col = cream;
+      if (isRHE && ri === 1) col = amber;
+      if (v === '0') col = off;
+      els.push(
+        <text key={`t${ri}-${i}`} x={cx} y={rowY[ri] + fs*0.34} textAnchor="middle"
+          fontFamily="monospace" fontSize={fs} fontWeight="700" fill={col}>{v}</text>
+      );
+    });
   }
   return (
     <div className="band-scoreboard">
       <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" aria-hidden="true">
-        {dots}
+        {els}
       </svg>
     </div>
   );
@@ -2072,22 +2079,14 @@ function CoversMark({ palette }) {
 }
 
 function ScoreboardMark({ palette }) {
-  // Mini framed LED panel showing "K" (the strikeout — how a closer ends it).
-  const amber = palette?.primary   || '#FFB22C';
-  const gold  = palette?.highlight || '#FFD45E';
-  const dim   = '#1C2420';
-  const K = ["10001","10010","10100","11000","10100","10010","10001"];
-  const gap = 5, ox = 18, oy = 18, dotR = 1.8;
-  const dots = [];
-  for (let r = 0; r < 7; r++) {
-    for (let c = 0; c < 5; c++) {
-      dots.push(<circle key={`${r}-${c}`} cx={ox + c*gap} cy={oy + r*gap} r={dotR} fill={K[r][c] === '1' ? gold : dim} />);
-    }
-  }
+  // Enamel home plate with a cream "K" (the strikeout that ends the game).
+  const green = '#1B4A3A';
+  const cream = '#EFE7D2';
+  const amber = palette?.primary || '#F2B33D';
   return (
     <svg viewBox="0 0 64 64" width="48" height="48" aria-hidden="true">
-      <rect x="8" y="14" width="48" height="36" rx="4" fill="none" stroke={amber} strokeWidth="2" />
-      {dots}
+      <path d="M14 16 L50 16 L50 38 L32 50 L14 38 Z" fill={green} stroke={cream} strokeWidth="2" />
+      <text x="32" y="38" textAnchor="middle" fontFamily="monospace" fontSize="20" fontWeight="700" fill={amber}>K</text>
     </svg>
   );
 }
@@ -2888,45 +2887,42 @@ function FunMetrics({ metrics }) {
     cards.push({ k: 'kingmaker', t: m.kingmaker.title, d: m.kingmaker.description,
       lead: `${m.kingmaker.leader.player} · ${m.kingmaker.leader.value}`, det: m.kingmaker.leader.detail });
   }
-  if (m.hipster?.leader?.player) {
-    cards.push({ k: 'hipster', t: m.hipster.title, d: m.hipster.description,
-      lead: `${m.hipster.leader.player} · ${m.hipster.leader.value}`, det: m.hipster.leader.detail });
+  // The Spreader vs The Sniper — two leaders in one card
+  if (m.voting_style?.spreader?.player) {
+    const sp = m.voting_style.spreader, sn = m.voting_style.sniper;
+    cards.push({ k: 'style', t: m.voting_style.title, d: m.voting_style.description,
+      list: [
+        { player: `Spreader · ${sp.player}`, value: sp.value },
+        { player: `Sniper · ${sn.player}`, value: sn.value },
+      ] });
   }
-  if (m.sheep?.leader?.player) {
-    cards.push({ k: 'sheep', t: m.sheep.title, d: m.sheep.description,
-      lead: `${m.sheep.leader.player} · ${m.sheep.leader.value}`, det: m.sheep.leader.detail });
+  // Front-Runner vs Lone Wolf
+  if (m.allegiance?.front_runner?.player) {
+    const fr = m.allegiance.front_runner, lw = m.allegiance.lone_wolf;
+    cards.push({ k: 'allegiance', t: m.allegiance.title, d: m.allegiance.description,
+      list: [
+        { player: `Front-runner · ${fr.player}`, value: fr.value },
+        { player: `Lone wolf · ${lw.player}`, value: lw.value },
+      ] });
   }
-  if (m.cold_shoulder?.players?.length > 0) {
-    cards.push({ k: 'cold', t: m.cold_shoulder.title, d: m.cold_shoulder.description,
-      list: m.cold_shoulder.players });
+  // The Closer — top-3 finishes
+  if (m.closer?.leaders?.length > 0) {
+    cards.push({ k: 'closer', t: m.closer.title, d: m.closer.description,
+      list: m.closer.leaders.map(l => ({ player: l.player, value: l.value })) });
   }
-  if (m.snub?.songs?.length > 0) {
-    cards.push({ k: 'snub', t: m.snub.title, d: m.snub.description,
-      list: m.snub.songs.map(s => ({
-        player: `${trimTitle(s.song)}`,
-        value: `R${s.round} · ${s.voters}v · ${s.pts}p (avg ${s.avg})`,
-      })) });
+  // Patron & Beneficiary — biggest one-way flows
+  if (m.patronage?.flows?.length > 0) {
+    cards.push({ k: 'patron', t: m.patronage.title, d: m.patronage.description,
+      list: m.patronage.flows.map(f => ({ player: `${f.from} → ${f.to}`, value: f.value })) });
   }
-  if (m.taste_twins?.pairs?.length > 0) {
-    cards.push({ k: 'twins', t: m.taste_twins.title, d: m.taste_twins.description,
-      list: m.taste_twins.pairs.map(p => ({
-        player: `${p.player1} & ${p.player2}`,
-        value: p.overlap,
-      })) });
-  }
-  if (m.efficiency?.leaders?.length > 0) {
-    cards.push({ k: 'eff', t: m.efficiency.title, d: m.efficiency.description,
-      list: m.efficiency.leaders });
-  }
-  if (m.ghost_report?.ghosts?.length > 0) {
-    cards.push({ k: 'ghost', t: m.ghost_report.title, d: m.ghost_report.description,
-      lead: m.ghost_report.ghosts.join(', '), det: 'Show up, friends.', full: true });
+  // Best Friends & Cold Shoulders
+  if (m.bonds?.rows?.length > 0) {
+    cards.push({ k: 'bonds', t: m.bonds.title, d: m.bonds.description,
+      list: m.bonds.rows.map(r => ({ player: r.pair, value: r.value })) });
   }
 
   if (cards.length === 0) return null;
 
-  // If we have an odd number of cards and the last one isn't already full-width,
-  // promote it so it doesn't dangle alone in a 2-col row
   if (cards.length % 2 === 1 && !cards[cards.length - 1].full) {
     cards[cards.length - 1] = { ...cards[cards.length - 1], full: true };
   }
@@ -2973,7 +2969,7 @@ function App() {
 
   // Load data — bump ?v=N each weekly deploy
   useEffect(() => {
-    fetch('data.json?v=9')
+    fetch('data.json?v=11')
       .then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json();
