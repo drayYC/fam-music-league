@@ -353,16 +353,16 @@
           "rank": 3
         },
         {
-          "player_id": "19e6c48a177c458398bb138a991a2e4c",
-          "player": "Elyse E.",
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
           "points": 10,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 4
         },
         {
-          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
-          "player": "Jack L.",
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
           "points": 10,
           "voted": true,
           "pts_forfeited": 0,
@@ -1567,16 +1567,16 @@
           "rank": 7
         },
         {
-          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
-          "player": "Olivia D.",
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
           "points": 7,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 8
         },
         {
-          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
-          "player": "Dray E.",
+          "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
+          "player": "Olivia D.",
           "points": 7,
           "voted": true,
           "pts_forfeited": 0,
@@ -2812,19 +2812,19 @@
           "rank": 7
         },
         {
-          "player_id": "2334709be13e48759338c82689b95d11",
-          "player": "Gabriel M.",
-          "points": 0,
-          "voted": false,
-          "pts_forfeited": 7,
-          "rank": 10
-        },
-        {
           "player_id": "3b87dbe243724d3bbcafea4934075fec",
           "player": "Steve E.",
           "points": 0,
           "voted": false,
           "pts_forfeited": 4,
+          "rank": 10
+        },
+        {
+          "player_id": "2334709be13e48759338c82689b95d11",
+          "player": "Gabriel M.",
+          "points": 0,
+          "voted": false,
+          "pts_forfeited": 7,
           "rank": 10
         }
       ],
@@ -4022,16 +4022,16 @@
           "rank": 6
         },
         {
-          "player_id": "19e6c48a177c458398bb138a991a2e4c",
-          "player": "Elyse E.",
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
           "points": 6,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 7
         },
         {
-          "player_id": "4853a05f049d4d4682257bed4b277eed",
-          "player": "Tess D.",
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
           "points": 6,
           "voted": true,
           "pts_forfeited": 0,
@@ -5293,16 +5293,16 @@
           "rank": 1
         },
         {
-          "player_id": "5838e19081f440598e554c420f257ab7",
-          "player": "Mills T.",
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
           "points": 15,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 2
         },
         {
-          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
-          "player": "Jack L.",
+          "player_id": "5838e19081f440598e554c420f257ab7",
+          "player": "Mills T.",
           "points": 15,
           "voted": true,
           "pts_forfeited": 0,
@@ -6621,6 +6621,14 @@
           "rank": 7
         },
         {
+          "player_id": "3b87dbe243724d3bbcafea4934075fec",
+          "player": "Steve E.",
+          "points": 0,
+          "voted": false,
+          "pts_forfeited": 2,
+          "rank": 8
+        },
+        {
           "player_id": "9ce50e4f032c45afaa3eca936e99c9db",
           "player": "Olivia D.",
           "points": 0,
@@ -6642,14 +6650,6 @@
           "points": 0,
           "voted": false,
           "pts_forfeited": 3,
-          "rank": 8
-        },
-        {
-          "player_id": "3b87dbe243724d3bbcafea4934075fec",
-          "player": "Steve E.",
-          "points": 0,
-          "voted": false,
-          "pts_forfeited": 2,
           "rank": 8
         }
       ],
@@ -7700,16 +7700,16 @@
           "rank": 4
         },
         {
-          "player_id": "37957b35724d4660a62379edd6b4e09c",
-          "player": "Cindy E.",
+          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
+          "player": "Jack L.",
           "points": 9,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 5
         },
         {
-          "player_id": "994734a26c814552ad88e0ce9ea4cfce",
-          "player": "Jack L.",
+          "player_id": "37957b35724d4660a62379edd6b4e09c",
+          "player": "Cindy E.",
           "points": 9,
           "voted": true,
           "pts_forfeited": 0,
@@ -7724,16 +7724,16 @@
           "rank": 7
         },
         {
-          "player_id": "41a0d64fae1f40489679232baec98925",
-          "player": "Mary D.",
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
           "points": 5,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 8
         },
         {
-          "player_id": "4853a05f049d4d4682257bed4b277eed",
-          "player": "Tess D.",
+          "player_id": "41a0d64fae1f40489679232baec98925",
+          "player": "Mary D.",
           "points": 5,
           "voted": true,
           "pts_forfeited": 0,
@@ -9082,14 +9082,6 @@
           "rank": 5
         },
         {
-          "player_id": "19e6c48a177c458398bb138a991a2e4c",
-          "player": "Elyse E.",
-          "points": 10,
-          "voted": true,
-          "pts_forfeited": 0,
-          "rank": 6
-        },
-        {
           "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
           "player": "Dray E.",
           "points": 10,
@@ -9106,12 +9098,28 @@
           "rank": 6
         },
         {
+          "player_id": "19e6c48a177c458398bb138a991a2e4c",
+          "player": "Elyse E.",
+          "points": 10,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 6
+        },
+        {
           "player_id": "3b87dbe243724d3bbcafea4934075fec",
           "player": "Steve E.",
           "points": 9,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 9
+        },
+        {
+          "player_id": "4853a05f049d4d4682257bed4b277eed",
+          "player": "Tess D.",
+          "points": 5,
+          "voted": true,
+          "pts_forfeited": 0,
+          "rank": 10
         },
         {
           "player_id": "2334709be13e48759338c82689b95d11",
@@ -9124,14 +9132,6 @@
         {
           "player_id": "37957b35724d4660a62379edd6b4e09c",
           "player": "Cindy E.",
-          "points": 5,
-          "voted": true,
-          "pts_forfeited": 0,
-          "rank": 10
-        },
-        {
-          "player_id": "4853a05f049d4d4682257bed4b277eed",
-          "player": "Tess D.",
           "points": 5,
           "voted": true,
           "pts_forfeited": 0,
@@ -10177,13 +10177,13 @@
         "name": "scoreboard",
         "tile_class": "theme-scoreboard-bg",
         "palette": {
-          "primary": "#FFB22C",
-          "accent": "#FF5A3C",
-          "cool": "#39D98A",
-          "highlight": "#FFD45E",
-          "tile": "#0A0E0C"
+          "primary": "#F2B33D",
+          "accent": "#E0533B",
+          "cool": "#39B87A",
+          "highlight": "#F7C95B",
+          "tile": "#0E2A20"
         },
-        "band_gradient": "linear-gradient(90deg, #FFB22C 0%, #FF5A3C 100%)",
+        "band_gradient": "linear-gradient(90deg, #1B4A3A 0%, #143A2D 100%)",
         "design": {
           "band": "scoreboard",
           "tab_underline": "led",
@@ -10627,16 +10627,16 @@
           "rank": 4
         },
         {
-          "player_id": "dea876f23cf9428185f8757955c2eecd",
-          "player": "Claire E.",
+          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
+          "player": "Dray E.",
           "points": 12,
           "voted": true,
           "pts_forfeited": 0,
           "rank": 6
         },
         {
-          "player_id": "0a831b84b60a4aaca7c6f3150bbccb88",
-          "player": "Dray E.",
+          "player_id": "dea876f23cf9428185f8757955c2eecd",
+          "player": "Claire E.",
           "points": 12,
           "voted": true,
           "pts_forfeited": 0,
@@ -19776,187 +19776,108 @@
         "detail": "R2: 3 pts to All Star · R3: 4 pts to 99 Luftballons · R4: 2 pts to Brandy (You're a Fine Girl) · R5: 2 pts to Louisiana Saturday Night · R6: 2 pts to Creeping Away · R7: 1 pts to Feels So Good · R8: 1 pts to Rich Girl · R9: 1 pts to Dirty Deeds Done Dirt Cheap"
       }
     },
-    "hipster": {
-      "title": "Hipster",
-      "description": "Highest percentage of solo votes (songs nobody else voted for)",
-      "leader": {
-        "player": "Jake H.",
-        "value": "14% solo",
-        "detail": "1 solo votes out of 7"
-      }
-    },
-    "sheep": {
-      "title": "Sheep",
-      "description": "Highest percentage of points given to consensus picks",
-      "leader": {
+    "voting_style": {
+      "title": "Spreader vs. Sniper",
+      "description": "Who spreads their ten points thin, and who saves them for a knockout",
+      "spreader": {
+        "player": "Dray E.",
+        "value": "10.0 songs/round, 0 max votes"
+      },
+      "sniper": {
         "player": "Olivia D.",
-        "value": "100% consensus",
-        "detail": "60 of 60 pts to songs with 3+ voters"
+        "value": "5.0 songs/round, 5 max votes"
       }
     },
-    "cold_shoulder": {
-      "title": "Cold Shoulder",
-      "description": "Most songs submitted that received zero votes",
-      "players": [
-        {
-          "player": "Tess D.",
-          "value": "2 zero-vote songs"
-        },
-        {
-          "player": "Elyse E.",
-          "value": "2 zero-vote songs"
-        },
-        {
-          "player": "Dray E.",
-          "value": "1 zero-vote songs"
-        },
-        {
-          "player": "Cindy E.",
-          "value": "1 zero-vote songs"
-        },
-        {
-          "player": "Olivia D.",
-          "value": "1 zero-vote songs"
-        }
-      ]
+    "allegiance": {
+      "title": "Front-runner vs. Lone wolf",
+      "description": "Whether the song you back hardest each week tends to win the room or stand alone",
+      "front_runner": {
+        "player": "Cindy E.",
+        "value": "favorite finishes ~20th %ile"
+      },
+      "lone_wolf": {
+        "player": "Kelsey H.",
+        "value": "favorite finishes ~46th %ile"
+      }
     },
-    "snub": {
-      "title": "Snub Detector",
-      "description": "Most acknowledged songs that collectively got the fewest points — max 2 per round",
-      "songs": [
-        {
-          "round": 5,
-          "song": "Lose My Number",
-          "artist": "Miles Miller",
-          "submitter": "Claire E.",
-          "voters": 8,
-          "pts": 9,
-          "avg": 1.12
-        },
-        {
-          "round": 7,
-          "song": "Feels So Good",
-          "artist": "Chuck Mangione",
-          "submitter": "Steve E.",
-          "voters": 8,
-          "pts": 9,
-          "avg": 1.12
-        },
-        {
-          "round": 5,
-          "song": "High Feeling",
-          "artist": "Cordovas",
-          "submitter": "Claire E.",
-          "voters": 8,
-          "pts": 10,
-          "avg": 1.25
-        },
-        {
-          "round": 8,
-          "song": "Hallelujah",
-          "artist": "Rufus Wainwright",
-          "submitter": "Mary D.",
-          "voters": 7,
-          "pts": 9,
-          "avg": 1.29
-        },
-        {
-          "round": 6,
-          "song": "Mr. Saturday Night",
-          "artist": "Jon Pardi",
-          "submitter": "Olivia D.",
-          "voters": 6,
-          "pts": 6,
-          "avg": 1.0
-        }
-      ]
-    },
-    "taste_twins": {
-      "title": "Taste Twins",
-      "description": "Highest voting overlap between two players",
-      "pairs": [
-        {
-          "player1": "Dray E.",
-          "player2": "Mike D.",
-          "overlap": "32%",
-          "detail": "47 shared of 147 total"
-        },
-        {
-          "player1": "Dray E.",
-          "player2": "Elyse E.",
-          "overlap": "31%",
-          "detail": "45 shared of 143 total"
-        },
-        {
-          "player1": "Elyse E.",
-          "player2": "Jack L.",
-          "overlap": "30%",
-          "detail": "31 shared of 102 total"
-        },
-        {
-          "player1": "Dray E.",
-          "player2": "Mary D.",
-          "overlap": "30%",
-          "detail": "41 shared of 136 total"
-        },
-        {
-          "player1": "Elyse E.",
-          "player2": "Claire E.",
-          "overlap": "30%",
-          "detail": "36 shared of 120 total"
-        }
-      ]
-    },
-    "efficiency": {
-      "title": "Submission Efficiency",
-      "description": "Average points per song submitted (min 2 songs)",
+    "closer": {
+      "title": "The Closer",
+      "description": "Most songs that finished top three in their round — week-in, week-out heat",
       "leaders": [
         {
           "player": "Claire E.",
-          "value": "6.8 avg",
-          "detail": "18 songs"
-        },
-        {
-          "player": "Mills T.",
-          "value": "5.6 avg",
-          "detail": "18 songs"
-        },
-        {
-          "player": "Olivia D.",
-          "value": "5.4 avg",
-          "detail": "16 songs"
+          "value": "7 top-3 finishes"
         },
         {
           "player": "Dray E.",
-          "value": "5.3 avg",
-          "detail": "18 songs"
+          "value": "4 top-3 finishes"
+        },
+        {
+          "player": "Mills T.",
+          "value": "4 top-3 finishes"
+        },
+        {
+          "player": "Elyse E.",
+          "value": "2 top-3 finishes"
         },
         {
           "player": "Mary D.",
-          "value": "4.9 avg",
-          "detail": "14 songs"
-        },
-        {
-          "player": "Jack L.",
-          "value": "4.6 avg",
-          "detail": "18 songs"
-        },
-        {
-          "player": "Mike D.",
-          "value": "4.3 avg",
-          "detail": "18 songs"
-        },
-        {
-          "player": "Steve E.",
-          "value": "4.2 avg",
-          "detail": "16 songs"
+          "value": "2 top-3 finishes"
         }
       ]
     },
-    "ghost_report": {
-      "title": "Ghost Report",
-      "description": "Players who have never voted",
-      "ghosts": []
+    "patronage": {
+      "title": "Patron & Beneficiary",
+      "description": "The most generous one-way streets — who keeps funding whom",
+      "flows": [
+        {
+          "from": "Claire E.",
+          "to": "Dray E.",
+          "value": "23 pts"
+        },
+        {
+          "from": "Mike D.",
+          "to": "Claire E.",
+          "value": "19 pts"
+        },
+        {
+          "from": "Mills T.",
+          "to": "Olivia D.",
+          "value": "18 pts"
+        },
+        {
+          "from": "Tess D.",
+          "to": "Jack L.",
+          "value": "16 pts"
+        },
+        {
+          "from": "Jack L.",
+          "to": "Claire E.",
+          "value": "15 pts"
+        }
+      ]
+    },
+    "bonds": {
+      "title": "Best friends & cold shoulders",
+      "description": "The tightest mutual bond in the family, and the frostiest",
+      "rows": [
+        {
+          "pair": "Dray E. & Claire E.",
+          "value": "31 pts · closest"
+        },
+        {
+          "pair": "Dray E. & Mary D.",
+          "value": "6 pts · coldest"
+        },
+        {
+          "pair": "Mary D. & Jack L.",
+          "value": "7 pts · coldest"
+        },
+        {
+          "pair": "Elyse E. & Tess D.",
+          "value": "10 pts · coldest"
+        }
+      ]
     }
   }
 }
